@@ -1,0 +1,3328 @@
+@text
+   Files needed for this exercise: 1HJ8_1.0A.kin, 1C9P_2.8A.kin, 
+downloaded from the BCH 291 web page
+
+
+*** 1HJ8 TRYPSIN AT 1.0A RESOLUTION ***
+
+     Take your browser to http://kinemage.biochem.duke.edu and click MolProbity in the navigation
+bar.  [If you don't have Java, follow the directions to get it.]
+     Set the "browse" file type to "kinemage", browse to find the 1HJ8_1.0A.kin, and upload it. 
+Continue.  Set the "fetch" file type to "2Fo-Fc (EDS)" and the pdbID to 1HJ8, and fetch it (takes
+~15 sec).  Back on the MolProbity main page, expand the kinemage entry in the file list and ask to
+view your kin in KiNG.
+     Choose "beta" on the Views menu.  You should see several vertical beta strands, with Val 52 at
+the center (click on an atom, to see its identity on the info line at the bottom of the graphics
+window).  Drag right from "Structural biology" on the Tools menu, and release on "electron density
+map".  Choose your 2Fo-Fc map, and OK its format.  Be patient for it to load - it's very big. 
+Move the contour window off to the side, and turn on both 1.2 (gray) and 3.0 sigma (purple) contour
+levels.  You should be able to see clear density for all the non-H atoms.  Note that the Val 52
+sidechain is in a staggered orientation relative to its backbone.
+     Turn off the gray contours and move or click the slider for the purple contours up to 8.0
+sigma, where the difference in x-ray scattering power between different atom types becomes evident. 
+Click on some of the atoms with the largest peaks: what element type are they? _____  Most but not
+all of the C atoms have disappeared at this contour level.  What element type here has intermediate
+size peaks (and thus intermediate scattering power)? _____
+     Not all atoms of a given type show up equally strongly, because they are not all equally well
+ordered.  Click on several Calpha atoms (where the sidechain joins the backbone) that do show small
+purple density peaks; what are their B-factors (given on the info line, along with their identity)?
+_____ , _____ , _____ .  Pick several Calphas without peaks; what are their B-factors? _____ , _____
+, _____ .  
+     Choose the "helix" view.  Almost no peaks are visible at 8 sigma, but if you shift to 5 sigma
+most backbone atoms show, and at 4 sigma most sidechain atoms.  This helix is at the C-terminal
+chain end and has somewhat higher B's.  Right-click on the double ring of the Trp sidechain to
+center there, and turn on the gray 1.2 sigma contour.  Is there a hole thru both 5-membered and
+6-membered rings? ______  Zoom out (right-drag up), center near the chain end, and notice that the
+end is disordered enough for even the gray contour to disappear.
+     Look at the views for the Ser-His-Asp catalytic triad, benzamidine inhibitor, and Arg 66, which
+are all extremely clear and well-ordered.  In the SS 42-59 view, note that the S atoms have even
+bigger peaks than oxygens.  Radiation damage has oxidized and opened the disulfide bond in some
+fraction of the molecules.  Click on the S atom of the open form; what is its occupancy? ______ 
+The 2 conformations of that S atom are quite distinct, not just a smear.  
+     Choose the "Gln 192" view.  The backbone CO has two widely separated alternate conformations,
+one H-bonded to an SO4 (pink).  The Gln Calpha and Cbeta densities are smeared between two close
+alternates, and beyond that the density essentially disappears (lower contour level doesn't help
+very much).  What is the occupancy and B-factor for one of the Cg atoms? occ:______ , B:______ ; for
+one of the terminal N or O atoms? occ:______ , B:______  When an atom is not visible at all in the
+electron density, some crystallographers omit it from the model, some set its occupancy to zero, and
+some let its B refine very high.  Note that the information content is much worse for this sidechain
+with high B (or low occupancy in each of probably many conformations) at atomic resolution than for
+the well-ordered parts of a much lower-resolution structure like the one below.
+     Choose the "neighbor e.d." view, which is part of a neighboring molecule in the crystal with no
+model shown in this kinemage.  What is the amino-acid type of the residue at center? _______  Are 
+the 5 atoms in its ring planar or puckered? ___________
+     Keep in mind that initial maps seldom look this good;  the phases and the density quality both
+improve during refinement.
+     Close the KiNG window.
+     
+*** 1C9P TRYPSIN AT 2.8A RESOLUTION ***
+
+     Repeat the above procedure to upload the 1C9P kin file and fetch its 2Fo-Fc map from the EDS. 
+Open the kin file from the kin list on the MolProbity main page, for viewing in KiNG, and go to the
+"beta" view.  Click on some backbone atoms; what is the best (lowest) B-factor you find for one?
+______  How does that compare with the B-values you found for similar atoms in the high-resolution
+structure? _______  Open the 2Fo-Fc map, and drag slowly back&forth to judge the density shape of
+the Val 52 sidechain in 3D.  Is it concave left, concave right, or symmetrical? ___________________
+Center on the Ile sidechain to the right of the Val, and drag left to view it from the side.  Does
+the density show which branch is the longer one with the extra Cdelta atom? ______  
+     Choose the "helix" view.  Drag back&forth gently to see the spiral shape of the backbone
+density and the small bumps for the backbone O atoms.  Center on the Trp sidechain.  Is there a hole
+in either ring? ______  Would you know from the density that this was a Trp? ______
+     Choose the "His end" view to see the ring cross section.  Could it be plausibly turned 90
+degrees to sit crosswise in the density? ______  ; turned by 15 degrees? ______  Note the nearby
+Asp; the His orientation is fine-tuned by its hydrogen bonds, in the absence of higher resolution.
+     Look at the other views.  Note that the disulfide S atoms are not resolved into separate peaks,
+altho their positions are clear.  Click on one, then the other, S: what is their distance? ______A. 
+For Gln 192, note that it has quite reasonable density in this structure, presumably because it
+interacts with the BPTI inhibitor molecule.
+     Close the KiNG window and log out of MolProbity.
+     
+
+
+coordinates from file: 1C9P.pdb 
+HEADER    HYDROLASE/HYDROLASE INHIBITOR           03-AUG-99   1C9P              
+TITLE     COMPLEX OF BDELLASTASIN WITH PORCINE TRYPSIN                          
+KEYWDS    COMPLEX (HYDROLASE/INHIBITOR), HYDROLASE, INHIBITOR,                  
+KEYWDS   2 ANTISTASIN, PLASMIN, ISOASPARTATE                                    
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    U.RESTER                                                              
+REMARK   2 RESOLUTION. 2.80 ANGSTROMS.
+
+CAPTION for Kinemage #1:
+    coordinates from file: 1C9P.pdb
+@kinemage 1
+@title {2.8_1C9P_2.8A.kin}
+@onewidth
+@pdbfile {1C9P.pdb}
+@1viewid {Overview}
+@1span 60.704296
+@1zslab 200.0
+@1center 10.4995 47.4239 59.7848
+@1matrix -0.3711 -0.6324 0.6799 0.9057 -0.4081 0.1148 0.2048 0.6584 0.7243
+@2viewid {beta}
+@2span 13.916522
+@2zslab 93.0
+@2center 7.7386 54.4698 48.1192
+@2matrix 0.4357 -0.1719 0.8835 0.81 -0.3532 -0.4681 0.3925 0.9196 -0.0147
+@3viewid {helix}
+@3span 15.847977
+@3zslab 133.0
+@3center -0.6295 61.3106 50.7799
+@3matrix -0.8743 -0.4437 -0.197 0.2311 -0.7373 0.6348 -0.4269 0.5095 0.7471
+@4viewid {Ser-His-Asp}
+@4span 12.220461
+@4zslab 75.0
+@4center 11.3805 50.6522 60.5493
+@4matrix -0.9578 0.2545 0.1335 -0.2869 -0.8202 -0.495 -0.0165 -0.5124 0.8586
+@5viewid {His end}
+@5span 8.274814
+@5zslab 117.99999
+@5center 11.3014 51.4329 61.5597
+@5matrix -0.9793 -0.0013 -0.2025 0.2019 0.0692 -0.977 0.0152 -0.9976 -0.0675
+@6viewid {Lys in pocket}
+@6span 15.176074
+@6zslab 70.0
+@6center 8.8158 43.4737 62.4214
+@6matrix -0.5794 -0.646 0.497 0.6275 -0.7427 -0.2338 0.5202 0.1764 0.8356
+@7viewid {SS 42-58}
+@7span 11.206212
+@7zslab 68.0
+@7center 12.374 50.744 57.073
+@7matrix -0.9929 0.1177 -0.0179 -0.0974 -0.8898 -0.4458 -0.0684 -0.4409 0.895
+@8viewid {Arg 66}
+@8span 16.549627
+@8zslab 60.000004
+@8center 17.9247 46.2964 45.2541
+@8matrix 0.6248 0.772 -0.1167 0.7721 -0.6332 -0.0544 -0.1159 -0.0561 -0.9917
+@9viewid {Gln 192}
+@9span 12.761506
+@9zslab 86.0
+@9center 13.4593 43.0225 63.5382
+@9matrix -0.0142 -0.2047 0.9787 0.9413 -0.3329 -0.056 0.3372 0.9205 0.1974
+@master {mainchain}
+@master {Calphas}
+@master {sidechain}
+@master {hets}
+@master {water}
+@group {1C9Pa} dominant
+@subgroup {mainchain} dominant
+@vectorlist {mc} color= white master= {mainchain}
+{ n   ile a 16  B16.50 1C9P}P 9.762 37.28 58.387
+{"}9.762 37.28 58.387
+{ ca  ile a 16  B17.28 1C9P}8.429 36.647 58.62
+{ c   ile a 16  B17.59 1C9P}8.575 35.286 59.296
+{ o   ile a 16  B19.65 1C9P}9.05 34.321 58.69
+{ c   ile a 16  B17.59 1C9P}P 8.575 35.286 59.296
+{ n   val a 17  B15.66 1C9P}8.151 35.224 60.553
+{ ca  val a 17  B12.67 1C9P}8.222 34.013 61.354
+{ c   val a 17  B13.35 1C9P}6.928 33.21 61.214
+{ o   val a 17  B13.65 1C9P}5.831 33.748 61.366
+{ c   val a 17  B13.35 1C9P}P 6.928 33.21 61.214
+{ n   gly a 18  B13.30 1C9P}7.058 31.922 60.917
+{ ca  gly a 18  B15.21 1C9P}5.882 31.081 60.794
+{ c   gly a 18  B17.65 1C9P}5.051 31.342 59.555
+{ o   gly a 18  B18.84 1C9P}3.82 31.244 59.584
+{ c   gly a 18  B17.65 1C9P}P 5.051 31.342 59.555
+{ n   gly a 19  B18.68 1C9P}5.722 31.674 58.458
+{ ca  gly a 19  B18.37 1C9P}5.014 31.931 57.222
+{ c   gly a 19  B18.62 1C9P}5.347 30.882 56.183
+{ o   gly a 19  B19.93 1C9P}5.825 29.8 56.506
+{ c   gly a 19  B18.62 1C9P}P 5.347 30.882 56.183
+{ n   tyr a 20  B18.69 1C9P}5.088 31.206 54.925
+{ ca  tyr a 20  B16.29 1C9P}5.374 30.3 53.828
+{ c   tyr a 20  B16.27 1C9P}5.928 31.124 52.68
+{ o   tyr a 20  B17.58 1C9P}5.725 32.332 52.627
+{ c   tyr a 20  B16.27 1C9P}P 5.928 31.124 52.68
+{ n   thr a 21  B16.79 1C9P}6.62 30.468 51.759
+{ ca  thr a 21  B16.41 1C9P}7.185 31.15 50.606
+{ c   thr a 21  B17.25 1C9P}6.06 31.592 49.673
+{ o   thr a 21  B19.81 1C9P}5.282 30.773 49.195
+{ c   thr a 21  B17.25 1C9P}P 6.06 31.592 49.673
+{ n   cys a 22  B16.46 1C9P}5.97 32.892 49.429
+{ ca  cys a 22  B15.00 1C9P}4.941 33.449 48.559
+{ c   cys a 22  B16.83 1C9P}5.063 32.827 47.177
+{ o   cys a 22  B16.98 1C9P}6.162 32.488 46.742
+{ c   cys a 22  B16.83 1C9P}P 5.063 32.827 47.177
+{ n   ala a 23  B19.17 1C9P}3.94 32.685 46.48
+{ ca  ala a 23  B21.13 1C9P}3.961 32.126 45.132
+{ c   ala a 23  B23.68 1C9P}4.656 33.133 44.216
+{ o   ala a 23  B22.50 1C9P}4.995 34.239 44.642
+{ c   ala a 23  B23.68 1C9P}P 4.656 33.133 44.216
+{ n   ala a 24  B28.42 1C9P}4.85 32.75 42.958
+{ ca  ala a 24  B32.25 1C9P}5.531 33.593 41.976
+{ c   ala a 24  B33.87 1C9P}4.998 35.013 41.811
+{ o   ala a 24  B35.47 1C9P}5.698 35.979 42.119
+{ c   ala a 24  B33.87 1C9P}P 4.998 35.013 41.811
+{ n   asn a 25  B34.98 1C9P}3.768 35.146 41.317
+{ ca  asn a 25  B34.62 1C9P}3.187 36.473 41.095
+{ c   asn a 25  B32.42 1C9P}2.106 36.837 42.103
+{ o   asn a 25  B33.45 1C9P}1.076 37.407 41.733
+{ c   asn a 25  B32.42 1C9P}P 2.106 36.837 42.103
+{ n   ser a 26  B29.67 1C9P}2.344 36.539 43.376
+{ ca  ser a 26  B26.75 1C9P}1.346 36.821 44.397
+{ c   ser a 26  B23.40 1C9P}1.465 38.176 45.077
+{ o   ser a 26  B25.24 1C9P}0.463 38.717 45.534
+{ c   ser a 26  B23.40 1C9P}P 1.465 38.176 45.077
+{ n   ile a 27  B19.28 1C9P}2.673 38.731 45.144
+{ ca  ile a 27  B16.22 1C9P}2.873 40.018 45.813
+{ c   ile a 27  B13.49 1C9P}3.704 40.958 44.923
+{ o   ile a 27  B11.70 1C9P}4.873 41.233 45.206
+{ c   ile a 27  B13.49 1C9P}P 3.704 40.958 44.923
+{ n   pro a 28  B11.29 1C9P}3.096 41.487 43.849
+{ ca  pro a 28  B11.55 1C9P}3.743 42.39 42.891
+{ c   pro a 28  B9.84 1C9P}4.153 43.753 43.431
+{ o   pro a 28  B12.78 1C9P}5.129 44.339 42.975
+{ c   pro a 28  B9.84 1C9P}P 4.153 43.753 43.431
+{ n   tyr a 29  B8.87 1C9P}3.39 44.255 44.391
+{ ca  tyr a 29  B9.64 1C9P}3.618 45.563 44.999
+{ c   tyr a 29  B8.74 1C9P}4.769 45.649 46.015
+{ o   tyr a 29  B7.87 1C9P}5.144 46.743 46.434
+{ c   tyr a 29  B8.74 1C9P}P 4.769 45.649 46.015
+{ n   gln a 30  B8.82 1C9P}5.316 44.499 46.409
+{ ca  gln a 30  B9.54 1C9P}6.421 44.429 47.373
+{ c   gln a 30  B11.35 1C9P}7.726 44.951 46.758
+{ o   gln a 30  B12.26 1C9P}8.031 44.666 45.594
+{ c   gln a 30  B11.35 1C9P}P 7.726 44.951 46.758
+{ n   val a 31  B9.85 1C9P}8.487 45.717 47.539
+{ ca  val a 31  B11.38 1C9P}9.759 46.255 47.067
+{ c   val a 31  B11.95 1C9P}10.819 46.069 48.13
+{ o   val a 31  B14.09 1C9P}10.502 45.809 49.289
+{ c   val a 31  B11.95 1C9P}P 10.819 46.069 48.13
+{ n   ser a 32  B12.77 1C9P}12.077 46.206 47.729
+{ ca  ser a 32  B15.95 1C9P}13.186 46.058 48.652
+{ c   ser a 32  B17.87 1C9P}14.043 47.311 48.71
+{ o   ser a 32  B19.35 1C9P}14.538 47.778 47.685
+{ c   ser a 32  B17.87 1C9P}P 14.043 47.311 48.71
+{ n   leu a 33  B19.04 1C9P}14.211 47.862 49.909
+{ ca  leu a 33  B18.09 1C9P}15.036 49.049 50.058
+{ c   leu a 33  B19.90 1C9P}16.442 48.542 50.29
+{ o   leu a 33  B17.80 1C9P}16.674 47.715 51.168
+{ c   leu a 33  B19.90 1C9P}P 16.442 48.542 50.29
+{ n   asn a 34  B23.65 1C9P}17.368 49.04 49.475
+{ ca  asn a 34  B25.73 1C9P}18.758 48.615 49.507
+{ c   asn a 34  B25.86 1C9P}19.703 49.794 49.717
+{ o   asn a 34  B27.34 1C9P}19.505 50.866 49.153
+{ c   asn a 34  B25.86 1C9P}P 19.703 49.794 49.717
+{ n   ser a 37  B27.19 1C9P}20.727 49.589 50.536
+{ ca  ser a 37  B27.21 1C9P}21.717 50.625 50.806
+{ c   ser a 37  B26.95 1C9P}23.011 49.852 50.992
+{ o   ser a 37  B28.88 1C9P}23.74 50.042 51.964
+{ c   ser a 37  B26.95 1C9P}P 23.011 49.852 50.992
+{ n   gly a 38  B26.03 1C9P}23.267 48.967 50.036
+{ ca  gly a 38  B26.41 1C9P}24.431 48.106 50.067
+{ c   gly a 38  B26.98 1C9P}23.864 46.702 50.052
+{ o   gly a 38  B28.79 1C9P}24.375 45.789 49.394
+{ c   gly a 38  B26.98 1C9P}P 23.864 46.702 50.052
+{ n   ser a 39  B25.32 1C9P}22.767 46.553 50.784
+{ ca  ser a 39  B23.80 1C9P}22.054 45.292 50.903
+{ c   ser a 39  B24.15 1C9P}20.644 45.573 51.419
+{ o   ser a 39  B24.17 1C9P}20.334 46.705 51.81
+{ c   ser a 39  B24.15 1C9P}P 20.644 45.573 51.419
+{ n   his a 40  B22.20 1C9P}19.792 44.551 51.406
+{ ca  his a 40  B18.82 1C9P}18.41 44.698 51.855
+{ c   his a 40  B16.86 1C9P}18.352 45.095 53.325
+{ o   his a 40  B17.62 1C9P}18.952 44.425 54.158
+{ c   his a 40  B16.86 1C9P}P 18.352 45.095 53.325
+{ n   phe a 41  B13.90 1C9P}17.644 46.178 53.644
+{ ca  phe a 41  B13.32 1C9P}17.521 46.593 55.034
+{ c   phe a 41  B13.50 1C9P}16.08 46.863 55.455
+{ o   phe a 41  B13.24 1C9P}15.773 46.886 56.645
+{ c   phe a 41  B13.50 1C9P}P 16.08 46.863 55.455
+{ n   cys a 42  B12.98 1C9P}15.205 47.068 54.476
+{ ca  cys a 42  B12.83 1C9P}13.785 47.314 54.726
+{ c   cys a 42  B15.87 1C9P}12.944 46.977 53.51
+{ o   cys a 42  B16.99 1C9P}13.453 46.857 52.391
+{ c   cys a 42  B15.87 1C9P}P 12.944 46.977 53.51
+{ n   gly a 43  B15.13 1C9P}11.645 46.842 53.742
+{ ca  gly a 43  B12.84 1C9P}10.724 46.549 52.663
+{ c   gly a 43  B9.82 1C9P}9.917 47.791 52.349
+{ o   gly a 43  B7.87 1C9P}10.113 48.838 52.969
+{ c   gly a 43  B9.82 1C9P}P 9.917 47.791 52.349
+{ n   gly a 44  B8.53 1C9P}9.012 47.675 51.386
+{ ca  gly a 44  B7.87 1C9P}8.186 48.802 51.005
+{ c   gly a 44  B9.39 1C9P}7.043 48.384 50.101
+{ o   gly a 44  B8.44 1C9P}6.894 47.211 49.764
+{ c   gly a 44  B9.39 1C9P}P 7.043 48.384 50.101
+{ n   ser a 45  B10.27 1C9P}6.228 49.354 49.711
+{ ca  ser a 45  B10.94 1C9P}5.096 49.088 48.839
+{ c   ser a 45  B10.63 1C9P}5.041 50.085 47.698
+{ o   ser a 45  B11.71 1C9P}5.288 51.274 47.891
+{ c   ser a 45  B10.63 1C9P}P 5.041 50.085 47.698
+{ n   leu a 46  B9.91 1C9P}4.724 49.595 46.507
+{ ca  leu a 46  B9.03 1C9P}4.591 50.457 45.339
+{ c   leu a 46  B7.87 1C9P}3.099 50.77 45.274
+{ o   leu a 46  B7.87 1C9P}2.28 49.868 45.131
+{ c   leu a 46  B7.87 1C9P}P 3.099 50.77 45.274
+{ n   ile a 47  B8.40 1C9P}2.744 52.041 45.406
+{ ca  ile a 47  B11.24 1C9P}1.34 52.45 45.37
+{ c   ile a 47  B13.09 1C9P}1.064 53.221 44.089
+{ o   ile a 47  B13.25 1C9P}-0.078 53.531 43.763
+{ c   ile a 47  B13.09 1C9P}P 1.064 53.221 44.089
+{ n   asn a 48  B16.73 1C9P}2.135 53.527 43.372
+{ ca  asn a 48  B17.76 1C9P}2.059 54.257 42.12
+{ c   asn a 48  B18.28 1C9P}3.376 54.111 41.379
+{ o   asn a 48  B19.23 1C9P}4.418 53.919 41.998
+{ c   asn a 48  B18.28 1C9P}P 3.376 54.111 41.379
+{ n   ser a 49  B19.09 1C9P}3.325 54.203 40.055
+{ ca  ser a 49  B20.07 1C9P}4.509 54.041 39.217
+{ c   ser a 49  B19.86 1C9P}5.737 54.843 39.64
+{ o   ser a 49  B20.81 1C9P}6.837 54.593 39.152
+{ c   ser a 49  B19.86 1C9P}P 5.737 54.843 39.64
+{ n   gln a 50  B18.91 1C9P}5.565 55.801 40.54
+{ ca  gln a 50  B19.43 1C9P}6.699 56.59 41.001
+{ c   gln a 50  B19.14 1C9P}6.849 56.76 42.506
+{ o   gln a 50  B19.27 1C9P}7.802 57.39 42.965
+{ c   gln a 50  B19.14 1C9P}P 6.849 56.76 42.506
+{ n   trp a 51  B17.50 1C9P}5.922 56.208 43.28
+{ ca  trp a 51  B15.61 1C9P}6.013 56.343 44.723
+{ c   trp a 51  B15.29 1C9P}5.963 55.017 45.451
+{ o   trp a 51  B17.36 1C9P}5.29 54.085 45.031
+{ c   trp a 51  B15.29 1C9P}P 5.963 55.017 45.451
+{ n   val a 52  B13.80 1C9P}6.705 54.946 46.547
+{ ca  val a 52  B13.19 1C9P}6.772 53.755 47.375
+{ c   val a 52  B14.22 1C9P}6.509 54.223 48.802
+{ o   val a 52  B15.04 1C9P}6.865 55.344 49.171
+{ c   val a 52  B14.22 1C9P}P 6.509 54.223 48.802
+{ n   val a 53  B12.35 1C9P}5.88 53.373 49.6
+{ ca  val a 53  B11.23 1C9P}5.616 53.725 50.981
+{ c   val a 53  B10.78 1C9P}6.476 52.795 51.819
+{ o   val a 53  B12.28 1C9P}6.685 51.638 51.456
+{ c   val a 53  B10.78 1C9P}P 6.476 52.795 51.819
+{ n   ser a 54  B10.41 1C9P}6.98 53.298 52.936
+{ ca  ser a 54  B9.63 1C9P}7.825 52.502 53.817
+{ c   ser a 54  B9.99 1C9P}7.73 53.125 55.203
+{ o   ser a 54  B14.25 1C9P}7.016 54.105 55.385
+{ c   ser a 54  B9.99 1C9P}P 7.73 53.125 55.203
+{ n   ala a 55  B9.97 1C9P}8.425 52.56 56.182
+{ ca  ala a 55  B9.41 1C9P}8.4 53.12 57.532
+{ c   ala a 55  B11.58 1C9P}9.429 54.242 57.547
+{ o   ala a 55  B11.60 1C9P}10.4 54.201 56.794
+{ c   ala a 55  B11.58 1C9P}P 9.429 54.242 57.547
+{ n   ala a 56  B12.94 1C9P}9.227 55.245 58.395
+{ ca  ala a 56  B12.64 1C9P}10.17 56.36 58.458
+{ c   ala a 56  B12.24 1C9P}11.504 55.961 59.09
+{ o   ala a 56  B11.23 1C9P}12.548 56.53 58.761
+{ c   ala a 56  B12.24 1C9P}P 11.504 55.961 59.09
+{ n   his a 57  B11.15 1C9P}11.486 54.977 59.985
+{ ca  his a 57  B11.72 1C9P}12.732 54.58 60.625
+{ c   his a 57  B11.67 1C9P}13.652 53.821 59.685
+{ o   his a 57  B14.28 1C9P}14.699 53.338 60.104
+{ c   his a 57  B11.67 1C9P}P 13.652 53.821 59.685
+{ n   cys a 58  B11.13 1C9P}13.253 53.723 58.419
+{ ca  cys a 58  B11.55 1C9P}14.035 53.048 57.387
+{ c   cys a 58  B14.01 1C9P}14.769 54.116 56.588
+{ o   cys a 58  B16.98 1C9P}15.566 53.807 55.696
+{ c   cys a 58  B14.01 1C9P}P 14.769 54.116 56.588
+{ n   tyr a 59  B14.65 1C9P}14.487 55.375 56.916
+{ ca  tyr a 59  B15.15 1C9P}15.078 56.523 56.233
+{ c   tyr a 59  B14.69 1C9P}16.599 56.562 56.168
+{ o   tyr a 59  B14.66 1C9P}17.278 56.463 57.186
+{ c   tyr a 59  B14.69 1C9P}P 16.599 56.562 56.168
+{ n   lys a 60  B14.80 1C9P}17.115 56.73 54.955
+{ ca  lys a 60  B16.06 1C9P}18.544 56.878 54.711
+{ c   lys a 60  B17.91 1C9P}18.649 57.897 53.588
+{ o   lys a 60  B19.42 1C9P}17.757 57.978 52.744
+{ c   lys a 60  B17.91 1C9P}P 18.649 57.897 53.588
+{ n   ser a 61  B18.28 1C9P}19.715 58.691 53.593
+{ ca  ser a 61  B17.68 1C9P}19.904 59.709 52.571
+{ c   ser a 61  B18.71 1C9P}20.121 59.096 51.194
+{ o   ser a 61  B18.34 1C9P}19.87 59.738 50.175
+{ c   ser a 61  B18.71 1C9P}P 20.121 59.096 51.194
+{ n   arg a 62  B19.06 1C9P}20.589 57.854 51.156
+{ ca  arg a 62  B19.81 1C9P}20.801 57.178 49.883
+{ c   arg a 62  B19.74 1C9P}20.062 55.851 49.895
+{ o   arg a 62  B20.80 1C9P}20.357 54.972 50.707
+{ c   arg a 62  B19.74 1C9P}P 20.062 55.851 49.895
+{ n   ile a 63  B17.72 1C9P}19.098 55.707 48.993
+{ ca  ile a 63  B16.06 1C9P}18.326 54.482 48.908
+{ c   ile a 63  B15.31 1C9P}18.07 54.065 47.479
+{ o   ile a 63  B15.92 1C9P}17.658 54.875 46.642
+{ c   ile a 63  B15.31 1C9P}P 18.07 54.065 47.479
+{ n   gln a 64  B13.78 1C9P}18.316 52.791 47.207
+{ ca  gln a 64  B11.21 1C9P}18.059 52.238 45.895
+{ c   gln a 64  B10.63 1C9P}16.866 51.326 46.068
+{ o   gln a 64  B9.52 1C9P}16.861 50.465 46.945
+{ c   gln a 64  B10.63 1C9P}P 16.866 51.326 46.068
+{ n   val a 65  B10.64 1C9P}15.849 51.514 45.239
+{ ca  val a 65  B9.82 1C9P}14.677 50.666 45.326
+{ c   val a 65  B10.58 1C9P}14.809 49.531 44.306
+{ o   val a 65  B9.07 1C9P}15.193 49.752 43.156
+{ c   val a 65  B10.58 1C9P}P 14.809 49.531 44.306
+{ n   arg a 66  B11.20 1C9P}14.523 48.313 44.759
+{ ca  arg a 66  B11.60 1C9P}14.592 47.124 43.916
+{ c   arg a 66  B11.68 1C9P}13.155 46.635 43.752
+{ o   arg a 66  B7.87 1C9P}12.482 46.336 44.74
+{ c   arg a 66  B11.68 1C9P}P 13.155 46.635 43.752
+{ n   leu a 67  B13.00 1C9P}12.684 46.547 42.514
+{ ca  leu a 67  B14.81 1C9P}11.328 46.068 42.274
+{ c   leu a 67  B15.22 1C9P}11.324 44.73 41.524
+{ o   leu a 67  B14.85 1C9P}12.329 44.339 40.926
+{ c   leu a 67  B15.22 1C9P}P 11.324 44.73 41.524
+{ n   gly a 69  B14.54 1C9P}10.191 44.031 41.571
+{ ca  gly a 69  B14.19 1C9P}10.07 42.76 40.88
+{ c   gly a 69  B15.31 1C9P}11.007 41.682 41.389
+{ o   gly a 69  B16.40 1C9P}11.586 40.932 40.604
+{ c   gly a 69  B15.31 1C9P}P 11.007 41.682 41.389
+{ n   glu a 70  B15.93 1C9P}11.145 41.598 42.708
+{ ca  glu a 70  B16.02 1C9P}12.013 40.611 43.345
+{ c   glu a 70  B16.63 1C9P}11.24 39.431 43.921
+{ o   glu a 70  B15.93 1C9P}10.141 39.59 44.443
+{ c   glu a 70  B16.63 1C9P}P 11.24 39.431 43.921
+{ n   his a 71  B18.41 1C9P}11.821 38.244 43.809
+{ ca  his a 71  B20.16 1C9P}11.226 37.051 44.383
+{ c   his a 71  B18.98 1C9P}12.356 36.495 45.24
+{ o   his a 71  B18.77 1C9P}12.238 36.395 46.457
+{ c   his a 71  B18.98 1C9P}P 12.356 36.495 45.24
+{ n   asn a 72  B19.07 1C9P}13.459 36.164 44.575
+{ ca  asn a 72  B18.59 1C9P}14.658 35.645 45.227
+{ c   asn a 72  B18.09 1C9P}15.666 36.784 45.242
+{ o   asn a 72  B16.99 1C9P}16.277 37.062 44.213
+{ c   asn a 72  B18.09 1C9P}P 15.666 36.784 45.242
+{ n   ile a 73  B18.86 1C9P}15.846 37.441 46.386
+{ ca  ile a 73  B20.45 1C9P}16.8 38.552 46.458
+{ c   ile a 73  B21.34 1C9P}18.265 38.167 46.255
+{ o   ile a 73  B23.47 1C9P}19.127 39.042 46.209
+{ c   ile a 73  B21.34 1C9P}P 18.265 38.167 46.255
+{ n   asp a 74  B22.18 1C9P}18.556 36.876 46.13
+{ ca  asp a 74  B23.43 1C9P}19.939 36.448 45.941
+{ c   asp a 74  B24.20 1C9P}20.235 36.007 44.52
+{ o   asp a 74  B25.66 1C9P}21.396 35.875 44.137
+{ c   asp a 74  B24.20 1C9P}P 20.235 36.007 44.52
+{ n   val a 75  B24.95 1C9P}19.187 35.775 43.742
+{ ca  val a 75  B26.38 1C9P}19.351 35.353 42.357
+{ c   val a 75  B27.93 1C9P}18.708 36.356 41.405
+{ o   val a 75  B28.84 1C9P}17.599 36.832 41.645
+{ c   val a 75  B27.93 1C9P}P 18.708 36.356 41.405
+{ n   leu a 76  B27.89 1C9P}19.414 36.675 40.325
+{ ca  leu a 76  B27.51 1C9P}18.92 37.623 39.336
+{ c   leu a 76  B29.31 1C9P}18.031 36.848 38.366
+{ o   leu a 76  B31.29 1C9P}18.518 36.237 37.42
+{ c   leu a 76  B29.31 1C9P}P 18.031 36.848 38.366
+{ n   glu a 77  B32.11 1C9P}16.725 36.868 38.61
+{ ca  glu a 77  B34.99 1C9P}15.772 36.131 37.782
+{ c   glu a 77  B36.04 1C9P}15.324 36.821 36.505
+{ o   glu a 77  B34.00 1C9P}14.536 36.258 35.745
+{ c   glu a 77  B36.04 1C9P}P 15.324 36.821 36.505
+{ n   gly a 78  B37.15 1C9P}15.811 38.04 36.279
+{ ca  gly a 78  B37.12 1C9P}15.46 38.769 35.072
+{ c   gly a 78  B36.45 1C9P}14.301 39.75 35.123
+{ o   gly a 78  B38.03 1C9P}14.168 40.571 34.222
+{ c   gly a 78  B36.45 1C9P}P 14.301 39.75 35.123
+{ n   asn a 79  B36.66 1C9P}13.464 39.678 36.155
+{ ca  asn a 79  B35.85 1C9P}12.312 40.579 36.278
+{ c   asn a 79  B33.05 1C9P}12.6 41.865 37.056
+{ o   asn a 79  B35.09 1C9P}11.86 42.845 36.941
+{ c   asn a 79  B33.05 1C9P}P 12.6 41.865 37.056
+{ n   glu a 80  B28.64 1C9P}13.672 41.86 37.841
+{ ca  glu a 80  B22.75 1C9P}14.025 43.002 38.677
+{ c   glu a 80  B19.70 1C9P}14.15 44.338 37.971
+{ o   glu a 80  B20.46 1C9P}14.337 44.409 36.761
+{ c   glu a 80  B19.70 1C9P}P 14.15 44.338 37.971
+{ n   gln a 81  B17.73 1C9P}14.043 45.394 38.77
+{ ca  gln a 81  B14.87 1C9P}14.182 46.777 38.33
+{ c   gln a 81  B13.41 1C9P}14.823 47.548 39.474
+{ o   gln a 81  B13.45 1C9P}14.288 47.592 40.584
+{ c   gln a 81  B13.41 1C9P}P 14.823 47.548 39.474
+{ n   phe a 82  B12.22 1C9P}15.986 48.13 39.215
+{ ca  phe a 82  B11.91 1C9P}16.661 48.893 40.245
+{ c   phe a 82  B13.23 1C9P}16.566 50.377 39.947
+{ o   phe a 82  B12.85 1C9P}17.158 50.87 38.986
+{ c   phe a 82  B13.23 1C9P}P 16.566 50.377 39.947
+{ n   ile a 83  B13.53 1C9P}15.8 51.08 40.778
+{ ca  ile a 83  B13.72 1C9P}15.603 52.513 40.633
+{ c   ile a 83  B16.30 1C9P}15.997 53.207 41.932
+{ o   ile a 83  B17.09 1C9P}15.734 52.686 43.018
+{ c   ile a 83  B16.30 1C9P}P 15.997 53.207 41.932
+{ n   asn a 84  B17.50 1C9P}16.629 54.375 41.817
+{ ca  asn a 84  B18.39 1C9P}17.063 55.129 42.991
+{ c   asn a 84  B17.09 1C9P}16.068 56.162 43.486
+{ o   asn a 84  B16.33 1C9P}15.326 56.765 42.711
+{ c   asn a 84  B17.09 1C9P}P 16.068 56.162 43.486
+{ n   ala a 85  B14.91 1C9P}16.07 56.364 44.795
+{ ca  ala a 85  B14.84 1C9P}15.174 57.318 45.41
+{ c   ala a 85  B14.45 1C9P}15.552 58.733 45.003
+{ o   ala a 85  B15.71 1C9P}16.719 59.118 45.053
+{ c   ala a 85  B14.45 1C9P}P 15.552 58.733 45.003
+{ n   ala a 86  B12.64 1C9P}14.555 59.501 44.586
+{ ca  ala a 86  B10.04 1C9P}14.77 60.881 44.197
+{ c   ala a 86  B9.60 1C9P}14.358 61.726 45.394
+{ o   ala a 86  B9.23 1C9P}15.137 62.521 45.902
+{ c   ala a 86  B9.60 1C9P}P 14.358 61.726 45.394
+{ n   lys a 87  B10.37 1C9P}13.123 61.539 45.844
+{ ca  lys a 87  B9.39 1C9P}12.611 62.272 46.993
+{ c   lys a 87  B9.85 1C9P}12.376 61.3 48.136
+{ o   lys a 87  B9.37 1C9P}11.728 60.266 47.961
+{ c   lys a 87  B9.85 1C9P}P 12.376 61.3 48.136
+{ n   ile a 88  B9.05 1C9P}12.905 61.634 49.307
+{ ca  ile a 88  B8.06 1C9P}12.747 60.789 50.479
+{ c   ile a 88  B9.23 1C9P}12.082 61.637 51.559
+{ o   ile a 88  B8.22 1C9P}12.744 62.4 52.265
+{ c   ile a 88  B9.23 1C9P}P 12.082 61.637 51.559
+{ n   ile a 89  B7.87 1C9P}10.766 61.491 51.68
+{ ca  ile a 89  B9.10 1C9P}9.981 62.284 52.619
+{ c   ile a 89  B10.29 1C9P}9.388 61.533 53.813
+{ o   ile a 89  B14.06 1C9P}8.445 60.759 53.658
+{ c   ile a 89  B10.29 1C9P}P 9.388 61.533 53.813
+{ n   thr a 90  B9.50 1C9P}9.923 61.767 55.006
+{ ca  thr a 90  B8.91 1C9P}9.381 61.118 56.197
+{ c   thr a 90  B10.04 1C9P}8.296 62.018 56.783
+{ o   thr a 90  B11.86 1C9P}8.348 63.243 56.642
+{ c   thr a 90  B10.04 1C9P}P 8.296 62.018 56.783
+{ n   his a 91  B7.87 1C9P}7.317 61.415 57.446
+{ ca  his a 91  B8.00 1C9P}6.225 62.185 58.021
+{ c   his a 91  B7.87 1C9P}6.714 63.328 58.921
+{ o   his a 91  B7.87 1C9P}7.651 63.166 59.704
+{ c   his a 91  B7.87 1C9P}P 6.714 63.328 58.921
+{ n   pro a 92  B9.43 1C9P}6.078 64.506 58.812
+{ ca  pro a 92  B9.45 1C9P}6.413 65.7 59.589
+{ c   pro a 92  B12.02 1C9P}6.42 65.495 61.099
+{ o   pro a 92  B13.19 1C9P}7.242 66.078 61.812
+{ c   pro a 92  B12.02 1C9P}P 6.42 65.495 61.099
+{ n   asn a 93  B13.55 1C9P}5.506 64.669 61.59
+{ ca  asn a 93  B15.10 1C9P}5.43 64.439 63.019
+{ c   asn a 93  B15.97 1C9P}5.98 63.096 63.447
+{ o   asn a 93  B17.78 1C9P}5.6 62.566 64.493
+{ c   asn a 93  B15.97 1C9P}P 5.98 63.096 63.447
+{ n   phe a 94  B17.77 1C9P}6.882 62.545 62.642
+{ ca  phe a 94  B18.70 1C9P}7.489 61.272 62.987
+{ c   phe a 94  B19.92 1C9P}8.244 61.45 64.295
+{ o   phe a 94  B21.07 1C9P}8.961 62.432 64.466
+{ c   phe a 94  B19.92 1C9P}P 8.244 61.45 64.295
+{ n   asn a 95  B20.78 1C9P}8.081 60.502 65.211
+{ ca  asn a 95  B21.30 1C9P}8.747 60.567 66.509
+{ c   asn a 95  B22.36 1C9P}9.694 59.382 66.617
+{ o   asn a 95  B22.62 1C9P}9.257 58.241 66.766
+{ c   asn a 95  B22.36 1C9P}P 9.694 59.382 66.617
+{ n   gly a 96  B23.89 1C9P}10.992 59.661 66.539
+{ ca  gly a 96  B26.02 1C9P}11.991 58.609 66.596
+{ c   gly a 96  B28.03 1C9P}12.076 57.788 67.87
+{ o   gly a 96  B31.02 1C9P}12.603 56.677 67.847
+{ c   gly a 96  B28.03 1C9P}P 12.076 57.788 67.87
+{ n   asn a 97  B27.97 1C9P}11.561 58.315 68.976
+{ ca  asn a 97  B27.83 1C9P}11.605 57.616 70.261
+{ c   asn a 97  B25.02 1C9P}10.389 56.735 70.514
+{ o   asn a 97  B24.79 1C9P}10.47 55.753 71.242
+{ c   asn a 97  B25.02 1C9P}P 10.389 56.735 70.514
+{ n   thr a 98  B23.42 1C9P}9.261 57.095 69.92
+{ ca  thr a 98  B22.24 1C9P}8.023 56.343 70.106
+{ c   thr a 98  B21.43 1C9P}7.601 55.631 68.832
+{ o   thr a 98  B20.23 1C9P}6.722 54.769 68.856
+{ c   thr a 98  B21.43 1C9P}P 7.601 55.631 68.832
+{ n   leu a 99  B19.33 1C9P}8.236 56.002 67.723
+{ ca  leu a 99  B15.94 1C9P}7.927 55.432 66.42
+{ c   leu a 99  B15.17 1C9P}6.491 55.732 66.046
+{ o   leu a 99  B15.70 1C9P}5.831 54.936 65.383
+{ c   leu a 99  B15.17 1C9P}P 6.491 55.732 66.046
+{ n   asp a 100  B13.98 1C9P}6.01 56.883 66.491
+{ ca  asp a 100  B15.44 1C9P}4.657 57.295 66.191
+{ c   asp a 100  B16.59 1C9P}4.725 57.96 64.83
+{ o   asp a 100  B18.47 1C9P}5.728 58.601 64.515
+{ c   asp a 100  B16.59 1C9P}P 4.725 57.96 64.83
+{ n   asn a 101  B15.43 1C9P}3.68 57.795 64.017
+{ ca  asn a 101  B14.83 1C9P}3.663 58.373 62.677
+{ c   asn a 101  B14.41 1C9P}4.812 57.765 61.889
+{ o   asn a 101  B15.15 1C9P}5.537 58.459 61.175
+{ c   asn a 101  B14.41 1C9P}P 4.812 57.765 61.889
+{ n   asp a 102  B14.55 1C9P}4.981 56.458 62.022
+{ ca  asp a 102  B15.26 1C9P}6.067 55.798 61.327
+{ c   asp a 102  B16.58 1C9P}5.684 55.419 59.897
+{ o   asp a 102  B18.12 1C9P}5.331 54.276 59.608
+{ c   asp a 102  B16.58 1C9P}P 5.684 55.419 59.897
+{ n   ile a 103  B17.30 1C9P}5.742 56.409 59.01
+{ ca  ile a 103  B18.17 1C9P}5.423 56.204 57.602
+{ c   ile a 103  B17.24 1C9P}6.378 57.071 56.767
+{ o   ile a 103  B14.86 1C9P}6.82 58.133 57.216
+{ c   ile a 103  B17.24 1C9P}P 6.378 57.071 56.767
+{ n   met a 104  B15.19 1C9P}6.697 56.615 55.558
+{ ca  met a 104  B14.95 1C9P}7.629 57.338 54.707
+{ c   met a 104  B14.48 1C9P}7.315 57.21 53.224
+{ o   met a 104  B14.82 1C9P}6.971 56.13 52.748
+{ c   met a 104  B14.48 1C9P}P 7.315 57.21 53.224
+{ n   leu a 105  B13.52 1C9P}7.436 58.319 52.499
+{ ca  leu a 105  B14.90 1C9P}7.192 58.324 51.064
+{ c   leu a 105  B14.89 1C9P}8.494 58.492 50.297
+{ o   leu a 105  B15.70 1C9P}9.324 59.342 50.631
+{ c   leu a 105  B14.89 1C9P}P 8.494 58.492 50.297
+{ n   ile a 106  B13.45 1C9P}8.662 57.669 49.268
+{ ca  ile a 106  B12.16 1C9P}9.845 57.692 48.426
+{ c   ile a 106  B13.63 1C9P}9.427 57.856 46.979
+{ o   ile a 106  B14.77 1C9P}8.586 57.1 46.493
+{ c   ile a 106  B13.63 1C9P}P 9.427 57.856 46.979
+{ n   lys a 107  B13.86 1C9P}9.997 58.84 46.288
+{ ca  lys a 107  B13.79 1C9P}9.679 59.022 44.879
+{ c   lys a 107  B13.39 1C9P}10.85 58.507 44.057
+{ o   lys a 107  B11.82 1C9P}12.004 58.836 44.32
+{ c   lys a 107  B13.39 1C9P}P 10.85 58.507 44.057
+{ n   leu a 108  B14.22 1C9P}10.538 57.678 43.071
+{ ca  leu a 108  B15.23 1C9P}11.539 57.08 42.2
+{ c   leu a 108  B16.50 1C9P}12.025 58.105 41.179
+{ o   leu a 108  B18.56 1C9P}11.223 58.811 40.567
+{ c   leu a 108  B16.50 1C9P}P 12.025 58.105 41.179
+{ n   ser a 109  B17.74 1C9P}13.338 58.188 40.992
+{ ca  ser a 109  B18.00 1C9P}13.907 59.14 40.039
+{ c   ser a 109  B17.75 1C9P}13.387 58.844 38.636
+{ o   ser a 109  B16.95 1C9P}13.506 59.66 37.723
+{ c   ser a 109  B17.75 1C9P}P 13.387 58.844 38.636
+{ n   ser a 110  B17.84 1C9P}12.805 57.662 38.485
+{ ca  ser a 110  B17.75 1C9P}12.251 57.206 37.222
+{ c   ser a 110  B17.26 1C9P}11.051 56.305 37.493
+{ o   ser a 110  B17.75 1C9P}11.079 55.478 38.407
+{ c   ser a 110  B17.26 1C9P}P 11.051 56.305 37.493
+{ n   pro a 111  B16.58 1C9P}9.968 56.462 36.719
+{ ca  pro a 111  B16.30 1C9P}8.793 55.616 36.938
+{ c   pro a 111  B16.69 1C9P}9.144 54.145 36.705
+{ o   pro a 111  B17.08 1C9P}9.979 53.819 35.853
+{ c   pro a 111  B16.69 1C9P}P 9.144 54.145 36.705
+{ n   ala a 112  B16.05 1C9P}8.51 53.263 37.469
+{ ca  ala a 112  B15.34 1C9P}8.748 51.835 37.348
+{ c   ala a 112  B14.69 1C9P}7.859 51.275 36.26
+{ o   ala a 112  B13.81 1C9P}6.741 51.745 36.067
+{ c   ala a 112  B14.69 1C9P}P 7.859 51.275 36.26
+{ n   thr a 113  B13.61 1C9P}8.355 50.267 35.55
+{ ca  thr a 113  B12.92 1C9P}7.599 49.658 34.476
+{ c   thr a 113  B13.42 1C9P}6.63 48.644 35.052
+{ o   thr a 113  B11.40 1C9P}7.047 47.688 35.699
+{ c   thr a 113  B13.42 1C9P}P 6.63 48.644 35.052
+{ n   leu a 114  B14.55 1C9P}5.339 48.861 34.816
+{ ca  leu a 114  B14.52 1C9P}4.31 47.959 35.315
+{ c   leu a 114  B18.10 1C9P}4.027 46.87 34.292
+{ o   leu a 114  B15.61 1C9P}4.121 47.101 33.092
+{ n   ser a 116  B35.61 1C9P}P 2.983 41.501 35.36
+{"}2.983 41.501 35.36
+{ ca  ser a 116  B35.68 1C9P}2.795 40.495 36.407
+{ c   ser a 116  B33.94 1C9P}3.758 40.568 37.586
+{ o   ser a 116  B35.62 1C9P}3.363 40.324 38.725
+{ c   ser a 116  B33.94 1C9P}P 3.758 40.568 37.586
+{ n   arg a 117  B30.92 1C9P}5.017 40.899 37.32
+{ ca  arg a 117  B27.36 1C9P}5.998 40.975 38.393
+{ c   arg a 117  B24.35 1C9P}5.929 42.259 39.202
+{ o   arg a 117  B27.04 1C9P}6.108 42.231 40.424
+{ c   arg a 117  B24.35 1C9P}P 5.929 42.259 39.202
+{ n   val a 118  B17.24 1C9P}5.665 43.38 38.538
+{ ca  val a 118  B11.98 1C9P}5.585 44.667 39.219
+{ c   val a 118  B11.61 1C9P}4.217 45.309 39.06
+{ o   val a 118  B12.16 1C9P}3.791 45.623 37.951
+{ c   val a 118  B11.61 1C9P}P 4.217 45.309 39.06
+{ n   ala a 119  B11.60 1C9P}3.536 45.513 40.179
+{ ca  ala a 119  B10.52 1C9P}2.216 46.122 40.18
+{ c   ala a 119  B12.83 1C9P}2.048 46.962 41.428
+{ o   ala a 119  B17.06 1C9P}2.799 46.819 42.389
+{ c   ala a 119  B12.83 1C9P}P 2.048 46.962 41.428
+{ n   thr a 120  B14.47 1C9P}1.052 47.836 41.419
+{ ca  thr a 120  B15.05 1C9P}0.808 48.699 42.568
+{ c   thr a 120  B14.43 1C9P}-0.231 48.102 43.514
+{ o   thr a 120  B16.26 1C9P}-0.916 47.135 43.181
+{ c   thr a 120  B14.43 1C9P}P -0.231 48.102 43.514
+{ n   val a 121  B13.38 1C9P}-0.329 48.68 44.703
+{ ca  val a 121  B11.05 1C9P}-1.294 48.246 45.697
+{ c   val a 121  B12.21 1C9P}-2.174 49.459 45.991
+{ o   val a 121  B12.45 1C9P}-1.723 50.601 45.905
+{ c   val a 121  B12.21 1C9P}P -2.174 49.459 45.991
+{ n   ser a 122  B13.73 1C9P}-3.434 49.216 46.32
+{ ca  ser a 122  B14.24 1C9P}-4.371 50.298 46.59
+{ c   ser a 122  B14.20 1C9P}-4.313 50.839 48.02
+{ o   ser a 122  B14.44 1C9P}-3.957 50.125 48.953
+{ c   ser a 122  B14.20 1C9P}P -4.313 50.839 48.02
+{ n   leu a 123  B14.04 1C9P}-4.665 52.109 48.18
+{ ca  leu a 123  B16.58 1C9P}-4.668 52.738 49.491
+{ c   leu a 123  B19.47 1C9P}-6.004 52.479 50.181
+{ o   leu a 123  B19.73 1C9P}-7.013 52.236 49.521
+{ c   leu a 123  B19.47 1C9P}P -6.004 52.479 50.181
+{ n   pro a 124  B21.79 1C9P}-6.026 52.537 51.522
+{ ca  pro a 124  B24.68 1C9P}-7.235 52.307 52.312
+{ c   pro a 124  B28.11 1C9P}-8.348 53.294 52.002
+{ o   pro a 124  B29.19 1C9P}-8.162 54.51 52.084
+{ c   pro a 124  B28.11 1C9P}P -8.348 53.294 52.002
+{ n   arg a 125  B31.30 1C9P}-9.508 52.76 51.648
+{ ca  arg a 125  B34.11 1C9P}-10.668 53.584 51.349
+{ c   arg a 125  B34.16 1C9P}-11.288 53.878 52.707
+{ o   arg a 125  B36.40 1C9P}-11.867 54.942 52.936
+{ c   arg a 125  B34.16 1C9P}P -11.288 53.878 52.707
+{ n   ser a 127  B33.84 1C9P}-11.122 52.912 53.607
+{ ca  ser a 127  B31.32 1C9P}-11.607 52.983 54.98
+{ c   ser a 127  B29.13 1C9P}-10.681 52.109 55.831
+{ o   ser a 127  B26.49 1C9P}-9.983 51.237 55.298
+{ c   ser a 127  B29.13 1C9P}P -10.681 52.109 55.831
+{ n   cys a 128  B26.63 1C9P}-10.664 52.349 57.142
+{ ca  cys a 128  B22.77 1C9P}-9.824 51.585 58.069
+{ c   cys a 128  B20.89 1C9P}-10.318 50.154 58.259
+{ o   cys a 128  B20.08 1C9P}-11.515 49.912 58.32
+{ c   cys a 128  B20.89 1C9P}P -10.318 50.154 58.259
+{ n   ala a 129  B20.93 1C9P}-9.387 49.213 58.358
+{ ca  ala a 129  B22.93 1C9P}-9.736 47.81 58.53
+{ c   ala a 129  B24.12 1C9P}-10.304 47.519 59.917
+{ o   ala a 129  B24.20 1C9P}-9.853 48.067 60.923
+{ c   ala a 129  B24.12 1C9P}P -10.304 47.519 59.917
+{ n   ala a 130  B25.26 1C9P}-11.297 46.639 59.959
+{ ca  ala a 130  B26.44 1C9P}-11.939 46.275 61.214
+{ c   ala a 130  B26.54 1C9P}-11.272 45.056 61.851
+{ o   ala a 130  B26.55 1C9P}-10.717 44.205 61.157
+{ c   ala a 130  B26.54 1C9P}P -11.272 45.056 61.851
+{ n   ala a 132  B26.39 1C9P}-11.335 44.977 63.175
+{ ca  ala a 132  B25.50 1C9P}-10.741 43.857 63.89
+{ c   ala a 132  B25.37 1C9P}-11.221 42.564 63.267
+{ o   ala a 132  B25.47 1C9P}-12.356 42.484 62.804
+{ c   ala a 132  B25.37 1C9P}P -11.221 42.564 63.267
+{ n   gly a 133  B24.91 1C9P}-10.35 41.559 63.246
+{ ca  gly a 133  B21.32 1C9P}-10.72 40.278 62.684
+{ c   gly a 133  B21.51 1C9P}-10.406 40.124 61.216
+{ o   gly a 133  B25.32 1C9P}-10.294 39.003 60.737
+{ c   gly a 133  B21.51 1C9P}P -10.406 40.124 61.216
+{ n   thr a 134  B20.56 1C9P}-10.266 41.23 60.493
+{ ca  thr a 134  B20.82 1C9P}-9.959 41.154 59.065
+{ c   thr a 134  B22.03 1C9P}-8.655 40.403 58.775
+{ o   thr a 134  B21.93 1C9P}-7.608 40.709 59.35
+{ c   thr a 134  B22.03 1C9P}P -8.655 40.403 58.775
+{ n   glu a 135  B22.06 1C9P}-8.727 39.424 57.878
+{ ca  glu a 135  B22.60 1C9P}-7.559 38.633 57.5
+{ c   glu a 135  B21.37 1C9P}-6.682 39.473 56.574
+{ o   glu a 135  B22.00 1C9P}-7.145 39.955 55.541
+{ c   glu a 135  B21.37 1C9P}P -6.682 39.473 56.574
+{ n   cys a 136  B19.83 1C9P}-5.417 39.638 56.937
+{ ca  cys a 136  B17.31 1C9P}-4.49 40.427 56.133
+{ c   cys a 136  B15.83 1C9P}-3.309 39.597 55.666
+{ o   cys a 136  B17.44 1C9P}-3.059 38.506 56.182
+{ c   cys a 136  B15.83 1C9P}P -3.309 39.597 55.666
+{ n   leu a 137  B12.68 1C9P}-2.575 40.123 54.694
+{ ca  leu a 137  B11.00 1C9P}-1.417 39.425 54.165
+{ c   leu a 137  B10.17 1C9P}-0.171 40.254 54.409
+{ o   leu a 137  B11.59 1C9P}-0.088 41.392 53.958
+{ c   leu a 137  B10.17 1C9P}P -0.171 40.254 54.409
+{ n   ile a 138  B10.03 1C9P}0.791 39.683 55.127
+{ ca  ile a 138  B10.47 1C9P}2.048 40.371 55.423
+{ c   ile a 138  B9.98 1C9P}3.137 39.658 54.622
+{ o   ile a 138  B10.11 1C9P}3.043 38.449 54.408
+{ c   ile a 138  B9.98 1C9P}P 3.137 39.658 54.622
+{ n   ser a 139  B8.04 1C9P}4.162 40.389 54.184
+{ ca  ser a 139  B7.87 1C9P}5.238 39.773 53.414
+{ c   ser a 139  B8.15 1C9P}6.586 40.455 53.622
+{ o   ser a 139  B7.87 1C9P}6.641 41.656 53.888
+{ c   ser a 139  B8.15 1C9P}P 6.586 40.455 53.622
+{ n   gly a 140  B7.87 1C9P}7.671 39.688 53.501
+{ ca  gly a 140  B10.35 1C9P}8.994 40.264 53.678
+{ c   gly a 140  B11.10 1C9P}10.161 39.29 53.65
+{ o   gly a 140  B13.20 1C9P}9.958 38.08 53.674
+{ c   gly a 140  B11.10 1C9P}P 10.161 39.29 53.65
+{ n   trp a 141  B10.49 1C9P}11.382 39.83 53.609
+{ ca  trp a 141  B10.71 1C9P}12.614 39.038 53.571
+{ c   trp a 141  B12.56 1C9P}13.336 39.058 54.91
+{ o   trp a 141  B11.49 1C9P}14.539 38.789 54.987
+{ c   trp a 141  B12.56 1C9P}P 13.336 39.058 54.91
+{ n   gly a 142  B15.18 1C9P}12.603 39.383 55.964
+{ ca  gly a 142  B17.35 1C9P}13.2 39.442 57.285
+{ c   gly a 142  B20.09 1C9P}13.471 38.081 57.895
+{ o   gly a 142  B18.86 1C9P}13.102 37.041 57.338
+{ c   gly a 142  B20.09 1C9P}P 13.471 38.081 57.895
+{ n   asn a 143  B21.26 1C9P}14.122 38.099 59.055
+{ ca  asn a 143  B20.94 1C9P}14.476 36.89 59.788
+{ c   asn a 143  B19.46 1C9P}13.262 35.982 59.967
+{ o   asn a 143  B20.87 1C9P}12.171 36.449 60.287
+{ c   asn a 143  B19.46 1C9P}P 13.262 35.982 59.967
+{ n   thr a 144  B19.45 1C9P}13.444 34.688 59.723
+{ ca  thr a 144  B18.89 1C9P}12.343 33.732 59.858
+{ c   thr a 144  B20.82 1C9P}12.444 32.967 61.164
+{ o   thr a 144  B22.15 1C9P}11.945 31.849 61.271
+{ c   thr a 144  B20.82 1C9P}P 12.444 32.967 61.164
+{ n   lys a 145  B21.61 1C9P}13.103 33.561 62.153
+{ ca  lys a 145  B22.21 1C9P}13.222 32.914 63.446
+{ c   lys a 145  B23.45 1C9P}12.997 33.839 64.629
+{ o   lys a 145  B24.31 1C9P}13.564 34.924 64.703
+{ c   lys a 145  B23.45 1C9P}P 12.997 33.839 64.629
+{ n   ser a 146  B25.40 1C9P}12.166 33.388 65.559
+{ ca  ser a 146  B29.53 1C9P}11.841 34.157 66.751
+{ c   ser a 146  B31.35 1C9P}12.914 34.064 67.826
+{ o   ser a 146  B33.58 1C9P}12.755 34.631 68.904
+{ c   ser a 146  B31.35 1C9P}P 12.914 34.064 67.826
+{ n   ser a 147  B32.71 1C9P}13.988 33.332 67.552
+{ ca  ser a 147  B33.58 1C9P}15.064 33.193 68.528
+{ c   ser a 147  B33.99 1C9P}16.401 33.083 67.823
+{ o   ser a 147  B38.08 1C9P}17.35 33.786 68.164
+{ c   ser a 147  B33.99 1C9P}P 16.401 33.083 67.823
+{ n   gly a 148  B32.61 1C9P}16.478 32.19 66.845
+{ ca  gly a 148  B31.34 1C9P}17.713 32.038 66.103
+{ c   gly a 148  B30.32 1C9P}17.795 33.128 65.051
+{ o   gly a 148  B30.44 1C9P}17.241 34.216 65.23
+{ c   gly a 148  B30.32 1C9P}P 17.795 33.128 65.051
+{ n   ser a 149  B27.72 1C9P}18.481 32.84 63.95
+{ ca  ser a 149  B25.03 1C9P}18.614 33.805 62.872
+{ c   ser a 149  B23.23 1C9P}18.652 33.089 61.537
+{ o   ser a 149  B24.67 1C9P}19.502 32.232 61.311
+{ c   ser a 149  B23.23 1C9P}P 18.652 33.089 61.537
+{ n   ser a 150  B19.27 1C9P}17.724 33.431 60.654
+{ ca  ser a 150  B15.72 1C9P}17.708 32.831 59.338
+{ c   ser a 150  B15.77 1C9P}16.973 33.707 58.342
+{ o   ser a 150  B16.77 1C9P}15.749 33.802 58.366
+{ c   ser a 150  B15.77 1C9P}P 16.973 33.707 58.342
+{ n   tyr a 151  B14.96 1C9P}17.732 34.36 57.472
+{ ca  tyr a 151  B12.84 1C9P}17.154 35.209 56.454
+{ c   tyr a 151  B12.84 1C9P}17.038 34.419 55.164
+{ o   tyr a 151  B12.68 1C9P}18.015 33.852 54.688
+{ c   tyr a 151  B12.84 1C9P}P 17.038 34.419 55.164
+{ n   pro a 152  B12.18 1C9P}15.819 34.351 54.599
+{ ca  pro a 152  B10.79 1C9P}15.473 33.64 53.368
+{ c   pro a 152  B9.95 1C9P}15.783 34.395 52.075
+{ o   pro a 152  B12.02 1C9P}15.803 35.621 52.05
+{ c   pro a 152  B9.95 1C9P}P 15.783 34.395 52.075
+{ n   ser a 153  B9.12 1C9P}16.012 33.648 51.003
+{ ca  ser a 153  B11.74 1C9P}16.284 34.25 49.706
+{ c   ser a 153  B11.60 1C9P}14.952 34.623 49.074
+{ o   ser a 153  B13.65 1C9P}14.847 35.608 48.345
+{ c   ser a 153  B11.60 1C9P}P 14.952 34.623 49.074
+{ n   leu a 154  B10.51 1C9P}13.933 33.827 49.368
+{ ca  leu a 154  B10.47 1C9P}12.612 34.048 48.812
+{ c   leu a 154  B11.18 1C9P}11.637 34.763 49.732
+{ o   leu a 154  B9.52 1C9P}11.54 34.471 50.925
+{ c   leu a 154  B11.18 1C9P}P 11.637 34.763 49.732
+{ n   leu a 155  B12.67 1C9P}10.919 35.714 49.142
+{ ca  leu a 155  B11.48 1C9P}9.92 36.518 49.833
+{ c   leu a 155  B12.69 1C9P}8.944 35.638 50.61
+{ o   leu a 155  B13.07 1C9P}8.266 34.785 50.031
+{ c   leu a 155  B12.69 1C9P}P 8.944 35.638 50.61
+{ n   gln a 156  B13.69 1C9P}8.861 35.849 51.919
+{ ca  gln a 156  B14.19 1C9P}7.953 35.064 52.744
+{ c   gln a 156  B15.02 1C9P}6.568 35.692 52.865
+{ o   gln a 156  B15.78 1C9P}6.398 36.902 52.708
+{ c   gln a 156  B15.02 1C9P}P 6.568 35.692 52.865
+{ n   cys a 157  B15.20 1C9P}5.578 34.851 53.134
+{ ca  cys a 157  B15.04 1C9P}4.201 35.293 53.275
+{ c   cys a 157  B16.26 1C9P}3.598 34.818 54.571
+{ o   cys a 157  B15.77 1C9P}4.017 33.803 55.126
+{ c   cys a 157  B16.26 1C9P}P 3.598 34.818 54.571
+{ n   leu a 158  B16.78 1C9P}2.596 35.556 55.034
+{ ca  leu a 158  B17.38 1C9P}1.912 35.248 56.277
+{ c   leu a 158  B19.18 1C9P}0.546 35.907 56.325
+{ o   leu a 158  B20.26 1C9P}0.389 37.064 55.936
+{ c   leu a 158  B19.18 1C9P}P 0.546 35.907 56.325
+{ n   lys a 159  B20.86 1C9P}-0.447 35.161 56.789
+{ ca  lys a 159  B21.50 1C9P}-1.794 35.694 56.908
+{ c   lys a 159  B21.34 1C9P}-2.102 35.866 58.384
+{ o   lys a 159  B19.49 1C9P}-2.022 34.913 59.161
+{ c   lys a 159  B21.34 1C9P}P -2.102 35.866 58.384
+{ n   ala a 160  B21.35 1C9P}-2.432 37.094 58.771
+{ ca  ala a 160  B22.03 1C9P}-2.739 37.408 60.162
+{ c   ala a 160  B21.08 1C9P}-3.887 38.41 60.221
+{ o   ala a 160  B21.56 1C9P}-4.008 39.277 59.355
+{ c   ala a 160  B21.08 1C9P}P -3.887 38.41 60.221
+{ n   pro a 161  B20.21 1C9P}-4.768 38.278 61.224
+{ ca  pro a 161  B19.49 1C9P}-5.921 39.162 61.412
+{ c   pro a 161  B19.58 1C9P}-5.583 40.441 62.189
+{ o   pro a 161  B19.50 1C9P}-4.635 40.466 62.971
+{ c   pro a 161  B19.58 1C9P}P -5.583 40.441 62.189
+{ n   val a 162  B19.55 1C9P}-6.363 41.496 61.966
+{ ca  val a 162  B19.00 1C9P}-6.166 42.757 62.679
+{ c   val a 162  B18.57 1C9P}-6.776 42.593 64.067
+{ o   val a 162  B19.15 1C9P}-7.904 42.127 64.206
+{ c   val a 162  B18.57 1C9P}P -6.776 42.593 64.067
+{ n   leu a 163  B18.22 1C9P}-6.032 42.974 65.095
+{ ca  leu a 163  B17.94 1C9P}-6.516 42.844 66.459
+{ c   leu a 163  B16.78 1C9P}-7.228 44.1 66.925
+{ o   leu a 163  B15.31 1C9P}-6.986 45.192 66.409
+{ c   leu a 163  B16.78 1C9P}P -7.228 44.1 66.925
+{ n   ser a 164  B16.92 1C9P}-8.111 43.932 67.905
+{ ca  ser a 164  B16.91 1C9P}-8.864 45.045 68.462
+{ c   ser a 164  B16.66 1C9P}-7.89 46.005 69.126
+{ o   ser a 164  B17.74 1C9P}-6.838 45.595 69.617
+{ c   ser a 164  B16.66 1C9P}P -7.89 46.005 69.126
+{ n   asp a 165  B15.56 1C9P}-8.243 47.283 69.142
+{ ca  asp a 165  B17.18 1C9P}-7.384 48.286 69.754
+{ c   asp a 165  B17.54 1C9P}-7.129 47.948 71.227
+{ o   asp a 165  B15.79 1C9P}-6.032 48.166 71.753
+{ c   asp a 165  B17.54 1C9P}P -7.129 47.948 71.227
+{ n   ser a 166  B16.79 1C9P}-8.154 47.405 71.877
+{ ca  ser a 166  B17.00 1C9P}-8.082 47.033 73.282
+{ c   ser a 166  B19.36 1C9P}-6.994 46.012 73.62
+{ o   ser a 166  B18.59 1C9P}-6.168 46.243 74.516
+{ c   ser a 166  B19.36 1C9P}P -6.994 46.012 73.62
+{ n   ser a 167  B20.03 1C9P}-7.007 44.878 72.92
+{ ca  ser a 167  B20.90 1C9P}-6.019 43.836 73.164
+{ c   ser a 167  B19.84 1C9P}-4.627 44.331 72.771
+{ o   ser a 167  B19.90 1C9P}-3.625 43.984 73.406
+{ c   ser a 167  B19.84 1C9P}P -4.627 44.331 72.771
+{ n   cys a 168  B17.88 1C9P}-4.569 45.152 71.729
+{ ca  cys a 168  B18.47 1C9P}-3.292 45.691 71.276
+{ c   cys a 168  B17.04 1C9P}-2.68 46.528 72.389
+{ o   cys a 168  B15.79 1C9P}-1.473 46.504 72.602
+{ c   cys a 168  B17.04 1C9P}P -2.68 46.528 72.389
+{ n   lys a 169  B17.68 1C9P}-3.53 47.258 73.102
+{ ca  lys a 169  B17.41 1C9P}-3.08 48.102 74.204
+{ c   lys a 169  B18.38 1C9P}-2.836 47.289 75.472
+{ o   lys a 169  B17.52 1C9P}-2.036 47.682 76.321
+{ c   lys a 169  B18.38 1C9P}P -2.836 47.289 75.472
+{ n   ser a 170  B20.51 1C9P}-3.522 46.158 75.606
+{ ca  ser a 170  B23.36 1C9P}-3.318 45.309 76.781
+{ c   ser a 170  B24.62 1C9P}-1.947 44.64 76.667
+{ o   ser a 170  B25.20 1C9P}-1.31 44.318 77.675
+{ c   ser a 170  B24.62 1C9P}P -1.947 44.64 76.667
+{ n   ser a 171  B24.40 1C9P}-1.489 44.441 75.434
+{ ca  ser a 171  B23.99 1C9P}-0.192 43.824 75.194
+{ c   ser a 171  B23.88 1C9P}0.928 44.847 75.331
+{ o   ser a 171  B24.30 1C9P}2.013 44.519 75.793
+{ c   ser a 171  B23.88 1C9P}P 0.928 44.847 75.331
+{ n   tyr a 172  B23.73 1C9P}0.651 46.086 74.931
+{ ca  tyr a 172  B23.43 1C9P}1.637 47.169 74.97
+{ c   tyr a 172  B24.23 1C9P}1.142 48.375 75.773
+{ o   tyr a 172  B26.28 1C9P}0.855 49.439 75.207
+{ c   tyr a 172  B24.23 1C9P}P 1.142 48.375 75.773
+{ n   pro a 173  B22.87 1C9P}1.073 48.243 77.108
+{ ca  pro a 173  B22.56 1C9P}0.604 49.33 77.967
+{ c   pro a 173  B23.05 1C9P}1.376 50.627 77.776
+{ o   pro a 173  B25.21 1C9P}2.606 50.637 77.828
+{ c   pro a 173  B23.05 1C9P}P 1.376 50.627 77.776
+{ n   gly a 174  B22.30 1C9P}0.641 51.713 77.547
+{ ca  gly a 174  B20.86 1C9P}1.245 53.022 77.374
+{ c   gly a 174  B21.88 1C9P}2.221 53.195 76.223
+{ o   gly a 174  B22.21 1C9P}3.03 54.132 76.233
+{ c   gly a 174  B21.88 1C9P}P 2.221 53.195 76.223
+{ n   gln a 175  B21.01 1C9P}2.153 52.318 75.226
+{ ca  gln a 175  B22.01 1C9P}3.063 52.427 74.095
+{ c   gln a 175  B20.21 1C9P}2.392 52.434 72.719
+{ o   gln a 175  B21.63 1C9P}3.022 52.769 71.715
+{ c   gln a 175  B20.21 1C9P}P 2.392 52.434 72.719
+{ n   ile a 176  B17.17 1C9P}1.112 52.083 72.677
+{ ca  ile a 176  B13.57 1C9P}0.359 52.046 71.427
+{ c   ile a 176  B15.30 1C9P}-0.39 53.36 71.217
+{ o   ile a 176  B16.99 1C9P}-1.206 53.761 72.048
+{ c   ile a 176  B15.30 1C9P}P -0.39 53.36 71.217
+{ n   thr a 177  B14.52 1C9P}-0.113 54.025 70.099
+{ ca  thr a 177  B12.28 1C9P}-0.75 55.302 69.779
+{ c   thr a 177  B13.25 1C9P}-1.937 55.105 68.848
+{ o   thr a 177  B14.16 1C9P}-2.259 53.982 68.459
+{ c   thr a 177  B13.25 1C9P}P -1.937 55.105 68.848
+{ n   gly a 178  B11.53 1C9P}-2.566 56.215 68.478
+{ ca  gly a 178  B12.03 1C9P}-3.71 56.157 67.589
+{ c   gly a 178  B12.57 1C9P}-3.289 55.875 66.16
+{ o   gly a 178  B12.93 1C9P}-4.123 55.651 65.283
+{ c   gly a 178  B12.57 1C9P}P -3.289 55.875 66.16
+{ n   asn a 179  B12.22 1C9P}-1.984 55.881 65.923
+{ ca  asn a 179  B12.58 1C9P}-1.467 55.624 64.59
+{ c   asn a 179  B13.06 1C9P}-0.819 54.254 64.511
+{ o   asn a 179  B12.32 1C9P}0.079 54.033 63.697
+{ c   asn a 179  B13.06 1C9P}P -0.819 54.254 64.511
+{ n   met a 180  B12.41 1C9P}-1.288 53.334 65.352
+{ ca  met a 180  B10.13 1C9P}-0.73 51.992 65.399
+{ c   met a 180  B12.38 1C9P}-1.807 50.939 65.588
+{ o   met a 180  B11.38 1C9P}-2.804 51.169 66.273
+{ c   met a 180  B12.38 1C9P}P -1.807 50.939 65.588
+{ n   ile a 181  B13.16 1C9P}-1.597 49.78 64.973
+{ ca  ile a 181  B13.21 1C9P}-2.523 48.665 65.105
+{ c   ile a 181  B13.84 1C9P}-1.714 47.389 65.279
+{ o   ile a 181  B14.04 1C9P}-0.612 47.274 64.757
+{ c   ile a 181  B13.84 1C9P}P -1.714 47.389 65.279
+{ n   cys a 182  B15.07 1C9P}-2.245 46.444 66.045
+{ ca  cys a 182  B15.93 1C9P}-1.567 45.173 66.221
+{ c   cys a 182  B16.34 1C9P}-2.218 44.178 65.27
+{ o   cys a 182  B18.61 1C9P}-3.438 44.063 65.227
+{ c   cys a 182  B16.34 1C9P}P -2.218 44.178 65.27
+{ n   val a 183  B15.53 1C9P}-1.41 43.472 64.496
+{ ca  val a 183  B15.28 1C9P}-1.932 42.455 63.598
+{ c   val a 183  B16.37 1C9P}-1.093 41.239 63.936
+{ o   val a 183  B18.55 1C9P}0.135 41.335 63.972
+{ c   val a 183  B16.37 1C9P}P -1.093 41.239 63.936
+{ n   gly a 184  B16.56 1C9P}-1.727 40.106 64.214
+{ ca  gly a 184  B17.02 1C9P}-0.942 38.925 64.529
+{ c   gly a 184  B18.18 1C9P}-1.595 37.887 65.413
+{ o   gly a 184  B18.68 1C9P}-2.791 37.635 65.317
+{ c   gly a 184  B18.18 1C9P}P -1.595 37.887 65.413
+{ n   phe a 184b B20.68 1C9P}-0.794 37.287 66.288
+{ ca  phe a 184b B22.59 1C9P}-1.267 36.242 67.19
+{ c   phe a 184b B25.23 1C9P}-0.732 36.473 68.613
+{ o   phe a 184b B24.08 1C9P}0.483 36.592 68.809
+{ c   phe a 184b B25.23 1C9P}P -0.732 36.473 68.613
+{ n   leu a 185  B27.45 1C9P}-1.648 36.536 69.586
+{ ca  leu a 185  B29.75 1C9P}-1.327 36.758 71.006
+{ c   leu a 185  B31.18 1C9P}-0.762 35.477 71.601
+{ o   leu a 185  B32.68 1C9P}-0.285 35.429 72.732
+{ c   leu a 185  B31.18 1C9P}P -0.762 35.477 71.601
+{ n   glu a 186  B31.90 1C9P}-0.854 34.443 70.792
+{ ca  glu a 186  B33.04 1C9P}-0.446 33.089 71.096
+{ c   glu a 186  B33.66 1C9P}0.984 32.855 70.618
+{ o   glu a 186  B34.19 1C9P}1.596 31.831 70.923
+{ c   glu a 186  B33.66 1C9P}P 0.984 32.855 70.618
+{ n   gly a 187  B32.46 1C9P}1.506 33.823 69.868
+{ ca  gly a 187  B30.76 1C9P}2.858 33.727 69.351
+{ c   gly a 187  B30.30 1C9P}2.974 32.748 68.201
+{ o   gly a 187  B31.75 1C9P}1.972 32.179 67.764
+{ c   gly a 187  B30.30 1C9P}P 2.974 32.748 68.201
+{ n   gly a 188  B27.37 1C9P}4.194 32.564 67.7
+{ ca  gly a 188  B24.84 1C9P}4.415 31.633 66.613
+{ c   gly a 188  B25.29 1C9P}4.565 32.25 65.239
+{ o   gly a 188  B26.76 1C9P}5.454 31.855 64.477
+{ c   gly a 188  B25.29 1C9P}P 4.565 32.25 65.239
+{ n   lys a 188b B23.48 1C9P}3.702 33.207 64.913
+{ ca  lys a 188b B22.08 1C9P}3.742 33.867 63.61
+{ c   lys a 188b B20.95 1C9P}3.8 35.381 63.806
+{ o   lys a 188b B21.28 1C9P}3.044 35.936 64.606
+{ c   lys a 188b B20.95 1C9P}P 3.8 35.381 63.806
+{ n   asp a 189  B17.34 1C9P}4.68 36.053 63.07
+{ ca  asp a 189  B13.16 1C9P}4.806 37.498 63.205
+{ c   asp a 189  B12.70 1C9P}5.857 38.029 62.239
+{ o   asp a 189  B11.94 1C9P}6.619 37.258 61.664
+{ c   asp a 189  B12.70 1C9P}P 5.857 38.029 62.239
+{ n   ser a 190  B13.00 1C9P}5.877 39.34 62.02
+{ ca  ser a 190  B12.34 1C9P}6.879 39.923 61.136
+{ c   ser a 190  B11.87 1C9P}8.118 40.072 62.009
+{ o   ser a 190  B11.04 1C9P}8.009 40.095 63.232
+{ c   ser a 190  B11.87 1C9P}P 8.118 40.072 62.009
+{ n   cys a 191  B11.58 1C9P}9.289 40.188 61.398
+{ ca  cys a 191  B9.80 1C9P}10.505 40.264 62.187
+{ c   cys a 191  B12.25 1C9P}11.567 41.184 61.574
+{ o   cys a 191  B10.41 1C9P}11.376 41.715 60.466
+{ c   cys a 191  B12.25 1C9P}P 11.567 41.184 61.574
+{ n   gln a 192  B11.69 1C9P}12.678 41.381 62.289
+{ ca  gln a 192  B13.49 1C9P}13.747 42.241 61.78
+{ c   gln a 192  B13.03 1C9P}14.028 41.955 60.308
+{ o   gln a 192  B13.69 1C9P}14.332 40.829 59.923
+{ c   gln a 192  B13.03 1C9P}P 14.028 41.955 60.308
+{ n   gly a 193  B13.01 1C9P}13.919 42.993 59.489
+{ ca  gly a 193  B11.32 1C9P}14.139 42.841 58.066
+{ c   gly a 193  B11.07 1C9P}12.826 42.984 57.318
+{ o   gly a 193  B13.04 1C9P}12.817 43.049 56.092
+{ c   gly a 193  B11.07 1C9P}P 12.826 42.984 57.318
+{ n   asp a 194  B8.82 1C9P}11.714 43.027 58.051
+{ ca  asp a 194  B7.87 1C9P}10.4 43.165 57.442
+{ c   asp a 194  B8.78 1C9P}9.842 44.579 57.515
+{ o   asp a 194  B11.10 1C9P}8.761 44.846 57.006
+{ c   asp a 194  B8.78 1C9P}P 9.842 44.579 57.515
+{ n   ser a 195  B10.87 1C9P}10.571 45.487 58.151
+{ ca  ser a 195  B11.00 1C9P}10.118 46.871 58.28
+{ c   ser a 195  B9.27 1C9P}9.807 47.54 56.95
+{ o   ser a 195  B10.19 1C9P}10.513 47.342 55.965
+{ c   ser a 195  B9.27 1C9P}P 9.807 47.54 56.95
+{ n   gly a 196  B8.96 1C9P}8.752 48.347 56.936
+{ ca  gly a 196  B9.71 1C9P}8.372 49.05 55.725
+{ c   gly a 196  B11.12 1C9P}7.514 48.227 54.785
+{ o   gly a 196  B11.16 1C9P}6.893 48.776 53.882
+{ c   gly a 196  B11.12 1C9P}P 7.514 48.227 54.785
+{ n   gly a 197  B11.76 1C9P}7.479 46.913 54.999
+{ ca  gly a 197  B10.71 1C9P}6.687 46.03 54.155
+{ c   gly a 197  B10.57 1C9P}5.182 46.177 54.302
+{ o   gly a 197  B12.25 1C9P}4.696 46.749 55.275
+{ c   gly a 197  B10.57 1C9P}P 5.182 46.177 54.302
+{ n   pro a 198  B10.39 1C9P}4.411 45.655 53.341
+{ ca  pro a 198  B8.89 1C9P}2.946 45.691 53.285
+{ c   pro a 198  B9.07 1C9P}2.165 44.766 54.226
+{ o   pro a 198  B9.32 1C9P}2.598 43.664 54.562
+{ c   pro a 198  B9.07 1C9P}P 2.165 44.766 54.226
+{ n   val a 199  B8.92 1C9P}0.991 45.24 54.62
+{ ca  val a 199  B8.71 1C9P}0.047 44.491 55.437
+{ c   val a 199  B9.19 1C9P}-1.226 44.732 54.644
+{ o   val a 199  B11.59 1C9P}-2.004 45.627 54.951
+{ c   val a 199  B9.19 1C9P}P -1.226 44.732 54.644
+{ n   val a 200  B10.91 1C9P}-1.408 43.943 53.593
+{ ca  val a 200  B12.26 1C9P}-2.562 44.097 52.714
+{ c   val a 200  B14.23 1C9P}-3.804 43.355 53.175
+{ o   val a 200  B16.95 1C9P}-3.769 42.151 53.4
+{ c   val a 200  B14.23 1C9P}P -3.804 43.355 53.175
+{ n   cys a 201  B16.96 1C9P}-4.904 44.091 53.296
+{ ca  cys a 201  B19.41 1C9P}-6.177 43.532 53.728
+{ c   cys a 201  B22.67 1C9P}-7.231 43.944 52.693
+{ o   cys a 201  B24.23 1C9P}-7.58 45.118 52.587
+{ c   cys a 201  B22.67 1C9P}P -7.231 43.944 52.693
+{ n   asn a 202  B25.05 1C9P}-7.74 42.983 51.93
+{ ca  asn a 202  B26.60 1C9P}-8.763 43.252 50.924
+{ c   asn a 202  B26.06 1C9P}-8.302 44.029 49.706
+{ o   asn a 202  B27.11 1C9P}-9.116 44.654 49.013
+{ c   asn a 202  B26.06 1C9P}P -8.302 44.029 49.706
+{ n   gly a 203  B25.95 1C9P}-7.009 43.977 49.425
+{ ca  gly a 203  B25.72 1C9P}-6.491 44.686 48.266
+{ c   gly a 203  B25.04 1C9P}-6.117 46.114 48.575
+{ o   gly a 203  B26.62 1C9P}-5.834 46.908 47.667
+{ c   gly a 203  B25.04 1C9P}P -6.117 46.114 48.575
+{ n   gln a 204  B21.50 1C9P}-6.105 46.448 49.858
+{ ca  gln a 204  B19.15 1C9P}-5.77 47.786 50.306
+{ c   gln a 204  B17.86 1C9P}-4.643 47.738 51.316
+{ o   gln a 204  B18.49 1C9P}-4.645 46.907 52.212
+{ c   gln a 204  B17.86 1C9P}P -4.643 47.738 51.316
+{ n   leu a 209  B16.97 1C9P}-3.687 48.644 51.177
+{ ca  leu a 209  B17.18 1C9P}-2.564 48.702 52.094
+{ c   leu a 209  B17.68 1C9P}-3.068 49.215 53.431
+{ o   leu a 209  B19.24 1C9P}-3.274 50.41 53.593
+{ c   leu a 209  B17.68 1C9P}P -3.068 49.215 53.431
+{ n   gln a 210  B16.98 1C9P}-3.265 48.319 54.391
+{ ca  gln a 210  B15.61 1C9P}-3.753 48.729 55.705
+{ c   gln a 210  B13.82 1C9P}-2.672 48.951 56.753
+{ o   gln a 210  B13.43 1C9P}-2.877 49.729 57.685
+{ c   gln a 210  B13.82 1C9P}P -2.672 48.951 56.753
+{ n   gly a 211  B11.72 1C9P}-1.529 48.286 56.612
+{ ca  gly a 211  B12.89 1C9P}-0.468 48.462 57.591
+{ c   gly a 211  B12.13 1C9P}0.963 48.433 57.073
+{ o   gly a 211  B13.05 1C9P}1.243 47.889 56.012
+{ c   gly a 211  B12.13 1C9P}P 0.963 48.433 57.073
+{ n   ile a 212  B11.77 1C9P}1.873 49.036 57.83
+{ ca  ile a 212  B11.17 1C9P}3.289 49.068 57.477
+{ c   ile a 212  B10.61 1C9P}4.051 48.443 58.641
+{ o   ile a 212  B10.44 1C9P}3.927 48.9 59.777
+{ c   ile a 212  B10.61 1C9P}P 4.051 48.443 58.641
+{ n   val a 213  B10.63 1C9P}4.827 47.399 58.365
+{ ca  val a 213  B10.52 1C9P}5.596 46.733 59.412
+{ c   val a 213  B11.24 1C9P}6.367 47.787 60.195
+{ o   val a 213  B12.35 1C9P}7.088 48.598 59.612
+{ c   val a 213  B11.24 1C9P}P 6.367 47.787 60.195
+{ n   ser a 214  B10.56 1C9P}6.214 47.776 61.515
+{ ca  ser a 214  B10.07 1C9P}6.89 48.761 62.348
+{ c   ser a 214  B10.54 1C9P}7.75 48.172 63.479
+{ o   ser a 214  B10.00 1C9P}8.948 47.965 63.296
+{ c   ser a 214  B10.54 1C9P}P 7.75 48.172 63.479
+{ n   trp a 215  B10.36 1C9P}7.153 47.895 64.637
+{ ca  trp a 215  B10.76 1C9P}7.924 47.364 65.76
+{ c   trp a 215  B14.04 1C9P}7.254 46.251 66.568
+{ o   trp a 215  B15.10 1C9P}6.316 45.586 66.112
+{ c   trp a 215  B14.04 1C9P}P 7.254 46.251 66.568
+{ n   gly a 216  B15.84 1C9P}7.757 46.066 67.786
+{ ca  gly a 216  B20.75 1C9P}7.223 45.056 68.684
+{ c   gly a 216  B22.34 1C9P}8.298 44.441 69.56
+{ o   gly a 216  B22.37 1C9P}9.472 44.772 69.421
+{ c   gly a 216  B22.34 1C9P}P 8.298 44.441 69.56
+{ n   tyr a 217  B26.29 1C9P}7.903 43.567 70.483
+{ ca  tyr a 217  B31.11 1C9P}8.879 42.887 71.335
+{ c   tyr a 217  B29.80 1C9P}9.368 41.677 70.56
+{ o   tyr a 217  B28.79 1C9P}8.578 40.781 70.24
+{ c   tyr a 217  B29.80 1C9P}P 9.368 41.677 70.56
+{ n   gly a 219  B27.57 1C9P}10.664 41.646 70.259
+{ ca  gly a 219  B26.61 1C9P}11.212 40.533 69.513
+{ c   gly a 219  B26.06 1C9P}10.277 40.126 68.389
+{ o   gly a 219  B27.10 1C9P}9.657 40.979 67.755
+{ c   gly a 219  B26.06 1C9P}P 10.277 40.126 68.389
+{ n   cys a 220  B24.58 1C9P}10.156 38.824 68.149
+{ ca  cys a 220  B23.40 1C9P}9.291 38.337 67.082
+{ c   cys a 220  B23.53 1C9P}8.543 37.085 67.515
+{ o   cys a 220  B25.87 1C9P}9.092 36.237 68.212
+{ c   cys a 220  B23.53 1C9P}P 8.543 37.085 67.515
+{ n   ala a 221  B22.61 1C9P}7.285 36.984 67.1
+{ ca  ala a 221  B22.07 1C9P}6.452 35.832 67.4
+{ c   ala a 221  B22.50 1C9P}6.375 35.455 68.873
+{ o   ala a 221  B23.70 1C9P}6.248 34.274 69.197
+{ c   ala a 221  B22.50 1C9P}P 6.375 35.455 68.873
+{ n   gln a 221b B23.81 1C9P}6.453 36.443 69.763
+{ ca  gln a 221b B24.49 1C9P}6.376 36.18 71.206
+{ c   gln a 221b B25.79 1C9P}4.938 36.109 71.693
+{ o   gln a 221b B29.47 1C9P}4.082 36.863 71.232
+{ c   gln a 221b B25.79 1C9P}P 4.938 36.109 71.693
+{ n   lys a 222  B27.71 1C9P}4.665 35.211 72.63
+{ ca  lys a 222  B29.76 1C9P}3.306 35.086 73.143
+{ c   lys a 222  B29.27 1C9P}2.866 36.4 73.787
+{ o   lys a 222  B28.54 1C9P}3.564 36.956 74.632
+{ c   lys a 222  B29.27 1C9P}P 2.866 36.4 73.787
+{ n   asn a 223  B29.43 1C9P}1.707 36.891 73.36
+{ ca  asn a 223  B28.08 1C9P}1.146 38.138 73.861
+{ c   asn a 223  B26.74 1C9P}1.919 39.374 73.451
+{ o   asn a 223  B28.46 1C9P}1.888 40.389 74.141
+{ c   asn a 223  B26.74 1C9P}P 1.919 39.374 73.451
+{ n   lys a 224  B24.32 1C9P}2.608 39.292 72.323
+{ ca  lys a 224  B21.34 1C9P}3.38 40.42 71.824
+{ c   lys a 224  B19.15 1C9P}3.344 40.455 70.303
+{ o   lys a 224  B16.80 1C9P}4.354 40.206 69.642
+{ c   lys a 224  B19.15 1C9P}P 3.344 40.455 70.303
+{ n   pro a 225  B17.37 1C9P}2.162 40.738 69.73
+{ ca  pro a 225  B15.75 1C9P}1.974 40.807 68.282
+{ c   pro a 225  B14.45 1C9P}2.71 42.012 67.732
+{ o   pro a 225  B14.58 1C9P}2.976 42.963 68.46
+{ c   pro a 225  B14.45 1C9P}P 2.71 42.012 67.732
+{ n   gly a 226  B14.08 1C9P}3.04 41.968 66.449
+{ ca  gly a 226  B15.40 1C9P}3.752 43.072 65.839
+{ c   gly a 226  B16.40 1C9P}2.895 44.314 65.696
+{ o   gly a 226  B16.13 1C9P}1.694 44.227 65.43
+{ c   gly a 226  B16.40 1C9P}P 2.895 44.314 65.696
+{ n   val a 227  B16.41 1C9P}3.518 45.476 65.872
+{ ca  val a 227  B15.08 1C9P}2.817 46.742 65.76
+{ c   val a 227  B15.46 1C9P}3.079 47.34 64.388
+{ o   val a 227  B15.98 1C9P}4.236 47.476 63.971
+{ c   val a 227  B15.46 1C9P}P 3.079 47.34 64.388
+{ n   tyr a 228  B13.85 1C9P}2.002 47.702 63.697
+{ ca  tyr a 228  B11.40 1C9P}2.097 48.266 62.359
+{ c   tyr a 228  B11.41 1C9P}1.505 49.66 62.285
+{ o   tyr a 228  B12.91 1C9P}0.567 49.985 63.005
+{ c   tyr a 228  B11.41 1C9P}P 1.505 49.66 62.285
+{ n   thr a 229  B12.23 1C9P}2.052 50.478 61.396
+{ ca  thr a 229  B12.22 1C9P}1.557 51.829 61.208
+{ c   thr a 229  B12.82 1C9P}0.173 51.715 60.56
+{ o   thr a 229  B10.84 1C9P}-0.027 50.939 59.617
+{ c   thr a 229  B12.82 1C9P}P 0.173 51.715 60.56
+{ n   lys a 230  B11.92 1C9P}-0.773 52.494 61.076
+{ ca  lys a 230  B11.43 1C9P}-2.149 52.484 60.6
+{ c   lys a 230  B9.80 1C9P}-2.277 53.367 59.367
+{ o   lys a 230  B11.89 1C9P}-2.689 54.521 59.451
+{ c   lys a 230  B9.80 1C9P}P -2.277 53.367 59.367
+{ n   val a 231  B8.34 1C9P}-1.936 52.809 58.215
+{ ca  val a 231  B10.11 1C9P}-1.973 53.557 56.964
+{ c   val a 231  B11.19 1C9P}-3.257 54.33 56.662
+{ o   val a 231  B12.49 1C9P}-3.202 55.42 56.093
+{ c   val a 231  B11.19 1C9P}P -3.257 54.33 56.662
+{ n   cys a 232  B13.03 1C9P}-4.409 53.793 57.048
+{ ca  cys a 232  B12.48 1C9P}-5.666 54.472 56.756
+{ c   cys a 232  B12.87 1C9P}-5.75 55.877 57.349
+{ o   cys a 232  B13.90 1C9P}-6.617 56.658 56.954
+{ c   cys a 232  B12.87 1C9P}P -5.75 55.877 57.349
+{ n   asn a 233  B13.20 1C9P}-4.871 56.196 58.299
+{ ca  asn a 233  B11.93 1C9P}-4.855 57.532 58.908
+{ c   asn a 233  B12.93 1C9P}-3.937 58.464 58.145
+{ o   asn a 233  B13.52 1C9P}-3.809 59.637 58.503
+{ c   asn a 233  B12.93 1C9P}P -3.937 58.464 58.145
+{ n   tyr a 234  B15.31 1C9P}-3.297 57.944 57.101
+{ ca  tyr a 234  B15.94 1C9P}-2.354 58.73 56.31
+{ c   tyr a 234  B16.28 1C9P}-2.731 58.896 54.845
+{ o   tyr a 234  B16.34 1C9P}-1.982 59.501 54.077
+{ c   tyr a 234  B16.28 1C9P}P -2.731 58.896 54.845
+{ n   val a 235  B15.70 1C9P}-3.886 58.365 54.459
+{ ca  val a 235  B16.88 1C9P}-4.335 58.473 53.081
+{ c   val a 235  B16.96 1C9P}-4.294 59.923 52.622
+{ o   val a 235  B16.65 1C9P}-3.751 60.241 51.568
+{ c   val a 235  B16.96 1C9P}P -4.294 59.923 52.622
+{ n   asn a 236  B19.35 1C9P}-4.861 60.81 53.427
+{ ca  asn a 236  B20.43 1C9P}-4.888 62.215 53.064
+{ c   asn a 236  B17.95 1C9P}-3.485 62.803 52.923
+{ o   asn a 236  B18.52 1C9P}-3.186 63.449 51.922
+{ c   asn a 236  B17.95 1C9P}P -3.485 62.803 52.923
+{ n   trp a 237  B14.56 1C9P}-2.627 62.583 53.916
+{ ca  trp a 237  B12.67 1C9P}-1.261 63.098 53.85
+{ c   trp a 237  B12.54 1C9P}-0.541 62.621 52.596
+{ o   trp a 237  B10.15 1C9P}0.125 63.4 51.915
+{ c   trp a 237  B12.54 1C9P}P -0.541 62.621 52.596
+{ n   ile a 238  B13.80 1C9P}-0.669 61.329 52.314
+{ ca  ile a 238  B16.01 1C9P}-0.036 60.717 51.155
+{ c   ile a 238  B15.01 1C9P}-0.446 61.405 49.862
+{ o   ile a 238  B14.25 1C9P}0.395 61.957 49.152
+{ c   ile a 238  B15.01 1C9P}P -0.446 61.405 49.862
+{ n   gln a 239  B16.47 1C9P}-1.741 61.375 49.565
+{ ca  gln a 239  B17.83 1C9P}-2.264 61.991 48.353
+{ c   gln a 239  B17.67 1C9P}-1.873 63.453 48.187
+{ o   gln a 239  B16.03 1C9P}-1.602 63.904 47.074
+{ c   gln a 239  B17.67 1C9P}P -1.873 63.453 48.187
+{ n   gln a 240  B17.98 1C9P}-1.839 64.193 49.289
+{ ca  gln a 240  B18.35 1C9P}-1.457 65.593 49.223
+{ c   gln a 240  B18.25 1C9P}0.011 65.702 48.836
+{ o   gln a 240  B20.83 1C9P}0.355 66.4 47.885
+{ c   gln a 240  B18.25 1C9P}P 0.011 65.702 48.836
+{ n   thr a 241  B18.14 1C9P}0.877 64.999 49.561
+{ ca  thr a 241  B16.51 1C9P}2.308 65.035 49.277
+{ c   thr a 241  B15.37 1C9P}2.646 64.646 47.837
+{ o   thr a 241  B14.53 1C9P}3.517 65.258 47.218
+{ c   thr a 241  B15.37 1C9P}P 2.646 64.646 47.837
+{ n   ile a 242  B14.22 1C9P}1.968 63.638 47.3
+{ ca  ile a 242  B16.14 1C9P}2.239 63.233 45.926
+{ c   ile a 242  B17.25 1C9P}1.817 64.337 44.962
+{ o   ile a 242  B18.73 1C9P}2.498 64.602 43.967
+{ c   ile a 242  B17.25 1C9P}P 1.817 64.337 44.962
+{ n   ala a 243  B17.87 1C9P}0.693 64.978 45.262
+{ ca  ala a 243  B18.06 1C9P}0.166 66.046 44.418
+{ c   ala a 243  B19.31 1C9P}1.075 67.261 44.402
+{ o   ala a 243  B21.18 1C9P}1.177 67.957 43.391
+{ c   ala a 243  B19.31 1C9P}P 1.075 67.261 44.402
+{ n   ala a 244  B19.71 1C9P}1.743 67.511 45.519
+{ ca  ala a 244  B20.93 1C9P}2.64 68.654 45.625
+{ c   ala a 244  B21.42 1C9P}4.037 68.402 45.067
+{ o   ala a 244  B23.75 1C9P}4.725 69.339 44.693
+{ c   ala a 244  B21.42 1C9P}P 4.037 68.402 45.067
+{ n   asn a 245  B23.10 1C9P}4.46 67.145 45.008
+{ ca  asn a 245  B24.58 1C9P}5.794 66.805 44.513
+{ c   asn a 245  B25.67 1C9P}5.819 66.103 43.159
+{ o   asn a 245  B27.82 1C9P}4.774 66.056 42.481
+{ c   asn a 245  B25.67 1C9P}P 5.819 66.103 43.159
+{ oxt asn a 245  B25.34 1C9P}6.904 65.615 42.786
+@vectorlist {Calphas} off color= white master= {Calphas}
+{ ca  ile a 16  B17.28 1C9P}P 8.429 36.647 58.62
+{"}8.429 36.647 58.62
+{ ca  val a 17  B12.67 1C9P}8.222 34.013 61.354
+{ ca  gly a 18  B15.21 1C9P}5.882 31.081 60.794
+{ ca  gly a 19  B18.37 1C9P}5.014 31.931 57.222
+{ ca  tyr a 20  B16.29 1C9P}5.374 30.3 53.828
+{ ca  thr a 21  B16.41 1C9P}7.185 31.15 50.606
+{ ca  cys a 22  B15.00 1C9P}4.941 33.449 48.559
+{ ca  ala a 23  B21.13 1C9P}3.961 32.126 45.132
+{ ca  ala a 24  B32.25 1C9P}5.531 33.593 41.976
+{ ca  asn a 25  B34.62 1C9P}3.187 36.473 41.095
+{ ca  ser a 26  B26.75 1C9P}1.346 36.821 44.397
+{ ca  ile a 27  B16.22 1C9P}2.873 40.018 45.813
+{ ca  pro a 28  B11.55 1C9P}3.743 42.39 42.891
+{ ca  tyr a 29  B9.64 1C9P}3.618 45.563 44.999
+{ ca  gln a 30  B9.54 1C9P}6.421 44.429 47.373
+{ ca  val a 31  B11.38 1C9P}9.759 46.255 47.067
+{ ca  ser a 32  B15.95 1C9P}13.186 46.058 48.652
+{ ca  leu a 33  B18.09 1C9P}15.036 49.049 50.058
+{ ca  asn a 34  B25.73 1C9P}18.758 48.615 49.507
+{ ca  ser a 37  B27.21 1C9P}21.717 50.625 50.806
+{ ca  gly a 38  B26.41 1C9P}24.431 48.106 50.067
+{ ca  ser a 39  B23.80 1C9P}22.054 45.292 50.903
+{ ca  his a 40  B18.82 1C9P}18.41 44.698 51.855
+{ ca  phe a 41  B13.32 1C9P}17.521 46.593 55.034
+{ ca  cys a 42  B12.83 1C9P}13.785 47.314 54.726
+{ ca  gly a 43  B12.84 1C9P}10.724 46.549 52.663
+{ ca  gly a 44  B7.87 1C9P}8.186 48.802 51.005
+{ ca  ser a 45  B10.94 1C9P}5.096 49.088 48.839
+{ ca  leu a 46  B9.03 1C9P}4.591 50.457 45.339
+{ ca  ile a 47  B11.24 1C9P}1.34 52.45 45.37
+{ ca  asn a 48  B17.76 1C9P}2.059 54.257 42.12
+{ ca  ser a 49  B20.07 1C9P}4.509 54.041 39.217
+{ ca  gln a 50  B19.43 1C9P}6.699 56.59 41.001
+{ ca  trp a 51  B15.61 1C9P}6.013 56.343 44.723
+{ ca  val a 52  B13.19 1C9P}6.772 53.755 47.375
+{ ca  val a 53  B11.23 1C9P}5.616 53.725 50.981
+{ ca  ser a 54  B9.63 1C9P}7.825 52.502 53.817
+{ ca  ala a 55  B9.41 1C9P}8.4 53.12 57.532
+{ ca  ala a 56  B12.64 1C9P}10.17 56.36 58.458
+{ ca  his a 57  B11.72 1C9P}12.732 54.58 60.625
+{ ca  cys a 58  B11.55 1C9P}14.035 53.048 57.387
+{ ca  tyr a 59  B15.15 1C9P}15.078 56.523 56.233
+{ ca  lys a 60  B16.06 1C9P}18.544 56.878 54.711
+{ ca  ser a 61  B17.68 1C9P}19.904 59.709 52.571
+{ ca  arg a 62  B19.81 1C9P}20.801 57.178 49.883
+{ ca  ile a 63  B16.06 1C9P}18.326 54.482 48.908
+{ ca  gln a 64  B11.21 1C9P}18.059 52.238 45.895
+{ ca  val a 65  B9.82 1C9P}14.677 50.666 45.326
+{ ca  arg a 66  B11.60 1C9P}14.592 47.124 43.916
+{ ca  leu a 67  B14.81 1C9P}11.328 46.068 42.274
+{ ca  gly a 69  B14.19 1C9P}10.07 42.76 40.88
+{ ca  glu a 70  B16.02 1C9P}12.013 40.611 43.345
+{ ca  his a 71  B20.16 1C9P}11.226 37.051 44.383
+{ ca  asn a 72  B18.59 1C9P}14.658 35.645 45.227
+{ ca  ile a 73  B20.45 1C9P}16.8 38.552 46.458
+{ ca  asp a 74  B23.43 1C9P}19.939 36.448 45.941
+{ ca  val a 75  B26.38 1C9P}19.351 35.353 42.357
+{ ca  leu a 76  B27.51 1C9P}18.92 37.623 39.336
+{ ca  glu a 77  B34.99 1C9P}15.772 36.131 37.782
+{ ca  gly a 78  B37.12 1C9P}15.46 38.769 35.072
+{ ca  asn a 79  B35.85 1C9P}12.312 40.579 36.278
+{ ca  glu a 80  B22.75 1C9P}14.025 43.002 38.677
+{ ca  gln a 81  B14.87 1C9P}14.182 46.777 38.33
+{ ca  phe a 82  B11.91 1C9P}16.661 48.893 40.245
+{ ca  ile a 83  B13.72 1C9P}15.603 52.513 40.633
+{ ca  asn a 84  B18.39 1C9P}17.063 55.129 42.991
+{ ca  ala a 85  B14.84 1C9P}15.174 57.318 45.41
+{ ca  ala a 86  B10.04 1C9P}14.77 60.881 44.197
+{ ca  lys a 87  B9.39 1C9P}12.611 62.272 46.993
+{ ca  ile a 88  B8.06 1C9P}12.747 60.789 50.479
+{ ca  ile a 89  B9.10 1C9P}9.981 62.284 52.619
+{ ca  thr a 90  B8.91 1C9P}9.381 61.118 56.197
+{ ca  his a 91  B8.00 1C9P}6.225 62.185 58.021
+{ ca  pro a 92  B9.45 1C9P}6.413 65.7 59.589
+{ ca  asn a 93  B15.10 1C9P}5.43 64.439 63.019
+{ ca  phe a 94  B18.70 1C9P}7.489 61.272 62.987
+{ ca  asn a 95  B21.30 1C9P}8.747 60.567 66.509
+{ ca  gly a 96  B26.02 1C9P}11.991 58.609 66.596
+{ ca  asn a 97  B27.83 1C9P}11.605 57.616 70.261
+{ ca  thr a 98  B22.24 1C9P}8.023 56.343 70.106
+{ ca  leu a 99  B15.94 1C9P}7.927 55.432 66.42
+{ ca  asp a 100  B15.44 1C9P}4.657 57.295 66.191
+{ ca  asn a 101  B14.83 1C9P}3.663 58.373 62.677
+{ ca  asp a 102  B15.26 1C9P}6.067 55.798 61.327
+{ ca  ile a 103  B18.17 1C9P}5.423 56.204 57.602
+{ ca  met a 104  B14.95 1C9P}7.629 57.338 54.707
+{ ca  leu a 105  B14.90 1C9P}7.192 58.324 51.064
+{ ca  ile a 106  B12.16 1C9P}9.845 57.692 48.426
+{ ca  lys a 107  B13.79 1C9P}9.679 59.022 44.879
+{ ca  leu a 108  B15.23 1C9P}11.539 57.08 42.2
+{ ca  ser a 109  B18.00 1C9P}13.907 59.14 40.039
+{ ca  ser a 110  B17.75 1C9P}12.251 57.206 37.222
+{ ca  pro a 111  B16.30 1C9P}8.793 55.616 36.938
+{ ca  ala a 112  B15.34 1C9P}8.748 51.835 37.348
+{ ca  thr a 113  B12.92 1C9P}7.599 49.658 34.476
+{ ca  leu a 114  B14.52 1C9P}4.31 47.959 35.315
+{ ca  ser a 116  B35.68 1C9P}P 2.795 40.495 36.407
+{"}2.795 40.495 36.407
+{ ca  arg a 117  B27.36 1C9P}5.998 40.975 38.393
+{ ca  val a 118  B11.98 1C9P}5.585 44.667 39.219
+{ ca  ala a 119  B10.52 1C9P}2.216 46.122 40.18
+{ ca  thr a 120  B15.05 1C9P}0.808 48.699 42.568
+{ ca  val a 121  B11.05 1C9P}-1.294 48.246 45.697
+{ ca  ser a 122  B14.24 1C9P}-4.371 50.298 46.59
+{ ca  leu a 123  B16.58 1C9P}-4.668 52.738 49.491
+{ ca  pro a 124  B24.68 1C9P}-7.235 52.307 52.312
+{ ca  arg a 125  B34.11 1C9P}-10.668 53.584 51.349
+{ ca  ser a 127  B31.32 1C9P}-11.607 52.983 54.98
+{ ca  cys a 128  B22.77 1C9P}-9.824 51.585 58.069
+{ ca  ala a 129  B22.93 1C9P}-9.736 47.81 58.53
+{ ca  ala a 130  B26.44 1C9P}-11.939 46.275 61.214
+{ ca  ala a 132  B25.50 1C9P}-10.741 43.857 63.89
+{ ca  gly a 133  B21.32 1C9P}-10.72 40.278 62.684
+{ ca  thr a 134  B20.82 1C9P}-9.959 41.154 59.065
+{ ca  glu a 135  B22.60 1C9P}-7.559 38.633 57.5
+{ ca  cys a 136  B17.31 1C9P}-4.49 40.427 56.133
+{ ca  leu a 137  B11.00 1C9P}-1.417 39.425 54.165
+{ ca  ile a 138  B10.47 1C9P}2.048 40.371 55.423
+{ ca  ser a 139  B7.87 1C9P}5.238 39.773 53.414
+{ ca  gly a 140  B10.35 1C9P}8.994 40.264 53.678
+{ ca  trp a 141  B10.71 1C9P}12.614 39.038 53.571
+{ ca  gly a 142  B17.35 1C9P}13.2 39.442 57.285
+{ ca  asn a 143  B20.94 1C9P}14.476 36.89 59.788
+{ ca  thr a 144  B18.89 1C9P}12.343 33.732 59.858
+{ ca  lys a 145  B22.21 1C9P}13.222 32.914 63.446
+{ ca  ser a 146  B29.53 1C9P}11.841 34.157 66.751
+{ ca  ser a 147  B33.58 1C9P}15.064 33.193 68.528
+{ ca  gly a 148  B31.34 1C9P}17.713 32.038 66.103
+{ ca  ser a 149  B25.03 1C9P}18.614 33.805 62.872
+{ ca  ser a 150  B15.72 1C9P}17.708 32.831 59.338
+{ ca  tyr a 151  B12.84 1C9P}17.154 35.209 56.454
+{ ca  pro a 152  B10.79 1C9P}15.473 33.64 53.368
+{ ca  ser a 153  B11.74 1C9P}16.284 34.25 49.706
+{ ca  leu a 154  B10.47 1C9P}12.612 34.048 48.812
+{ ca  leu a 155  B11.48 1C9P}9.92 36.518 49.833
+{ ca  gln a 156  B14.19 1C9P}7.953 35.064 52.744
+{ ca  cys a 157  B15.04 1C9P}4.201 35.293 53.275
+{ ca  leu a 158  B17.38 1C9P}1.912 35.248 56.277
+{ ca  lys a 159  B21.50 1C9P}-1.794 35.694 56.908
+{ ca  ala a 160  B22.03 1C9P}-2.739 37.408 60.162
+{ ca  pro a 161  B19.49 1C9P}-5.921 39.162 61.412
+{ ca  val a 162  B19.00 1C9P}-6.166 42.757 62.679
+{ ca  leu a 163  B17.94 1C9P}-6.516 42.844 66.459
+{ ca  ser a 164  B16.91 1C9P}-8.864 45.045 68.462
+{ ca  asp a 165  B17.18 1C9P}-7.384 48.286 69.754
+{ ca  ser a 166  B17.00 1C9P}-8.082 47.033 73.282
+{ ca  ser a 167  B20.90 1C9P}-6.019 43.836 73.164
+{ ca  cys a 168  B18.47 1C9P}-3.292 45.691 71.276
+{ ca  lys a 169  B17.41 1C9P}-3.08 48.102 74.204
+{ ca  ser a 170  B23.36 1C9P}-3.318 45.309 76.781
+{ ca  ser a 171  B23.99 1C9P}-0.192 43.824 75.194
+{ ca  tyr a 172  B23.43 1C9P}1.637 47.169 74.97
+{ ca  pro a 173  B22.56 1C9P}0.604 49.33 77.967
+{ ca  gly a 174  B20.86 1C9P}1.245 53.022 77.374
+{ ca  gln a 175  B22.01 1C9P}3.063 52.427 74.095
+{ ca  ile a 176  B13.57 1C9P}0.359 52.046 71.427
+{ ca  thr a 177  B12.28 1C9P}-0.75 55.302 69.779
+{ ca  gly a 178  B12.03 1C9P}-3.71 56.157 67.589
+{ ca  asn a 179  B12.58 1C9P}-1.467 55.624 64.59
+{ ca  met a 180  B10.13 1C9P}-0.73 51.992 65.399
+{ ca  ile a 181  B13.21 1C9P}-2.523 48.665 65.105
+{ ca  cys a 182  B15.93 1C9P}-1.567 45.173 66.221
+{ ca  val a 183  B15.28 1C9P}-1.932 42.455 63.598
+{ ca  gly a 184  B17.02 1C9P}-0.942 38.925 64.529
+{ ca  phe a 184b B22.59 1C9P}-1.267 36.242 67.19
+{ ca  leu a 185  B29.75 1C9P}-1.327 36.758 71.006
+{ ca  glu a 186  B33.04 1C9P}-0.446 33.089 71.096
+{ ca  gly a 187  B30.76 1C9P}2.858 33.727 69.351
+{ ca  gly a 188  B24.84 1C9P}4.415 31.633 66.613
+{ ca  lys a 188b B22.08 1C9P}3.742 33.867 63.61
+{ ca  asp a 189  B13.16 1C9P}4.806 37.498 63.205
+{ ca  ser a 190  B12.34 1C9P}6.879 39.923 61.136
+{ ca  cys a 191  B9.80 1C9P}10.505 40.264 62.187
+{ ca  gln a 192  B13.49 1C9P}13.747 42.241 61.78
+{ ca  gly a 193  B11.32 1C9P}14.139 42.841 58.066
+{ ca  asp a 194  B7.87 1C9P}10.4 43.165 57.442
+{ ca  ser a 195  B11.00 1C9P}10.118 46.871 58.28
+{ ca  gly a 196  B9.71 1C9P}8.372 49.05 55.725
+{ ca  gly a 197  B10.71 1C9P}6.687 46.03 54.155
+{ ca  pro a 198  B8.89 1C9P}2.946 45.691 53.285
+{ ca  val a 199  B8.71 1C9P}0.047 44.491 55.437
+{ ca  val a 200  B12.26 1C9P}-2.562 44.097 52.714
+{ ca  cys a 201  B19.41 1C9P}-6.177 43.532 53.728
+{ ca  asn a 202  B26.60 1C9P}-8.763 43.252 50.924
+{ ca  gly a 203  B25.72 1C9P}-6.491 44.686 48.266
+{ ca  gln a 204  B19.15 1C9P}-5.77 47.786 50.306
+{ ca  leu a 209  B17.18 1C9P}-2.564 48.702 52.094
+{ ca  gln a 210  B15.61 1C9P}-3.753 48.729 55.705
+{ ca  gly a 211  B12.89 1C9P}-0.468 48.462 57.591
+{ ca  ile a 212  B11.17 1C9P}3.289 49.068 57.477
+{ ca  val a 213  B10.52 1C9P}5.596 46.733 59.412
+{ ca  ser a 214  B10.07 1C9P}6.89 48.761 62.348
+{ ca  trp a 215  B10.76 1C9P}7.924 47.364 65.76
+{ ca  gly a 216  B20.75 1C9P}7.223 45.056 68.684
+{ ca  tyr a 217  B31.11 1C9P}8.879 42.887 71.335
+{ ca  gly a 219  B26.61 1C9P}11.212 40.533 69.513
+{ ca  cys a 220  B23.40 1C9P}9.291 38.337 67.082
+{ ca  ala a 221  B22.07 1C9P}6.452 35.832 67.4
+{ ca  gln a 221b B24.49 1C9P}6.376 36.18 71.206
+{ ca  lys a 222  B29.76 1C9P}3.306 35.086 73.143
+{ ca  asn a 223  B28.08 1C9P}1.146 38.138 73.861
+{ ca  lys a 224  B21.34 1C9P}3.38 40.42 71.824
+{ ca  pro a 225  B15.75 1C9P}1.974 40.807 68.282
+{ ca  gly a 226  B15.40 1C9P}3.752 43.072 65.839
+{ ca  val a 227  B15.08 1C9P}2.817 46.742 65.76
+{ ca  tyr a 228  B11.40 1C9P}2.097 48.266 62.359
+{ ca  thr a 229  B12.22 1C9P}1.557 51.829 61.208
+{ ca  lys a 230  B11.43 1C9P}-2.149 52.484 60.6
+{ ca  val a 231  B10.11 1C9P}-1.973 53.557 56.964
+{ ca  cys a 232  B12.48 1C9P}-5.666 54.472 56.756
+{ ca  asn a 233  B11.93 1C9P}-4.855 57.532 58.908
+{ ca  tyr a 234  B15.94 1C9P}-2.354 58.73 56.31
+{ ca  val a 235  B16.88 1C9P}-4.335 58.473 53.081
+{ ca  asn a 236  B20.43 1C9P}-4.888 62.215 53.064
+{ ca  trp a 237  B12.67 1C9P}-1.261 63.098 53.85
+{ ca  ile a 238  B16.01 1C9P}-0.036 60.717 51.155
+{ ca  gln a 239  B17.83 1C9P}-2.264 61.991 48.353
+{ ca  gln a 240  B18.35 1C9P}-1.457 65.593 49.223
+{ ca  thr a 241  B16.51 1C9P}2.308 65.035 49.277
+{ ca  ile a 242  B16.14 1C9P}2.239 63.233 45.926
+{ ca  ala a 243  B18.06 1C9P}0.166 66.046 44.418
+{ ca  ala a 244  B20.93 1C9P}2.64 68.654 45.625
+{ ca  asn a 245  B24.58 1C9P}5.794 66.805 44.513
+@subgroup {sidechain}
+@vectorlist {sc} color= cyan master= {sidechain}
+{ ca  ile a 16  B17.28 1C9P}P 8.429 36.647 58.62
+{ cb  ile a 16  B15.03 1C9P}7.662 36.452 57.306
+{ cg1 ile a 16  B15.44 1C9P}7.512 37.796 56.586
+{ cd1 ile a 16  B16.40 1C9P}6.759 38.854 57.381
+{ cb  ile a 16  B15.03 1C9P}P 7.662 36.452 57.306
+{ cg2 ile a 16  B14.06 1C9P}6.295 35.846 57.6
+{ ca  val a 17  B12.67 1C9P}P 8.222 34.013 61.354
+{ cb  val a 17  B11.79 1C9P}8.433 34.376 62.85
+{ cg1 val a 17  B7.87 1C9P}8.609 33.121 63.69
+{ cb  val a 17  B11.79 1C9P}P 8.433 34.376 62.85
+{ cg2 val a 17  B9.06 1C9P}9.628 35.307 62.989
+{ ca  tyr a 20  B16.29 1C9P}P 5.374 30.3 53.828
+{ cb  tyr a 20  B16.06 1C9P}4.1 29.605 53.366
+{ cg  tyr a 20  B14.49 1C9P}3.015 30.562 52.914
+{ cd1 tyr a 20  B12.02 1C9P}2.182 31.186 53.836
+{ ce1 tyr a 20  B13.48 1C9P}1.194 32.068 53.422
+{ cz  tyr a 20  B14.45 1C9P}1.035 32.333 52.074
+{ oh  tyr a 20  B17.77 1C9P}0.055 33.197 51.651
+{ cg  tyr a 20  B14.49 1C9P}P 3.015 30.562 52.914
+{ cd2 tyr a 20  B13.81 1C9P}2.832 30.851 51.562
+{ ce2 tyr a 20  B13.85 1C9P}1.849 31.731 51.14
+{ cz  tyr a 20  B14.45 1C9P}ghost 1.035 32.333 52.074
+{ ca  thr a 21  B16.41 1C9P}P 7.185 31.15 50.606
+{ cb  thr a 21  B17.61 1C9P}8.147 30.216 49.859
+{ og1 thr a 21  B19.99 1C9P}9.226 29.863 50.736
+{ cb  thr a 21  B17.61 1C9P}P 8.147 30.216 49.859
+{ cg2 thr a 21  B14.70 1C9P}8.7 30.888 48.611
+{ ca  cys a 22  B15.00 1C9P}P 4.941 33.449 48.559
+{ cb  cys a 22  B12.97 1C9P}5.141 34.957 48.43
+{ sg  cys a 22  B12.66 1C9P}5.236 35.864 50.003
+{ ca  ala a 23  B21.13 1C9P}P 3.961 32.126 45.132
+{ cb  ala a 23  B18.35 1C9P}2.545 31.85 44.647
+{ ca  ala a 24  B32.25 1C9P}P 5.531 33.593 41.976
+{ cb  ala a 24  B32.29 1C9P}5.549 32.891 40.621
+{ ca  asn a 25  B34.62 1C9P}P 3.187 36.473 41.095
+{ cb  asn a 25  B34.99 1C9P}2.595 36.557 39.682
+{ cg  asn a 25  B36.20 1C9P}3.617 36.262 38.6
+{ od1 asn a 25  B36.14 1C9P}4.651 36.922 38.509
+{ cg  asn a 25  B36.20 1C9P}P 3.617 36.262 38.6
+{ nd2 asn a 25  B36.14 1C9P}3.327 35.266 37.77
+{ ca  ser a 26  B26.75 1C9P}P 1.346 36.821 44.397
+{ cb  ser a 26  B26.18 1C9P}1.363 35.727 45.462
+{ og  ser a 26  B29.12 1C9P}2.617 35.686 46.112
+{ ca  ile a 27  B16.22 1C9P}P 2.873 40.018 45.813
+{ cb  ile a 27  B14.53 1C9P}3.612 39.819 47.17
+{ cg1 ile a 27  B14.42 1C9P}3.06 38.594 47.91
+{ cd1 ile a 27  B15.37 1C9P}1.591 38.659 48.25
+{ cb  ile a 27  B14.53 1C9P}P 3.612 39.819 47.17
+{ cg2 ile a 27  B12.67 1C9P}3.441 41.048 48.044
+{ ca  pro a 28  B11.55 1C9P}P 3.743 42.39 42.891
+{ cb  pro a 28  B10.93 1C9P}2.689 42.52 41.786
+{ cg  pro a 28  B11.12 1C9P}1.848 41.263 41.951
+{ cd  pro a 28  B11.60 1C9P}ghost 1.701 41.268 43.444
+{ n   pro a 28  B11.29 1C9P}P 3.096 41.487 43.849
+{ cd  pro a 28  B11.60 1C9P}1.701 41.268 43.444
+{ ca  tyr a 29  B9.64 1C9P}P 3.618 45.563 44.999
+{ cb  tyr a 29  B12.49 1C9P}2.305 46.004 45.64
+{ cg  tyr a 29  B13.16 1C9P}1.744 44.963 46.589
+{ cd1 tyr a 29  B12.66 1C9P}2.179 44.884 47.912
+{ ce1 tyr a 29  B13.86 1C9P}1.709 43.894 48.768
+{ cz  tyr a 29  B14.85 1C9P}0.791 42.965 48.304
+{ oh  tyr a 29  B15.06 1C9P}0.312 41.996 49.157
+{ cg  tyr a 29  B13.16 1C9P}P 1.744 44.963 46.589
+{ cd2 tyr a 29  B13.58 1C9P}0.819 44.016 46.146
+{ ce2 tyr a 29  B14.86 1C9P}0.342 43.018 46.994
+{ cz  tyr a 29  B14.85 1C9P}ghost 0.791 42.965 48.304
+{ ca  gln a 30  B9.54 1C9P}P 6.421 44.429 47.373
+{ cb  gln a 30  B8.36 1C9P}6.624 42.976 47.828
+{ cg  gln a 30  B7.87 1C9P}7.853 42.732 48.699
+{ cd  gln a 30  B7.99 1C9P}7.653 43.137 50.143
+{ oe1 gln a 30  B7.87 1C9P}8.514 43.783 50.751
+{ cd  gln a 30  B7.99 1C9P}P 7.653 43.137 50.143
+{ ne2 gln a 30  B7.87 1C9P}6.526 42.732 50.715
+{ ca  val a 31  B11.38 1C9P}P 9.759 46.255 47.067
+{ cb  val a 31  B11.89 1C9P}9.696 47.772 46.749
+{ cg1 val a 31  B13.95 1C9P}8.601 48.056 45.735
+{ cb  val a 31  B11.89 1C9P}P 9.696 47.772 46.749
+{ cg2 val a 31  B9.46 1C9P}9.503 48.56 48.019
+{ ca  ser a 32  B15.95 1C9P}P 13.186 46.058 48.652
+{ cb  ser a 32  B15.20 1C9P}14.061 44.88 48.242
+{ og  ser a 32  B16.81 1C9P}15.254 44.877 49.006
+{ ca  leu a 33  B18.09 1C9P}P 15.036 49.049 50.058
+{ cb  leu a 33  B15.55 1C9P}14.546 49.91 51.218
+{ cg  leu a 33  B10.93 1C9P}13.087 50.353 51.054
+{ cd1 leu a 33  B12.28 1C9P}12.795 51.446 52.043
+{ cg  leu a 33  B10.93 1C9P}P 13.087 50.353 51.054
+{ cd2 leu a 33  B9.43 1C9P}12.839 50.872 49.659
+{ ca  asn a 34  B25.73 1C9P}P 18.758 48.615 49.507
+{ cb  asn a 34  B28.54 1C9P}19.062 47.912 48.177
+{ cg  asn a 34  B31.42 1C9P}20.355 47.128 48.201
+{ od1 asn a 34  B33.46 1C9P}21.442 47.689 48.339
+{ cg  asn a 34  B31.42 1C9P}P 20.355 47.128 48.201
+{ nd2 asn a 34  B32.55 1C9P}20.241 45.809 48.063
+{ ca  ser a 37  B27.21 1C9P}P 21.717 50.625 50.806
+{ cb  ser a 37  B26.76 1C9P}21.36 51.383 52.08
+{ og  ser a 37  B30.92 1C9P}21.86 52.706 52.025
+{ ca  ser a 39  B23.80 1C9P}P 22.054 45.292 50.903
+{ cb  ser a 39  B20.33 1C9P}22.802 44.365 51.85
+{ og  ser a 39  B22.87 1C9P}23.174 45.063 53.021
+{ ca  his a 40  B18.82 1C9P}P 18.41 44.698 51.855
+{ cb  his a 40  B15.70 1C9P}17.65 43.38 51.668
+{ cg  his a 40  B15.57 1C9P}16.262 43.404 52.232
+{ nd1 his a 40  B12.60 1C9P}15.195 43.968 51.57
+{ ce1 his a 40  B14.34 1C9P}14.121 43.908 52.335
+{ ne2 his a 40  B12.31 1C9P}ghost 14.451 43.323 53.475
+{ cg  his a 40  B15.57 1C9P}P 16.262 43.404 52.232
+{ cd2 his a 40  B15.52 1C9P}15.784 42.997 53.435
+{ ne2 his a 40  B12.31 1C9P}14.451 43.323 53.475
+{ ca  phe a 41  B13.32 1C9P}P 17.521 46.593 55.034
+{ cb  phe a 41  B12.58 1C9P}18.395 47.818 55.342
+{ cg  phe a 41  B12.44 1C9P}17.947 49.096 54.68
+{ cd1 phe a 41  B12.94 1C9P}18.127 49.298 53.314
+{ ce1 phe a 41  B13.33 1C9P}17.763 50.507 52.714
+{ cz  phe a 41  B14.91 1C9P}17.209 51.533 53.49
+{ cg  phe a 41  B12.44 1C9P}P 17.947 49.096 54.68
+{ cd2 phe a 41  B13.80 1C9P}17.39 50.124 55.442
+{ ce2 phe a 41  B13.85 1C9P}17.02 51.339 54.858
+{ cz  phe a 41  B14.91 1C9P}ghost 17.209 51.533 53.49
+{ ca  cys a 42  B12.83 1C9P}P 13.785 47.314 54.726
+{ cb  cys a 42  B11.42 1C9P}13.49 48.775 55.086
+{ sg  cys a 42  B11.16 1C9P}13.796 49.309 56.8
+{ ca  ser a 45  B10.94 1C9P}P 5.096 49.088 48.839
+{ cb  ser a 45  B10.51 1C9P}3.791 49.173 49.631
+{ og  ser a 45  B11.35 1C9P}3.756 48.199 50.648
+{ ca  leu a 46  B9.03 1C9P}P 4.591 50.457 45.339
+{ cb  leu a 46  B9.77 1C9P}5.025 49.713 44.073
+{ cg  leu a 46  B9.56 1C9P}5.12 50.501 42.765
+{ cd1 leu a 46  B9.69 1C9P}6.263 51.501 42.861
+{ cg  leu a 46  B9.56 1C9P}P 5.12 50.501 42.765
+{ cd2 leu a 46  B11.27 1C9P}5.378 49.548 41.613
+{ ca  ile a 47  B11.24 1C9P}P 1.34 52.45 45.37
+{ cb  ile a 47  B10.47 1C9P}0.985 53.358 46.571
+{ cg1 ile a 47  B7.87 1C9P}1.893 54.591 46.56
+{ cd1 ile a 47  B7.87 1C9P}1.633 55.562 47.667
+{ cb  ile a 47  B10.47 1C9P}P 0.985 53.358 46.571
+{ cg2 ile a 47  B7.87 1C9P}1.095 52.571 47.878
+{ ca  asn a 48  B17.76 1C9P}P 2.059 54.257 42.12
+{ cb  asn a 48  B21.86 1C9P}1.75 55.726 42.395
+{ cg  asn a 48  B24.42 1C9P}2.607 56.653 41.588
+{ od1 asn a 48  B29.26 1C9P}3.755 56.912 41.937
+{ cg  asn a 48  B24.42 1C9P}P 2.607 56.653 41.588
+{ nd2 asn a 48  B29.12 1C9P}2.07 57.14 40.482
+{ ca  ser a 49  B20.07 1C9P}P 4.509 54.041 39.217
+{ cb  ser a 49  B20.83 1C9P}4.162 54.358 37.763
+{ og  ser a 49  B28.55 1C9P}3.689 55.686 37.632
+{ ca  gln a 50  B19.43 1C9P}P 6.699 56.59 41.001
+{ cb  gln a 50  B20.15 1C9P}6.691 57.968 40.355
+{ cg  gln a 50  B23.31 1C9P}7.385 58.001 39.023
+{ cd  gln a 50  B23.50 1C9P}7.5 59.398 38.477
+{ oe1 gln a 50  B22.91 1C9P}6.496 60.042 38.167
+{ cd  gln a 50  B23.50 1C9P}P 7.5 59.398 38.477
+{ ne2 gln a 50  B24.23 1C9P}8.73 59.886 38.364
+{ ca  trp a 51  B15.61 1C9P}P 6.013 56.343 44.723
+{ cb  trp a 51  B12.43 1C9P}4.918 57.273 45.25
+{ cg  trp a 51  B12.58 1C9P}5.047 58.683 44.757
+{ cd1 trp a 51  B10.89 1C9P}4.694 59.162 43.528
+{ ne1 trp a 51  B10.63 1C9P}4.995 60.501 43.433
+{ ce2 trp a 51  B12.56 1C9P}ghost 5.558 60.912 44.613
+{ cg  trp a 51  B12.58 1C9P}P 5.047 58.683 44.757
+{ cd2 trp a 51  B12.69 1C9P}5.605 59.795 45.471
+{ ce2 trp a 51  B12.56 1C9P}5.558 60.912 44.613
+{ cz2 trp a 51  B12.33 1C9P}6.026 62.175 44.998
+{ ch2 trp a 51  B12.37 1C9P}6.548 62.299 46.257
+{ cd2 trp a 51  B12.69 1C9P}P 5.605 59.795 45.471
+{ ce3 trp a 51  B14.68 1C9P}6.145 59.948 46.756
+{ cz3 trp a 51  B15.14 1C9P}6.611 61.207 47.136
+{ ch2 trp a 51  B12.37 1C9P}ghost 6.548 62.299 46.257
+{ ca  val a 52  B13.19 1C9P}P 6.772 53.755 47.375
+{ cb  val a 52  B13.99 1C9P}8.189 53.098 47.325
+{ cg1 val a 52  B10.86 1C9P}8.235 51.858 48.205
+{ cb  val a 52  B13.99 1C9P}P 8.189 53.098 47.325
+{ cg2 val a 52  B13.68 1C9P}8.551 52.741 45.905
+{ ca  val a 53  B11.23 1C9P}P 5.616 53.725 50.981
+{ cb  val a 53  B11.68 1C9P}4.133 53.523 51.344
+{ cg1 val a 53  B10.97 1C9P}3.847 54.132 52.705
+{ cb  val a 53  B11.68 1C9P}P 4.133 53.523 51.344
+{ cg2 val a 53  B13.15 1C9P}3.248 54.15 50.285
+{ ca  ser a 54  B9.63 1C9P}P 7.825 52.502 53.817
+{ cb  ser a 54  B7.87 1C9P}9.266 52.54 53.309
+{ og  ser a 54  B7.87 1C9P}10.081 51.666 54.05
+{ ca  ala a 55  B9.41 1C9P}P 8.4 53.12 57.532
+{ cb  ala a 55  B7.87 1C9P}8.769 52.058 58.555
+{ ca  ala a 56  B12.64 1C9P}P 10.17 56.36 58.458
+{ cb  ala a 56  B11.16 1C9P}9.554 57.534 59.224
+{ ca  his a 57  B11.72 1C9P}P 12.732 54.58 60.625
+{ cb  his a 57  B9.64 1C9P}12.486 53.746 61.893
+{ cg  his a 57  B7.87 1C9P}11.905 52.392 61.641
+{ nd1 his a 57  B7.87 1C9P}10.547 52.153 61.599
+{ ce1 his a 57  B8.87 1C9P}10.339 50.868 61.372
+{ ne2 his a 57  B7.87 1C9P}ghost 11.511 50.267 61.263
+{ cg  his a 57  B7.87 1C9P}P 11.905 52.392 61.641
+{ cd2 his a 57  B7.87 1C9P}12.503 51.2 61.426
+{ ne2 his a 57  B7.87 1C9P}11.511 50.267 61.263
+{ ca  cys a 58  B11.55 1C9P}P 14.035 53.048 57.387
+{ cb  cys a 58  B10.46 1C9P}13.117 52.281 56.434
+{ sg  cys a 58  B13.13 1C9P}12.374 50.744 57.073
+{ ca  tyr a 59  B15.15 1C9P}P 15.078 56.523 56.233
+{ cb  tyr a 59  B14.19 1C9P}14.607 57.832 56.888
+{ cg  tyr a 59  B15.32 1C9P}15.224 59.079 56.274
+{ cd1 tyr a 59  B14.61 1C9P}14.69 59.662 55.127
+{ ce1 tyr a 59  B17.18 1C9P}15.28 60.793 54.546
+{ cz  tyr a 59  B18.38 1C9P}16.423 61.347 55.12
+{ oh  tyr a 59  B15.65 1C9P}17.006 62.481 54.586
+{ cg  tyr a 59  B15.32 1C9P}P 15.224 59.079 56.274
+{ cd2 tyr a 59  B16.39 1C9P}16.372 59.655 56.826
+{ ce2 tyr a 59  B17.65 1C9P}16.971 60.779 56.256
+{ cz  tyr a 59  B18.38 1C9P}ghost 16.423 61.347 55.12
+{ ca  lys a 60  B16.06 1C9P}P 18.544 56.878 54.711
+{ cb  lys a 60  B15.39 1C9P}19.191 55.563 54.295
+{ cg  lys a 60  B18.39 1C9P}19.295 54.557 55.423
+{ cd  lys a 60  B19.31 1C9P}20.02 53.301 54.976
+{ ce  lys a 60  B21.98 1C9P}20.086 52.287 56.103
+{ nz  lys a 60  B23.20 1C9P}20.736 51.015 55.666
+{ ca  ser a 61  B17.68 1C9P}P 19.904 59.709 52.571
+{ cb  ser a 61  B17.46 1C9P}21.083 60.596 52.941
+{ og  ser a 61  B23.09 1C9P}22.23 59.808 53.167
+{ ca  arg a 62  B19.81 1C9P}P 20.801 57.178 49.883
+{ cb  arg a 62  B21.55 1C9P}22.283 56.923 49.642
+{ cg  arg a 62  B25.10 1C9P}23.14 58.158 49.617
+{ cd  arg a 62  B32.20 1C9P}24.599 57.752 49.552
+{ ne  arg a 62  B39.16 1C9P}25.508 58.609 50.322
+{ cz  arg a 62  B37.77 1C9P}25.141 59.509 51.231
+{ nh1 arg a 62  B39.06 1C9P}23.863 59.713 51.515
+{ cz  arg a 62  B37.77 1C9P}P 25.141 59.509 51.231
+{ nh2 arg a 62  B39.06 1C9P}26.065 60.183 51.9
+{ ca  ile a 63  B16.06 1C9P}P 18.326 54.482 48.908
+{ cb  ile a 63  B17.91 1C9P}16.94 54.618 49.56
+{ cg1 ile a 63  B20.95 1C9P}17.071 54.915 51.05
+{ cd1 ile a 63  B22.01 1C9P}15.731 55.062 51.743
+{ cb  ile a 63  B17.91 1C9P}P 16.94 54.618 49.56
+{ cg2 ile a 63  B17.15 1C9P}16.152 53.335 49.35
+{ ca  gln a 64  B11.21 1C9P}P 18.059 52.238 45.895
+{ cb  gln a 64  B10.64 1C9P}19.23 51.405 45.388
+{ cg  gln a 64  B8.24 1C9P}18.905 50.7 44.071
+{ cd  gln a 64  B7.87 1C9P}20.007 49.795 43.599
+{ oe1 gln a 64  B11.78 1C9P}20.344 48.821 44.263
+{ cd  gln a 64  B7.87 1C9P}P 20.007 49.795 43.599
+{ ne2 gln a 64  B10.40 1C9P}20.583 50.113 42.449
+{ ca  val a 65  B9.82 1C9P}P 14.677 50.666 45.326
+{ cb  val a 65  B7.87 1C9P}13.398 51.478 45.076
+{ cg1 val a 65  B7.87 1C9P}12.185 50.608 45.278
+{ cb  val a 65  B7.87 1C9P}P 13.398 51.478 45.076
+{ cg2 val a 65  B7.87 1C9P}13.35 52.65 46.026
+{ ca  arg a 66  B11.60 1C9P}P 14.592 47.124 43.916
+{ cb  arg a 66  B10.64 1C9P}15.394 46.02 44.615
+{ cg  arg a 66  B14.60 1C9P}16.584 46.522 45.388
+{ cd  arg a 66  B18.14 1C9P}17.897 46.495 44.631
+{ ne  arg a 66  B20.65 1C9P}18.598 45.227 44.799
+{ cz  arg a 66  B23.10 1C9P}19.921 45.091 44.715
+{ nh1 arg a 66  B21.66 1C9P}20.688 46.145 44.466
+{ cz  arg a 66  B23.10 1C9P}P 19.921 45.091 44.715
+{ nh2 arg a 66  B24.38 1C9P}20.481 43.904 44.893
+{ ca  leu a 67  B14.81 1C9P}P 11.328 46.068 42.274
+{ cb  leu a 67  B14.91 1C9P}10.513 47.121 41.497
+{ cg  leu a 67  B15.14 1C9P}10.285 48.477 42.19
+{ cd1 leu a 67  B13.30 1C9P}11.573 49.278 42.155
+{ cg  leu a 67  B15.14 1C9P}P 10.285 48.477 42.19
+{ cd2 leu a 67  B12.75 1C9P}9.17 49.254 41.498
+{ ca  glu a 70  B16.02 1C9P}P 12.013 40.611 43.345
+{ cb  glu a 70  B15.16 1C9P}12.808 41.264 44.489
+{ cg  glu a 70  B16.20 1C9P}13.851 42.274 44.054
+{ cd  glu a 70  B16.92 1C9P}15.201 41.651 43.799
+{ oe1 glu a 70  B18.50 1C9P}15.256 40.594 43.15
+{ cd  glu a 70  B16.92 1C9P}P 15.201 41.651 43.799
+{ oe2 glu a 70  B20.44 1C9P}16.217 42.229 44.234
+{ ca  his a 71  B20.16 1C9P}P 11.226 37.051 44.383
+{ cb  his a 71  B25.80 1C9P}10.835 36.035 43.314
+{ cg  his a 71  B33.48 1C9P}9.979 34.924 43.839
+{ nd1 his a 71  B37.78 1C9P}9.64 33.818 43.088
+{ ce1 his a 71  B38.67 1C9P}8.863 33.024 43.801
+{ ne2 his a 71  B38.53 1C9P}ghost 8.683 33.573 44.99
+{ cg  his a 71  B33.48 1C9P}P 9.979 34.924 43.839
+{ cd2 his a 71  B35.93 1C9P}9.372 34.761 45.039
+{ ne2 his a 71  B38.53 1C9P}8.683 33.573 44.99
+{ ca  asn a 72  B18.59 1C9P}P 14.658 35.645 45.227
+{ cb  asn a 72  B20.09 1C9P}15.25 34.486 44.414
+{ cg  asn a 72  B22.94 1C9P}16.514 33.9 45.049
+{ od1 asn a 72  B21.27 1C9P}17.443 34.627 45.407
+{ cg  asn a 72  B22.94 1C9P}P 16.514 33.9 45.049
+{ nd2 asn a 72  B23.99 1C9P}16.555 32.577 45.171
+{ ca  ile a 73  B20.45 1C9P}P 16.8 38.552 46.458
+{ cb  ile a 73  B19.45 1C9P}16.705 39.334 47.802
+{ cg1 ile a 73  B20.58 1C9P}16.623 38.358 48.966
+{ cd1 ile a 73  B26.88 1C9P}16.514 39.048 50.301
+{ cb  ile a 73  B19.45 1C9P}P 16.705 39.334 47.802
+{ cg2 ile a 73  B16.66 1C9P}15.541 40.298 47.784
+{ ca  asp a 74  B23.43 1C9P}P 19.939 36.448 45.941
+{ cb  asp a 74  B24.45 1C9P}20.293 35.31 46.903
+{ cg  asp a 74  B24.03 1C9P}20.233 35.734 48.353
+{ od1 asp a 74  B24.41 1C9P}20.884 36.746 48.694
+{ cg  asp a 74  B24.03 1C9P}P 20.233 35.734 48.353
+{ od2 asp a 74  B22.63 1C9P}19.548 35.054 49.148
+{ ca  val a 75  B26.38 1C9P}P 19.351 35.353 42.357
+{ cb  val a 75  B26.01 1C9P}18.727 33.962 42.121
+{ cg1 val a 75  B25.19 1C9P}18.837 33.586 40.65
+{ cb  val a 75  B26.01 1C9P}P 18.727 33.962 42.121
+{ cg2 val a 75  B25.30 1C9P}19.433 32.925 42.99
+{ ca  leu a 76  B27.51 1C9P}P 18.92 37.623 39.336
+{ cb  leu a 76  B24.47 1C9P}20.111 38.246 38.609
+{ cg  leu a 76  B27.08 1C9P}20.088 39.753 38.355
+{ cd1 leu a 76  B24.19 1C9P}19.941 40.526 39.663
+{ cg  leu a 76  B27.08 1C9P}P 20.088 39.753 38.355
+{ cd2 leu a 76  B29.19 1C9P}21.378 40.147 37.67
+{ ca  glu a 77  B34.99 1C9P}P 15.772 36.131 37.782
+{ cb  glu a 77  B38.14 1C9P}14.546 35.757 38.615
+{ cg  glu a 77  B42.73 1C9P}14.854 34.778 39.741
+{ cd  glu a 77  B45.58 1C9P}13.643 34.462 40.595
+{ oe1 glu a 77  B47.35 1C9P}13.162 35.376 41.306
+{ cd  glu a 77  B45.58 1C9P}P 13.643 34.462 40.595
+{ oe2 glu a 77  B48.13 1C9P}13.172 33.304 40.549
+{ ca  asn a 79  B35.85 1C9P}P 12.312 40.579 36.278
+{ cb  asn a 79  B38.80 1C9P}11.139 39.866 36.97
+{ cg  asn a 79  B41.90 1C9P}10.601 38.694 36.17
+{ od1 asn a 79  B43.55 1C9P}10.147 38.854 35.035
+{ cg  asn a 79  B41.90 1C9P}P 10.601 38.694 36.17
+{ nd2 asn a 79  B43.65 1C9P}10.637 37.508 36.765
+{ ca  glu a 80  B22.75 1C9P}P 14.025 43.002 38.677
+{ cb  glu a 80  B20.10 1C9P}15.336 42.745 39.431
+{ cg  glu a 80  B16.31 1C9P}15.409 41.421 40.167
+{ cd  glu a 80  B14.99 1C9P}15.813 40.267 39.263
+{ oe1 glu a 80  B17.83 1C9P}15.898 40.465 38.032
+{ cd  glu a 80  B14.99 1C9P}P 15.813 40.267 39.263
+{ oe2 glu a 80  B13.65 1C9P}16.06 39.162 39.785
+{ ca  gln a 81  B14.87 1C9P}P 14.182 46.777 38.33
+{ cb  gln a 81  B14.62 1C9P}12.827 47.395 37.998
+{ cg  gln a 81  B14.93 1C9P}12.22 46.897 36.708
+{ cd  gln a 81  B12.64 1C9P}10.864 47.503 36.445
+{ oe1 gln a 81  B13.27 1C9P}10.709 48.723 36.451
+{ cd  gln a 81  B12.64 1C9P}P 10.864 47.503 36.445
+{ ne2 gln a 81  B12.70 1C9P}9.873 46.654 36.208
+{ ca  phe a 82  B11.91 1C9P}P 16.661 48.893 40.245
+{ cb  phe a 82  B12.73 1C9P}18.121 48.465 40.363
+{ cg  phe a 82  B14.32 1C9P}18.303 47.021 40.744
+{ cd1 phe a 82  B16.64 1C9P}17.261 46.295 41.309
+{ ce1 phe a 82  B17.50 1C9P}17.443 44.966 41.698
+{ cz  phe a 82  B15.48 1C9P}18.677 44.355 41.522
+{ cg  phe a 82  B14.32 1C9P}P 18.303 47.021 40.744
+{ cd2 phe a 82  B16.54 1C9P}19.532 46.397 40.574
+{ ce2 phe a 82  B16.96 1C9P}19.725 45.071 40.961
+{ cz  phe a 82  B15.48 1C9P}ghost 18.677 44.355 41.522
+{ ca  ile a 83  B13.72 1C9P}P 15.603 52.513 40.633
+{ cb  ile a 83  B10.99 1C9P}14.135 52.831 40.314
+{ cg1 ile a 83  B7.87 1C9P}13.718 52.084 39.046
+{ cd1 ile a 83  B8.03 1C9P}12.27 52.279 38.665
+{ cb  ile a 83  B10.99 1C9P}P 14.135 52.831 40.314
+{ cg2 ile a 83  B8.80 1C9P}13.952 54.336 40.144
+{ ca  asn a 84  B18.39 1C9P}P 17.063 55.129 42.991
+{ cb  asn a 84  B22.61 1C9P}18.401 55.811 42.721
+{ cg  asn a 84  B28.56 1C9P}19.545 54.831 42.653
+{ od1 asn a 84  B32.50 1C9P}20.687 55.212 42.404
+{ cg  asn a 84  B28.56 1C9P}P 19.545 54.831 42.653
+{ nd2 asn a 84  B31.87 1C9P}19.248 53.556 42.884
+{ ca  ala a 85  B14.84 1C9P}P 15.174 57.318 45.41
+{ cb  ala a 85  B14.51 1C9P}15.227 57.175 46.924
+{ ca  ala a 86  B10.04 1C9P}P 14.77 60.881 44.197
+{ cb  ala a 86  B8.39 1C9P}13.924 61.22 42.99
+{ ca  lys a 87  B9.39 1C9P}P 12.611 62.272 46.993
+{ cb  lys a 87  B10.47 1C9P}11.295 62.979 46.65
+{ cg  lys a 87  B11.33 1C9P}11.422 64.043 45.585
+{ cd  lys a 87  B12.78 1C9P}10.118 64.797 45.402
+{ ce  lys a 87  B11.89 1C9P}10.262 65.881 44.342
+{ nz  lys a 87  B13.27 1C9P}11.33 66.852 44.696
+{ ca  ile a 88  B8.06 1C9P}P 12.747 60.789 50.479
+{ cb  ile a 88  B7.87 1C9P}14.114 60.269 50.939
+{ cg1 ile a 88  B7.87 1C9P}14.831 59.641 49.746
+{ cd1 ile a 88  B9.97 1C9P}16.183 59.084 50.063
+{ cb  ile a 88  B7.87 1C9P}P 14.114 60.269 50.939
+{ cg2 ile a 88  B7.98 1C9P}13.94 59.212 52.006
+{ ca  ile a 89  B9.10 1C9P}P 9.981 62.284 52.619
+{ cb  ile a 89  B9.80 1C9P}8.815 62.968 51.862
+{ cg1 ile a 89  B9.88 1C9P}9.36 63.704 50.631
+{ cd1 ile a 89  B11.06 1C9P}8.276 64.271 49.706
+{ cb  ile a 89  B9.80 1C9P}P 8.815 62.968 51.862
+{ cg2 ile a 89  B7.87 1C9P}8.064 63.914 52.792
+{ ca  thr a 90  B8.91 1C9P}P 9.381 61.118 56.197
+{ cb  thr a 90  B7.87 1C9P}10.459 60.873 57.27
+{ og1 thr a 90  B7.87 1C9P}11.067 62.114 57.634
+{ cb  thr a 90  B7.87 1C9P}P 10.459 60.873 57.27
+{ cg2 thr a 90  B9.37 1C9P}11.524 59.925 56.747
+{ ca  his a 91  B8.00 1C9P}P 6.225 62.185 58.021
+{ cb  his a 91  B8.02 1C9P}5.276 61.254 58.788
+{ cg  his a 91  B9.08 1C9P}3.941 61.867 59.075
+{ nd1 his a 91  B8.42 1C9P}3.77 62.874 60
+{ ce1 his a 91  B11.05 1C9P}2.51 63.276 59.977
+{ ne2 his a 91  B10.41 1C9P}ghost 1.86 62.565 59.071
+{ cg  his a 91  B9.08 1C9P}P 3.941 61.867 59.075
+{ cd2 his a 91  B10.35 1C9P}2.735 61.676 58.497
+{ ne2 his a 91  B10.41 1C9P}1.86 62.565 59.071
+{ ca  pro a 92  B9.45 1C9P}P 6.413 65.7 59.589
+{ cb  pro a 92  B7.87 1C9P}5.34 66.693 59.149
+{ cg  pro a 92  B7.87 1C9P}5.113 66.291 57.723
+{ cd  pro a 92  B9.87 1C9P}ghost 4.943 64.806 57.926
+{ n   pro a 92  B9.43 1C9P}P 6.078 64.506 58.812
+{ cd  pro a 92  B9.87 1C9P}4.943 64.806 57.926
+{ ca  asn a 93  B15.10 1C9P}P 5.43 64.439 63.019
+{ cb  asn a 93  B16.49 1C9P}3.988 64.608 63.502
+{ cg  asn a 93  B20.09 1C9P}3.463 66.014 63.268
+{ od1 asn a 93  B19.90 1C9P}2.542 66.229 62.477
+{ cg  asn a 93  B20.09 1C9P}P 3.463 66.014 63.268
+{ nd2 asn a 93  B23.48 1C9P}4.063 66.986 63.947
+{ ca  phe a 94  B18.70 1C9P}P 7.489 61.272 62.987
+{ cb  phe a 94  B18.40 1C9P}8.461 60.802 61.909
+{ cg  phe a 94  B18.82 1C9P}9.258 59.593 62.321
+{ cd1 phe a 94  B18.08 1C9P}8.612 58.417 62.693
+{ ce1 phe a 94  B18.22 1C9P}9.335 57.318 63.145
+{ cz  phe a 94  B18.16 1C9P}10.718 57.387 63.223
+{ cg  phe a 94  B18.82 1C9P}P 9.258 59.593 62.321
+{ cd2 phe a 94  B17.38 1C9P}10.641 59.65 62.399
+{ ce2 phe a 94  B17.55 1C9P}11.374 58.556 62.85
+{ cz  phe a 94  B18.16 1C9P}ghost 10.718 57.387 63.223
+{ ca  asn a 95  B21.30 1C9P}P 8.747 60.567 66.509
+{ cb  asn a 95  B21.26 1C9P}7.705 60.515 67.625
+{ cg  asn a 95  B19.74 1C9P}8.292 60.786 68.987
+{ od1 asn a 95  B20.89 1C9P}9.152 60.051 69.463
+{ cg  asn a 95  B19.74 1C9P}P 8.292 60.786 68.987
+{ nd2 asn a 95  B20.65 1C9P}7.824 61.853 69.629
+{ ca  asn a 97  B27.83 1C9P}P 11.605 57.616 70.261
+{ cb  asn a 97  B32.17 1C9P}11.716 58.636 71.393
+{ cg  asn a 97  B35.91 1C9P}12.899 59.555 71.226
+{ od1 asn a 97  B38.42 1C9P}12.775 60.776 71.351
+{ cg  asn a 97  B35.91 1C9P}P 12.899 59.555 71.226
+{ nd2 asn a 97  B39.16 1C9P}14.062 58.977 70.947
+{ ca  thr a 98  B22.24 1C9P}P 8.023 56.343 70.106
+{ cb  thr a 98  B23.33 1C9P}6.876 57.279 70.52
+{ og1 thr a 98  B20.59 1C9P}6.648 58.238 69.478
+{ cb  thr a 98  B23.33 1C9P}P 6.876 57.279 70.52
+{ cg2 thr a 98  B23.86 1C9P}7.231 58.022 71.807
+{ ca  leu a 99  B15.94 1C9P}P 7.927 55.432 66.42
+{ cb  leu a 99  B12.36 1C9P}8.149 53.925 66.411
+{ cg  leu a 99  B11.45 1C9P}9.59 53.478 66.588
+{ cd1 leu a 99  B14.37 1C9P}9.642 51.977 66.379
+{ cg  leu a 99  B11.45 1C9P}P 9.59 53.478 66.588
+{ cd2 leu a 99  B11.87 1C9P}10.497 54.188 65.587
+{ ca  asp a 100  B15.44 1C9P}P 4.657 57.295 66.191
+{ cb  asp a 100  B17.48 1C9P}4.169 58.265 67.256
+{ cg  asp a 100  B20.63 1C9P}2.767 58.734 67.008
+{ od1 asp a 100  B23.08 1C9P}1.924 57.901 66.61
+{ cg  asp a 100  B20.63 1C9P}P 2.767 58.734 67.008
+{ od2 asp a 100  B26.21 1C9P}2.499 59.929 67.234
+{ ca  asn a 101  B14.83 1C9P}P 3.663 58.373 62.677
+{ cb  asn a 101  B15.69 1C9P}3.841 59.89 62.75
+{ cg  asn a 101  B18.62 1C9P}2.652 60.587 63.37
+{ od1 asn a 101  B22.21 1C9P}2.814 61.491 64.187
+{ cg  asn a 101  B18.62 1C9P}P 2.652 60.587 63.37
+{ nd2 asn a 101  B16.42 1C9P}1.447 60.188 62.971
+{ ca  asp a 102  B15.26 1C9P}P 6.067 55.798 61.327
+{ cb  asp a 102  B11.42 1C9P}6.524 54.578 62.128
+{ cg  asp a 102  B13.03 1C9P}7.74 53.923 61.532
+{ od1 asp a 102  B11.13 1C9P}8.58 54.656 60.959
+{ cg  asp a 102  B13.03 1C9P}P 7.74 53.923 61.532
+{ od2 asp a 102  B13.21 1C9P}7.87 52.686 61.658
+{ ca  ile a 103  B18.17 1C9P}P 5.423 56.204 57.602
+{ cb  ile a 103  B19.12 1C9P}3.951 56.576 57.302
+{ cg1 ile a 103  B19.21 1C9P}3.598 56.181 55.868
+{ cd1 ile a 103  B20.13 1C9P}2.16 56.488 55.49
+{ cb  ile a 103  B19.12 1C9P}P 3.951 56.576 57.302
+{ cg2 ile a 103  B19.14 1C9P}3.731 58.068 57.531
+{ ca  met a 104  B14.95 1C9P}P 7.629 57.338 54.707
+{ cb  met a 104  B13.74 1C9P}9.053 56.828 54.964
+{ cg  met a 104  B15.05 1C9P}10.113 57.496 54.108
+{ sd  met a 104  B17.43 1C9P}11.777 56.901 54.435
+{ ce  met a 104  B20.88 1C9P}11.621 55.188 54.034
+{ ca  leu a 105  B14.90 1C9P}P 7.192 58.324 51.064
+{ cb  leu a 105  B14.29 1C9P}6.223 59.442 50.67
+{ cg  leu a 105  B13.40 1C9P}4.754 59.268 51.045
+{ cd1 leu a 105  B9.71 1C9P}3.964 60.485 50.589
+{ cg  leu a 105  B13.40 1C9P}P 4.754 59.268 51.045
+{ cd2 leu a 105  B14.73 1C9P}4.216 58.008 50.383
+{ ca  ile a 106  B12.16 1C9P}P 9.845 57.692 48.426
+{ cb  ile a 106  B11.82 1C9P}10.633 56.365 48.527
+{ cg1 ile a 106  B12.90 1C9P}11.224 56.209 49.928
+{ cd1 ile a 106  B10.32 1C9P}12.004 54.926 50.124
+{ cb  ile a 106  B11.82 1C9P}P 10.633 56.365 48.527
+{ cg2 ile a 106  B8.65 1C9P}11.717 56.311 47.453
+{ ca  lys a 107  B13.79 1C9P}P 9.679 59.022 44.879
+{ cb  lys a 107  B14.88 1C9P}9.413 60.486 44.546
+{ cg  lys a 107  B15.54 1C9P}8.968 60.686 43.103
+{ cd  lys a 107  B15.28 1C9P}8.651 62.137 42.808
+{ ce  lys a 107  B14.53 1C9P}8.183 62.309 41.377
+{ nz  lys a 107  B13.03 1C9P}7.794 63.713 41.063
+{ ca  leu a 108  B15.23 1C9P}P 11.539 57.08 42.2
+{ cb  leu a 108  B14.84 1C9P}10.924 55.875 41.481
+{ cg  leu a 108  B12.46 1C9P}10.222 54.844 42.371
+{ cd1 leu a 108  B15.54 1C9P}9.597 53.775 41.504
+{ cg  leu a 108  B12.46 1C9P}P 10.222 54.844 42.371
+{ cd2 leu a 108  B14.52 1C9P}11.203 54.225 43.336
+{ ca  ser a 109  B18.00 1C9P}P 13.907 59.14 40.039
+{ cb  ser a 109  B16.95 1C9P}15.429 59.045 40.052
+{ og  ser a 109  B18.93 1C9P}15.835 57.752 39.664
+{ ca  ser a 110  B17.75 1C9P}P 12.251 57.206 37.222
+{ cb  ser a 110  B18.72 1C9P}13.315 56.431 36.457
+{ og  ser a 110  B26.23 1C9P}12.712 55.483 35.598
+{ ca  pro a 111  B16.30 1C9P}P 8.793 55.616 36.938
+{ cb  pro a 111  B15.99 1C9P}7.798 56.154 35.909
+{ cg  pro a 111  B15.98 1C9P}8.218 57.614 35.781
+{ cd  pro a 111  B15.81 1C9P}ghost 9.705 57.409 35.627
+{ n   pro a 111  B16.58 1C9P}P 9.968 56.462 36.719
+{ cd  pro a 111  B15.81 1C9P}9.705 57.409 35.627
+{ ca  ala a 112  B15.34 1C9P}P 8.748 51.835 37.348
+{ cb  ala a 112  B15.82 1C9P}8.456 51.143 38.67
+{ ca  thr a 113  B12.92 1C9P}P 7.599 49.658 34.476
+{ cb  thr a 113  B13.54 1C9P}8.537 48.952 33.48
+{ og1 thr a 113  B14.19 1C9P}9.479 49.899 32.959
+{ cb  thr a 113  B13.54 1C9P}P 8.537 48.952 33.48
+{ cg2 thr a 113  B12.80 1C9P}7.747 48.354 32.329
+{ ca  leu a 114  B14.52 1C9P}P 4.31 47.959 35.315
+{ cb  leu a 114  B14.15 1C9P}3.029 48.74 35.622
+{ cg  leu a 114  B13.14 1C9P}3.155 49.915 36.599
+{ cd1 leu a 114  B11.29 1C9P}1.769 50.432 36.922
+{ cg  leu a 114  B13.14 1C9P}P 3.155 49.915 36.599
+{ cd2 leu a 114  B12.26 1C9P}3.853 49.481 37.892
+{ ca  ser a 116  B35.68 1C9P}P 2.795 40.495 36.407
+{ cb  ser a 116  B38.02 1C9P}2.853 39.082 35.821
+{ og  ser a 116  B43.65 1C9P}1.643 38.748 35.169
+{ ca  arg a 117  B27.36 1C9P}P 5.998 40.975 38.393
+{ cb  arg a 117  B28.28 1C9P}7.414 40.786 37.835
+{ cg  arg a 117  B28.97 1C9P}7.706 39.383 37.31
+{ cd  arg a 117  B29.29 1C9P}6.849 39.02 36.107
+{ ne  arg a 117  B29.28 1C9P}7.139 37.675 35.618
+{ cz  arg a 117  B29.29 1C9P}6.551 37.12 34.562
+{ nh1 arg a 117  B29.30 1C9P}5.637 37.795 33.88
+{ cz  arg a 117  B29.29 1C9P}P 6.551 37.12 34.562
+{ nh2 arg a 117  B29.30 1C9P}6.877 35.89 34.189
+{ ca  val a 118  B11.98 1C9P}P 5.585 44.667 39.219
+{ cb  val a 118  B8.90 1C9P}6.661 45.651 38.691
+{ cg1 val a 118  B7.87 1C9P}6.527 46.995 39.375
+{ cb  val a 118  B8.90 1C9P}P 6.661 45.651 38.691
+{ cg2 val a 118  B7.87 1C9P}8.045 45.09 38.944
+{ ca  ala a 119  B10.52 1C9P}P 2.216 46.122 40.18
+{ cb  ala a 119  B12.39 1C9P}1.157 45.056 40.14
+{ ca  thr a 120  B15.05 1C9P}P 0.808 48.699 42.568
+{ cb  thr a 120  B14.97 1C9P}0.306 50.079 42.119
+{ og1 thr a 120  B18.31 1C9P}-0.96 49.93 41.472
+{ cb  thr a 120  B14.97 1C9P}P 0.306 50.079 42.119
+{ cg2 thr a 120  B15.04 1C9P}1.286 50.715 41.137
+{ ca  val a 121  B11.05 1C9P}P -1.294 48.246 45.697
+{ cb  val a 121  B9.97 1C9P}-0.595 47.758 46.983
+{ cg1 val a 121  B8.54 1C9P}0.244 48.874 47.583
+{ cb  val a 121  B9.97 1C9P}P -0.595 47.758 46.983
+{ cg2 val a 121  B9.21 1C9P}-1.631 47.264 47.972
+{ ca  ser a 122  B14.24 1C9P}P -4.371 50.298 46.59
+{ cb  ser a 122  B15.11 1C9P}-5.792 49.829 46.276
+{ og  ser a 122  B21.50 1C9P}-6.736 50.83 46.607
+{ ca  leu a 123  B16.58 1C9P}P -4.668 52.738 49.491
+{ cb  leu a 123  B13.13 1C9P}-4.429 54.246 49.363
+{ cg  leu a 123  B11.35 1C9P}-3.056 54.693 48.86
+{ cd1 leu a 123  B13.28 1C9P}-3.037 56.203 48.704
+{ cg  leu a 123  B11.35 1C9P}P -3.056 54.693 48.86
+{ cd2 leu a 123  B10.22 1C9P}-1.975 54.243 49.834
+{ ca  pro a 124  B24.68 1C9P}P -7.235 52.307 52.312
+{ cb  pro a 124  B24.02 1C9P}-6.735 52.461 53.746
+{ cg  pro a 124  B24.00 1C9P}-5.304 52.054 53.637
+{ cd  pro a 124  B22.57 1C9P}ghost -4.91 52.85 52.424
+{ n   pro a 124  B21.79 1C9P}P -6.026 52.537 51.522
+{ cd  pro a 124  B22.57 1C9P}-4.91 52.85 52.424
+{ ca  arg a 125  B34.11 1C9P}P -10.668 53.584 51.349
+{ cb  arg a 125  B36.64 1C9P}-11.621 52.793 50.465
+{ cg  arg a 125  B39.35 1C9P}-10.945 52.298 49.204
+{ cd  arg a 125  B42.35 1C9P}-11.802 51.295 48.472
+{ ne  arg a 125  B45.15 1C9P}-11.178 50.886 47.221
+{ cz  arg a 125  B46.57 1C9P}-11.619 49.883 46.47
+{ nh1 arg a 125  B47.56 1C9P}-12.684 49.19 46.853
+{ cz  arg a 125  B46.57 1C9P}P -11.619 49.883 46.47
+{ nh2 arg a 125  B47.56 1C9P}-11.005 49.571 45.337
+{ ca  ser a 127  B31.32 1C9P}P -11.607 52.983 54.98
+{ cb  ser a 127  B32.21 1C9P}-13.043 52.466 55.062
+{ og  ser a 127  B33.20 1C9P}-13.128 51.128 54.603
+{ ca  cys a 128  B22.77 1C9P}P -9.824 51.585 58.069
+{ cb  cys a 128  B20.89 1C9P}-9.774 52.278 59.422
+{ sg  cys a 128  B19.38 1C9P}-8.978 53.909 59.4
+{ ca  ala a 129  B22.93 1C9P}P -9.736 47.81 58.53
+{ cb  ala a 129  B23.02 1C9P}-8.517 46.932 58.267
+{ ca  ala a 130  B26.44 1C9P}P -11.939 46.275 61.214
+{ cb  ala a 130  B25.95 1C9P}-13.413 45.995 60.968
+{ ca  ala a 132  B25.50 1C9P}P -10.741 43.857 63.89
+{ cb  ala a 132  B26.52 1C9P}-11.14 43.9 65.352
+{ ca  thr a 134  B20.82 1C9P}P -9.959 41.154 59.065
+{ cb  thr a 134  B20.62 1C9P}-9.839 42.55 58.442
+{ og1 thr a 134  B20.80 1C9P}-11.062 43.268 58.628
+{ cb  thr a 134  B20.62 1C9P}P -9.839 42.55 58.442
+{ cg2 thr a 134  B18.01 1C9P}-9.536 42.437 56.956
+{ ca  glu a 135  B22.60 1C9P}P -7.559 38.633 57.5
+{ cb  glu a 135  B27.03 1C9P}-7.998 37.365 56.758
+{ cg  glu a 135  B28.55 1C9P}-6.875 36.386 56.424
+{ cd  glu a 135  B30.49 1C9P}-6.725 35.29 57.458
+{ oe1 glu a 135  B31.36 1C9P}-6.624 35.61 58.659
+{ cd  glu a 135  B30.49 1C9P}P -6.725 35.29 57.458
+{ oe2 glu a 135  B31.36 1C9P}-6.702 34.104 57.063
+{ ca  cys a 136  B17.31 1C9P}P -4.49 40.427 56.133
+{ cb  cys a 136  B17.85 1C9P}-3.98 41.605 56.949
+{ sg  cys a 136  B21.75 1C9P}-5.298 42.73 57.485
+{ ca  leu a 137  B11.00 1C9P}P -1.417 39.425 54.165
+{ cb  leu a 137  B7.87 1C9P}-1.578 39.183 52.663
+{ cg  leu a 137  B7.87 1C9P}-0.471 38.353 52.012
+{ cd1 leu a 137  B7.87 1C9P}-0.473 36.953 52.606
+{ cg  leu a 137  B7.87 1C9P}P -0.471 38.353 52.012
+{ cd2 leu a 137  B9.27 1C9P}-0.691 38.278 50.514
+{ ca  ile a 138  B10.47 1C9P}P 2.048 40.371 55.423
+{ cb  ile a 138  B9.53 1C9P}2.391 40.277 56.927
+{ cg1 ile a 138  B8.53 1C9P}1.147 40.613 57.759
+{ cd1 ile a 138  B9.31 1C9P}1.324 40.402 59.243
+{ cb  ile a 138  B9.53 1C9P}P 2.391 40.277 56.927
+{ cg2 ile a 138  B7.87 1C9P}3.532 41.24 57.264
+{ ca  ser a 139  B7.87 1C9P}P 5.238 39.773 53.414
+{ cb  ser a 139  B8.28 1C9P}4.876 39.777 51.925
+{ og  ser a 139  B8.65 1C9P}4.608 41.091 51.46
+{ ca  trp a 141  B10.71 1C9P}P 12.614 39.038 53.571
+{ cb  trp a 141  B10.63 1C9P}13.56 39.588 52.496
+{ cg  trp a 141  B8.84 1C9P}13.155 39.274 51.087
+{ cd1 trp a 141  B7.87 1C9P}13.241 38.068 50.465
+{ ne1 trp a 141  B9.80 1C9P}12.758 38.16 49.183
+{ ce2 trp a 141  B7.87 1C9P}ghost 12.345 39.443 48.953
+{ cg  trp a 141  B8.84 1C9P}P 13.155 39.274 51.087
+{ cd2 trp a 141  B9.96 1C9P}12.582 40.179 50.134
+{ ce2 trp a 141  B7.87 1C9P}12.345 39.443 48.953
+{ cz2 trp a 141  B7.87 1C9P}11.785 40.023 47.807
+{ ch2 trp a 141  B7.87 1C9P}11.461 41.354 47.858
+{ cd2 trp a 141  B9.96 1C9P}P 12.582 40.179 50.134
+{ ce3 trp a 141  B11.93 1C9P}12.24 41.54 50.163
+{ cz3 trp a 141  B9.48 1C9P}11.681 42.118 49.017
+{ ch2 trp a 141  B7.87 1C9P}ghost 11.461 41.354 47.858
+{ ca  asn a 143  B20.94 1C9P}P 14.476 36.89 59.788
+{ cb  asn a 143  B21.84 1C9P}15.087 37.295 61.134
+{ cg  asn a 143  B23.81 1C9P}15.518 36.112 61.97
+{ od1 asn a 143  B26.46 1C9P}15.94 35.086 61.445
+{ cg  asn a 143  B23.81 1C9P}P 15.518 36.112 61.97
+{ nd2 asn a 143  B25.05 1C9P}15.452 36.267 63.285
+{ ca  thr a 144  B18.89 1C9P}P 12.343 33.732 59.858
+{ cb  thr a 144  B13.94 1C9P}12.307 32.688 58.715
+{ og1 thr a 144  B12.61 1C9P}13.515 31.917 58.73
+{ cb  thr a 144  B13.94 1C9P}P 12.307 32.688 58.715
+{ cg2 thr a 144  B9.97 1C9P}12.133 33.368 57.369
+{ ca  lys a 145  B22.21 1C9P}P 13.222 32.914 63.446
+{ cb  lys a 145  B20.19 1C9P}14.57 32.213 63.576
+{ cg  lys a 145  B18.10 1C9P}14.638 30.912 62.806
+{ cd  lys a 145  B18.32 1C9P}15.862 30.103 63.207
+{ ce  lys a 145  B18.04 1C9P}15.828 28.724 62.579
+{ nz  lys a 145  B18.38 1C9P}16.981 27.889 62.995
+{ ca  ser a 146  B29.53 1C9P}P 11.841 34.157 66.751
+{ cb  ser a 146  B29.78 1C9P}10.534 33.664 67.35
+{ og  ser a 146  B31.90 1C9P}10.705 32.347 67.838
+{ ca  ser a 147  B33.58 1C9P}P 15.064 33.193 68.528
+{ cb  ser a 147  B34.06 1C9P}14.848 31.959 69.399
+{ og  ser a 147  B33.36 1C9P}15.874 31.857 70.374
+{ ca  ser a 149  B25.03 1C9P}P 18.614 33.805 62.872
+{ cb  ser a 149  B25.91 1C9P}19.897 34.623 63.032
+{ og  ser a 149  B29.48 1C9P}19.938 35.283 64.284
+{ ca  ser a 150  B15.72 1C9P}P 17.708 32.831 59.338
+{ cb  ser a 150  B12.40 1C9P}17.068 31.449 59.377
+{ og  ser a 150  B10.40 1C9P}17.206 30.824 58.113
+{ ca  tyr a 151  B12.84 1C9P}P 17.154 35.209 56.454
+{ cb  tyr a 151  B15.00 1C9P}18.01 36.451 56.28
+{ cg  tyr a 151  B15.68 1C9P}18.009 37.288 57.532
+{ cd1 tyr a 151  B15.81 1C9P}18.793 36.943 58.625
+{ ce1 tyr a 151  B21.61 1C9P}18.711 37.657 59.82
+{ cz  tyr a 151  B21.64 1C9P}17.833 38.729 59.92
+{ oh  tyr a 151  B22.55 1C9P}17.727 39.442 61.095
+{ cg  tyr a 151  B15.68 1C9P}P 18.009 37.288 57.532
+{ cd2 tyr a 151  B16.86 1C9P}17.142 38.371 57.659
+{ ce2 tyr a 151  B20.00 1C9P}17.05 39.087 58.841
+{ cz  tyr a 151  B21.64 1C9P}ghost 17.833 38.729 59.92
+{ ca  pro a 152  B10.79 1C9P}P 15.473 33.64 53.368
+{ cb  pro a 152  B10.71 1C9P}13.978 33.421 53.544
+{ cg  pro a 152  B9.73 1C9P}13.574 34.766 54.061
+{ cd  pro a 152  B12.65 1C9P}ghost 14.603 34.958 55.177
+{ n   pro a 152  B12.18 1C9P}P 15.819 34.351 54.599
+{ cd  pro a 152  B12.65 1C9P}14.603 34.958 55.177
+{ ca  ser a 153  B11.74 1C9P}P 16.284 34.25 49.706
+{ cb  ser a 153  B11.19 1C9P}17.014 33.264 48.784
+{ og  ser a 153  B12.46 1C9P}18.267 32.885 49.319
+{ ca  leu a 154  B10.47 1C9P}P 12.612 34.048 48.812
+{ cb  leu a 154  B9.78 1C9P}12.03 32.711 48.355
+{ cg  leu a 154  B9.55 1C9P}12.758 32.166 47.122
+{ cd1 leu a 154  B11.15 1C9P}12.8 30.662 47.134
+{ cg  leu a 154  B9.55 1C9P}P 12.758 32.166 47.122
+{ cd2 leu a 154  B10.70 1C9P}12.072 32.693 45.877
+{ ca  leu a 155  B11.48 1C9P}P 9.92 36.518 49.833
+{ cb  leu a 155  B7.87 1C9P}9.142 37.34 48.808
+{ cg  leu a 155  B7.87 1C9P}8.077 38.251 49.404
+{ cd1 leu a 155  B7.87 1C9P}8.766 39.346 50.207
+{ cg  leu a 155  B7.87 1C9P}P 8.077 38.251 49.404
+{ cd2 leu a 155  B7.87 1C9P}7.23 38.85 48.301
+{ ca  gln a 156  B14.19 1C9P}P 7.953 35.064 52.744
+{ cb  gln a 156  B14.86 1C9P}8.547 34.846 54.136
+{ cg  gln a 156  B17.18 1C9P}9.834 34.01 54.171
+{ cd  gln a 156  B17.28 1C9P}9.689 32.662 53.475
+{ oe1 gln a 156  B19.75 1C9P}10.028 32.511 52.299
+{ cd  gln a 156  B17.28 1C9P}P 9.689 32.662 53.475
+{ ne2 gln a 156  B17.23 1C9P}9.161 31.685 54.196
+{ ca  cys a 157  B15.04 1C9P}P 4.201 35.293 53.275
+{ cb  cys a 157  B15.04 1C9P}3.339 34.786 52.122
+{ sg  cys a 157  B14.90 1C9P}3.327 35.859 50.66
+{ ca  leu a 158  B17.38 1C9P}P 1.912 35.248 56.277
+{ cb  leu a 158  B17.60 1C9P}2.748 35.735 57.457
+{ cg  leu a 158  B18.92 1C9P}2.05 35.772 58.813
+{ cd1 leu a 158  B24.03 1C9P}1.472 34.411 59.135
+{ cg  leu a 158  B18.92 1C9P}P 2.05 35.772 58.813
+{ cd2 leu a 158  B21.07 1C9P}3.044 36.2 59.877
+{ ca  lys a 159  B21.50 1C9P}P -1.794 35.694 56.908
+{ cb  lys a 159  B25.27 1C9P}-2.804 34.75 56.26
+{ cg  lys a 159  B30.80 1C9P}-2.631 34.613 54.75
+{ cd  lys a 159  B31.86 1C9P}-3.756 33.789 54.128
+{ ce  lys a 159  B32.20 1C9P}-3.624 33.73 52.616
+{ nz  lys a 159  B34.31 1C9P}-4.732 32.953 51.996
+{ ca  ala a 160  B22.03 1C9P}P -2.739 37.408 60.162
+{ cb  ala a 160  B18.45 1C9P}-1.496 37.977 60.862
+{ ca  pro a 161  B19.49 1C9P}P -5.921 39.162 61.412
+{ cb  pro a 161  B18.48 1C9P}-6.878 38.269 62.181
+{ cg  pro a 161  B18.59 1C9P}-5.916 37.641 63.158
+{ cd  pro a 161  B18.03 1C9P}ghost -4.802 37.189 62.22
+{ n   pro a 161  B20.21 1C9P}P -4.768 38.278 61.224
+{ cd  pro a 161  B18.03 1C9P}-4.802 37.189 62.22
+{ ca  val a 162  B19.00 1C9P}P -6.166 42.757 62.679
+{ cb  val a 162  B20.10 1C9P}-6.872 43.939 61.971
+{ cg1 val a 162  B17.12 1C9P}-6.662 45.216 62.763
+{ cb  val a 162  B20.10 1C9P}P -6.872 43.939 61.971
+{ cg2 val a 162  B19.69 1C9P}-6.336 44.102 60.553
+{ ca  leu a 163  B17.94 1C9P}P -6.516 42.844 66.459
+{ cb  leu a 163  B19.65 1C9P}-5.356 42.533 67.403
+{ cg  leu a 163  B22.06 1C9P}-4.528 41.308 67.012
+{ cd1 leu a 163  B23.92 1C9P}-3.46 41.067 68.063
+{ cg  leu a 163  B22.06 1C9P}P -4.528 41.308 67.012
+{ cd2 leu a 163  B22.47 1C9P}-5.429 40.096 66.882
+{ ca  ser a 164  B16.91 1C9P}P -8.864 45.045 68.462
+{ cb  ser a 164  B17.19 1C9P}-9.868 44.547 69.503
+{ og  ser a 164  B15.98 1C9P}-9.211 43.989 70.626
+{ ca  asp a 165  B17.18 1C9P}P -7.384 48.286 69.754
+{ cb  asp a 165  B17.46 1C9P}-8.038 49.664 69.637
+{ cg  asp a 165  B18.08 1C9P}-7.195 50.761 70.239
+{ od1 asp a 165  B16.29 1C9P}-6.042 50.95 69.785
+{ cg  asp a 165  B18.08 1C9P}P -7.195 50.761 70.239
+{ od2 asp a 165  B19.81 1C9P}-7.691 51.432 71.167
+{ ca  ser a 166  B17.00 1C9P}P -8.082 47.033 73.282
+{ cb  ser a 166  B14.67 1C9P}-9.432 46.494 73.74
+{ og  ser a 166  B16.61 1C9P}-9.353 46.057 75.083
+{ ca  ser a 167  B20.90 1C9P}P -6.019 43.836 73.164
+{ cb  ser a 167  B20.08 1C9P}-6.376 42.563 72.388
+{ og  ser a 167  B24.62 1C9P}-6.366 42.8 70.997
+{ ca  cys a 168  B18.47 1C9P}P -3.292 45.691 71.276
+{ cb  cys a 168  B19.29 1C9P}-3.487 46.547 70.023
+{ sg  cys a 168  B18.76 1C9P}-1.944 47.171 69.292
+{ ca  lys a 169  B17.41 1C9P}P -3.08 48.102 74.204
+{ cb  lys a 169  B14.40 1C9P}-4.101 49.211 74.476
+{ cg  lys a 169  B11.82 1C9P}-4.287 50.155 73.301
+{ cd  lys a 169  B8.82 1C9P}-5.262 51.268 73.609
+{ ce  lys a 169  B7.87 1C9P}-5.34 52.264 72.467
+{ nz  lys a 169  B8.28 1C9P}-6.354 53.331 72.723
+{ ca  ser a 170  B23.36 1C9P}P -3.318 45.309 76.781
+{ cb  ser a 170  B22.91 1C9P}-4.411 44.239 76.883
+{ og  ser a 170  B23.74 1C9P}-4.226 43.441 78.038
+{ ca  ser a 171  B23.99 1C9P}P -0.192 43.824 75.194
+{ cb  ser a 171  B24.08 1C9P}-0.136 43.212 73.791
+{ og  ser a 171  B24.26 1C9P}-1.126 42.215 73.614
+{ ca  tyr a 172  B23.43 1C9P}P 1.637 47.169 74.97
+{ cb  tyr a 172  B22.26 1C9P}1.946 47.606 73.538
+{ cg  tyr a 172  B19.58 1C9P}2.639 46.553 72.71
+{ cd1 tyr a 172  B18.44 1C9P}3.993 46.288 72.888
+{ ce1 tyr a 172  B19.43 1C9P}4.641 45.324 72.132
+{ cz  tyr a 172  B18.29 1C9P}3.937 44.608 71.187
+{ oh  tyr a 172  B17.27 1C9P}4.603 43.669 70.437
+{ cg  tyr a 172  B19.58 1C9P}P 2.639 46.553 72.71
+{ cd2 tyr a 172  B18.35 1C9P}1.943 45.816 71.751
+{ ce2 tyr a 172  B18.35 1C9P}2.585 44.845 70.99
+{ cz  tyr a 172  B18.29 1C9P}ghost 3.937 44.608 71.187
+{ ca  pro a 173  B22.56 1C9P}P 0.604 49.33 77.967
+{ cb  pro a 173  B21.09 1C9P}0.785 48.748 79.368
+{ cg  pro a 173  B20.26 1C9P}0.574 47.272 79.134
+{ cd  pro a 173  B22.71 1C9P}ghost 1.475 47.096 77.938
+{ n   pro a 173  B22.87 1C9P}P 1.073 48.243 77.108
+{ cd  pro a 173  B22.71 1C9P}1.475 47.096 77.938
+{ ca  gln a 175  B22.01 1C9P}P 3.063 52.427 74.095
+{ cb  gln a 175  B24.89 1C9P}4.109 51.312 74.179
+{ cg  gln a 175  B29.33 1C9P}4.971 51.398 75.442
+{ cd  gln a 175  B31.60 1C9P}6.063 50.342 75.485
+{ oe1 gln a 175  B35.11 1C9P}5.784 49.147 75.374
+{ cd  gln a 175  B31.60 1C9P}P 6.063 50.342 75.485
+{ ne2 gln a 175  B29.41 1C9P}7.312 50.778 75.655
+{ ca  ile a 176  B13.57 1C9P}P 0.359 52.046 71.427
+{ cb  ile a 176  B10.53 1C9P}-0.659 50.885 71.439
+{ cg1 ile a 176  B7.87 1C9P}0.076 49.555 71.6
+{ cd1 ile a 176  B8.74 1C9P}1.04 49.248 70.487
+{ cb  ile a 176  B10.53 1C9P}P -0.659 50.885 71.439
+{ cg2 ile a 176  B8.67 1C9P}-1.479 50.887 70.171
+{ ca  thr a 177  B12.28 1C9P}P -0.75 55.302 69.779
+{ cb  thr a 177  B11.74 1C9P}0.208 56.247 69.052
+{ og1 thr a 177  B7.87 1C9P}0.412 55.77 67.716
+{ cb  thr a 177  B11.74 1C9P}P 0.208 56.247 69.052
+{ cg2 thr a 177  B8.63 1C9P}1.544 56.314 69.771
+{ ca  asn a 179  B12.58 1C9P}P -1.467 55.624 64.59
+{ cb  asn a 179  B12.33 1C9P}-0.446 56.687 64.222
+{ cg  asn a 179  B15.98 1C9P}-1.031 58.073 64.25
+{ od1 asn a 179  B17.77 1C9P}-2.029 58.354 63.571
+{ cg  asn a 179  B15.98 1C9P}P -1.031 58.073 64.25
+{ nd2 asn a 179  B15.88 1C9P}-0.419 58.958 65.033
+{ ca  met a 180  B10.13 1C9P}P -0.73 51.992 65.399
+{ cb  met a 180  B7.87 1C9P}0.255 51.885 66.56
+{ cg  met a 180  B7.87 1C9P}1.364 52.912 66.543
+{ sd  met a 180  B9.96 1C9P}2.418 52.821 68.014
+{ ce  met a 180  B13.04 1C9P}3.631 54.072 67.605
+{ ca  ile a 181  B13.21 1C9P}P -2.523 48.665 65.105
+{ cb  ile a 181  B12.17 1C9P}-3.447 48.489 63.856
+{ cg1 ile a 181  B12.37 1C9P}-2.602 48.352 62.585
+{ cd1 ile a 181  B7.87 1C9P}-3.414 48.011 61.336
+{ cb  ile a 181  B12.17 1C9P}P -3.447 48.489 63.856
+{ cg2 ile a 181  B11.24 1C9P}-4.439 49.641 63.763
+{ ca  cys a 182  B15.93 1C9P}P -1.567 45.173 66.221
+{ cb  cys a 182  B16.01 1C9P}-1.718 44.63 67.648
+{ sg  cys a 182  B18.37 1C9P}-0.856 45.496 68.997
+{ ca  val a 183  B15.28 1C9P}P -1.932 42.455 63.598
+{ cb  val a 183  B15.21 1C9P}-1.7 42.8 62.118
+{ cg1 val a 183  B12.54 1C9P}-2.38 41.771 61.251
+{ cb  val a 183  B15.21 1C9P}P -1.7 42.8 62.118
+{ cg2 val a 183  B16.46 1C9P}-2.207 44.201 61.807
+{ ca  phe a 184b B22.59 1C9P}P -1.267 36.242 67.19
+{ cb  phe a 184b B20.74 1C9P}-0.796 34.885 66.656
+{ cg  phe a 184b B17.53 1C9P}-1.187 34.627 65.225
+{ cd1 phe a 184b B17.84 1C9P}-2.491 34.272 64.891
+{ ce1 phe a 184b B17.15 1C9P}-2.867 34.085 63.555
+{ cz  phe a 184b B19.17 1C9P}-1.931 34.261 62.541
+{ cg  phe a 184b B17.53 1C9P}P -1.187 34.627 65.225
+{ cd2 phe a 184b B17.79 1C9P}-0.26 34.796 64.203
+{ ce2 phe a 184b B20.13 1C9P}-0.623 34.615 62.866
+{ cz  phe a 184b B19.17 1C9P}ghost -1.931 34.261 62.541
+{ ca  leu a 185  B29.75 1C9P}P -1.327 36.758 71.006
+{ cb  leu a 185  B29.60 1C9P}-2.595 37.107 71.78
+{ cg  leu a 185  B31.57 1C9P}-3.467 38.253 71.285
+{ cd1 leu a 185  B31.39 1C9P}-4.742 38.308 72.117
+{ cg  leu a 185  B31.57 1C9P}P -3.467 38.253 71.285
+{ cd2 leu a 185  B32.84 1C9P}-2.695 39.558 71.371
+{ ca  glu a 186  B33.04 1C9P}P -0.446 33.089 71.096
+{ cb  glu a 186  B34.09 1C9P}-1.444 32.22 70.363
+{ cg  glu a 186  B38.17 1C9P}-2.205 33.147 69.414
+{ cd  glu a 186  B43.32 1C9P}-3.358 32.522 68.697
+{ oe1 glu a 186  B45.35 1C9P}-3.129 31.586 67.902
+{ cd  glu a 186  B43.32 1C9P}P -3.358 32.522 68.697
+{ oe2 glu a 186  B46.71 1C9P}-4.499 32.984 68.92
+{ ca  lys a 188b B22.08 1C9P}P 3.742 33.867 63.61
+{ cb  lys a 188b B22.16 1C9P}2.489 33.513 62.815
+{ cg  lys a 188b B23.39 1C9P}2.198 32.032 62.707
+{ cd  lys a 188b B27.08 1C9P}0.816 31.818 62.099
+{ ce  lys a 188b B29.14 1C9P}0.417 30.355 62.076
+{ nz  lys a 188b B29.95 1C9P}-1.001 30.197 61.636
+{ ca  asp a 189  B13.16 1C9P}P 4.806 37.498 63.205
+{ cb  asp a 189  B11.01 1C9P}5.177 37.822 64.659
+{ cg  asp a 189  B10.88 1C9P}5.211 39.301 64.941
+{ od1 asp a 189  B11.52 1C9P}4.465 40.04 64.268
+{ cg  asp a 189  B10.88 1C9P}P 5.211 39.301 64.941
+{ od2 asp a 189  B7.87 1C9P}5.953 39.725 65.852
+{ ca  ser a 190  B12.34 1C9P}P 6.879 39.923 61.136
+{ cb  ser a 190  B11.67 1C9P}6.423 41.28 60.603
+{ og  ser a 190  B18.56 1C9P}6.147 42.171 61.659
+{ ca  cys a 191  B9.80 1C9P}P 10.505 40.264 62.187
+{ cb  cys a 191  B9.26 1C9P}11.031 38.842 62.329
+{ sg  cys a 191  B15.20 1C9P}12.194 38.582 63.678
+{ ca  gln a 192  B13.49 1C9P}P 13.747 42.241 61.78
+{ cb  gln a 192  B15.88 1C9P}15.032 42.073 62.594
+{ cg  gln a 192  B21.13 1C9P}15.129 42.927 63.875
+{ cd  gln a 192  B23.51 1C9P}14.098 42.572 64.949
+{ oe1 gln a 192  B25.22 1C9P}14.007 41.422 65.389
+{ cd  gln a 192  B23.51 1C9P}P 14.098 42.572 64.949
+{ ne2 gln a 192  B22.34 1C9P}13.333 43.57 65.387
+{ ca  asp a 194  B7.87 1C9P}P 10.4 43.165 57.442
+{ cb  asp a 194  B7.87 1C9P}9.399 42.214 58.099
+{ cg  asp a 194  B7.95 1C9P}9.68 40.757 57.791
+{ od1 asp a 194  B7.87 1C9P}9.837 40.419 56.597
+{ cg  asp a 194  B7.95 1C9P}P 9.68 40.757 57.791
+{ od2 asp a 194  B9.62 1C9P}9.72 39.945 58.739
+{ ca  ser a 195  B11.00 1C9P}P 10.118 46.871 58.28
+{ cb  ser a 195  B13.02 1C9P}11.168 47.708 59.02
+{ og  ser a 195  B15.80 1C9P}11.256 47.33 60.38
+{ ca  pro a 198  B8.89 1C9P}P 2.946 45.691 53.285
+{ cb  pro a 198  B7.87 1C9P}2.653 45.327 51.821
+{ cg  pro a 198  B9.83 1C9P}3.979 45.529 51.115
+{ cd  pro a 198  B10.07 1C9P}ghost 4.916 44.979 52.14
+{ n   pro a 198  B10.39 1C9P}P 4.411 45.655 53.341
+{ cd  pro a 198  B10.07 1C9P}4.916 44.979 52.14
+{ ca  val a 199  B8.71 1C9P}P 0.047 44.491 55.437
+{ cb  val a 199  B7.87 1C9P}-0.097 45.063 56.863
+{ cg1 val a 199  B7.87 1C9P}-1.204 44.34 57.608
+{ cb  val a 199  B7.87 1C9P}P -0.097 45.063 56.863
+{ cg2 val a 199  B8.14 1C9P}1.2 44.888 57.615
+{ ca  val a 200  B12.26 1C9P}P -2.562 44.097 52.714
+{ cb  val a 200  B10.40 1C9P}-2.23 43.631 51.287
+{ cg1 val a 200  B9.33 1C9P}-3.399 43.953 50.365
+{ cb  val a 200  B10.40 1C9P}P -2.23 43.631 51.287
+{ cg2 val a 200  B7.87 1C9P}-0.948 44.297 50.799
+{ ca  cys a 201  B19.41 1C9P}P -6.177 43.532 53.728
+{ cb  cys a 201  B15.86 1C9P}-6.564 44.12 55.075
+{ sg  cys a 201  B19.35 1C9P}-5.179 44.314 56.225
+{ ca  asn a 202  B26.60 1C9P}P -8.763 43.252 50.924
+{ cb  asn a 202  B28.96 1C9P}-9.954 43.96 51.549
+{ cg  asn a 202  B32.49 1C9P}-10.818 43.026 52.338
+{ od1 asn a 202  B36.01 1C9P}-10.706 42.925 53.561
+{ cg  asn a 202  B32.49 1C9P}P -10.818 43.026 52.338
+{ nd2 asn a 202  B36.40 1C9P}-11.668 42.287 51.629
+{ ca  gln a 204  B19.15 1C9P}P -5.77 47.786 50.306
+{ cb  gln a 204  B21.82 1C9P}-6.982 48.437 50.958
+{ cg  gln a 204  B23.38 1C9P}-8.206 48.473 50.077
+{ cd  gln a 204  B24.99 1C9P}-9.405 49.053 50.795
+{ oe1 gln a 204  B32.67 1C9P}-10.467 49.192 50.208
+{ cd  gln a 204  B24.99 1C9P}P -9.405 49.053 50.795
+{ ne2 gln a 204  B26.00 1C9P}-9.239 49.391 52.059
+{ ca  leu a 209  B17.18 1C9P}P -2.564 48.702 52.094
+{ cb  leu a 209  B17.26 1C9P}-1.486 49.648 51.541
+{ cg  leu a 209  B16.20 1C9P}-0.261 49.961 52.409
+{ cd1 leu a 209  B18.11 1C9P}0.424 48.679 52.861
+{ cg  leu a 209  B16.20 1C9P}P -0.261 49.961 52.409
+{ cd2 leu a 209  B15.37 1C9P}0.694 50.824 51.618
+{ ca  gln a 210  B15.61 1C9P}P -3.753 48.729 55.705
+{ cb  gln a 210  B15.05 1C9P}-4.77 47.72 56.239
+{ cg  gln a 210  B17.96 1C9P}-6.088 47.703 55.486
+{ cd  gln a 210  B17.08 1C9P}-6.882 48.989 55.647
+{ oe1 gln a 210  B16.85 1C9P}-7.971 49.136 55.092
+{ cd  gln a 210  B17.08 1C9P}P -6.882 48.989 55.647
+{ ne2 gln a 210  B18.56 1C9P}-6.343 49.921 56.414
+{ ca  ile a 212  B11.17 1C9P}P 3.289 49.068 57.477
+{ cb  ile a 212  B10.55 1C9P}3.804 50.529 57.266
+{ cg1 ile a 212  B7.87 1C9P}3.167 51.143 56.021
+{ cd1 ile a 212  B8.85 1C9P}3.622 52.541 55.761
+{ cb  ile a 212  B10.55 1C9P}P 3.804 50.529 57.266
+{ cg2 ile a 212  B9.61 1C9P}5.319 50.541 57.126
+{ ca  val a 213  B10.52 1C9P}P 5.596 46.733 59.412
+{ cb  val a 213  B9.28 1C9P}6.597 45.71 58.828
+{ cg1 val a 213  B8.49 1C9P}7.402 45.082 59.949
+{ cb  val a 213  B9.28 1C9P}P 6.597 45.71 58.828
+{ cg2 val a 213  B7.87 1C9P}5.857 44.625 58.061
+{ ca  ser a 214  B10.07 1C9P}P 6.89 48.761 62.348
+{ cb  ser a 214  B8.89 1C9P}5.849 49.737 62.911
+{ og  ser a 214  B7.87 1C9P}6.448 50.775 63.664
+{ ca  trp a 215  B10.76 1C9P}P 7.924 47.364 65.76
+{ cb  trp a 215  B8.71 1C9P}8.281 48.498 66.72
+{ cg  trp a 215  B9.47 1C9P}7.078 49.217 67.253
+{ cd1 trp a 215  B9.53 1C9P}6.301 50.124 66.591
+{ ne1 trp a 215  B8.95 1C9P}5.248 50.521 67.388
+{ ce2 trp a 215  B9.75 1C9P}ghost 5.33 49.869 68.589
+{ cg  trp a 215  B9.47 1C9P}P 7.078 49.217 67.253
+{ cd2 trp a 215  B9.94 1C9P}6.47 49.035 68.542
+{ ce2 trp a 215  B9.75 1C9P}5.33 49.869 68.589
+{ cz2 trp a 215  B9.83 1C9P}4.495 49.938 69.714
+{ ch2 trp a 215  B8.09 1C9P}4.822 49.159 70.794
+{ cd2 trp a 215  B9.94 1C9P}P 6.47 49.035 68.542
+{ ce3 trp a 215  B8.37 1C9P}6.781 48.251 69.661
+{ cz3 trp a 215  B8.14 1C9P}5.95 48.319 70.777
+{ ch2 trp a 215  B8.09 1C9P}ghost 4.822 49.159 70.794
+{ ca  tyr a 217  B31.11 1C9P}P 8.879 42.887 71.335
+{ cb  tyr a 217  B38.56 1C9P}8.257 42.384 72.642
+{ cg  tyr a 217  B47.19 1C9P}7.889 43.434 73.669
+{ cd1 tyr a 217  B49.99 1C9P}8.005 44.798 73.401
+{ ce1 tyr a 217  B51.07 1C9P}7.638 45.752 74.356
+{ cz  tyr a 217  B53.04 1C9P}7.159 45.343 75.585
+{ oh  tyr a 217  B54.38 1C9P}6.796 46.281 76.522
+{ cg  tyr a 217  B47.19 1C9P}P 7.889 43.434 73.669
+{ cd2 tyr a 217  B47.99 1C9P}7.403 43.053 74.918
+{ ce2 tyr a 217  B51.50 1C9P}7.038 43.996 75.873
+{ cz  tyr a 217  B53.04 1C9P}ghost 7.159 45.343 75.585
+{ ca  cys a 220  B23.40 1C9P}P 9.291 38.337 67.082
+{ cb  cys a 220  B18.36 1C9P}10.122 38.015 65.837
+{ sg  cys a 220  B15.86 1C9P}11.229 39.358 65.3
+{ ca  ala a 221  B22.07 1C9P}P 6.452 35.832 67.4
+{ cb  ala a 221  B20.74 1C9P}6.934 34.634 66.592
+{ ca  gln a 221b B24.49 1C9P}P 6.376 36.18 71.206
+{ cb  gln a 221b B24.13 1C9P}7.103 37.266 71.998
+{ cg  gln a 221b B23.67 1C9P}8.58 37.333 71.727
+{ cd  gln a 221b B24.06 1C9P}9.211 35.978 71.812
+{ oe1 gln a 221b B25.61 1C9P}9.087 35.281 72.82
+{ cd  gln a 221b B24.06 1C9P}P 9.211 35.978 71.812
+{ ne2 gln a 221b B28.23 1C9P}9.894 35.583 70.747
+{ ca  lys a 222  B29.76 1C9P}P 3.306 35.086 73.143
+{ cb  lys a 222  B31.85 1C9P}3.209 33.937 74.154
+{ cg  lys a 222  B37.49 1C9P}1.815 33.763 74.728
+{ cd  lys a 222  B40.75 1C9P}1.711 32.558 75.651
+{ ce  lys a 222  B40.50 1C9P}0.321 32.465 76.28
+{ nz  lys a 222  B42.66 1C9P}-0.763 32.4 75.258
+{ ca  asn a 223  B28.08 1C9P}P 1.146 38.138 73.861
+{ cb  asn a 223  B29.05 1C9P}1.027 38.112 75.379
+{ cg  asn a 223  B33.29 1C9P}-0.389 37.926 75.832
+{ od1 asn a 223  B35.32 1C9P}-0.963 36.843 75.697
+{ cg  asn a 223  B33.29 1C9P}P -0.389 37.926 75.832
+{ nd2 asn a 223  B35.29 1C9P}-0.985 38.999 76.35
+{ ca  lys a 224  B21.34 1C9P}P 3.38 40.42 71.824
+{ cb  lys a 224  B22.06 1C9P}4.824 40.326 72.31
+{ cg  lys a 224  B21.24 1C9P}4.956 40.441 73.806
+{ cd  lys a 224  B23.00 1C9P}4.433 41.78 74.283
+{ ce  lys a 224  B23.46 1C9P}4.48 41.875 75.795
+{ nz  lys a 224  B21.47 1C9P}4.061 43.212 76.259
+{ ca  pro a 225  B15.75 1C9P}P 1.974 40.807 68.282
+{ cb  pro a 225  B15.33 1C9P}0.461 40.937 68.153
+{ cg  pro a 225  B17.07 1C9P}0.133 41.771 69.363
+{ cd  pro a 225  B16.61 1C9P}ghost 0.876 40.971 70.409
+{ n   pro a 225  B17.37 1C9P}P 2.162 40.738 69.73
+{ cd  pro a 225  B16.61 1C9P}0.876 40.971 70.409
+{ ca  val a 227  B15.08 1C9P}P 2.817 46.742 65.76
+{ cb  val a 227  B14.65 1C9P}3.29 47.732 66.825
+{ cg1 val a 227  B13.78 1C9P}2.487 49.016 66.722
+{ cb  val a 227  B14.65 1C9P}P 3.29 47.732 66.825
+{ cg2 val a 227  B13.18 1C9P}3.157 47.108 68.201
+{ ca  tyr a 228  B11.40 1C9P}P 2.097 48.266 62.359
+{ cb  tyr a 228  B10.24 1C9P}1.358 47.376 61.361
+{ cg  tyr a 228  B9.71 1C9P}1.827 45.946 61.361
+{ cd1 tyr a 228  B7.87 1C9P}1.522 45.084 62.416
+{ ce1 tyr a 228  B8.19 1C9P}2.025 43.784 62.447
+{ cz  tyr a 228  B9.52 1C9P}2.839 43.342 61.416
+{ oh  tyr a 228  B9.95 1C9P}3.36 42.071 61.413
+{ cg  tyr a 228  B9.71 1C9P}P 1.827 45.946 61.361
+{ cd2 tyr a 228  B11.56 1C9P}2.64 45.473 60.339
+{ ce2 tyr a 228  B12.34 1C9P}3.146 44.179 60.362
+{ cz  tyr a 228  B9.52 1C9P}ghost 2.839 43.342 61.416
+{ ca  thr a 229  B12.22 1C9P}P 1.557 51.829 61.208
+{ cb  thr a 229  B13.24 1C9P}2.489 52.633 60.297
+{ og1 thr a 229  B16.23 1C9P}3.821 52.581 60.821
+{ cb  thr a 229  B13.24 1C9P}P 2.489 52.633 60.297
+{ cg2 thr a 229  B11.86 1C9P}2.044 54.083 60.228
+{ ca  lys a 230  B11.43 1C9P}P -2.149 52.484 60.6
+{ cb  lys a 230  B12.89 1C9P}-3.055 52.982 61.728
+{ cg  lys a 230  B15.27 1C9P}-4.537 52.733 61.555
+{ cd  lys a 230  B20.13 1C9P}-5.25 53.096 62.843
+{ ce  lys a 230  B23.09 1C9P}-6.71 52.693 62.834
+{ nz  lys a 230  B25.78 1C9P}-7.323 52.944 64.171
+{ ca  val a 231  B10.11 1C9P}P -1.973 53.557 56.964
+{ cb  val a 231  B8.91 1C9P}-1.648 52.628 55.764
+{ cg1 val a 231  B7.87 1C9P}-1.715 53.393 54.456
+{ cb  val a 231  B8.91 1C9P}P -1.648 52.628 55.764
+{ cg2 val a 231  B9.97 1C9P}-0.263 52.047 55.94
+{ ca  cys a 232  B12.48 1C9P}P -5.666 54.472 56.756
+{ cb  cys a 232  B14.10 1C9P}-6.867 53.648 57.232
+{ sg  cys a 232  B18.98 1C9P}-7.02 53.506 59.034
+{ ca  asn a 233  B11.93 1C9P}P -4.855 57.532 58.908
+{ cb  asn a 233  B11.11 1C9P}-4.354 57.5 60.352
+{ cg  asn a 233  B14.47 1C9P}-5.3 56.812 61.281
+{ od1 asn a 233  B21.34 1C9P}-6.445 56.541 60.931
+{ cg  asn a 233  B14.47 1C9P}P -5.3 56.812 61.281
+{ nd2 asn a 233  B14.63 1C9P}-4.839 56.543 62.494
+{ ca  tyr a 234  B15.94 1C9P}P -2.354 58.73 56.31
+{ cb  tyr a 234  B13.56 1C9P}-0.973 58.095 56.421
+{ cg  tyr a 234  B11.66 1C9P}-0.475 58.072 57.841
+{ cd1 tyr a 234  B7.92 1C9P}0.044 59.217 58.432
+{ ce1 tyr a 234  B10.18 1C9P}0.439 59.217 59.755
+{ cz  tyr a 234  B7.87 1C9P}0.321 58.063 60.505
+{ oh  tyr a 234  B9.92 1C9P}0.712 58.075 61.809
+{ cg  tyr a 234  B11.66 1C9P}P -0.475 58.072 57.841
+{ cd2 tyr a 234  B11.06 1C9P}-0.582 56.918 58.62
+{ ce2 tyr a 234  B7.87 1C9P}-0.186 56.911 59.952
+{ cz  tyr a 234  B7.87 1C9P}ghost 0.321 58.063 60.505
+{ ca  val a 235  B16.88 1C9P}P -4.335 58.473 53.081
+{ cb  val a 235  B16.06 1C9P}-5.772 57.951 52.921
+{ cg1 val a 235  B16.97 1C9P}-6.25 58.144 51.491
+{ cb  val a 235  B16.06 1C9P}P -5.772 57.951 52.921
+{ cg2 val a 235  B19.01 1C9P}-5.824 56.492 53.295
+{ ca  asn a 236  B20.43 1C9P}P -4.888 62.215 53.064
+{ cb  asn a 236  B23.71 1C9P}-5.687 63.023 54.082
+{ cg  asn a 236  B30.62 1C9P}-5.974 64.423 53.592
+{ od1 asn a 236  B34.40 1C9P}-6.682 64.609 52.596
+{ cg  asn a 236  B30.62 1C9P}P -5.974 64.423 53.592
+{ nd2 asn a 236  B33.07 1C9P}-5.415 65.42 54.273
+{ ca  trp a 237  B12.67 1C9P}P -1.261 63.098 53.85
+{ cb  trp a 237  B10.50 1C9P}-0.448 62.651 55.059
+{ cg  trp a 237  B10.39 1C9P}0.991 63.034 54.934
+{ cd1 trp a 237  B10.35 1C9P}1.506 64.303 54.903
+{ ne1 trp a 237  B9.70 1C9P}2.873 64.259 54.731
+{ ce2 trp a 237  B10.59 1C9P}ghost 3.267 62.948 54.649
+{ cg  trp a 237  B10.39 1C9P}P 0.991 63.034 54.934
+{ cd2 trp a 237  B11.70 1C9P}2.108 62.147 54.77
+{ ce2 trp a 237  B10.59 1C9P}3.267 62.948 54.649
+{ cz2 trp a 237  B7.92 1C9P}4.539 62.401 54.474
+{ ch2 trp a 237  B8.81 1C9P}4.64 61.038 54.428
+{ cd2 trp a 237  B11.70 1C9P}P 2.108 62.147 54.77
+{ ce3 trp a 237  B9.71 1C9P}2.237 60.752 54.72
+{ cz3 trp a 237  B10.93 1C9P}3.507 60.211 54.546
+{ ch2 trp a 237  B8.81 1C9P}ghost 4.64 61.038 54.428
+{ ca  ile a 238  B16.01 1C9P}P -0.036 60.717 51.155
+{ cb  ile a 238  B17.59 1C9P}-0.387 59.212 51.075
+{ cg1 ile a 238  B17.92 1C9P}0.245 58.473 52.259
+{ cd1 ile a 238  B20.59 1C9P}-0.135 57.014 52.346
+{ cb  ile a 238  B17.59 1C9P}P -0.387 59.212 51.075
+{ cg2 ile a 238  B18.58 1C9P}0.101 58.624 49.76
+{ ca  gln a 239  B17.83 1C9P}P -2.264 61.991 48.353
+{ cb  gln a 239  B18.75 1C9P}-3.78 61.841 48.301
+{ cg  gln a 239  B22.21 1C9P}-4.218 60.414 48.011
+{ cd  gln a 239  B25.16 1C9P}-5.716 60.288 47.82
+{ oe1 gln a 239  B24.18 1C9P}-6.216 59.229 47.429
+{ cd  gln a 239  B25.16 1C9P}P -5.716 60.288 47.82
+{ ne2 gln a 239  B25.08 1C9P}-6.446 61.372 48.099
+{ ca  gln a 240  B18.35 1C9P}P -1.457 65.593 49.223
+{ cb  gln a 240  B19.99 1C9P}-1.693 66.288 50.566
+{ cg  gln a 240  B24.38 1C9P}-3.146 66.318 51.01
+{ cd  gln a 240  B26.29 1C9P}-4.068 66.882 49.945
+{ oe1 gln a 240  B27.76 1C9P}-4.264 66.273 48.893
+{ cd  gln a 240  B26.29 1C9P}P -4.068 66.882 49.945
+{ ne2 gln a 240  B27.76 1C9P}-4.631 68.054 50.209
+{ ca  thr a 241  B16.51 1C9P}P 2.308 65.035 49.277
+{ cb  thr a 241  B14.85 1C9P}3.088 64.134 50.248
+{ og1 thr a 241  B13.70 1C9P}2.994 64.672 51.572
+{ cb  thr a 241  B14.85 1C9P}P 3.088 64.134 50.248
+{ cg2 thr a 241  B16.57 1C9P}4.546 64.056 49.848
+{ ca  ile a 242  B16.14 1C9P}P 2.239 63.233 45.926
+{ cb  ile a 242  B14.63 1C9P}1.482 61.944 45.529
+{ cg1 ile a 242  B13.63 1C9P}1.937 60.769 46.389
+{ cd1 ile a 242  B13.80 1C9P}1.253 59.461 46.02
+{ cb  ile a 242  B14.63 1C9P}P 1.482 61.944 45.529
+{ cg2 ile a 242  B11.56 1C9P}1.739 61.623 44.061
+{ ca  ala a 243  B18.06 1C9P}P 0.166 66.046 44.418
+{ cb  ala a 243  B17.36 1C9P}-1.215 66.444 44.891
+{ ca  ala a 244  B20.93 1C9P}P 2.64 68.654 45.625
+{ cb  ala a 244  B20.08 1C9P}2.739 69.094 47.077
+{ ca  asn a 245  B24.58 1C9P}P 5.794 66.805 44.513
+{ cb  asn a 245  B25.72 1C9P}6.516 65.936 45.534
+{ cg  asn a 245  B27.71 1C9P}6.89 66.697 46.783
+{ od1 asn a 245  B29.05 1C9P}7.82 67.501 46.773
+{ cg  asn a 245  B27.71 1C9P}P 6.89 66.697 46.783
+{ nd2 asn a 245  B28.33 1C9P}6.156 66.458 47.868
+@vectorlist {SS} color= yellow master= {sidechain}
+{ sg  cys a 42  B11.16}P 13.796 49.309 56.8
+{ sg  cys a 58  B13.13}12.374 50.744 57.073
+{ sg  cys a 22  B12.66}P 5.236 35.864 50.003
+{ sg  cys a 157  B14.90}3.327 35.859 50.66
+{ sg  cys a 168  B18.76}P -1.944 47.171 69.292
+{ sg  cys a 182  B18.37}-0.856 45.496 68.997
+{ sg  cys a 136  B21.75}P -5.298 42.73 57.485
+{ sg  cys a 201  B19.35}-5.179 44.314 56.225
+{ sg  cys a 191  B15.20}P 12.194 38.582 63.678
+{ sg  cys a 220  B15.86}11.229 39.358 65.3
+{ sg  cys a 128  B19.38}P -8.978 53.909 59.4
+{ sg  cys a 232  B18.98}-7.02 53.506 59.034
+@subgroup {het groups}
+@vectorlist {het} color= pink master= {hets}
+{ n   ias a 115  B23.53 1C9P}P 3.677 45.68 34.764
+{"}3.677 45.68 34.764
+{"}P 3.677 45.68 34.764
+{ ca  ias a 115  B29.75 1C9P}3.405 44.57 33.853
+{"}P 3.405 44.57 33.853
+{ c   ias a 115  B33.00 1C9P}1.902 44.46 33.533
+{"}P 1.902 44.46 33.533
+{ o   ias a 115  B34.45 1C9P}1.115 45.243 34.115
+{ ca  ias a 115  B29.75 1C9P}P 3.405 44.57 33.853
+{ cb  ias a 115  B30.33 1C9P}3.93 43.266 34.464
+{"}P 3.93 43.266 34.464
+{ cg  ias a 115  B34.08 1C9P}3.111 42.793 35.65
+{"}P 3.111 42.793 35.65
+{ od1 ias a 115  B37.27 1C9P}3.144 43.282 36.773
+@group {1C9Pb} dominant
+@subgroup {mainchain} dominant
+@vectorlist {mc} color= yellowtint master= {mainchain}
+{ n   cys b 10  B24.99 1C9P}P 14.881 57.63 87.807
+{"}14.881 57.63 87.807
+{ ca  cys b 10  B25.05 1C9P}14.117 56.384 88.101
+{ c   cys b 10  B24.94 1C9P}14.379 55.986 89.55
+{ o   cys b 10  B24.88 1C9P}15.385 55.344 89.849
+{ c   cys b 10  B24.94 1C9P}P 14.379 55.986 89.55
+{ n   gly b 11  B24.89 1C9P}13.475 56.371 90.445
+{ ca  gly b 11  B24.88 1C9P}13.651 56.041 91.848
+{ c   gly b 11  B24.92 1C9P}15.024 56.451 92.347
+{ o   gly b 11  B24.86 1C9P}15.479 57.558 92.062
+{ c   gly b 11  B24.92 1C9P}P 15.024 56.451 92.347
+{ n   pro b 12  B25.00 1C9P}15.711 55.58 93.104
+{ ca  pro b 12  B25.14 1C9P}17.045 55.849 93.648
+{ c   pro b 12  B25.37 1C9P}18.138 55.887 92.579
+{ o   pro b 12  B25.33 1C9P}19.272 56.28 92.856
+{ c   pro b 12  B25.37 1C9P}P 18.138 55.887 92.579
+{ n   val b 13  B25.72 1C9P}17.796 55.475 91.363
+{ ca  val b 13  B26.16 1C9P}18.76 55.45 90.269
+{ c   val b 13  B26.69 1C9P}18.345 56.311 89.077
+{ o   val b 13  B26.64 1C9P}17.29 56.945 89.091
+{ c   val b 13  B26.69 1C9P}P 18.345 56.311 89.077
+{ n   thr b 14  B27.46 1C9P}19.191 56.327 88.052
+{ ca  thr b 14  B28.37 1C9P}18.934 57.096 86.84
+{ c   thr b 14  B29.37 1C9P}19.262 56.255 85.611
+{ o   thr b 14  B29.32 1C9P}20.382 55.763 85.466
+{ c   thr b 14  B29.37 1C9P}P 19.262 56.255 85.611
+{ n   cys b 15  B30.72 1C9P}18.283 56.097 84.726
+{ ca  cys b 15  B32.24 1C9P}18.472 55.299 83.523
+{ c   cys b 15  B33.37 1C9P}19.136 56.114 82.419
+{ o   cys b 15  B33.45 1C9P}18.835 57.294 82.239
+{ c   cys b 15  B33.37 1C9P}P 19.136 56.114 82.419
+{ n   ser b 16  B34.81 1C9P}20.04 55.478 81.68
+{ ca  ser b 16  B36.32 1C9P}20.754 56.151 80.603
+{ c   ser b 16  B37.34 1C9P}20.612 55.434 79.264
+{ o   ser b 16  B37.49 1C9P}20.111 54.312 79.193
+{ c   ser b 16  B37.34 1C9P}P 20.612 55.434 79.264
+{ n   gly b 17  B38.41 1C9P}21.058 56.106 78.207
+{ ca  gly b 17  B39.95 1C9P}21.009 55.545 76.868
+{ c   gly b 17  B40.70 1C9P}19.682 54.989 76.388
+{ o   gly b 17  B40.64 1C9P}18.741 55.732 76.111
+{ c   gly b 17  B40.70 1C9P}P 19.682 54.989 76.388
+{ n   ala b 18  B41.59 1C9P}19.62 53.664 76.282
+{ ca  ala b 18  B41.34 1C9P}18.429 52.965 75.811
+{ c   ala b 18  B40.52 1C9P}17.588 52.399 76.943
+{ o   ala b 18  B42.01 1C9P}16.548 51.792 76.692
+{ c   ala b 18  B40.52 1C9P}P 17.588 52.399 76.943
+{ n   gln b 19  B38.08 1C9P}18.041 52.599 78.179
+{ ca  gln b 19  B35.63 1C9P}17.35 52.088 79.363
+{ c   gln b 19  B34.27 1C9P}15.929 52.571 79.606
+{ o   gln b 19  B34.22 1C9P}15.599 53.734 79.372
+{ c   gln b 19  B34.27 1C9P}P 15.929 52.571 79.606
+{ n   met b 20  B32.57 1C9P}15.1 51.661 80.111
+{ ca  met b 20  B30.77 1C9P}13.714 51.969 80.43
+{ c   met b 20  B29.81 1C9P}13.527 51.856 81.941
+{ o   met b 20  B29.65 1C9P}14.008 50.911 82.568
+{ c   met b 20  B29.81 1C9P}P 13.527 51.856 81.941
+{ n   cys b 21  B28.64 1C9P}12.826 52.826 82.518
+{ ca  cys b 21  B27.52 1C9P}12.577 52.857 83.954
+{ c   cys b 21  B27.05 1C9P}11.42 51.963 84.384
+{ o   cys b 21  B26.95 1C9P}10.322 52.044 83.835
+{ c   cys b 21  B27.05 1C9P}P 11.42 51.963 84.384
+{ n   glu b 22  B26.55 1C9P}11.676 51.108 85.37
+{ ca  glu b 22  B26.10 1C9P}10.652 50.218 85.9
+{ c   glu b 22  B25.96 1C9P}10.471 50.46 87.393
+{ o   glu b 22  B25.89 1C9P}11.054 49.765 88.226
+{ c   glu b 22  B25.96 1C9P}P 10.471 50.46 87.393
+{ n   val b 23  B25.86 1C9P}9.659 51.463 87.713
+{ ca  val b 23  B25.83 1C9P}9.369 51.84 89.091
+{ c   val b 23  B25.99 1C9P}10.584 52.439 89.792
+{ o   val b 23  B25.92 1C9P}10.664 53.653 89.98
+{ c   val b 23  B25.99 1C9P}P 10.584 52.439 89.792
+{ n   asp b 24  B26.27 1C9P}11.531 51.589 90.174
+{ ca  asp b 24  B26.67 1C9P}12.729 52.053 90.862
+{ c   asp b 24  B27.21 1C9P}14.005 51.377 90.372
+{ o   asp b 24  B27.14 1C9P}15.055 51.482 91.007
+{ c   asp b 24  B27.21 1C9P}P 14.005 51.377 90.372
+{ n   lys b 25  B28.02 1C9P}13.914 50.685 89.241
+{ ca  lys b 25  B29.03 1C9P}15.074 50.009 88.674
+{ c   lys b 25  B30.24 1C9P}15.178 50.331 87.19
+{ o   lys b 25  B30.17 1C9P}14.166 50.504 86.509
+{ c   lys b 25  B30.24 1C9P}P 15.178 50.331 87.19
+{ n   cys b 26  B31.94 1C9P}16.408 50.41 86.695
+{ ca  cys b 26  B33.90 1C9P}16.65 50.71 85.293
+{ c   cys b 26  B35.72 1C9P}17.002 49.476 84.481
+{ o   cys b 26  B35.77 1C9P}18.169 49.096 84.389
+{ c   cys b 26  B35.72 1C9P}P 17.002 49.476 84.481
+{ n   val b 27  B38.19 1C9P}15.992 48.838 83.907
+{ ca  val b 27  B41.11 1C9P}16.224 47.681 83.058
+{ c   val b 27  B43.35 1C9P}16.4 48.362 81.713
+{ o   val b 27  B43.43 1C9P}16.942 49.466 81.642
+{ c   val b 27  B43.35 1C9P}P 16.4 48.362 81.713
+{ n   cys b 28  B46.80 1C9P}15.964 47.722 80.638
+{ ca  cys b 28  B48.14 1C9P}16.053 48.359 79.342
+{ c   cys b 28  B48.84 1C9P}14.948 47.838 78.455
+{ o   cys b 28  B48.77 1C9P}13.954 47.318 78.956
+{ c   cys b 28  B48.84 1C9P}P 14.948 47.838 78.455
+{ n   ser b 29  B49.50 1C9P}15.096 47.972 77.144
+{ ca  ser b 29  B49.71 1C9P}14.025 47.534 76.271
+{ c   ser b 29  B49.79 1C9P}14.232 46.251 75.497
+{ o   ser b 29  B51.64 1C9P}15.354 45.811 75.251
+{ c   ser b 29  B49.79 1C9P}P 14.232 46.251 75.497
+{ n   asp b 30  B48.30 1C9P}13.11 45.658 75.119
+{ ca  asp b 30  B46.13 1C9P}13.099 44.443 74.332
+{ c   asp b 30  B44.98 1C9P}12.475 44.969 73.046
+{ o   asp b 30  B43.99 1C9P}12.403 44.282 72.024
+{ c   asp b 30  B44.98 1C9P}P 12.475 44.969 73.046
+{ n   leu b 31  B42.30 1C9P}12.045 46.227 73.133
+{ ca  leu b 31  B41.00 1C9P}11.444 46.951 72.027
+{ c   leu b 31  B39.42 1C9P}12.461 47.211 70.937
+{ o   leu b 31  B39.34 1C9P}13.516 47.793 71.182
+{ c   leu b 31  B39.42 1C9P}P 12.461 47.211 70.937
+{ n   his b 32  B36.00 1C9P}12.118 46.786 69.73
+{ ca  his b 32  B33.53 1C9P}12.971 46.967 68.575
+{ c   his b 32  B30.90 1C9P}12.124 47.145 67.341
+{ o   his b 32  B28.50 1C9P}11.055 46.554 67.216
+{ c   his b 32  B30.90 1C9P}P 12.124 47.145 67.341
+{ n   cys b 33  B29.50 1C9P}12.606 47.987 66.44
+{ ca  cys b 33  B27.82 1C9P}11.936 48.208 65.179
+{ c   cys b 33  B26.29 1C9P}12.455 47.026 64.373
+{ o   cys b 33  B24.66 1C9P}13.514 46.48 64.689
+{ c   cys b 33  B26.29 1C9P}P 12.455 47.026 64.373
+{ n   lys b 34  B24.20 1C9P}11.725 46.621 63.346
+{ ca  lys b 34  B23.55 1C9P}12.147 45.474 62.571
+{ c   lys b 34  B24.92 1C9P}13.027 45.801 61.381
+{ o   lys b 34  B25.08 1C9P}12.829 45.301 60.28
+{ c   lys b 34  B24.92 1C9P}P 13.027 45.801 61.381
+{ n   val b 35  B26.70 1C9P}14.003 46.664 61.621
+{ ca  val b 35  B28.55 1C9P}14.955 47.03 60.595
+{ c   val b 35  B30.97 1C9P}15.969 45.922 60.637
+{ o   val b 35  B32.35 1C9P}16.168 45.292 61.679
+{ c   val b 35  B30.97 1C9P}P 15.969 45.922 60.637
+{ n   lys b 36  B32.42 1C9P}16.614 45.662 59.516
+{ ca  lys b 36  B34.96 1C9P}17.642 44.654 59.552
+{ c   lys b 36  B36.72 1C9P}18.947 45.403 59.765
+{ o   lys b 36  B36.27 1C9P}19.366 46.187 58.912
+{ c   lys b 36  B36.72 1C9P}P 18.947 45.403 59.765
+{ n   cys b 37  B40.08 1C9P}19.576 45.183 60.913
+{ ca  cys b 37  B42.43 1C9P}20.838 45.84 61.216
+{ c   cys b 37  B44.27 1C9P}22.039 45.071 60.704
+{ o   cys b 37  B45.47 1C9P}22.241 43.907 61.052
+{ c   cys b 37  B44.27 1C9P}P 22.039 45.071 60.704
+{ n   glu b 38  B46.01 1C9P}22.83 45.74 59.872
+{ ca  glu b 38  B45.96 1C9P}24.032 45.155 59.293
+{ c   glu b 38  B45.74 1C9P}24.868 44.469 60.372
+{ o   glu b 38  B44.99 1C9P}25.288 43.323 60.207
+{ c   glu b 38  B45.74 1C9P}P 24.868 44.469 60.372
+{ n   his b 39  B45.95 1C9P}25.096 45.165 61.483
+{ ca  his b 39  B46.43 1C9P}25.868 44.591 62.578
+{ c   his b 39  B46.06 1C9P}25.06 44.512 63.861
+{ o   his b 39  B47.31 1C9P}25.618 44.527 64.958
+{ c   his b 39  B46.06 1C9P}P 25.06 44.512 63.861
+{ n   gly b 40  B45.13 1C9P}23.743 44.428 63.722
+{ ca  gly b 40  B43.49 1C9P}22.893 44.342 64.892
+{ c   gly b 40  B42.26 1C9P}22.595 45.703 65.481
+{ o   gly b 40  B39.60 1C9P}23.03 46.728 64.953
+{ c   gly b 40  B42.26 1C9P}P 22.595 45.703 65.481
+{ n   phe b 41  B42.96 1C9P}21.849 45.712 66.581
+{ ca  phe b 41  B43.03 1C9P}21.488 46.962 67.232
+{ c   phe b 41  B43.99 1C9P}22.592 47.457 68.145
+{ o   phe b 41  B43.83 1C9P}23.454 46.691 68.578
+{ c   phe b 41  B43.99 1C9P}P 22.592 47.457 68.145
+{ n   lys b 42  B44.73 1C9P}22.561 48.75 68.436
+{ ca  lys b 42  B45.75 1C9P}23.568 49.336 69.295
+{ c   lys b 42  B47.00 1C9P}23.392 49.103 70.778
+{ o   lys b 42  B46.88 1C9P}22.282 48.986 71.297
+{ c   lys b 42  B47.00 1C9P}P 23.392 49.103 70.778
+{ n   lys b 43  B48.48 1C9P}24.536 49.033 71.444
+{ ca  lys b 43  B49.17 1C9P}24.617 48.847 72.876
+{ c   lys b 43  B49.69 1C9P}25.106 50.212 73.345
+{ o   lys b 43  B51.04 1C9P}25.737 50.941 72.577
+{ c   lys b 43  B49.69 1C9P}P 25.106 50.212 73.345
+{ n   asp b 44  B49.92 1C9P}24.793 50.57 74.582
+{ ca  asp b 44  B48.43 1C9P}25.255 51.832 75.143
+{ c   asp b 44  B47.30 1C9P}25.907 51.526 76.461
+{ o   asp b 44  B47.21 1C9P}25.621 50.498 77.056
+{ c   asp b 44  B47.30 1C9P}P 25.907 51.526 76.461
+{ n   asp b 45  B46.30 1C9P}26.78 52.424 76.903
+{ ca  asp b 45  B45.41 1C9P}27.503 52.285 78.16
+{ c   asp b 45  B45.50 1C9P}27.096 51.047 78.964
+{ o   asp b 45  B45.36 1C9P}27.937 50.225 79.324
+{ c   asp b 45  B45.50 1C9P}P 27.096 51.047 78.964
+{ n   asn b 46  B45.86 1C9P}25.797 50.919 79.225
+{ ca  asn b 46  B46.58 1C9P}25.242 49.799 79.984
+{ c   asn b 46  B47.82 1C9P}25.313 48.432 79.296
+{ o   asn b 46  B47.53 1C9P}25.442 47.409 79.965
+{ c   asn b 46  B47.82 1C9P}P 25.313 48.432 79.296
+{ n   gly b 47  B49.56 1C9P}25.213 48.408 77.971
+{ ca  gly b 47  B51.77 1C9P}25.271 47.145 77.253
+{ c   gly b 47  B53.28 1C9P}23.911 46.74 76.718
+{ o   gly b 47  B54.23 1C9P}23.774 45.708 76.051
+{ c   gly b 47  B53.28 1C9P}P 23.911 46.74 76.718
+{ n   cys b 48  B54.54 1C9P}22.9 47.55 77.021
+{ ca  cys b 48  B54.55 1C9P}21.547 47.302 76.542
+{ c   cys b 48  B54.85 1C9P}21.379 47.863 75.145
+{ o   cys b 48  B54.70 1C9P}22.048 48.826 74.77
+{ c   cys b 48  B54.85 1C9P}P 21.379 47.863 75.145
+{ n   glu b 49  B55.23 1C9P}20.477 47.267 74.372
+{ ca  glu b 49  B55.26 1C9P}20.277 47.677 72.987
+{ c   glu b 49  B55.16 1C9P}19.257 48.793 72.705
+{ o   glu b 49  B54.23 1C9P}18.079 48.68 73.064
+{ c   glu b 49  B55.16 1C9P}P 19.257 48.793 72.705
+{ n   tyr b 50  B54.13 1C9P}19.724 49.859 72.042
+{ ca  tyr b 50  B51.96 1C9P}18.852 50.974 71.671
+{ c   tyr b 50  B49.80 1C9P}17.795 50.394 70.735
+{ o   tyr b 50  B49.86 1C9P}18.095 49.54 69.905
+{ c   tyr b 50  B49.80 1C9P}P 17.795 50.394 70.735
+{ n   ala b 51  B46.74 1C9P}16.561 50.869 70.864
+{ ca  ala b 51  B43.78 1C9P}15.424 50.38 70.083
+{ c   ala b 51  B42.82 1C9P}15.552 50.293 68.56
+{ o   ala b 51  B41.26 1C9P}15.294 49.238 67.975
+{ c   ala b 51  B42.82 1C9P}P 15.552 50.293 68.56
+{ n   cys b 52  B42.20 1C9P}15.924 51.385 67.903
+{ ca  cys b 52  B40.83 1C9P}16.017 51.355 66.452
+{ c   cys b 52  B42.86 1C9P}17.297 51.966 65.902
+{ o   cys b 52  B43.82 1C9P}17.253 52.838 65.034
+{ c   cys b 52  B42.86 1C9P}P 17.297 51.966 65.902
+{ n   ile b 53  B44.61 1C9P}18.44 51.509 66.401
+{ ca  ile b 53  B45.21 1C9P}19.717 52.024 65.93
+{ c   ile b 53  B45.40 1C9P}20.728 50.904 65.723
+{ o   ile b 53  B45.78 1C9P}21.127 50.218 66.666
+{ c   ile b 53  B45.40 1C9P}P 20.728 50.904 65.723
+{ n   cys b 54  B45.45 1C9P}21.125 50.726 64.469
+{ ca  cys b 54  B46.76 1C9P}22.078 49.695 64.091
+{ c   cys b 54  B48.79 1C9P}23.495 50.107 64.42
+{ o   cys b 54  B51.08 1C9P}23.764 51.269 64.699
+{ c   cys b 54  B48.79 1C9P}P 23.495 50.107 64.42
+{ n   ala b 55  B51.18 1C9P}24.402 49.143 64.378
+{ ca  ala b 55  B52.81 1C9P}25.8 49.418 64.649
+{ c   ala b 55  B54.14 1C9P}26.522 49.591 63.315
+{ o   ala b 55  B55.30 1C9P}26.768 48.61 62.614
+{ c   ala b 55  B54.14 1C9P}P 26.522 49.591 63.315
+{ n   asp b 56  B55.30 1C9P}26.823 50.836 62.95
+{ ca  asp b 56  B56.44 1C9P}27.545 51.109 61.709
+{ c   asp b 56  B56.13 1C9P}28.685 50.108 61.662
+{ o   asp b 56  B56.28 1C9P}28.816 49.326 60.719
+{ c   asp b 56  B56.13 1C9P}P 28.685 50.108 61.662
+{ n   ala b 57  B56.16 1C9P}29.507 50.15 62.702
+{ ca  ala b 57  B56.49 1C9P}30.621 49.231 62.861
+{ c   ala b 57  B57.05 1C9P}30.106 48.291 63.95
+{ o   ala b 57  B57.36 1C9P}29.136 48.612 64.634
+{ c   ala b 57  B57.05 1C9P}P 30.106 48.291 63.95
+{ n   pro b 58  B57.19 1C9P}30.736 47.119 64.122
+{ ca  pro b 58  B56.35 1C9P}30.343 46.118 65.125
+{ c   pro b 58  B54.23 1C9P}30.558 46.469 66.6
+{ o   pro b 58  B54.32 1C9P}30.941 47.587 66.95
+{ c   pro b 58  B54.23 1C9P}P 30.558 46.469 66.6
+{ n   gln b 59  B51.94 1C9P}30.308 45.477 67.453
+{ ca  gln b 59  B49.77 1C9P}30.454 45.6 68.899
+{ c   gln b 59  B49.56 1C9P}31.311 44.453 69.431
+{ o   gln b 59  B49.38 1C9P}32.28 44.73 70.17
+{ c   gln b 59  B49.56 1C9P}P 31.311 44.453 69.431
+{ oxt gln b 59  B49.38 1C9P}30.991 43.288 69.114
+@vectorlist {Calphas} off color= yellowtint master= {Calphas}
+{ ca  cys b 10  B25.05 1C9P}P 14.117 56.384 88.101
+{"}14.117 56.384 88.101
+{ ca  gly b 11  B24.88 1C9P}13.651 56.041 91.848
+{ ca  pro b 12  B25.14 1C9P}17.045 55.849 93.648
+{ ca  val b 13  B26.16 1C9P}18.76 55.45 90.269
+{ ca  thr b 14  B28.37 1C9P}18.934 57.096 86.84
+{ ca  cys b 15  B32.24 1C9P}18.472 55.299 83.523
+{ ca  ser b 16  B36.32 1C9P}20.754 56.151 80.603
+{ ca  gly b 17  B39.95 1C9P}21.009 55.545 76.868
+{ ca  ala b 18  B41.34 1C9P}18.429 52.965 75.811
+{ ca  gln b 19  B35.63 1C9P}17.35 52.088 79.363
+{ ca  met b 20  B30.77 1C9P}13.714 51.969 80.43
+{ ca  cys b 21  B27.52 1C9P}12.577 52.857 83.954
+{ ca  glu b 22  B26.10 1C9P}10.652 50.218 85.9
+{ ca  val b 23  B25.83 1C9P}9.369 51.84 89.091
+{ ca  asp b 24  B26.67 1C9P}12.729 52.053 90.862
+{ ca  lys b 25  B29.03 1C9P}15.074 50.009 88.674
+{ ca  cys b 26  B33.90 1C9P}16.65 50.71 85.293
+{ ca  val b 27  B41.11 1C9P}16.224 47.681 83.058
+{ ca  cys b 28  B48.14 1C9P}16.053 48.359 79.342
+{ ca  ser b 29  B49.71 1C9P}14.025 47.534 76.271
+{ ca  asp b 30  B46.13 1C9P}13.099 44.443 74.332
+{ ca  leu b 31  B41.00 1C9P}11.444 46.951 72.027
+{ ca  his b 32  B33.53 1C9P}12.971 46.967 68.575
+{ ca  cys b 33  B27.82 1C9P}11.936 48.208 65.179
+{ ca  lys b 34  B23.55 1C9P}12.147 45.474 62.571
+{ ca  val b 35  B28.55 1C9P}14.955 47.03 60.595
+{ ca  lys b 36  B34.96 1C9P}17.642 44.654 59.552
+{ ca  cys b 37  B42.43 1C9P}20.838 45.84 61.216
+{ ca  glu b 38  B45.96 1C9P}24.032 45.155 59.293
+{ ca  his b 39  B46.43 1C9P}25.868 44.591 62.578
+{ ca  gly b 40  B43.49 1C9P}22.893 44.342 64.892
+{ ca  phe b 41  B43.03 1C9P}21.488 46.962 67.232
+{ ca  lys b 42  B45.75 1C9P}23.568 49.336 69.295
+{ ca  lys b 43  B49.17 1C9P}24.617 48.847 72.876
+{ ca  asp b 44  B48.43 1C9P}25.255 51.832 75.143
+{ ca  asp b 45  B45.41 1C9P}27.503 52.285 78.16
+{ ca  asn b 46  B46.58 1C9P}25.242 49.799 79.984
+{ ca  gly b 47  B51.77 1C9P}25.271 47.145 77.253
+{ ca  cys b 48  B54.55 1C9P}21.547 47.302 76.542
+{ ca  glu b 49  B55.26 1C9P}20.277 47.677 72.987
+{ ca  tyr b 50  B51.96 1C9P}18.852 50.974 71.671
+{ ca  ala b 51  B43.78 1C9P}15.424 50.38 70.083
+{ ca  cys b 52  B40.83 1C9P}16.017 51.355 66.452
+{ ca  ile b 53  B45.21 1C9P}19.717 52.024 65.93
+{ ca  cys b 54  B46.76 1C9P}22.078 49.695 64.091
+{ ca  ala b 55  B52.81 1C9P}25.8 49.418 64.649
+{ ca  asp b 56  B56.44 1C9P}27.545 51.109 61.709
+{ ca  ala b 57  B56.49 1C9P}30.621 49.231 62.861
+{ ca  pro b 58  B56.35 1C9P}30.343 46.118 65.125
+{ ca  gln b 59  B49.77 1C9P}30.454 45.6 68.899
+@subgroup {sidechain}
+@vectorlist {sc} color= cyan master= {sidechain}
+{ ca  cys b 10  B25.05 1C9P}P 14.117 56.384 88.101
+{ cb  cys b 10  B25.30 1C9P}14.58 55.256 87.176
+{ sg  cys b 10  B25.78 1C9P}13.492 53.796 87.138
+{ ca  pro b 12  B25.14 1C9P}P 17.045 55.849 93.648
+{ cb  pro b 12  B25.04 1C9P}17.24 54.691 94.619
+{ cg  pro b 12  B24.97 1C9P}16.565 53.568 93.869
+{ cd  pro b 12  B24.96 1C9P}ghost 15.25 54.255 93.557
+{ n   pro b 12  B25.00 1C9P}P 15.711 55.58 93.104
+{ cd  pro b 12  B24.96 1C9P}15.25 54.255 93.557
+{ ca  val b 13  B26.16 1C9P}P 18.76 55.45 90.269
+{ cb  val b 13  B25.96 1C9P}18.994 54.007 89.772
+{ cg1 val b 13  B25.82 1C9P}19.58 53.162 90.891
+{ cb  val b 13  B25.96 1C9P}P 18.994 54.007 89.772
+{ cg2 val b 13  B25.82 1C9P}17.685 53.405 89.285
+{ ca  thr b 14  B28.37 1C9P}P 18.934 57.096 86.84
+{ cb  thr b 14  B28.06 1C9P}19.781 58.383 86.806
+{ og1 thr b 14  B27.86 1C9P}21.168 58.049 86.94
+{ cb  thr b 14  B28.06 1C9P}P 19.781 58.383 86.806
+{ cg2 thr b 14  B27.86 1C9P}19.373 59.317 87.933
+{ ca  cys b 15  B32.24 1C9P}P 18.472 55.299 83.523
+{ cb  cys b 15  B32.17 1C9P}17.125 54.757 83.039
+{ sg  cys b 15  B32.38 1C9P}16.074 54.124 84.387
+{ ca  ser b 16  B36.32 1C9P}P 20.754 56.151 80.603
+{ cb  ser b 16  B36.42 1C9P}22.24 56.269 80.954
+{ og  ser b 16  B36.60 1C9P}22.83 54.989 81.107
+{ ca  ala b 18  B41.34 1C9P}P 18.429 52.965 75.811
+{ cb  ala b 18  B42.33 1C9P}18.838 51.83 74.87
+{ ca  gln b 19  B35.63 1C9P}P 17.35 52.088 79.363
+{ cb  gln b 19  B35.37 1C9P}18.153 52.384 80.631
+{ cg  gln b 19  B34.83 1C9P}19.463 51.647 80.766
+{ cd  gln b 19  B34.52 1C9P}20.058 51.82 82.148
+{ oe1 gln b 19  B34.28 1C9P}20.306 52.94 82.593
+{ cd  gln b 19  B34.52 1C9P}P 20.058 51.82 82.148
+{ ne2 gln b 19  B34.28 1C9P}20.281 50.709 82.84
+{ ca  met b 20  B30.77 1C9P}P 13.714 51.969 80.43
+{ cb  met b 20  B30.40 1C9P}12.766 50.997 79.724
+{ cg  met b 20  B29.75 1C9P}11.298 51.361 79.889
+{ sd  met b 20  B29.37 1C9P}10.163 50.192 79.119
+{ ce  met b 20  B29.04 1C9P}10.46 48.732 80.107
+{ ca  cys b 21  B27.52 1C9P}P 12.577 52.857 83.954
+{ cb  cys b 21  B27.05 1C9P}12.287 54.293 84.402
+{ sg  cys b 21  B26.36 1C9P}11.844 54.468 86.163
+{ ca  glu b 22  B26.10 1C9P}P 10.652 50.218 85.9
+{ cb  glu b 22  B25.87 1C9P}11.011 48.751 85.642
+{ cg  glu b 22  B25.57 1C9P}10.847 48.324 84.191
+{ cd  glu b 22  B25.41 1C9P}11.131 46.849 83.976
+{ oe1 glu b 22  B25.32 1C9P}11.568 46.177 84.934
+{ cd  glu b 22  B25.41 1C9P}P 11.131 46.849 83.976
+{ oe2 glu b 22  B25.32 1C9P}10.924 46.363 82.844
+{ ca  val b 23  B25.83 1C9P}P 9.369 51.84 89.091
+{ cb  val b 23  B25.68 1C9P}8.865 50.631 89.912
+{ cg1 val b 23  B25.57 1C9P}8.541 51.065 91.333
+{ cb  val b 23  B25.68 1C9P}P 8.865 50.631 89.912
+{ cg2 val b 23  B25.57 1C9P}7.638 50.03 89.247
+{ ca  asp b 24  B26.67 1C9P}P 12.729 52.053 90.862
+{ cb  asp b 24  B26.32 1C9P}12.576 51.84 92.37
+{ cg  asp b 24  B26.10 1C9P}12.26 50.402 92.727
+{ od1 asp b 24  B25.96 1C9P}12.172 49.561 91.807
+{ cg  asp b 24  B26.10 1C9P}P 12.26 50.402 92.727
+{ od2 asp b 24  B25.96 1C9P}12.099 50.114 93.932
+{ ca  lys b 25  B29.03 1C9P}P 15.074 50.009 88.674
+{ cb  lys b 25  B28.35 1C9P}14.961 48.495 88.862
+{ cg  lys b 25  B27.69 1C9P}13.848 47.848 88.054
+{ cd  lys b 25  B27.15 1C9P}13.75 46.358 88.336
+{ ce  lys b 25  B26.84 1C9P}13.37 46.101 89.784
+{ nz  lys b 25  B26.60 1C9P}12.061 46.729 90.115
+{ ca  cys b 26  B33.90 1C9P}P 16.65 50.71 85.293
+{ cb  cys b 26  B33.26 1C9P}17.783 51.727 85.151
+{ sg  cys b 26  B32.75 1C9P}17.408 53.406 85.738
+{ ca  val b 27  B41.11 1C9P}P 16.224 47.681 83.058
+{ cb  val b 27  B40.61 1C9P}14.988 46.752 83.014
+{ cg1 val b 27  B40.53 1C9P}14.665 46.252 84.413
+{ cb  val b 27  B40.61 1C9P}P 14.988 46.752 83.014
+{ cg2 val b 27  B40.53 1C9P}13.791 47.493 82.434
+{ ca  cys b 28  B48.14 1C9P}P 16.053 48.359 79.342
+{ cb  cys b 28  B50.14 1C9P}17.436 48.19 78.728
+{ sg  cys b 28  B52.46 1C9P}18.078 46.511 78.487
+{ ca  ser b 29  B49.71 1C9P}P 14.025 47.534 76.271
+{ cb  ser b 29  B49.58 1C9P}13.677 48.656 75.295
+{ og  ser b 29  B49.74 1C9P}14.817 49.026 74.542
+{ ca  asp b 30  B46.13 1C9P}P 13.099 44.443 74.332
+{ cb  asp b 30  B46.28 1C9P}12.215 43.398 75.008
+{ cg  asp b 30  B46.15 1C9P}12.417 43.368 76.515
+{ od1 asp b 30  B46.07 1C9P}13.564 43.581 76.966
+{ cg  asp b 30  B46.15 1C9P}P 12.417 43.368 76.515
+{ od2 asp b 30  B46.07 1C9P}11.437 43.119 77.248
+{ ca  leu b 31  B41.00 1C9P}P 11.444 46.951 72.027
+{ cb  leu b 31  B42.73 1C9P}10.886 48.296 72.491
+{ cg  leu b 31  B43.89 1C9P}9.545 48.305 73.211
+{ cd1 leu b 31  B44.60 1C9P}9.167 49.715 73.63
+{ cg  leu b 31  B43.89 1C9P}P 9.545 48.305 73.211
+{ cd2 leu b 31  B44.61 1C9P}8.521 47.746 72.27
+{ ca  his b 32  B33.53 1C9P}P 12.971 46.967 68.575
+{ cb  his b 32  B36.07 1C9P}13.876 45.75 68.377
+{ cg  his b 32  B38.71 1C9P}15.111 45.766 69.218
+{ nd1 his b 32  B41.27 1C9P}15.713 44.614 69.67
+{ ce1 his b 32  B41.80 1C9P}16.802 44.926 70.347
+{ ne2 his b 32  B40.01 1C9P}ghost 16.932 46.242 70.347
+{ cg  his b 32  B38.71 1C9P}P 15.111 45.766 69.218
+{ cd2 his b 32  B39.53 1C9P}15.885 46.791 69.648
+{ ne2 his b 32  B40.01 1C9P}16.932 46.242 70.347
+{ ca  cys b 33  B27.82 1C9P}P 11.936 48.208 65.179
+{ cb  cys b 33  B30.30 1C9P}12.392 49.531 64.575
+{ sg  cys b 33  B28.10 1C9P}14.183 49.622 64.264
+{ ca  lys b 34  B23.55 1C9P}P 12.147 45.474 62.571
+{ cb  lys b 34  B20.77 1C9P}10.916 44.66 62.174
+{ cg  lys b 34  B16.63 1C9P}10.219 44.139 63.421
+{ cd  lys b 34  B13.07 1C9P}8.885 43.497 63.16
+{ ce  lys b 34  B7.87 1C9P}8.256 43.097 64.481
+{ nz  lys b 34  B7.87 1C9P}6.887 42.569 64.297
+{ ca  val b 35  B28.55 1C9P}P 14.955 47.03 60.595
+{ cb  val b 35  B28.61 1C9P}15.73 48.297 60.942
+{ cg1 val b 35  B31.89 1C9P}16.693 48.637 59.816
+{ cb  val b 35  B28.61 1C9P}P 15.73 48.297 60.942
+{ cg2 val b 35  B30.82 1C9P}14.794 49.419 61.181
+{ ca  lys b 36  B34.96 1C9P}P 17.642 44.654 59.552
+{ cb  lys b 36  B34.98 1C9P}17.713 43.864 58.254
+{ cg  lys b 36  B34.19 1C9P}18.817 42.833 58.32
+{ cd  lys b 36  B35.33 1C9P}18.946 42.033 57.066
+{ ce  lys b 36  B37.05 1C9P}20.067 41.042 57.234
+{ nz  lys b 36  B38.84 1C9P}20.211 40.187 56.034
+{ ca  cys b 37  B42.43 1C9P}P 20.838 45.84 61.216
+{ cb  cys b 37  B41.05 1C9P}20.984 46.066 62.715
+{ sg  cys b 37  B43.90 1C9P}19.898 47.387 63.313
+{ ca  glu b 38  B45.96 1C9P}P 24.032 45.155 59.293
+{ cb  glu b 38  B45.76 1C9P}24.84 46.246 58.588
+{ cg  glu b 38  B45.20 1C9P}24.08 46.901 57.44
+{ cd  glu b 38  B45.03 1C9P}24.829 48.062 56.817
+{ oe1 glu b 38  B45.01 1C9P}25.976 47.861 56.369
+{ cd  glu b 38  B45.03 1C9P}P 24.829 48.062 56.817
+{ oe2 glu b 38  B45.01 1C9P}24.265 49.176 56.773
+{ ca  his b 39  B46.43 1C9P}P 25.868 44.591 62.578
+{ cb  his b 39  B47.15 1C9P}27.142 45.396 62.834
+{ cg  his b 39  B48.22 1C9P}28.031 45.507 61.64
+{ nd1 his b 39  B50.25 1C9P}28.043 46.613 60.815
+{ ce1 his b 39  B50.78 1C9P}28.891 46.411 59.825
+{ ne2 his b 39  B50.98 1C9P}ghost 29.43 45.217 59.973
+{ cg  his b 39  B48.22 1C9P}P 28.031 45.507 61.64
+{ cd2 his b 39  B48.42 1C9P}28.911 44.627 61.101
+{ ne2 his b 39  B50.98 1C9P}29.43 45.217 59.973
+{ ca  phe b 41  B43.03 1C9P}P 21.488 46.962 67.232
+{ cb  phe b 41  B42.01 1C9P}20.192 46.8 68.028
+{ cg  phe b 41  B42.00 1C9P}19.043 46.303 67.202
+{ cd1 phe b 41  B43.08 1C9P}18.877 44.942 66.968
+{ ce1 phe b 41  B41.89 1C9P}17.866 44.483 66.126
+{ cz  phe b 41  B39.68 1C9P}17.011 45.392 65.512
+{ cg  phe b 41  B42.00 1C9P}P 19.043 46.303 67.202
+{ cd2 phe b 41  B40.14 1C9P}18.177 47.198 66.584
+{ ce2 phe b 41  B38.70 1C9P}17.166 46.748 65.743
+{ cz  phe b 41  B39.68 1C9P}ghost 17.011 45.392 65.512
+{ ca  lys b 42  B45.75 1C9P}P 23.568 49.336 69.295
+{ cb  lys b 42  B44.87 1C9P}23.678 50.835 69.047
+{ cg  lys b 42  B43.96 1C9P}24.33 51.176 67.733
+{ cd  lys b 42  B43.38 1C9P}24.471 52.67 67.584
+{ ce  lys b 42  B42.95 1C9P}25.152 53.025 66.281
+{ nz  lys b 42  B42.61 1C9P}25.154 54.491 66.049
+{ ca  lys b 43  B49.17 1C9P}P 24.617 48.847 72.876
+{ cb  lys b 43  B49.74 1C9P}25.675 47.791 73.202
+{ cg  lys b 43  B51.17 1C9P}25.498 46.479 72.454
+{ cd  lys b 43  B51.76 1C9P}26.663 45.531 72.701
+{ ce  lys b 43  B52.39 1C9P}26.456 44.211 71.975
+{ nz  lys b 43  B53.07 1C9P}27.583 43.263 72.191
+{ ca  asp b 44  B48.43 1C9P}P 25.255 51.832 75.143
+{ cb  asp b 44  B47.81 1C9P}24.108 52.813 75.371
+{ cg  asp b 44  B47.37 1C9P}22.811 52.127 75.728
+{ od1 asp b 44  B47.15 1C9P}22.835 51.181 76.54
+{ cg  asp b 44  B47.37 1C9P}P 22.811 52.127 75.728
+{ od2 asp b 44  B47.15 1C9P}21.759 52.551 75.206
+{ ca  asp b 45  B45.41 1C9P}P 27.503 52.285 78.16
+{ cb  asp b 45  B44.21 1C9P}27.303 53.546 79.007
+{ cg  asp b 45  B43.31 1C9P}27.481 54.823 78.202
+{ od1 asp b 45  B42.73 1C9P}28.355 54.848 77.309
+{ cg  asp b 45  B43.31 1C9P}P 27.481 54.823 78.202
+{ od2 asp b 45  B42.73 1C9P}26.764 55.809 78.475
+{ ca  asn b 46  B46.58 1C9P}P 25.242 49.799 79.984
+{ cb  asn b 46  B45.55 1C9P}23.788 50.104 80.343
+{ cg  asn b 46  B44.89 1C9P}23.634 51.427 81.06
+{ od1 asn b 46  B44.43 1C9P}24.209 51.638 82.128
+{ cg  asn b 46  B44.89 1C9P}P 23.634 51.427 81.06
+{ nd2 asn b 46  B44.43 1C9P}22.857 52.33 80.474
+{ ca  cys b 48  B54.55 1C9P}P 21.547 47.302 76.542
+{ cb  cys b 48  B55.03 1C9P}20.531 47.923 77.497
+{ sg  cys b 48  B55.15 1C9P}20.055 46.817 78.869
+{ ca  glu b 49  B55.26 1C9P}P 20.277 47.677 72.987
+{ cb  glu b 49  B56.53 1C9P}19.92 46.448 72.15
+{ cg  glu b 49  B57.21 1C9P}20.957 45.333 72.244
+{ cd  glu b 49  B57.82 1C9P}20.6 44.109 71.417
+{ oe1 glu b 49  B58.00 1C9P}19.47 44.043 70.89
+{ cd  glu b 49  B57.82 1C9P}P 20.6 44.109 71.417
+{ oe2 glu b 49  B59.66 1C9P}21.447 43.2 71.305
+{ ca  tyr b 50  B51.96 1C9P}P 18.852 50.974 71.671
+{ cb  tyr b 50  B52.98 1C9P}19.617 52.09 70.939
+{ cg  tyr b 50  B54.80 1C9P}20.709 52.807 71.719
+{ cd1 tyr b 50  B55.82 1C9P}22.012 52.311 71.755
+{ ce1 tyr b 50  B56.45 1C9P}23.026 53.004 72.417
+{ cz  tyr b 50  B56.58 1C9P}22.737 54.204 73.055
+{ oh  tyr b 50  B57.21 1C9P}23.735 54.903 73.695
+{ cg  tyr b 50  B54.80 1C9P}P 20.709 52.807 71.719
+{ cd2 tyr b 50  B55.53 1C9P}20.444 54.011 72.376
+{ ce2 tyr b 50  B56.43 1C9P}21.45 54.708 73.042
+{ cz  tyr b 50  B56.58 1C9P}ghost 22.737 54.204 73.055
+{ ca  ala b 51  B43.78 1C9P}P 15.424 50.38 70.083
+{ cb  ala b 51  B43.52 1C9P}14.188 51.188 70.431
+{ ca  cys b 52  B40.83 1C9P}P 16.017 51.355 66.452
+{ cb  cys b 52  B35.92 1C9P}14.812 52.074 65.853
+{ sg  cys b 52  B30.82 1C9P}14.512 51.617 64.127
+{ ca  ile b 53  B45.21 1C9P}P 19.717 52.024 65.93
+{ cb  ile b 53  B46.09 1C9P}20.28 53.079 66.9
+{ cg1 ile b 53  B45.87 1C9P}19.337 54.282 66.941
+{ cd1 ile b 53  B46.43 1C9P}19.837 55.433 67.77
+{ cb  ile b 53  B46.09 1C9P}P 20.28 53.079 66.9
+{ cg2 ile b 53  B46.19 1C9P}21.661 53.51 66.462
+{ ca  cys b 54  B46.76 1C9P}P 22.078 49.695 64.091
+{ cb  cys b 54  B45.05 1C9P}21.991 49.419 62.594
+{ sg  cys b 54  B41.01 1C9P}20.339 48.912 62.052
+{ ca  ala b 55  B52.81 1C9P}P 25.8 49.418 64.649
+{ cb  ala b 55  B52.55 1C9P}26.412 48.272 65.433
+{ ca  asp b 56  B56.44 1C9P}P 27.545 51.109 61.709
+{ cb  asp b 56  B58.83 1C9P}28.096 52.534 61.724
+{ cg  asp b 56  B59.42 1C9P}28.475 52.993 63.12
+{ od1 asp b 56  B59.68 1C9P}29.505 52.526 63.649
+{ cg  asp b 56  B59.42 1C9P}P 28.475 52.993 63.12
+{ od2 asp b 56  B59.01 1C9P}27.723 53.806 63.696
+{ ca  ala b 57  B56.49 1C9P}P 30.621 49.231 62.861
+{ cb  ala b 57  B56.90 1C9P}31.861 49.977 63.335
+{ ca  pro b 58  B56.35 1C9P}P 30.343 46.118 65.125
+{ cb  pro b 58  B56.78 1C9P}31.165 44.892 64.715
+{ cg  pro b 58  B58.03 1C9P}31.473 45.158 63.23
+{ cd  pro b 58  B57.90 1C9P}ghost 31.863 46.602 63.333
+{ n   pro b 58  B57.19 1C9P}P 30.736 47.119 64.122
+{ cd  pro b 58  B57.90 1C9P}31.863 46.602 63.333
+{ ca  gln b 59  B49.77 1C9P}P 30.454 45.6 68.899
+{ cb  gln b 59  B48.11 1C9P}29.083 45.563 69.579
+{ cg  gln b 59  B45.44 1C9P}28.139 46.67 69.142
+{ cd  gln b 59  B44.04 1C9P}28.671 48.051 69.466
+{ oe1 gln b 59  B43.12 1C9P}28.873 48.394 70.631
+{ cd  gln b 59  B44.04 1C9P}P 28.671 48.051 69.466
+{ ne2 gln b 59  B43.12 1C9P}28.905 48.852 68.433
+@vectorlist {SS} color= yellow master= {sidechain}
+{ sg  cys b 10  B25.78}P 13.492 53.796 87.138
+{ sg  cys b 21  B26.36}11.844 54.468 86.163
+{ sg  cys b 15  B32.38}P 16.074 54.124 84.387
+{ sg  cys b 26  B32.75}17.408 53.406 85.738
+{ sg  cys b 28  B52.46}P 18.078 46.511 78.487
+{ sg  cys b 48  B55.15}20.055 46.817 78.869
+{ sg  cys b 33  B28.10}P 14.183 49.622 64.264
+{ sg  cys b 52  B30.82}14.512 51.617 64.127
+{ sg  cys b 37  B43.90}P 19.898 47.387 63.313
+{ sg  cys b 54  B41.01}20.339 48.912 62.052
+@group {1C9P} dominant
+@subgroup {het groups}
+@spherelist {het M} nobutton color= gray radius= 0.5 master= {hets}
+{Ca    ca   501 }16.222 38.486 42.444
+@vectorlist {het} color= pink master= {hets}
+{Ca    ca   501  B31.00 1C9P}P 16.222 38.486 42.444
+{"}16.222 38.486 42.444
+@balllist {water O} off color= peachtint radius= 0.15 master= {water}
+{ o   hoh   1  1.00B10.05 1C9P}4.564 49.18 52.662
+{ o   hoh   2  1.00B13.17 1C9P}4.607 52.951 64.572
+{ o   hoh   3  1.00B35.19 1C9P}11.311 42.719 53.613
+{ o   hoh   4  1.00B8.56 1C9P}7.055 41.893 67.134
+{ o   hoh   5  1.00B21.35 1C9P}11.334 43.027 67.305
+{ o   hoh   6  1.00B59.35 1C9P}2.163 28.468 47.472
+{ o   hoh   7  1.00B21.64 1C9P}11.039 36.507 56.05
+{ o   hoh   8  1.00B35.22 1C9P}17.892 44.379 47.877
+{ o   hoh   9  1.00B49.03 1C9P}-9.701 34.973 61.118
+{ o   hoh   10  1.00B35.99 1C9P}2.494 42.067 30.324
+{ o   hoh   11  1.00B7.87 1C9P}8.869 43.527 54.025
+{ o   hoh   12  1.00B30.08 1C9P}2.44 54.928 63.759
+{ o   hoh   13  1.00B7.87 1C9P}2.321 40.442 63.059
+{ o   hoh   14  1.00B11.99 1C9P}1.708 38.299 66.288
+{ o   hoh   15  1.00B8.89 1C9P}1.364 32.796 47.55
+{ o   hoh   16  1.00B33.08 1C9P}23.811 43.432 44.343
+{ o   hoh   17  1.00B17.62 1C9P}7.89 41.404 43.828
+{ o   hoh   18  1.00B24.98 1C9P}23.547 39.856 54.202
+{ o   hoh   19  1.00B8.12 1C9P}7.598 44.602 42.82
+{ o   hoh   20  1.00B44.62 1C9P}20.341 40.73 50.819
+{ o   hoh   21  1.00B24.42 1C9P}1.422 41.814 51.961
+{ o   hoh   22  1.00B37.59 1C9P}-8.903 59.356 54.091
+{ o   hoh   23  1.00B27.97 1C9P}-7.338 49.284 61.16
+{ o   hoh   24  1.00B28.59 1C9P}1.998 29.392 57.44
+{ o   hoh   25  1.00B38.95 1C9P}16.742 38.392 53.503
+{ o   hoh   26  1.00B34.30 1C9P}2.624 43.446 79.523
+{ o   hoh   27  1.00B35.92 1C9P}5.024 39.52 29.484
+{ o   hoh   28  1.00B19.44 1C9P}15.015 59.051 60.814
+{ o   hoh   29  1.00B39.18 1C9P}-11.934 46.993 71.633
+{ o   hoh   30  1.00B27.25 1C9P}-9.939 36.449 63.894
+{ o   hoh   31  1.00B34.40 1C9P}-10.402 58.293 50.239
+{ o   hoh   32  1.00B56.11 1C9P}-0.734 62.916 62.096
+{ o   hoh   33  1.00B53.64 1C9P}0.819 43.096 81.805
+{ o   hoh   34  1.00B59.87 1C9P}-16.187 42.847 60.85
+{ o   hoh   35  1.00B31.19 1C9P}-1.782 42.913 42.618
+{ o   hoh   36  1.00B39.39 1C9P}2.637 60.259 73.679
+{ o   hoh   37  1.00B54.87 1C9P}-3.598 42.478 46.356
+{ o   hoh   38  1.00B32.01 1C9P}8.691 65.845 55.842
+{ o   hoh   39  1.00B42.56 1C9P}-1.951 63.411 42.367
+{ o   hoh   40  1.00B19.41 1C9P}-1.699 58.016 42.605
+{ o   hoh   41  1.00B30.86 1C9P}-5.516 33.871 59.965
+{ o   hoh   42  1.00B59.87 1C9P}-0.083 59.194 72.984
+{ o   hoh   43  1.00B24.09 1C9P}9.623 30.636 60.76
+{ o   hoh   44  1.00B50.88 1C9P}20.077 44.15 36.3
+{ o   hoh   45  1.00B43.01 1C9P}22.54 36.624 40.011
+{ o   hoh   46  1.00B56.50 1C9P}6.518 33.873 37.309
+{ o   hoh   47  1.00B20.48 1C9P}5.69 44.786 30.754
+{ o   hoh   48  1.00B37.23 1C9P}19.922 30.437 57.765
+{ o   hoh   49  1.00B26.27 1C9P}21.19 33.276 57.296
+{ o   hoh   50  1.00B47.15 1C9P}13.201 44.147 79.809
+{ o   hoh   51  1.00B51.97 1C9P}12.075 52.616 73.423
+{ o   hoh   52  1.00B36.15 1C9P}15.187 55.406 72.106
+{ o   hoh   53  1.00B52.02 1C9P}15.139 56.226 64.338
+{ o   hoh   54  1.00B46.13 1C9P}20.379 58.314 69.589
+{ o   hoh   55  1.00B52.56 1C9P}12.627 62.447 65.34
+{ o   hoh   56  1.00B42.80 1C9P}-1.203 34.091 49.675
+{ o   hoh   57  1.00B15.15 1C9P}6.645 27.149 52.206
+{ o   hoh   58  1.00B28.43 1C9P}23.119 52.374 47.179
+{ o   hoh   59  1.00B27.16 1C9P}21.682 45.169 55.792
+{ o   hoh   60  1.00B27.16 1C9P}20.916 51.972 40.225
+{ o   hoh   61  1.00B38.20 1C9P}21.739 61.722 56.498
+{ o   hoh   62  1.00B27.89 1C9P}19.467 60.463 47.958
+{ o   hoh   63  1.00B31.84 1C9P}16.637 52.213 36.056
+{ o   hoh   64  1.00B27.42 1C9P}14.174 50.097 34.732
+{ o   hoh   65  1.00B59.75 1C9P}17.268 51.512 32.624
+{ o   hoh   66  1.00B46.29 1C9P}23.679 51.274 43.616
+{ o   hoh   67  1.00B45.68 1C9P}24.541 55.182 44.852
+{ o   hoh   68  1.00B32.16 1C9P}18.797 61.086 44.222
+{ o   hoh   69  1.00B31.96 1C9P}11.394 61.157 36.136
+{ o   hoh   70  1.00B28.83 1C9P}6.147 63.456 38.39
+{ o   hoh   71  1.00B44.61 1C9P}8.676 67.401 37.677
+{ o   hoh   72  1.00B50.29 1C9P}7.509 60.76 34.491
+{ o   hoh   73  1.00B49.75 1C9P}10.313 63.522 59.583
+{ o   hoh   74  1.00B18.98 1C9P}2.961 67.204 52.969
+{ o   hoh   75  1.00B30.36 1C9P}5.412 66.923 54.746
+{ o   hoh   76  1.00B39.91 1C9P}4.642 68.502 50.61
+{ o   hoh   77  1.00B38.36 1C9P}6.988 67.111 65.314
+{ o   hoh   78  1.00B45.61 1C9P}7.333 65.101 67.05
+{ o   hoh   79  1.00B45.26 1C9P}10.735 55.137 75.124
+{ o   hoh   80  1.00B46.08 1C9P}5.717 60.652 74.11
+{ o   hoh   81  1.00B38.39 1C9P}4.051 59.566 70.972
+{ o   hoh   82  1.00B48.20 1C9P}4.971 40.136 32.469
+{ o   hoh   83  1.00B47.77 1C9P}-16.173 48.79 63.714
+{ o   hoh   84  1.00B35.11 1C9P}-11.119 47.771 67.545
+{ o   hoh   85  1.00B22.97 1C9P}-8.326 40.46 68.983
+{ o   hoh   86  1.00B30.60 1C9P}5.193 53.871 71.143
+{ o   hoh   87  1.00B42.66 1C9P}14.199 40.715 68.003
+{ o   hoh   88  1.00B48.21 1C9P}20.277 38.789 64.447
+{ o   hoh   89  1.00B48.98 1C9P}16.549 40.889 71.713
+{ o   hoh   90  1.00B57.23 1C9P}-11.453 45.321 53.889
+{ o   hoh   91  1.00B46.59 1C9P}-6.954 39.044 52.15
+{ o   hoh   92  1.00B35.08 1C9P}7.191 33.423 73.801
+{ o   hoh   93  1.00B19.18 1C9P}21.242 39.653 42.854
+{ o   hoh   94  1.00B52.05 1C9P}25.246 39.323 43.298
+{ o   hoh   95  1.00B56.94 1C9P}18.843 34.522 34.092
+{ o   hoh   96  1.00B37.28 1C9P}18.931 40.299 43.218
+{ o   hoh   97  1.00B39.30 1C9P}8.226 28.394 57.927
+{ o   hoh   98  1.00B36.00 1C9P}2.078 25.964 51.283
+{ o   hoh   99  1.00B35.91 1C9P}-0.044 31.605 57.223
+{ o   hoh   100  1.00B34.62 1C9P}-1.628 32.163 59.089
+{ o   hoh   101  1.00B15.68 1C9P}-5.319 35.988 66.25
+{ o   hoh   102  1.00B50.75 1C9P}-8.507 37.942 66.894
+{ o   hoh   103  1.00B38.38 1C9P}-5.681 37.982 76.579
+{ o   hoh   104  1.00B59.87 1C9P}21.417 53.344 88.284
+{ o   hoh   105  1.00B45.32 1C9P}-7.637 42.664 76.481
+{ o   hoh   106  1.00B31.63 1C9P}-2.203 36.176 78.828
+{ o   hoh   107  1.00B57.85 1C9P}-0.32 39.762 79.959
+{ o   hoh   108  1.00B50.27 1C9P}6.654 37.884 44.398
+{ o   hoh   109  1.00B34.20 1C9P}-4.581 38.592 46.419
+{ o   hoh   110  1.00B43.25 1C9P}19.164 40.698 53.843
+{ o   hoh   111  1.00B59.87 1C9P}21.6 41.359 65.962
+{ o   hoh   112  1.00B36.80 1C9P}21.777 57.968 56.343
+{ o   hoh   113  1.00B48.70 1C9P}21.495 54.249 58.856
+{ o   hoh   114  1.00B47.28 1C9P}18.975 52.645 59.316
+{ o   hoh   115  1.00B45.55 1C9P}20.262 57.238 61.559
+{ o   hoh   116  1.00B42.09 1C9P}-1.04 53.47 39.344
+{ o   hoh   117  1.00B50.61 1C9P}14.567 61.802 59.202
+{ o   hoh   118  1.00B43.94 1C9P}18.052 62.389 46.903
+{ o   hoh   119  1.00B47.69 1C9P}22.996 49.445 46.25
+{ o   hoh   120  1.00B26.08 1C9P}18.801 58.113 46.74
+{ o   hoh   121  1.00B48.05 1C9P}4.256 62.671 70.119
+{ o   hoh   122  1.00B37.64 1C9P}3.684 63.38 72.82
+{ o   hoh   123  1.00B31.50 1C9P}-8.525 57.677 59.868
+{ o   hoh   124  1.00B55.68 1C9P}-6.038 37.315 49.896
+{ o   hoh   125  1.00B22.01 1C9P}6.977 31.75 70.33
+{ o   hoh   126  1.00B53.23 1C9P}9.308 31.619 71.538
+{ o   hoh   127  1.00B33.78 1C9P}4.171 54.627 79.884
+{ o   hoh   128  1.00B31.29 1C9P}-5.258 49.142 67.685
+{ o   hoh   129  1.00B39.31 1C9P}8.71 40.18 75.639
+{ o   hoh   130  1.00B30.90 1C9P}-0.021 40.215 35.024
+{ o   hoh   131  1.00B29.72 1C9P}20.694 49.067 58.043
+{ o   hoh   132  1.00B38.76 1C9P}27.289 41.551 56.833
+{ o   hoh   133  1.00B40.77 1C9P}31.744 52.9 75.145
+{ o   hoh   134  1.00B33.64 1C9P}27.139 55.507 72.324
+{ o   hoh   135  1.00B32.07 1C9P}15.635 52.821 73.088
