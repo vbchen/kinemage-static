@@ -1,0 +1,1 @@
+# kinemage-static
