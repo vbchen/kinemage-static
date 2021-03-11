@@ -557,3 +557,33 @@ span.less {
 }
 .symbol  { font-family: Symbol, symbol; }
 
+table.rnaconformers {
+    width: 850px;
+    color: black;
+    background-color: transparent;
+}
+table.rnaconformers td a {
+    color: blue;
+    text-decoration: none;
+}
+table.rnaconformers th {
+    font-size: 0.9em;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 2px 1px;
+    text-align: center;
+    border-bottom: black 2px solid;
+}
+table.rnaconformers td {
+    font-size: 0.85em;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 0;
+    border-bottom: #630 1px solid;
+}
+table.rnaconformers tr.lastOfType td {
+    border-bottom: #630 3px solid;
+}
+table.rnaconformers tr.lastOfAll td {
+    border-bottom: none;
+}
