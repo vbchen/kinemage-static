@@ -587,3 +587,9 @@ table.rnaconformers tr.lastOfType td {
 table.rnaconformers tr.lastOfAll td {
     border-bottom: none;
 }
+
+.carousel-caption {
+	position: relative;
+	left: 0;
+	top: 0;
+}
