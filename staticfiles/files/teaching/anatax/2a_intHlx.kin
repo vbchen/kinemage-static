@@ -1,0 +1,2792 @@
+@text
+Kinemage IIAk2 - an interrupted alpha-helix at 74-82
+
+     Cytochrome C3 has an unusual interrupted alpha-helix, at center in the startup view.  Move around, to see the 3D arrangement in the ribbon representation.  Choose the closeup on the Views pulldown menu.  Then hit the animate button or the "a" key to change to the mainchain (white) and Hbond (brown) representation.
+
+ coordinates from file: 1WAD.pdb 
+HEADER    ELECTRON TRANSPORT                      10-JAN-96   1WAD              
+TITLE     CYTOCHROME C3 WITH 4 HEME GROUPS AND ONE CALCIUM ION                  
+AUTHOR    P.M.MATIAS,J.MORAIS,R.COELHO,M.A.CARRONDO,K.WILSON,                   
+AUTHOR   2 Z.DAUTER,L.SIEKER                                                    
+REMARK   2 RESOLUTION. 1.80 ANGSTROMS.
+
+CAPTION for Kinemage #1:
+    coordinates from file: 1WAD.pdb, cytochrome C3
+@kinemage 1
+@onewidth
+@pdbfile {1WAD.pdb}
+@colorset {alph_} red
+@colorset {beta_} lime
+@colorset {coil_} white
+@colorset {nucl_} white
+@colorset {   A} yellowtint
+@colorset {edge_} deadblack
+@1viewid {overview}
+@1span 43.26652
+@1zslab 200.0
+@1center 2.2255 -2.4428 -2.6575
+@1matrix 0.9278 -0.3455 -0.141 -0.1974 -0.775 0.6004 -0.3167 -0.5292 -0.7872
+@2viewid {interr helix}
+@2span 19.837788
+@2zslab 151.0
+@2center 3.2196 4.542 -11.9929
+@2matrix -0.9699 0.211 0.1216 0.2425 0.8831 0.4017 -0.0226 0.4191 -0.9077
+@master {hets}
+@master {atoms}
+@master {ribbon}
+@master {mainchain}
+@master {Hbonds}
+@group {1WAD ribbon} dominant animate
+@subgroup {het groups}
+@balllist {het N} nobutton color= sky radius= 0.32 master= {hets} master= {atoms}
+{ n a hem   112  1WAD}-2.713 0.772 4.758
+{ n b hem   112  1WAD}-2.185 3.554 4.632
+{ n c hem   112  1WAD}-0.714 3.128 2.279
+{ n d hem   112  1WAD}-1.065 0.331 2.522
+{ n a hem   113  1WAD}-5.365 1.563 -8.447
+{ n b hem   113  1WAD}-5.261 0.39 -5.871
+{ n c hem   113  1WAD}-8.007 -0.288 -6.087
+{ n d hem   113  1WAD}-8.046 0.711 -8.733
+{ n a hem   114  1WAD}9.067 3.011 -1.531
+{ n b hem   114  1WAD}6.576 2.483 -2.787
+{ n c hem   114  1WAD}6.171 5.268 -3.149
+{ n d hem   114  1WAD}8.558 5.799 -1.718
+{ n a hem   115  1WAD}8.241 -7.586 -9.725
+{ n b hem   115  1WAD}10.017 -5.504 -10.536
+{ n c hem   115  1WAD}9.216 -3.983 -8.27
+{ n d hem   115  1WAD}7.359 -5.975 -7.567
+@balllist {het O} nobutton color= red radius= 0.32 master= {hets} master= {atoms}
+{ o1a hem   112  1WAD}-3.795 -5.254 6.564
+{ o2a hem   112  1WAD}-2.118 -4.934 8.023
+{ o1d hem   112  1WAD}-1.732 -5.957 1.655
+{ o2d hem   112  1WAD}-3.351 -5.564 0.141
+{ o1a hem   113  1WAD}-5.045 4.286 -14.115
+{ o2a hem   113  1WAD}-3.451 2.857 -14.855
+{ o1d hem   113  1WAD}-9.556 3.997 -13.854
+{ o2d hem   113  1WAD}-10.664 5.591 -12.718
+{ o1a hem   114  1WAD}12.271 0.469 2.48
+{ o2a hem   114  1WAD}10.416 1.694 2.828
+{ o1d hem   114  1WAD}14.889 7.289 -0.558
+{ o2d hem   114  1WAD}13.935 8.816 0.781
+{ o1a hem   115  1WAD}6.323 -11.944 -7.31
+{ o2a hem   115  1WAD}8.065 -13.216 -7.899
+{ o1d hem   115  1WAD}2.714 -9.538 -4.733
+{ o2d hem   115  1WAD}4.255 -11.168 -5.008
+@spherelist {het M} nobutton color= gray radius= 0.5 master= {hets}
+{fe   hem   112  1WAD}-1.639 1.943 3.566
+{fe   hem   113  1WAD}-6.676 0.599 -7.292
+{fe   hem   114  1WAD}7.596 4.135 -2.301
+{fe   hem   115  1WAD}8.718 -5.786 -9.013
+{Ca    ca   116  1WAD}5.747 -12.837 -5.155
+{Ca    ca   116 }5.747 -12.837 -5.155
+@vectorlist {het} color= pink master= {hets}
+{fe   hem   112  1WAD}P -1.639 1.943 3.566
+{"}white -1.639 1.943 3.566
+{"}P -1.639 1.943 3.566
+{ n a hem   112  1WAD}white -2.713 0.772 4.758
+{ cha hem   112  1WAD}P -2.09 -1.43 3.875
+{ c1a hem   112  1WAD}white -2.794 -0.601 4.737
+{"}P -2.794 -0.601 4.737
+{ c2a hem   112  1WAD}white -3.776 -1.029 5.712
+{"}P -3.776 -1.029 5.712
+{ c3a hem   112  1WAD}white -4.306 0.058 6.274
+{ chb hem   112  1WAD}P -3.775 2.496 6.149
+{ c4a hem   112  1WAD}white -3.598 1.203 5.733
+{ c3a hem   112  1WAD}P -4.306 0.058 6.274
+{ cma hem   112  1WAD}white -5.458 0.174 7.309
+{ c2a hem   112  1WAD}P -3.776 -1.029 5.712
+{ caa hem   112  1WAD}white -4.088 -2.514 6.033
+{"}P -4.088 -2.514 6.033
+{ cba hem   112  1WAD}white -3.343 -3.054 7.284
+{"}P -3.343 -3.054 7.284
+{ cga hem   112  1WAD}white -3.069 -4.523 7.297
+{"}P -3.069 -4.523 7.297
+{ o1a hem   112  1WAD}white -3.795 -5.254 6.564
+{ cga hem   112  1WAD}P -3.069 -4.523 7.297
+{ o2a hem   112  1WAD}white -2.118 -4.934 8.023
+{fe   hem   112  1WAD}P -1.639 1.943 3.566
+{ n b hem   112  1WAD}white -2.185 3.554 4.632
+{ chb hem   112  1WAD}P -3.775 2.496 6.149
+{ c1b hem   112  1WAD}white -3.11 3.603 5.657
+{"}P -3.11 3.603 5.657
+{ c2b hem   112  1WAD}white -3.311 4.966 6.081
+{"}P -3.311 4.966 6.081
+{ c3b hem   112  1WAD}white -2.49 5.738 5.346
+{ chc hem   112  1WAD}P -0.873 5.268 3.49
+{ c4b hem   112  1WAD}white -1.766 4.862 4.448
+{ c2b hem   112  1WAD}P -3.311 4.966 6.081
+{ cmb hem   112  1WAD}white -4.274 5.366 7.212
+{ c3b hem   112  1WAD}P -2.49 5.738 5.346
+{ cab hem   112  1WAD}white -2.156 7.233 5.483
+{"}P -2.156 7.233 5.483
+{ cbb hem   112  1WAD}white -1.514 7.579 6.668
+{fe   hem   112  1WAD}P -1.639 1.943 3.566
+{ n c hem   112  1WAD}white -0.714 3.128 2.279
+{ chc hem   112  1WAD}P -0.873 5.268 3.49
+{ c1c hem   112  1WAD}white -0.522 4.492 2.396
+{"}P -0.522 4.492 2.396
+{ c2c hem   112  1WAD}white 0.139 4.985 1.214
+{"}P 0.139 4.985 1.214
+{ c3c hem   112  1WAD}white 0.361 3.924 0.417
+{ chd hem   112  1WAD}P -0.092 1.469 0.608
+{ c4c hem   112  1WAD}white -0.158 2.76 1.086
+{ c2c hem   112  1WAD}P 0.139 4.985 1.214
+{ cmc hem   112  1WAD}white 0.506 6.455 1.001
+{ c3c hem   112  1WAD}P 0.361 3.924 0.417
+{ cac hem   112  1WAD}white 1.005 3.932 -1.004
+{"}P 1.005 3.932 -1.004
+{ cbc hem   112  1WAD}white 2.338 4.382 -1.005
+{fe   hem   112  1WAD}P -1.639 1.943 3.566
+{ n d hem   112  1WAD}white -1.065 0.331 2.522
+{ chd hem   112  1WAD}P -0.092 1.469 0.608
+{ c1d hem   112  1WAD}white -0.408 0.351 1.352
+{"}P -0.408 0.351 1.352
+{ c2d hem   112  1WAD}white -0.121 -1.018 0.921
+{"}P -0.121 -1.018 0.921
+{ c3d hem   112  1WAD}white -0.663 -1.818 1.819
+{ cha hem   112  1WAD}P -2.09 -1.43 3.875
+{ c4d hem   112  1WAD}white -1.301 -1.015 2.825
+{ c2d hem   112  1WAD}P -0.121 -1.018 0.921
+{ cmd hem   112  1WAD}white 0.614 -1.32 -0.408
+{ c3d hem   112  1WAD}P -0.663 -1.818 1.819
+{ cad hem   112  1WAD}white -0.864 -3.364 1.724
+{"}P -0.864 -3.364 1.724
+{ cbd hem   112  1WAD}white -2.253 -3.726 1.122
+{"}P -2.253 -3.726 1.122
+{ cgd hem   112  1WAD}white -2.476 -5.217 0.966
+{"}P -2.476 -5.217 0.966
+{ o1d hem   112  1WAD}white -1.732 -5.957 1.655
+{ cgd hem   112  1WAD}P -2.476 -5.217 0.966
+{ o2d hem   112  1WAD}white -3.351 -5.564 0.141
+{ n a hem   112  1WAD}P -2.713 0.772 4.758
+{ c1a hem   112  1WAD}ghost white -2.794 -0.601 4.737
+{ n a hem   112  1WAD}P -2.713 0.772 4.758
+{ c4a hem   112  1WAD}ghost white -3.598 1.203 5.733
+{ c3a hem   112  1WAD}P -4.306 0.058 6.274
+{ c4a hem   112  1WAD}ghost white -3.598 1.203 5.733
+{ n b hem   112  1WAD}P -2.185 3.554 4.632
+{ c1b hem   112  1WAD}ghost white -3.11 3.603 5.657
+{ n b hem   112  1WAD}P -2.185 3.554 4.632
+{ c4b hem   112  1WAD}ghost white -1.766 4.862 4.448
+{ c3b hem   112  1WAD}P -2.49 5.738 5.346
+{ c4b hem   112  1WAD}ghost white -1.766 4.862 4.448
+{ n c hem   112  1WAD}P -0.714 3.128 2.279
+{ c1c hem   112  1WAD}ghost white -0.522 4.492 2.396
+{ n c hem   112  1WAD}P -0.714 3.128 2.279
+{ c4c hem   112  1WAD}ghost white -0.158 2.76 1.086
+{ c3c hem   112  1WAD}P 0.361 3.924 0.417
+{ c4c hem   112  1WAD}ghost white -0.158 2.76 1.086
+{ n d hem   112  1WAD}P -1.065 0.331 2.522
+{ c1d hem   112  1WAD}ghost white -0.408 0.351 1.352
+{ n d hem   112  1WAD}P -1.065 0.331 2.522
+{ c4d hem   112  1WAD}ghost white -1.301 -1.015 2.825
+{ c3d hem   112  1WAD}P -0.663 -1.818 1.819
+{ c4d hem   112  1WAD}ghost white -1.301 -1.015 2.825
+{fe   hem   113  1WAD}P -6.676 0.599 -7.292
+{"}white -6.676 0.599 -7.292
+{"}P -6.676 0.599 -7.292
+{ n a hem   113  1WAD}white -5.365 1.563 -8.447
+{ cha hem   113  1WAD}P -6.871 2.192 -10.275
+{ c1a hem   113  1WAD}white -5.638 2.187 -9.631
+{"}P -5.638 2.187 -9.631
+{ c2a hem   113  1WAD}white -4.419 2.809 -10.112
+{"}P -4.419 2.809 -10.112
+{ c3a hem   113  1WAD}white -3.433 2.522 -9.262
+{ chb hem   113  1WAD}P -3.342 1.258 -7.093
+{ c4a hem   113  1WAD}white -4.034 1.729 -8.186
+{ c3a hem   113  1WAD}P -3.433 2.522 -9.262
+{ cma hem   113  1WAD}white -1.943 2.863 -9.303
+{ c2a hem   113  1WAD}P -4.419 2.809 -10.112
+{ caa hem   113  1WAD}white -4.334 3.533 -11.485
+{"}P -4.334 3.533 -11.485
+{ cba hem   113  1WAD}white -4.328 2.562 -12.693
+{"}P -4.328 2.562 -12.693
+{ cga hem   113  1WAD}white -4.274 3.3 -14.033
+{"}P -4.274 3.3 -14.033
+{ o1a hem   113  1WAD}white -5.045 4.286 -14.115
+{ cga hem   113  1WAD}P -4.274 3.3 -14.033
+{ o2a hem   113  1WAD}white -3.451 2.857 -14.855
+{fe   hem   113  1WAD}P -6.676 0.599 -7.292
+{ n b hem   113  1WAD}white -5.261 0.39 -5.871
+{ chb hem   113  1WAD}P -3.342 1.258 -7.093
+{ c1b hem   113  1WAD}white -3.926 0.659 -5.995
+{"}P -3.926 0.659 -5.995
+{ c2b hem   113  1WAD}white -3.221 0.183 -4.817
+{"}P -3.221 0.183 -4.817
+{ c3b hem   113  1WAD}white -4.128 -0.303 -3.976
+{ chc hem   113  1WAD}P -6.637 -0.525 -4.081
+{ c4b hem   113  1WAD}white -5.426 -0.157 -4.617
+{ c2b hem   113  1WAD}P -3.221 0.183 -4.817
+{ cmb hem   113  1WAD}white -1.685 0.311 -4.666
+{ c3b hem   113  1WAD}P -4.128 -0.303 -3.976
+{ cab hem   113  1WAD}white -3.966 -0.779 -2.508
+{"}P -3.966 -0.779 -2.508
+{ cbb hem   113  1WAD}white -3.471 0.227 -1.655
+{fe   hem   113  1WAD}P -6.676 0.599 -7.292
+{ n c hem   113  1WAD}white -8.007 -0.288 -6.087
+{ chc hem   113  1WAD}P -6.637 -0.525 -4.081
+{ c1c hem   113  1WAD}white -7.832 -0.608 -4.746
+{"}P -7.832 -0.608 -4.746
+{ c2c hem   113  1WAD}white -9.046 -1.232 -4.246
+{"}P -9.046 -1.232 -4.246
+{ c3c hem   113  1WAD}white -9.877 -1.379 -5.286
+{ chd hem   113  1WAD}P -9.788 -0.667 -7.704
+{ c4c hem   113  1WAD}white -9.258 -0.743 -6.431
+{ c2c hem   113  1WAD}P -9.046 -1.232 -4.246
+{ cmc hem   113  1WAD}white -9.206 -1.764 -2.81
+{ c3c hem   113  1WAD}P -9.877 -1.379 -5.286
+{ cac hem   113  1WAD}white -11.231 -2.137 -5.328
+{"}P -11.231 -2.137 -5.328
+{ cbc hem   113  1WAD}white -12.224 -1.54 -4.536
+{fe   hem   113  1WAD}P -6.676 0.599 -7.292
+{ n d hem   113  1WAD}white -8.046 0.711 -8.733
+{ chd hem   113  1WAD}P -9.788 -0.667 -7.704
+{ c1d hem   113  1WAD}white -9.269 0.112 -8.719
+{"}P -9.269 0.112 -8.719
+{ c2d hem   113  1WAD}white -10.009 0.512 -9.911
+{"}P -10.009 0.512 -9.911
+{ c3d hem   113  1WAD}white -9.25 1.369 -10.568
+{ cha hem   113  1WAD}P -6.871 2.192 -10.275
+{ c4d hem   113  1WAD}white -7.976 1.48 -9.879
+{ c2d hem   113  1WAD}P -10.009 0.512 -9.911
+{ cmd hem   113  1WAD}white -11.448 -0.001 -10.176
+{ c3d hem   113  1WAD}P -9.25 1.369 -10.568
+{ cad hem   113  1WAD}white -9.568 2.191 -11.848
+{"}P -9.568 2.191 -11.848
+{ cbd hem   113  1WAD}white -9.975 3.659 -11.556
+{"}P -9.975 3.659 -11.556
+{ cgd hem   113  1WAD}white -10.082 4.496 -12.828
+{"}P -10.082 4.496 -12.828
+{ o1d hem   113  1WAD}white -9.556 3.997 -13.854
+{ cgd hem   113  1WAD}P -10.082 4.496 -12.828
+{ o2d hem   113  1WAD}white -10.664 5.591 -12.718
+{ n a hem   113  1WAD}P -5.365 1.563 -8.447
+{ c1a hem   113  1WAD}ghost white -5.638 2.187 -9.631
+{ n a hem   113  1WAD}P -5.365 1.563 -8.447
+{ c4a hem   113  1WAD}ghost white -4.034 1.729 -8.186
+{ c3a hem   113  1WAD}P -3.433 2.522 -9.262
+{ c4a hem   113  1WAD}ghost white -4.034 1.729 -8.186
+{ n b hem   113  1WAD}P -5.261 0.39 -5.871
+{ c1b hem   113  1WAD}ghost white -3.926 0.659 -5.995
+{ n b hem   113  1WAD}P -5.261 0.39 -5.871
+{ c4b hem   113  1WAD}ghost white -5.426 -0.157 -4.617
+{ c3b hem   113  1WAD}P -4.128 -0.303 -3.976
+{ c4b hem   113  1WAD}ghost white -5.426 -0.157 -4.617
+{ n c hem   113  1WAD}P -8.007 -0.288 -6.087
+{ c1c hem   113  1WAD}ghost white -7.832 -0.608 -4.746
+{ n c hem   113  1WAD}P -8.007 -0.288 -6.087
+{ c4c hem   113  1WAD}ghost white -9.258 -0.743 -6.431
+{ c3c hem   113  1WAD}P -9.877 -1.379 -5.286
+{ c4c hem   113  1WAD}ghost white -9.258 -0.743 -6.431
+{ n d hem   113  1WAD}P -8.046 0.711 -8.733
+{ c1d hem   113  1WAD}ghost white -9.269 0.112 -8.719
+{ n d hem   113  1WAD}P -8.046 0.711 -8.733
+{ c4d hem   113  1WAD}ghost white -7.976 1.48 -9.879
+{ c3d hem   113  1WAD}P -9.25 1.369 -10.568
+{ c4d hem   113  1WAD}ghost white -7.976 1.48 -9.879
+{fe   hem   114  1WAD}P 7.596 4.135 -2.301
+{"}white 7.596 4.135 -2.301
+{"}P 7.596 4.135 -2.301
+{ n a hem   114  1WAD}white 9.067 3.011 -1.531
+{ cha hem   114  1WAD}P 10.514 4.777 -0.665
+{ c1a hem   114  1WAD}white 10.235 3.45 -0.923
+{"}P 10.235 3.45 -0.923
+{ c2a hem   114  1WAD}white 11.062 2.321 -0.601
+{"}P 11.062 2.321 -0.601
+{ c3a hem   114  1WAD}white 10.422 1.224 -0.947
+{ chb hem   114  1WAD}P 8.209 0.804 -2.074
+{ c4a hem   114  1WAD}white 9.175 1.623 -1.57
+{ c3a hem   114  1WAD}P 10.422 1.224 -0.947
+{ cma hem   114  1WAD}white 10.809 -0.273 -0.72
+{ c2a hem   114  1WAD}P 11.062 2.321 -0.601
+{ caa hem   114  1WAD}white 12.415 2.476 0.157
+{"}P 12.415 2.476 0.157
+{ cba hem   114  1WAD}white 12.228 2.685 1.683
+{"}P 12.228 2.685 1.683
+{ cga hem   114  1WAD}white 11.579 1.504 2.376
+{"}P 11.579 1.504 2.376
+{ o1a hem   114  1WAD}white 12.271 0.469 2.48
+{ cga hem   114  1WAD}P 11.579 1.504 2.376
+{ o2a hem   114  1WAD}white 10.416 1.694 2.828
+{fe   hem   114  1WAD}P 7.596 4.135 -2.301
+{ n b hem   114  1WAD}white 6.576 2.483 -2.787
+{ chb hem   114  1WAD}P 8.209 0.804 -2.074
+{ c1b hem   114  1WAD}white 6.988 1.173 -2.588
+{"}P 6.988 1.173 -2.588
+{ c2b hem   114  1WAD}white 5.972 0.287 -3.075
+{"}P 5.972 0.287 -3.075
+{ c3b hem   114  1WAD}white 4.997 1.036 -3.612
+{ chc hem   114  1WAD}P 4.586 3.509 -3.792
+{ c4b hem   114  1WAD}white 5.377 2.428 -3.408
+{ c2b hem   114  1WAD}P 5.972 0.287 -3.075
+{ cmb hem   114  1WAD}white 6.099 -1.265 -3.06
+{ c3b hem   114  1WAD}P 4.997 1.036 -3.612
+{ cab hem   114  1WAD}white 3.664 0.618 -4.249
+{"}P 3.664 0.618 -4.249
+{ cbb hem   114  1WAD}white 2.87 -0.228 -3.458
+{fe   hem   114  1WAD}P 7.596 4.135 -2.301
+{ n c hem   114  1WAD}white 6.171 5.268 -3.149
+{ chc hem   114  1WAD}P 4.586 3.509 -3.792
+{ c1c hem   114  1WAD}white 5.027 4.819 -3.734
+{"}P 5.027 4.819 -3.734
+{ c2c hem   114  1WAD}white 4.279 5.945 -4.296
+{"}P 4.279 5.945 -4.296
+{ c3c hem   114  1WAD}white 4.967 7.045 -4.004
+{ chd hem   114  1WAD}P 7.109 7.506 -2.749
+{ c4c hem   114  1WAD}white 6.153 6.661 -3.28
+{ c2c hem   114  1WAD}P 4.279 5.945 -4.296
+{ cmc hem   114  1WAD}white 2.966 5.71 -5.041
+{ c3c hem   114  1WAD}P 4.967 7.045 -4.004
+{ cac hem   114  1WAD}white 4.709 8.524 -4.424
+{"}P 4.709 8.524 -4.424
+{ cbc hem   114  1WAD}white 3.408 8.917 -4.576
+{fe   hem   114  1WAD}P 7.596 4.135 -2.301
+{ n d hem   114  1WAD}white 8.558 5.799 -1.718
+{ chd hem   114  1WAD}P 7.109 7.506 -2.749
+{ c1d hem   114  1WAD}white 8.217 7.121 -2.018
+{"}P 8.217 7.121 -2.018
+{ c2d hem   114  1WAD}white 9.198 8.004 -1.42
+{"}P 9.198 8.004 -1.42
+{ c3d hem   114  1WAD}white 10.118 7.248 -0.835
+{ cha hem   114  1WAD}P 10.514 4.777 -0.665
+{ c4d hem   114  1WAD}white 9.748 5.853 -1.027
+{ c2d hem   114  1WAD}P 9.198 8.004 -1.42
+{ cmd hem   114  1WAD}white 9.078 9.544 -1.443
+{ c3d hem   114  1WAD}P 10.118 7.248 -0.835
+{ cad hem   114  1WAD}white 11.416 7.666 -0.111
+{"}P 11.416 7.666 -0.111
+{ cbd hem   114  1WAD}white 12.642 7.918 -0.973
+{"}P 12.642 7.918 -0.973
+{ cgd hem   114  1WAD}white 13.947 8.026 -0.192
+{"}P 13.947 8.026 -0.192
+{ o1d hem   114  1WAD}white 14.889 7.289 -0.558
+{ cgd hem   114  1WAD}P 13.947 8.026 -0.192
+{ o2d hem   114  1WAD}white 13.935 8.816 0.781
+{ n a hem   114  1WAD}P 9.067 3.011 -1.531
+{ c1a hem   114  1WAD}ghost white 10.235 3.45 -0.923
+{ n a hem   114  1WAD}P 9.067 3.011 -1.531
+{ c4a hem   114  1WAD}ghost white 9.175 1.623 -1.57
+{ c3a hem   114  1WAD}P 10.422 1.224 -0.947
+{ c4a hem   114  1WAD}ghost white 9.175 1.623 -1.57
+{ n b hem   114  1WAD}P 6.576 2.483 -2.787
+{ c1b hem   114  1WAD}ghost white 6.988 1.173 -2.588
+{ n b hem   114  1WAD}P 6.576 2.483 -2.787
+{ c4b hem   114  1WAD}ghost white 5.377 2.428 -3.408
+{ c3b hem   114  1WAD}P 4.997 1.036 -3.612
+{ c4b hem   114  1WAD}ghost white 5.377 2.428 -3.408
+{ n c hem   114  1WAD}P 6.171 5.268 -3.149
+{ c1c hem   114  1WAD}ghost white 5.027 4.819 -3.734
+{ n c hem   114  1WAD}P 6.171 5.268 -3.149
+{ c4c hem   114  1WAD}ghost white 6.153 6.661 -3.28
+{ c3c hem   114  1WAD}P 4.967 7.045 -4.004
+{ c4c hem   114  1WAD}ghost white 6.153 6.661 -3.28
+{ n d hem   114  1WAD}P 8.558 5.799 -1.718
+{ c1d hem   114  1WAD}ghost white 8.217 7.121 -2.018
+{ n d hem   114  1WAD}P 8.558 5.799 -1.718
+{ c4d hem   114  1WAD}ghost white 9.748 5.853 -1.027
+{ c3d hem   114  1WAD}P 10.118 7.248 -0.835
+{ c4d hem   114  1WAD}ghost white 9.748 5.853 -1.027
+{fe   hem   115  1WAD}P 8.718 -5.786 -9.013
+{"}white 8.718 -5.786 -9.013
+{"}P 8.718 -5.786 -9.013
+{ n a hem   115  1WAD}white 8.241 -7.586 -9.725
+{ cha hem   115  1WAD}P 6.527 -8.225 -8.111
+{ c1a hem   115  1WAD}white 7.292 -8.449 -9.236
+{"}P 7.292 -8.449 -9.236
+{ c2a hem   115  1WAD}white 7.257 -9.639 -10.06
+{"}P 7.257 -9.639 -10.06
+{ c3a hem   115  1WAD}white 8.214 -9.519 -10.989
+{ chb hem   115  1WAD}P 9.791 -7.676 -11.614
+{ c4a hem   115  1WAD}white 8.806 -8.201 -10.834
+{ c3a hem   115  1WAD}P 8.214 -9.519 -10.989
+{ cma hem   115  1WAD}white 8.683 -10.534 -12.06
+{ c2a hem   115  1WAD}P 7.257 -9.639 -10.06
+{ caa hem   115  1WAD}white 6.256 -10.784 -9.864
+{"}P 6.256 -10.784 -9.864
+{ cba hem   115  1WAD}white 6.811 -12.169 -9.592
+{"}P 6.811 -12.169 -9.592
+{ cga hem   115  1WAD}white 7.088 -12.47 -8.137
+{"}P 7.088 -12.47 -8.137
+{ o1a hem   115  1WAD}white 6.323 -11.944 -7.31
+{ cga hem   115  1WAD}P 7.088 -12.47 -8.137
+{ o2a hem   115  1WAD}white 8.065 -13.216 -7.899
+{fe   hem   115  1WAD}P 8.718 -5.786 -9.013
+{ n b hem   115  1WAD}white 10.017 -5.504 -10.536
+{ chb hem   115  1WAD}P 9.791 -7.676 -11.614
+{ c1b hem   115  1WAD}white 10.252 -6.374 -11.574
+{"}P 10.252 -6.374 -11.574
+{ c2b hem   115  1WAD}white 11.067 -5.734 -12.589
+{"}P 11.067 -5.734 -12.589
+{ c3b hem   115  1WAD}white 11.454 -4.527 -12.14
+{ chc hem   115  1WAD}P 10.895 -3.321 -9.96
+{ c4b hem   115  1WAD}white 10.803 -4.39 -10.814
+{ c2b hem   115  1WAD}P 11.067 -5.734 -12.589
+{ cmb hem   115  1WAD}white 11.348 -6.421 -13.956
+{ c3b hem   115  1WAD}P 11.454 -4.527 -12.14
+{ cab hem   115  1WAD}white 12.18 -3.374 -12.811
+{"}P 12.18 -3.374 -12.811
+{ cbb hem   115  1WAD}white 11.386 -2.602 -13.689
+{fe   hem   115  1WAD}P 8.718 -5.786 -9.013
+{ n c hem   115  1WAD}white 9.216 -3.983 -8.27
+{ chc hem   115  1WAD}P 10.895 -3.321 -9.96
+{ c1c hem   115  1WAD}white 10.178 -3.163 -8.776
+{"}P 10.178 -3.163 -8.776
+{ c2c hem   115  1WAD}white 10.372 -2.046 -7.857
+{"}P 10.372 -2.046 -7.857
+{ c3c hem   115  1WAD}white 9.426 -2.129 -6.921
+{ chd hem   115  1WAD}P 7.602 -3.793 -6.439
+{ c4c hem   115  1WAD}white 8.658 -3.327 -7.19
+{ c2c hem   115  1WAD}P 10.372 -2.046 -7.857
+{ cmc hem   115  1WAD}white 11.486 -1.002 -8.083
+{ c3c hem   115  1WAD}P 9.426 -2.129 -6.921
+{ cac hem   115  1WAD}white 9.1 -1.135 -5.766
+{"}P 9.1 -1.135 -5.766
+{ cbc hem   115  1WAD}white 8.811 0.171 -6.226
+{fe   hem   115  1WAD}P 8.718 -5.786 -9.013
+{ n d hem   115  1WAD}white 7.359 -5.975 -7.567
+{ chd hem   115  1WAD}P 7.602 -3.793 -6.439
+{ c1d hem   115  1WAD}white 7 -5.029 -6.615
+{"}P 7 -5.029 -6.615
+{ c2d hem   115  1WAD}white 5.891 -5.533 -5.842
+{"}P 5.891 -5.533 -5.842
+{ c3d hem   115  1WAD}white 5.579 -6.735 -6.336
+{ cha hem   115  1WAD}P 6.527 -8.225 -8.111
+{ c4d hem   115  1WAD}white 6.537 -7.061 -7.368
+{ c2d hem   115  1WAD}P 5.891 -5.533 -5.842
+{ cmd hem   115  1WAD}white 5.164 -4.749 -4.739
+{ c3d hem   115  1WAD}P 5.579 -6.735 -6.336
+{ cad hem   115  1WAD}white 4.409 -7.687 -5.959
+{"}P 4.409 -7.687 -5.959
+{ cbd hem   115  1WAD}white 4.943 -8.922 -5.13
+{"}P 4.943 -8.922 -5.13
+{ cgd hem   115  1WAD}white 3.868 -9.959 -4.936
+{"}P 3.868 -9.959 -4.936
+{ o1d hem   115  1WAD}white 2.714 -9.538 -4.733
+{ cgd hem   115  1WAD}P 3.868 -9.959 -4.936
+{ o2d hem   115  1WAD}white 4.255 -11.168 -5.008
+{ n a hem   115  1WAD}P 8.241 -7.586 -9.725
+{ c1a hem   115  1WAD}ghost white 7.292 -8.449 -9.236
+{ n a hem   115  1WAD}P 8.241 -7.586 -9.725
+{ c4a hem   115  1WAD}ghost white 8.806 -8.201 -10.834
+{ c3a hem   115  1WAD}P 8.214 -9.519 -10.989
+{ c4a hem   115  1WAD}ghost white 8.806 -8.201 -10.834
+{ n b hem   115  1WAD}P 10.017 -5.504 -10.536
+{ c1b hem   115  1WAD}ghost white 10.252 -6.374 -11.574
+{ n b hem   115  1WAD}P 10.017 -5.504 -10.536
+{ c4b hem   115  1WAD}ghost white 10.803 -4.39 -10.814
+{ c3b hem   115  1WAD}P 11.454 -4.527 -12.14
+{ c4b hem   115  1WAD}ghost white 10.803 -4.39 -10.814
+{ n c hem   115  1WAD}P 9.216 -3.983 -8.27
+{ c1c hem   115  1WAD}ghost white 10.178 -3.163 -8.776
+{ n c hem   115  1WAD}P 9.216 -3.983 -8.27
+{ c4c hem   115  1WAD}ghost white 8.658 -3.327 -7.19
+{ c3c hem   115  1WAD}P 9.426 -2.129 -6.921
+{ c4c hem   115  1WAD}ghost white 8.658 -3.327 -7.19
+{ n d hem   115  1WAD}P 7.359 -5.975 -7.567
+{ c1d hem   115  1WAD}ghost white 7 -5.029 -6.615
+{ n d hem   115  1WAD}P 7.359 -5.975 -7.567
+{ c4d hem   115  1WAD}ghost white 6.537 -7.061 -7.368
+{ c3d hem   115  1WAD}P 5.579 -6.735 -6.336
+{ c4d hem   115  1WAD}ghost white 6.537 -7.061 -7.368
+{Ca    ca   116  1WAD}P 5.747 -12.837 -5.155
+{"}white 5.747 -12.837 -5.155
+@subgroup {ribbon}
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R1 val   1 }P width4 blue -7.736 4.682 10.552
+{R0 val   1 }width4 blue -7.881 4.724 10.49
+{R2 val   1 }P width4 blue -7.347 4.571 10.698
+{R1 val   1 }width4 blue -7.736 4.682 10.552
+{R3 val   1 }P width4 blue -6.781 4.412 10.87
+{R2 val   1 }width4 blue -7.347 4.571 10.698
+{R0 asp   2 }P width4 blue -6.781 4.412 10.87
+{"}width4 blue -6.105 4.228 11.009
+{R1 asp   2 }P width4 blue -5.379 4.034 11.066
+{R0 asp   2 }width4 blue -6.105 4.228 11.009
+{R2 asp   2 }P width4 blue -4.637 3.817 11.045
+{R1 asp   2 }width4 blue -5.379 4.034 11.066
+{R3 asp   2 }P width4 blue -3.907 3.557 10.958
+{R2 asp   2 }width4 blue -4.637 3.817 11.045
+{R0 val   3 }P width4 blue -3.907 3.557 10.958
+{"}width4 blue -3.214 3.235 10.819
+{R1 val   3 }P width4 blue -2.579 2.837 10.644
+{R0 val   3 }width4 blue -3.214 3.235 10.819
+{R2 val   3 }P width4 blue -1.989 2.378 10.468
+{R1 val   3 }width4 blue -2.579 2.837 10.644
+{R3 val   3 }P width4 blue -1.424 1.878 10.328
+{R2 val   3 }width4 blue -1.989 2.378 10.468
+{R0 pro   4 }P width4 blue -1.424 1.878 10.328
+{"}width4 blue -0.864 1.357 10.264
+{R1 pro   4 }P width4 blue -0.292 0.837 10.297
+{R0 pro   4 }width4 blue -0.864 1.357 10.264
+{R2 pro   4 }P width4 blue 0.303 0.343 10.394
+{R1 pro   4 }width4 blue -0.292 0.837 10.297
+{R3 pro   4 }P width4 blue 0.931 -0.095 10.504
+{R2 pro   4 }width4 blue 0.303 0.343 10.394
+{R0 ala   5 }P width4 blue 0.931 -0.095 10.504
+{"}width4 blue 1.602 -0.449 10.578
+{R1 ala   5 }P width4 blue 2.318 -0.705 10.573
+{R0 ala   5 }width4 blue 1.602 -0.449 10.578
+{R2 ala   5 }P width4 blue 3.054 -0.899 10.481
+{R1 ala   5 }width4 blue 2.318 -0.705 10.573
+{R3 ala   5 }P width4 blue 3.781 -1.078 10.3
+{R2 ala   5 }width4 blue 3.054 -0.899 10.481
+{R0 asp   6 }P width4 blue 3.781 -1.078 10.3
+{"}width4 blue 4.465 -1.292 10.029
+{R1 asp   6 }P width4 blue 5.078 -1.579 9.672
+{R0 asp   6 }width4 blue 4.465 -1.292 10.029
+{R2 asp   6 }P width4 blue 5.589 -1.937 9.252
+{R1 asp   6 }width4 blue 5.078 -1.579 9.672
+{R3 asp   6 }P width4 blue 5.969 -2.352 8.798
+{R2 asp   6 }width4 blue 5.589 -1.937 9.252
+{R0 gly   7 }P width4 blue 5.969 -2.352 8.798
+{"}width4 blue 6.188 -2.813 8.337
+{R1 gly   7 }P width4 blue 6.23 -3.306 7.891
+{R0 gly   7 }width4 blue 6.188 -2.813 8.337
+{R2 gly   7 }P width4 blue 6.127 -3.821 7.456
+{R1 gly   7 }width4 blue 6.23 -3.306 7.891
+{R3 gly   7 }P width4 blue 5.925 -4.347 7.022
+{R2 gly   7 }width4 blue 6.127 -3.821 7.456
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R1 ala   8     A}P X blue 5.401 -5.392 6.11
+{R0 ala   8     A}blue 5.676 -3.975 6.114
+{R1 ala   8     A}blue 5.454 -4.499 5.64
+{"}blue 5.401 -5.392 6.11
+{"}blue 5.348 -6.284 6.58
+{R0 ala   8     A}blue 5.664 -5.773 7.038
+{R1 ala   8     A}blue 5.401 -5.392 6.11
+{"}blue 5.348 -6.284 6.58
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 ala   8     A}P width4 blue 5.925 -4.347 7.022
+{R0 ala   8     A}width4 blue 5.67 -4.874 6.576
+{"}P width4 blue 5.67 -4.874 6.576
+{R1 ala   8     A}width4 blue 5.401 -5.392 6.11
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R1 ala   8     A}P X blue 5.454 -4.499 5.64
+{"}blue 5.348 -6.284 6.58
+{R2 ala   8     A}blue 5.293 -5.05 5.097
+{"}blue 4.986 -6.736 6.129
+{R3 ala   8     A}blue 5.189 -5.606 4.507
+{"}blue 4.614 -7.134 5.649
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 ala   8     A}P U deadblack 5.401 -5.392 6.11
+{R0 ala   8     A}U deadblack 5.676 -3.975 6.114
+{R1 ala   8     A}U deadblack 5.454 -4.499 5.64
+{"}P U deadblack 5.401 -5.392 6.11
+{R0 ala   8     A}U deadblack 5.664 -5.773 7.038
+{R1 ala   8     A}U deadblack 5.348 -6.284 6.58
+{"}P U deadblack 5.454 -4.499 5.64
+{R2 ala   8     A}U deadblack 5.293 -5.05 5.097
+{R1 ala   8     A}P U deadblack 5.348 -6.284 6.58
+{R2 ala   8     A}U deadblack 4.986 -6.736 6.129
+{"}P U deadblack 5.293 -5.05 5.097
+{R3 ala   8     A}U deadblack 5.189 -5.606 4.507
+{R2 ala   8     A}P U deadblack 4.986 -6.736 6.129
+{R3 ala   8     A}U deadblack 4.614 -7.134 5.649
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R3 ala   8     A}P X blue 5.189 -5.606 4.507
+{"}blue 4.614 -7.134 5.649
+{R0 lys   9     A}blue 5.138 -6.149 3.893
+{"}blue 4.267 -7.485 5.101
+{R1 lys   9     A}blue 5.132 -6.662 3.27
+{"}blue 3.972 -7.797 4.461
+{R2 lys   9     A}blue 5.148 -7.148 2.642
+{"}blue 3.725 -8.087 3.75
+{R3 lys   9     A}blue 5.158 -7.609 2.005
+{"}blue 3.512 -8.375 3.004
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 ala   8     A}P U deadblack 5.189 -5.606 4.507
+{R0 lys   9     A}U deadblack 5.138 -6.149 3.893
+{R3 ala   8     A}P U deadblack 4.614 -7.134 5.649
+{R0 lys   9     A}U deadblack 4.267 -7.485 5.101
+{"}P U deadblack 5.138 -6.149 3.893
+{R1 lys   9     A}U deadblack 5.132 -6.662 3.27
+{R0 lys   9     A}P U deadblack 4.267 -7.485 5.101
+{R1 lys   9     A}U deadblack 3.972 -7.797 4.461
+{"}P U deadblack 5.132 -6.662 3.27
+{R2 lys   9     A}U deadblack 5.148 -7.148 2.642
+{R1 lys   9     A}P U deadblack 3.972 -7.797 4.461
+{R2 lys   9     A}U deadblack 3.725 -8.087 3.75
+{"}P U deadblack 5.148 -7.148 2.642
+{R3 lys   9     A}U deadblack 5.158 -7.609 2.005
+{R2 lys   9     A}P U deadblack 3.725 -8.087 3.75
+{R3 lys   9     A}U deadblack 3.512 -8.375 3.004
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R3 lys   9     A}P X blue 5.158 -7.609 2.005
+{"}blue 3.512 -8.375 3.004
+{R0 ile   10     A}blue 5.135 -8.05 1.36
+{"}blue 3.32 -8.681 2.258
+{R1 ile   10     A}blue 5.054 -8.476 0.706
+{"}blue 3.137 -9.023 1.541
+{R1 WING-P ile   10     A}blue 6.012 -8.203 0.289
+{R1 WING-Q ile   10     A}blue 2.179 -9.296 1.958
+{R3 ile   10     A}blue 3.72 -9.559 -0.173
+{"}blue 3.72 -9.559 -0.173
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   9     A}P U deadblack 5.158 -7.609 2.005
+{R0 ile   10     A}U deadblack 5.135 -8.05 1.36
+{R3 lys   9     A}P U deadblack 3.512 -8.375 3.004
+{R0 ile   10     A}U deadblack 3.32 -8.681 2.258
+{"}P U deadblack 5.135 -8.05 1.36
+{R1 ile   10     A}U deadblack 5.054 -8.476 0.706
+{R0 ile   10     A}P U deadblack 3.32 -8.681 2.258
+{R1 ile   10     A}U deadblack 3.137 -9.023 1.541
+{b3R1 ile   10     A}P U deadblack 5.054 -8.476 0.706
+{"}U deadblack 6.012 -8.203 0.289
+{m0R3 ile   10     A}U deadblack 3.72 -9.559 -0.173
+{b4R1 ile   10     A}P U deadblack 3.137 -9.023 1.541
+{"}U deadblack 2.179 -9.296 1.958
+{m0R3 ile   10     A}U deadblack 3.72 -9.559 -0.173
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 asp   11 }P width4 blue 3.72 -9.559 -0.173
+{"}width4 blue 3.462 -9.989 -0.765
+{R1 asp   11 }P width4 blue 3.151 -10.435 -1.312
+{R0 asp   11 }width4 blue 3.462 -9.989 -0.765
+{R2 asp   11 }P width4 blue 2.81 -10.879 -1.832
+{R1 asp   11 }width4 blue 3.151 -10.435 -1.312
+{R3 asp   11 }P width4 blue 2.465 -11.299 -2.349
+{R2 asp   11 }width4 blue 2.81 -10.879 -1.832
+{R0 phe   12 }P width4 sky 2.465 -11.299 -2.349
+{"}width4 sky 2.144 -11.675 -2.885
+{R1 phe   12 }P width4 sky 1.874 -11.994 -3.455
+{R0 phe   12 }width4 sky 2.144 -11.675 -2.885
+{R2 phe   12 }P width4 sky 1.681 -12.287 -4.042
+{R1 phe   12 }width4 sky 1.874 -11.994 -3.455
+{R3 phe   12 }P width4 sky 1.59 -12.592 -4.618
+{R2 phe   12 }width4 sky 1.681 -12.287 -4.042
+{R0 ile   13 }P width4 sky 1.59 -12.592 -4.618
+{"}width4 sky 1.627 -12.949 -5.157
+{R1 ile   13 }P width4 sky 1.81 -13.384 -5.637
+{R0 ile   13 }width4 sky 1.627 -12.949 -5.157
+{R2 ile   13 }P width4 sky 2.119 -13.874 -6.062
+{R1 ile   13 }width4 sky 1.81 -13.384 -5.637
+{R3 ile   13 }P width4 sky 2.525 -14.378 -6.44
+{R2 ile   13 }width4 sky 2.119 -13.874 -6.062
+{R0 ala   14 }P width4 sky 2.525 -14.378 -6.44
+{"}width4 sky 3.001 -14.859 -6.78
+{R1 ala   14 }P width4 sky 3.52 -15.288 -7.091
+{R0 ala   14 }width4 sky 3.001 -14.859 -6.78
+{R2 ala   14 }P width4 sky 4.065 -15.672 -7.384
+{R1 ala   14 }width4 sky 3.52 -15.288 -7.091
+{R3 ala   14 }P width4 sky 4.623 -16.027 -7.669
+{R2 ala   14 }width4 sky 4.065 -15.672 -7.384
+{R0 gly   15 }P width4 sky 4.623 -16.027 -7.669
+{"}width4 sky 5.178 -16.372 -7.959
+{R1 gly   15 }P width4 sky 5.72 -16.724 -8.257
+{R0 gly   15 }width4 sky 5.178 -16.372 -7.959
+{R2 gly   15 }P width4 sky 6.255 -17.114 -8.548
+{R1 gly   15 }width4 sky 5.72 -16.724 -8.257
+{R3 gly   15 }P width4 sky 6.792 -17.573 -8.811
+{R2 gly   15 }width4 sky 6.255 -17.114 -8.548
+{R0 gly   16 }P width4 sky 6.792 -17.573 -8.811
+{"}width4 sky 7.341 -18.134 -9.022
+{R1 gly   16 }P width4 sky 7.911 -18.802 -9.166
+{R0 gly   16 }width4 sky 7.341 -18.134 -9.022
+{R2 gly   16 }P width4 sky 8.516 -19.488 -9.245
+{R1 gly   16 }width4 sky 7.911 -18.802 -9.166
+{R3 gly   16 }P width4 sky 9.167 -20.076 -9.267
+{R2 gly   16 }width4 sky 8.516 -19.488 -9.245
+{R0 glu   17 }P width4 sky 9.167 -20.076 -9.267
+{"}width4 sky 9.877 -20.45 -9.24
+{R1 glu   17 }P width4 sky 10.639 -20.523 -9.169
+{R0 glu   17 }width4 sky 9.877 -20.45 -9.24
+{R2 glu   17 }P width4 sky 11.362 -20.328 -9.046
+{R1 glu   17 }width4 sky 10.639 -20.523 -9.169
+{R3 glu   17 }P width4 sky 11.938 -19.925 -8.864
+{R2 glu   17 }width4 sky 11.362 -20.328 -9.046
+{R0 lys   18 }P width4 sky 11.938 -19.925 -8.864
+{"}width4 sky 12.256 -19.376 -8.612
+{R1 lys   18 }P width4 sky 12.244 -18.738 -8.287
+{R0 lys   18 }width4 sky 12.256 -19.376 -8.612
+{R2 lys   18 }P width4 sky 11.973 -18.043 -7.907
+{R1 lys   18 }width4 sky 12.244 -18.738 -8.287
+{R3 lys   18 }P width4 sky 11.552 -17.322 -7.497
+{R2 lys   18 }width4 sky 11.973 -18.043 -7.907
+{R0 asn   19 }P width4 sky 11.552 -17.322 -7.497
+{"}width4 sky 11.091 -16.605 -7.079
+{R1 asn   19 }P width4 sky 10.68 -15.913 -6.672
+{R0 asn   19 }width4 sky 11.091 -16.605 -7.079
+{R2 asn   19 }P width4 sky 10.332 -15.247 -6.268
+{R1 asn   19 }width4 sky 10.68 -15.913 -6.672
+{R3 asn   19 }P width4 sky 10.042 -14.597 -5.852
+{R2 asn   19 }width4 sky 10.332 -15.247 -6.268
+{R0 leu   20 }P width4 sky 10.042 -14.597 -5.852
+{"}width4 sky 9.805 -13.958 -5.41
+{R1 leu   20 }P width4 sky 9.615 -13.323 -4.933
+{R0 leu   20 }width4 sky 9.805 -13.958 -5.41
+{R2 leu   20 }P width4 sky 9.456 -12.688 -4.428
+{R1 leu   20 }width4 sky 9.615 -13.323 -4.933
+{R3 leu   20 }P width4 sky 9.313 -12.053 -3.911
+{R2 leu   20 }width4 sky 9.456 -12.688 -4.428
+{R0 thr   21 }P width4 sky 9.313 -12.053 -3.911
+{"}width4 sky 9.168 -11.417 -3.393
+{R1 thr   21 }P width4 sky 9.012 -10.777 -2.885
+{R0 thr   21 }width4 sky 9.168 -11.417 -3.393
+{R2 thr   21 }P width4 sky 8.851 -10.132 -2.387
+{R1 thr   21 }width4 sky 9.012 -10.777 -2.885
+{R3 thr   21 }P width4 sky 8.701 -9.481 -1.895
+{R2 thr   21 }width4 sky 8.851 -10.132 -2.387
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R1 val   22     A}P X sky 8.48 -8.158 -0.912
+{R0 val   22     A}sky 9.645 -8.684 -1.394
+{R1 val   22     A}sky 9.541 -7.976 -0.96
+{"}sky 8.48 -8.158 -0.912
+{"}sky 7.418 -8.341 -0.863
+{R0 val   22     A}sky 7.504 -8.963 -1.413
+{R1 val   22     A}sky 8.48 -8.158 -0.912
+{"}sky 7.418 -8.341 -0.863
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 val   22     A}P width4 sky 8.701 -9.481 -1.895
+{R0 val   22     A}width4 sky 8.575 -8.823 -1.404
+{"}P width4 sky 8.575 -8.823 -1.404
+{R1 val   22     A}width4 sky 8.48 -8.158 -0.912
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R1 val   22     A}P X sky 9.541 -7.976 -0.96
+{"}sky 7.418 -8.341 -0.863
+{R2 val   22     A}sky 9.439 -7.246 -0.521
+{"}sky 7.354 -7.739 -0.321
+{R3 val   22     A}sky 9.316 -6.512 -0.085
+{"}sky 7.286 -7.154 0.214
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 val   22     A}P U deadblack 8.48 -8.158 -0.912
+{R0 val   22     A}U deadblack 9.645 -8.684 -1.394
+{R1 val   22     A}U deadblack 9.541 -7.976 -0.96
+{"}P U deadblack 8.48 -8.158 -0.912
+{R0 val   22     A}U deadblack 7.504 -8.963 -1.413
+{R1 val   22     A}U deadblack 7.418 -8.341 -0.863
+{"}P U deadblack 9.541 -7.976 -0.96
+{R2 val   22     A}U deadblack 9.439 -7.246 -0.521
+{R1 val   22     A}P U deadblack 7.418 -8.341 -0.863
+{R2 val   22     A}U deadblack 7.354 -7.739 -0.321
+{"}P U deadblack 9.439 -7.246 -0.521
+{R3 val   22     A}U deadblack 9.316 -6.512 -0.085
+{R2 val   22     A}P U deadblack 7.354 -7.739 -0.321
+{R3 val   22     A}U deadblack 7.286 -7.154 0.214
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R3 val   22     A}P X cyan 9.316 -6.512 -0.085
+{"}cyan 7.286 -7.154 0.214
+{R0 val   23     A}cyan 9.146 -5.795 0.338
+{"}cyan 7.187 -6.581 0.744
+{R1 val   23     A}cyan 8.914 -5.106 0.741
+{"}cyan 7.038 -6.016 1.269
+{R2 val   23     A}cyan 8.634 -4.438 1.123
+{"}cyan 6.853 -5.449 1.785
+{R3 val   23     A}cyan 8.329 -3.777 1.485
+{"}cyan 6.652 -4.866 2.286
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 val   22     A}P U deadblack 9.316 -6.512 -0.085
+{R0 val   23     A}U deadblack 9.146 -5.795 0.338
+{R3 val   22     A}P U deadblack 7.286 -7.154 0.214
+{R0 val   23     A}U deadblack 7.187 -6.581 0.744
+{"}P U deadblack 9.146 -5.795 0.338
+{R1 val   23     A}U deadblack 8.914 -5.106 0.741
+{R0 val   23     A}P U deadblack 7.187 -6.581 0.744
+{R1 val   23     A}U deadblack 7.038 -6.016 1.269
+{"}P U deadblack 8.914 -5.106 0.741
+{R2 val   23     A}U deadblack 8.634 -4.438 1.123
+{R1 val   23     A}P U deadblack 7.038 -6.016 1.269
+{R2 val   23     A}U deadblack 6.853 -5.449 1.785
+{"}P U deadblack 8.634 -4.438 1.123
+{R3 val   23     A}U deadblack 8.329 -3.777 1.485
+{R2 val   23     A}P U deadblack 6.853 -5.449 1.785
+{R3 val   23     A}U deadblack 6.652 -4.866 2.286
+@ribbonlist {ribbon} nobutton color= {   A} master= {ribbon}
+{R3 val   23     A}P X cyan 8.329 -3.777 1.485
+{"}cyan 6.652 -4.866 2.286
+{R0 phe   24     A}cyan 8.021 -3.11 1.827
+{"}cyan 6.456 -4.256 2.768
+{R1 phe   24     A}cyan 7.728 -2.425 2.15
+{"}cyan 6.281 -3.611 3.227
+{R1 WING-P phe   24     A}cyan 8.451 -1.832 1.612
+{R1 WING-Q phe   24     A}cyan 5.558 -4.204 3.766
+{R3 phe   24     A}cyan 6.572 -1.639 3.441
+{"}cyan 6.572 -1.639 3.441
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 val   23     A}P U deadblack 8.329 -3.777 1.485
+{R0 phe   24     A}U deadblack 8.021 -3.11 1.827
+{R3 val   23     A}P U deadblack 6.652 -4.866 2.286
+{R0 phe   24     A}U deadblack 6.456 -4.256 2.768
+{"}P U deadblack 8.021 -3.11 1.827
+{R1 phe   24     A}U deadblack 7.728 -2.425 2.15
+{R0 phe   24     A}P U deadblack 6.456 -4.256 2.768
+{R1 phe   24     A}U deadblack 6.281 -3.611 3.227
+{b3R1 phe   24     A}P U deadblack 7.728 -2.425 2.15
+{"}U deadblack 8.451 -1.832 1.612
+{m0R3 phe   24     A}U deadblack 6.572 -1.639 3.441
+{b4R1 phe   24     A}P U deadblack 6.281 -3.611 3.227
+{"}U deadblack 5.558 -4.204 3.766
+{m0R3 phe   24     A}U deadblack 6.572 -1.639 3.441
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 asn   25 }P width4 cyan 6.572 -1.639 3.441
+{"}width4 cyan 6.356 -0.945 3.82
+{R1 asn   25 }P width4 cyan 6.131 -0.26 4.21
+{R0 asn   25 }width4 cyan 6.356 -0.945 3.82
+{R2 asn   25 }P width4 cyan 5.899 0.418 4.615
+{R1 asn   25 }width4 cyan 6.131 -0.26 4.21
+{R3 asn   25 }P width4 cyan 5.667 1.094 5.035
+{R2 asn   25 }width4 cyan 5.899 0.418 4.615
+{R0 his   26 }P width4 cyan 5.667 1.094 5.035
+{"}width4 cyan 5.438 1.771 5.469
+{R1 his   26 }P width4 cyan 5.229 2.45 5.913
+{R0 his   26 }width4 cyan 5.438 1.771 5.469
+{R2 his   26 }P width4 cyan 5.108 3.109 6.333
+{R1 his   26 }width4 cyan 5.229 2.45 5.913
+{R3 his   26 }P width4 cyan 5.152 3.725 6.69
+{R2 his   26 }width4 cyan 5.108 3.109 6.333
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 ser   27 }P X cyan 6.008 4.736 7.061
+{R0 ser   27 }cyan 5.292 5.055 6.507
+{R1 ser   27 }cyan 5.849 5.574 6.762
+{"}cyan 6.008 4.736 7.061
+{"}cyan 6.168 3.899 7.361
+{R0 ser   27 }cyan 5.587 3.493 7.384
+{R1 ser   27 }cyan 6.008 4.736 7.061
+{"}cyan 6.168 3.899 7.361
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 ser   27 }P width4 cyan 5.152 3.725 6.69
+{R0 ser   27 }width4 cyan 5.439 4.274 6.945
+{"}P width4 cyan 5.439 4.274 6.945
+{R1 ser   27 }width4 cyan 6.008 4.736 7.061
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 ser   27 }P X cyan 5.849 5.574 6.762
+{"}cyan 6.168 3.899 7.361
+{R2 ser   27 }cyan 6.611 5.99 6.839
+{"}cyan 6.862 4.239 7.172
+{R3 ser   27 }cyan 7.405 6.305 6.678
+{"}cyan 7.514 4.526 6.817
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 ser   27 }P U deadblack 6.008 4.736 7.061
+{R0 ser   27 }U deadblack 5.292 5.055 6.507
+{R1 ser   27 }U deadblack 5.849 5.574 6.762
+{"}P U deadblack 6.008 4.736 7.061
+{R0 ser   27 }U deadblack 5.587 3.493 7.384
+{R1 ser   27 }U deadblack 6.168 3.899 7.361
+{"}P U deadblack 5.849 5.574 6.762
+{R2 ser   27 }U deadblack 6.611 5.99 6.839
+{R1 ser   27 }P U deadblack 6.168 3.899 7.361
+{R2 ser   27 }U deadblack 6.862 4.239 7.172
+{"}P U deadblack 6.611 5.99 6.839
+{R3 ser   27 }U deadblack 7.405 6.305 6.678
+{R2 ser   27 }P U deadblack 6.862 4.239 7.172
+{R3 ser   27 }U deadblack 7.514 4.526 6.817
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 ser   27 }P X cyan 7.405 6.305 6.678
+{"}cyan 7.514 4.526 6.817
+{R0 thr   28 }cyan 8.059 6.517 6.216
+{"}cyan 7.971 4.775 6.298
+{R1 thr   28 }cyan 8.435 6.637 5.439
+{"}cyan 8.114 5.005 5.633
+{R2 thr   28 }cyan 8.541 6.708 4.518
+{"}cyan 7.971 5.249 4.909
+{R3 thr   28 }cyan 8.42 6.78 3.671
+{"}cyan 7.602 5.546 4.233
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 ser   27 }P U deadblack 7.405 6.305 6.678
+{R0 thr   28 }U deadblack 8.059 6.517 6.216
+{R3 ser   27 }P U deadblack 7.514 4.526 6.817
+{R0 thr   28 }U deadblack 7.971 4.775 6.298
+{"}P U deadblack 8.059 6.517 6.216
+{R1 thr   28 }U deadblack 8.435 6.637 5.439
+{R0 thr   28 }P U deadblack 7.971 4.775 6.298
+{R1 thr   28 }U deadblack 8.114 5.005 5.633
+{"}P U deadblack 8.435 6.637 5.439
+{R2 thr   28 }U deadblack 8.541 6.708 4.518
+{R1 thr   28 }P U deadblack 8.114 5.005 5.633
+{R2 thr   28 }U deadblack 7.971 5.249 4.909
+{"}P U deadblack 8.541 6.708 4.518
+{R3 thr   28 }U deadblack 8.42 6.78 3.671
+{R2 thr   28 }P U deadblack 7.971 5.249 4.909
+{R3 thr   28 }U deadblack 7.602 5.546 4.233
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 thr   28 }P X cyan 8.42 6.78 3.671
+{"}cyan 7.602 5.546 4.233
+{R0 his   29 }cyan 8.115 6.906 3.117
+{"}cyan 7.07 5.933 3.709
+{R1 his   29 }cyan 7.675 7.13 3.009
+{"}cyan 6.439 6.44 3.42
+{R2 his   29 }cyan 7.166 7.462 3.246
+{"}cyan 5.777 7.061 3.353
+{R3 his   29 }cyan 5.907 7.844 3.564
+{"}cyan 5.907 7.844 3.564
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 thr   28 }P U deadblack 8.42 6.78 3.671
+{R0 his   29 }U deadblack 8.115 6.906 3.117
+{R3 thr   28 }P U deadblack 7.602 5.546 4.233
+{R0 his   29 }U deadblack 7.07 5.933 3.709
+{"}P U deadblack 8.115 6.906 3.117
+{R1 his   29 }U deadblack 7.675 7.13 3.009
+{R0 his   29 }P U deadblack 7.07 5.933 3.709
+{R1 his   29 }U deadblack 6.439 6.44 3.42
+{"}P U deadblack 7.675 7.13 3.009
+{R2 his   29 }U deadblack 7.166 7.462 3.246
+{R1 his   29 }P U deadblack 6.439 6.44 3.42
+{R2 his   29 }U deadblack 5.777 7.061 3.353
+{b3R2 his   29 }P U deadblack 7.166 7.462 3.246
+{m0R3 his   29 }U deadblack 5.907 7.844 3.564
+{b4R2 his   29 }P U deadblack 5.777 7.061 3.353
+{m0R3 his   29 }U deadblack 5.907 7.844 3.564
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 lys   30 }P width4 cyan 5.907 7.844 3.564
+{"}width4 cyan 5.434 8.527 3.907
+{R1 lys   30 }P width4 cyan 5.104 9.29 4.232
+{R0 lys   30 }width4 cyan 5.434 8.527 3.907
+{R2 lys   30 }P width4 cyan 4.878 10.061 4.466
+{R1 lys   30 }width4 cyan 5.104 9.29 4.232
+{R3 lys   30 }P width4 cyan 4.7 10.75 4.542
+{R2 lys   30 }width4 cyan 4.878 10.061 4.466
+{R0 asp   31 }P width4 cyan 4.7 10.75 4.542
+{"}width4 cyan 4.513 11.27 4.395
+{R1 asp   31 }P width4 cyan 4.265 11.558 3.987
+{R0 asp   31 }width4 cyan 4.513 11.27 4.395
+{R2 asp   31 }P width4 cyan 3.94 11.65 3.404
+{R1 asp   31 }width4 cyan 4.265 11.558 3.987
+{R3 asp   31 }P width4 cyan 3.53 11.605 2.759
+{R2 asp   31 }width4 cyan 3.94 11.65 3.404
+{R0 val   32 }P width4 cyan 3.53 11.605 2.759
+{"}width4 cyan 3.024 11.484 2.169
+{R1 val   32 }P width4 cyan 2.422 11.338 1.725
+{R0 val   32 }width4 cyan 3.024 11.484 2.169
+{R2 val   32 }P width4 cyan 1.747 11.169 1.432
+{R1 val   32 }width4 cyan 2.422 11.338 1.725
+{R3 val   32 }P width4 cyan 1.031 10.971 1.275
+{R2 val   32 }width4 cyan 1.747 11.169 1.432
+{R0 lys   33 }P width4 cyan 1.031 10.971 1.275
+{"}width4 cyan 0.305 10.735 1.236
+{R1 lys   33 }P width4 cyan -0.406 10.457 1.294
+{R0 lys   33 }width4 cyan 0.305 10.735 1.236
+{R2 lys   33 }P width4 cyan -1.106 10.134 1.412
+{R1 lys   33 }width4 cyan -0.406 10.457 1.294
+{R3 lys   33 }P width4 cyan -1.803 9.767 1.549
+{R2 lys   33 }width4 cyan -1.106 10.134 1.412
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 cys   34 }P X sea -3.224 8.911 1.714
+{R0 cys   34 }sea -2.731 9.69 2.43
+{R1 cys   34 }sea -3.465 9.414 2.406
+{"}sea -3.224 8.911 1.714
+{"}sea -2.982 8.409 1.023
+{R0 cys   34 }sea -2.289 9.021 0.898
+{R1 cys   34 }sea -3.224 8.911 1.714
+{"}sea -2.982 8.409 1.023
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 cys   34 }P width4 sea -1.803 9.767 1.549
+{R0 cys   34 }width4 sea -2.51 9.356 1.664
+{"}P width4 sea -2.51 9.356 1.664
+{R1 cys   34 }width4 sea -3.224 8.911 1.714
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 cys   34 }P X sea -3.465 9.414 2.406
+{"}sea -2.982 8.409 1.023
+{R2 cys   34 }sea -4.121 9.123 2.258
+{"}sea -3.67 7.865 1.048
+{R3 cys   34 }sea -4.635 8.878 1.96
+{"}sea -4.298 7.474 0.905
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 cys   34 }P U deadblack -3.224 8.911 1.714
+{R0 cys   34 }U deadblack -2.731 9.69 2.43
+{R1 cys   34 }U deadblack -3.465 9.414 2.406
+{"}P U deadblack -3.224 8.911 1.714
+{R0 cys   34 }U deadblack -2.289 9.021 0.898
+{R1 cys   34 }U deadblack -2.982 8.409 1.023
+{"}P U deadblack -3.465 9.414 2.406
+{R2 cys   34 }U deadblack -4.121 9.123 2.258
+{R1 cys   34 }P U deadblack -2.982 8.409 1.023
+{R2 cys   34 }U deadblack -3.67 7.865 1.048
+{"}P U deadblack -4.121 9.123 2.258
+{R3 cys   34 }U deadblack -4.635 8.878 1.96
+{R2 cys   34 }P U deadblack -3.67 7.865 1.048
+{R3 cys   34 }U deadblack -4.298 7.474 0.905
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 cys   34 }P X sea -4.635 8.878 1.96
+{"}sea -4.298 7.474 0.905
+{R0 asp   35 }sea -4.94 8.735 1.487
+{"}sea -4.809 7.321 0.522
+{R1 asp   35 }sea -4.993 8.73 0.833
+{"}sea -5.153 7.449 -0.138
+{R2 asp   35 }sea -4.831 8.792 0.072
+{"}sea -5.3 7.741 -0.984
+{R3 asp   35 }sea -4.511 8.828 -0.7
+{"}sea -5.222 8.039 -1.891
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 cys   34 }P U deadblack -4.635 8.878 1.96
+{R0 asp   35 }U deadblack -4.94 8.735 1.487
+{R3 cys   34 }P U deadblack -4.298 7.474 0.905
+{R0 asp   35 }U deadblack -4.809 7.321 0.522
+{"}P U deadblack -4.94 8.735 1.487
+{R1 asp   35 }U deadblack -4.993 8.73 0.833
+{R0 asp   35 }P U deadblack -4.809 7.321 0.522
+{R1 asp   35 }U deadblack -5.153 7.449 -0.138
+{"}P U deadblack -4.993 8.73 0.833
+{R2 asp   35 }U deadblack -4.831 8.792 0.072
+{R1 asp   35 }P U deadblack -5.153 7.449 -0.138
+{R2 asp   35 }U deadblack -5.3 7.741 -0.984
+{"}P U deadblack -4.831 8.792 0.072
+{R3 asp   35 }U deadblack -4.511 8.828 -0.7
+{R2 asp   35 }P U deadblack -5.3 7.741 -0.984
+{R3 asp   35 }U deadblack -5.222 8.039 -1.891
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 asp   35 }P X sea -4.511 8.828 -0.7
+{"}sea -5.222 8.039 -1.891
+{R0 asp   36 }sea -4.089 8.744 -1.389
+{"}sea -4.895 8.184 -2.735
+{R1 asp   36 }sea -3.626 8.466 -1.913
+{"}sea -4.325 8.052 -3.409
+{R2 asp   36 }sea -3.192 8.014 -2.247
+{"}sea -3.652 7.66 -3.869
+{R3 asp   36 }sea -2.954 7.242 -3.231
+{"}sea -2.954 7.242 -3.231
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 asp   35 }P U deadblack -4.511 8.828 -0.7
+{R0 asp   36 }U deadblack -4.089 8.744 -1.389
+{R3 asp   35 }P U deadblack -5.222 8.039 -1.891
+{R0 asp   36 }U deadblack -4.895 8.184 -2.735
+{"}P U deadblack -4.089 8.744 -1.389
+{R1 asp   36 }U deadblack -3.626 8.466 -1.913
+{R0 asp   36 }P U deadblack -4.895 8.184 -2.735
+{R1 asp   36 }U deadblack -4.325 8.052 -3.409
+{"}P U deadblack -3.626 8.466 -1.913
+{R2 asp   36 }U deadblack -3.192 8.014 -2.247
+{R1 asp   36 }P U deadblack -4.325 8.052 -3.409
+{R2 asp   36 }U deadblack -3.652 7.66 -3.869
+{b3R2 asp   36 }P U deadblack -3.192 8.014 -2.247
+{m0R3 asp   36 }U deadblack -2.954 7.242 -3.231
+{b4R2 asp   36 }P U deadblack -3.652 7.66 -3.869
+{m0R3 asp   36 }U deadblack -2.954 7.242 -3.231
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 cys   37 }P width4 sea -2.954 7.242 -3.231
+{"}width4 sea -2.695 6.521 -3.16
+{R1 cys   37 }P width4 sea -2.736 5.727 -2.851
+{R0 cys   37 }width4 sea -2.695 6.521 -3.16
+{R2 cys   37 }P width4 sea -3.036 4.957 -2.407
+{R1 cys   37 }width4 sea -2.736 5.727 -2.851
+{R3 cys   37 }P width4 sea -3.524 4.315 -1.961
+{R2 cys   37 }width4 sea -3.036 4.957 -2.407
+{R0 his   38 }P width4 sea -3.524 4.315 -1.961
+{"}width4 sea -4.13 3.906 -1.643
+{R1 his   38 }P width4 sea -4.791 3.799 -1.553
+{R0 his   38 }width4 sea -4.13 3.906 -1.643
+{R2 his   38 }P width4 sea -5.481 3.923 -1.66
+{R1 his   38 }width4 sea -4.791 3.799 -1.553
+{R3 his   38 }P width4 sea -6.184 4.17 -1.905
+{R2 his   38 }width4 sea -5.481 3.923 -1.66
+{R0 his   39 }P width4 sea -6.184 4.17 -1.905
+{"}width4 sea -6.885 4.432 -2.226
+{R1 his   39 }P width4 sea -7.572 4.624 -2.566
+{R0 his   39 }width4 sea -6.885 4.432 -2.226
+{R2 his   39 }P width4 sea -8.249 4.749 -2.88
+{R1 his   39 }width4 sea -7.572 4.624 -2.566
+{R3 his   39 }P width4 sea -8.926 4.831 -3.126
+{R2 his   39 }width4 sea -8.249 4.749 -2.88
+{R0 asp   40 }P width4 sea -8.926 4.831 -3.126
+{"}width4 sea -9.612 4.895 -3.261
+{R1 asp   40 }P width4 sea -10.313 4.963 -3.253
+{R0 asp   40 }width4 sea -9.612 4.895 -3.261
+{R2 asp   40 }P width4 sea -11.021 5.034 -3.111
+{R1 asp   40 }width4 sea -10.313 4.963 -3.253
+{R3 asp   40 }P width4 sea -11.721 5.104 -2.855
+{R2 asp   40 }width4 sea -11.021 5.034 -3.111
+{R0 pro   41 }P width4 sea -11.721 5.104 -2.855
+{"}width4 sea -12.402 5.169 -2.502
+{R1 pro   41 }P width4 sea -13.051 5.218 -2.074
+{R0 pro   41 }width4 sea -12.402 5.169 -2.502
+{R2 pro   41 }P width4 sea -13.66 5.216 -1.596
+{R1 pro   41 }width4 sea -13.051 5.218 -2.074
+{R3 pro   41 }P width4 sea -14.221 5.121 -1.095
+{R2 pro   41 }width4 sea -13.66 5.216 -1.596
+{R0 gly   42 }P width4 sea -14.221 5.121 -1.095
+{"}width4 sea -14.728 4.89 -0.597
+{R1 gly   42 }P width4 sea -15.17 4.494 -0.128
+{R0 gly   42 }width4 sea -14.728 4.89 -0.597
+{R2 gly   42 }P width4 sea -15.531 3.943 0.293
+{R1 gly   42 }width4 sea -15.17 4.494 -0.128
+{R3 gly   42 }P width4 sea -15.793 3.259 0.649
+{R2 gly   42 }width4 sea -15.531 3.943 0.293
+{R0 asp   43 }P width4 sea -15.793 3.259 0.649
+{"}width4 sea -15.936 2.465 0.92
+{R1 asp   43 }P width4 sea -15.944 1.599 1.094
+{R0 asp   43 }width4 sea -15.936 2.465 0.92
+{R2 asp   43 }P width4 sea -15.811 0.762 1.179
+{R1 asp   43 }width4 sea -15.944 1.599 1.094
+{R3 asp   43 }P width4 sea -15.534 0.07 1.187
+{R2 asp   43 }width4 sea -15.811 0.762 1.179
+{R0 lys   44 }P width4 sea -15.534 0.07 1.187
+{"}width4 sea -15.109 -0.36 1.131
+{R1 lys   44 }P width4 sea -14.541 -0.445 1.029
+{R0 lys   44 }width4 sea -15.109 -0.36 1.131
+{R2 lys   44 }P width4 sea -13.862 -0.247 0.925
+{R1 lys   44 }width4 sea -14.541 -0.445 1.029
+{R3 lys   44 }P width4 sea -13.114 0.14 0.865
+{R2 lys   44 }width4 sea -13.862 -0.247 0.925
+{R0 gln   45 }P width4 green -13.114 0.14 0.865
+{"}width4 green -12.337 0.621 0.9
+{R1 gln   45 }P width4 green -11.572 1.1 1.058
+{R0 gln   45 }width4 green -12.337 0.621 0.9
+{R2 gln   45 }P width4 green -10.858 1.484 1.302
+{R1 gln   45 }width4 green -11.572 1.1 1.058
+{R3 gln   45 }P width4 green -10.234 1.683 1.573
+{R2 gln   45 }width4 green -10.858 1.484 1.302
+{R0 tyr   46 }P width4 green -10.234 1.683 1.573
+{"}width4 green -9.739 1.602 1.816
+{R1 tyr   46 }P width4 green -9.395 1.183 1.981
+{R0 tyr   46 }width4 green -9.739 1.602 1.816
+{R2 tyr   46 }P width4 green -9.165 0.505 2.06
+{R1 tyr   46 }width4 green -9.395 1.183 1.981
+{R3 tyr   46 }P width4 green -8.992 -0.321 2.052
+{R2 tyr   46 }width4 green -9.165 0.505 2.06
+{R0 ala   47 }P width4 green -8.992 -0.321 2.052
+{"}width4 green -8.823 -1.183 1.956
+{R1 ala   47 }P width4 green -8.611 -1.986 1.773
+{R0 ala   47 }width4 green -8.823 -1.183 1.956
+{R2 ala   47 }P width4 green -8.347 -2.695 1.506
+{R1 ala   47 }width4 green -8.611 -1.986 1.773
+{R3 ala   47 }P width4 green -8.03 -3.294 1.162
+{R2 ala   47 }width4 green -8.347 -2.695 1.506
+{R0 gly   48 }P width4 green -8.03 -3.294 1.162
+{"}width4 green -7.658 -3.764 0.746
+{R1 gly   48 }P width4 green -7.236 -4.097 0.261
+{R0 gly   48 }width4 green -7.658 -3.764 0.746
+{R2 gly   48 }P width4 green -6.783 -4.326 -0.292
+{R1 gly   48 }width4 green -7.236 -4.097 0.261
+{R3 gly   48 }P width4 green -6.324 -4.493 -0.915
+{R2 gly   48 }width4 green -6.783 -4.326 -0.292
+{R0 cys   49 }P width4 green -6.324 -4.493 -0.915
+{"}width4 green -5.882 -4.641 -1.61
+{R1 cys   49 }P width4 green -5.489 -4.808 -2.362
+{R0 cys   49 }width4 green -5.882 -4.641 -1.61
+{R2 cys   49 }P width4 green -5.196 -5.015 -3.099
+{R1 cys   49 }width4 green -5.489 -4.808 -2.362
+{R3 cys   49 }P width4 green -5.06 -5.279 -3.733
+{R2 cys   49 }width4 green -5.196 -5.015 -3.099
+{R0 thr   50 }P width4 green -5.06 -5.279 -3.733
+{"}width4 green -5.139 -5.618 -4.176
+{R1 thr   50 }P width4 green -5.471 -6.038 -4.37
+{R0 thr   50 }width4 green -5.139 -5.618 -4.176
+{R2 thr   50 }P width4 green -6.007 -6.507 -4.378
+{R1 thr   50 }width4 green -5.471 -6.038 -4.37
+{R3 thr   50 }P width4 green -6.68 -6.98 -4.295
+{R2 thr   50 }width4 green -6.007 -6.507 -4.378
+{R0 thr   51 }P width4 green -6.68 -6.98 -4.295
+{"}width4 green -7.421 -7.415 -4.212
+{R1 thr   51 }P width4 green -8.174 -7.776 -4.211
+{R0 thr   51 }width4 green -7.421 -7.415 -4.212
+{R2 thr   51 }P width4 green -8.929 -8.062 -4.318
+{R1 thr   51 }width4 green -8.174 -7.776 -4.211
+{R3 thr   51 }P width4 green -9.686 -8.28 -4.546
+{R2 thr   51 }width4 green -8.929 -8.062 -4.318
+{R0 asp   52 }P width4 green -9.686 -8.28 -4.546
+{"}width4 green -10.447 -8.438 -4.907
+{R1 asp   52 }P width4 green -11.199 -8.535 -5.401
+{R0 asp   52 }width4 green -10.447 -8.438 -4.907
+{R2 asp   52 }P width4 green -11.874 -8.543 -5.963
+{R1 asp   52 }width4 green -11.199 -8.535 -5.401
+{R3 asp   52 }P width4 green -12.389 -8.422 -6.516
+{R2 asp   52 }width4 green -11.874 -8.543 -5.963
+{R0 gly   53 }P width4 green -12.389 -8.422 -6.516
+{"}width4 green -12.664 -8.138 -6.983
+{R1 gly   53 }P width4 green -12.638 -7.672 -7.304
+{R0 gly   53 }width4 green -12.664 -8.138 -6.983
+{R2 gly   53 }P width4 green -12.348 -7.091 -7.503
+{R1 gly   53 }width4 green -12.638 -7.672 -7.304
+{R3 gly   53 }P width4 green -11.85 -6.483 -7.622
+{R2 gly   53 }width4 green -12.348 -7.091 -7.503
+{R0 cys   54 }P width4 green -11.85 -6.483 -7.622
+{"}width4 green -11.202 -5.932 -7.703
+{R1 cys   54 }P width4 green -10.462 -5.515 -7.781
+{R0 cys   54 }width4 green -11.202 -5.932 -7.703
+{R2 cys   54 }P width4 green -9.689 -5.261 -7.865
+{R1 cys   54 }width4 green -10.462 -5.515 -7.781
+{R3 cys   54 }P width4 green -8.943 -5.187 -7.956
+{R2 cys   54 }width4 green -9.689 -5.261 -7.865
+{R0 his   55 }P width4 green -8.943 -5.187 -7.956
+{"}width4 green -8.282 -5.312 -8.053
+{R1 his   55 }P width4 green -7.753 -5.64 -8.161
+{R0 his   55 }width4 green -8.282 -5.312 -8.053
+{R2 his   55 }P width4 green -7.342 -6.127 -8.291
+{R1 his   55 }width4 green -7.753 -5.64 -8.161
+{R3 his   55 }P width4 green -7.026 -6.715 -8.456
+{R2 his   55 }width4 green -7.342 -6.127 -8.291
+{R0 asn   56 }P width4 lime -7.026 -6.715 -8.456
+{"}width4 lime -6.779 -7.348 -8.671
+{R1 asn   56 }P width4 lime -6.572 -7.974 -8.944
+{R0 asn   56 }width4 lime -6.779 -7.348 -8.671
+{R2 asn   56 }P width4 lime -6.367 -8.572 -9.26
+{R1 asn   56 }width4 lime -6.572 -7.974 -8.944
+{R3 asn   56 }P width4 lime -6.121 -9.13 -9.599
+{R2 asn   56 }width4 lime -6.367 -8.572 -9.26
+{R0 ile   57 }P width4 lime -6.121 -9.13 -9.599
+{"}width4 lime -5.792 -9.634 -9.943
+{R1 ile   57 }P width4 lime -5.35 -10.073 -10.274
+{R0 ile   57 }width4 lime -5.792 -9.634 -9.943
+{R2 ile   57 }P width4 lime -4.818 -10.456 -10.595
+{R1 ile   57 }width4 lime -5.35 -10.073 -10.274
+{R3 ile   57 }P width4 lime -4.231 -10.795 -10.914
+{R2 ile   57 }width4 lime -4.818 -10.456 -10.595
+{R0 leu   58 }P width4 lime -4.231 -10.795 -10.914
+{"}width4 lime -3.624 -11.101 -11.236
+{R1 leu   58 }P width4 lime -3.026 -11.38 -11.571
+{R0 leu   58 }width4 lime -3.624 -11.101 -11.236
+{R2 leu   58 }P width4 lime -2.444 -11.614 -11.925
+{R1 leu   58 }width4 lime -3.026 -11.38 -11.571
+{R3 leu   58 }P width4 lime -1.877 -11.775 -12.308
+{R2 leu   58 }width4 lime -2.444 -11.614 -11.925
+{R0 asp   59 }P width4 lime -1.877 -11.775 -12.308
+{"}width4 lime -1.325 -11.838 -12.729
+{R1 asp   59 }P width4 lime -0.789 -11.785 -13.195
+{R0 asp   59 }width4 lime -1.325 -11.838 -12.729
+{R2 asp   59 }P width4 lime -0.259 -11.632 -13.702
+{R1 asp   59 }width4 lime -0.789 -11.785 -13.195
+{R3 asp   59 }P width4 lime 0.272 -11.402 -14.245
+{R2 asp   59 }width4 lime -0.259 -11.632 -13.702
+{R0 lys   60 }P width4 lime 0.272 -11.402 -14.245
+{"}width4 lime 0.814 -11.119 -14.818
+{R1 lys   60 }P width4 lime 1.358 -10.807 -15.412
+{R0 lys   60 }width4 lime 0.814 -11.119 -14.818
+{R2 lys   60 }P width4 lime 1.822 -10.49 -16.002
+{R1 lys   60 }width4 lime 1.358 -10.807 -15.412
+{R3 lys   60 }P width4 lime 2.108 -10.19 -16.559
+{R2 lys   60 }width4 lime 1.822 -10.49 -16.002
+{R0 ala   61 }P width4 lime 2.108 -10.19 -16.559
+{"}width4 lime 2.117 -9.932 -17.056
+{R1 ala   61 }P width4 lime 1.786 -9.726 -17.467
+{R0 ala   61 }width4 lime 2.117 -9.932 -17.056
+{R2 ala   61 }P width4 lime 1.202 -9.536 -17.794
+{R1 ala   61 }width4 lime 1.786 -9.726 -17.467
+{R3 ala   61 }P width4 lime 0.49 -9.312 -18.042
+{R2 ala   61 }width4 lime 1.202 -9.536 -17.794
+{R0 asp   62 }P width4 lime 0.49 -9.312 -18.042
+{"}width4 lime -0.227 -9.004 -18.215
+{R1 asp   62 }P width4 lime -0.852 -8.577 -18.319
+{R0 asp   62 }width4 lime -0.227 -9.004 -18.215
+{R2 asp   62 }P width4 lime -1.388 -8.055 -18.369
+{R1 asp   62 }width4 lime -0.852 -8.577 -18.319
+{R3 asp   62 }P width4 lime -1.866 -7.475 -18.378
+{R2 asp   62 }width4 lime -1.388 -8.055 -18.369
+{R0 lys   63 }P width4 lime -1.866 -7.475 -18.378
+{"}width4 lime -2.316 -6.874 -18.36
+{R1 lys   63 }P width4 lime -2.765 -6.286 -18.322
+{R0 lys   63 }width4 lime -2.316 -6.874 -18.36
+{R2 lys   63 }P width4 lime -3.22 -5.721 -18.245
+{R1 lys   63 }width4 lime -2.765 -6.286 -18.322
+{R3 lys   63 }P width4 lime -3.685 -5.188 -18.103
+{R2 lys   63 }width4 lime -3.22 -5.721 -18.245
+{R0 ser   64 }P width4 lime -3.685 -5.188 -18.103
+{"}width4 lime -4.166 -4.694 -17.869
+{R1 ser   64 }P width4 lime -4.662 -4.247 -17.523
+{R0 ser   64 }width4 lime -4.166 -4.694 -17.869
+{R2 ser   64 }P width4 lime -5.164 -3.854 -17.069
+{R1 ser   64 }width4 lime -4.662 -4.247 -17.523
+{R3 ser   64 }P width4 lime -5.66 -3.523 -16.518
+{R2 ser   64 }width4 lime -5.164 -3.854 -17.069
+{R0 val   65 }P width4 lime -5.66 -3.523 -16.518
+{"}width4 lime -6.135 -3.262 -15.88
+{R1 val   65 }P width4 lime -6.57 -3.083 -15.178
+{R0 val   65 }width4 lime -6.135 -3.262 -15.88
+{R2 val   65 }P width4 lime -6.916 -3.012 -14.471
+{R1 val   65 }width4 lime -6.57 -3.083 -15.178
+{R3 val   65 }P width4 lime -7.119 -3.081 -13.83
+{R2 val   65 }width4 lime -6.916 -3.012 -14.471
+{R0 asn   66 }P width4 lime -7.119 -3.081 -13.83
+{"}width4 lime -7.123 -3.318 -13.328
+{R1 asn   66 }P width4 lime -6.891 -3.734 -13.01
+{R0 asn   66 }width4 lime -7.123 -3.318 -13.328
+{R2 asn   66 }P width4 lime -6.465 -4.262 -12.826
+{R1 asn   66 }width4 lime -6.891 -3.734 -13.01
+{R3 asn   66 }P width4 lime -5.904 -4.813 -12.701
+{R2 asn   66 }width4 lime -6.465 -4.262 -12.826
+{R0 ser   67 }P width4 yellow -5.904 -4.813 -12.701
+{"}width4 yellow -5.27 -5.298 -12.559
+{R1 ser   67 }P width4 yellow -4.611 -5.651 -12.34
+{R0 ser   67 }width4 yellow -5.27 -5.298 -12.559
+{R2 ser   67 }P width4 yellow -3.935 -5.892 -12.044
+{R1 ser   67 }width4 yellow -4.611 -5.651 -12.34
+{R3 ser   67 }P width4 yellow -3.238 -6.061 -11.687
+{R2 ser   67 }width4 yellow -3.935 -5.892 -12.044
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 trp   68 }P X yellow -1.771 -6.335 -10.862
+{R0 trp   68 }yellow -2.327 -5.3 -11.444
+{R1 trp   68 }yellow -1.557 -5.423 -10.879
+{"}yellow -1.771 -6.335 -10.862
+{"}yellow -1.986 -7.247 -10.844
+{R0 trp   68 }yellow -2.704 -7.099 -11.122
+{R1 trp   68 }yellow -1.771 -6.335 -10.862
+{"}yellow -1.986 -7.247 -10.844
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 trp   68 }P width4 yellow -3.238 -6.061 -11.687
+{R0 trp   68 }width4 yellow -2.516 -6.199 -11.283
+{"}P width4 yellow -2.516 -6.199 -11.283
+{R1 trp   68 }width4 yellow -1.771 -6.335 -10.862
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 trp   68 }P X yellow -1.557 -5.423 -10.879
+{"}yellow -1.986 -7.247 -10.844
+{R2 trp   68 }yellow -0.782 -5.546 -10.399
+{"}yellow -1.28 -7.344 -10.628
+{R3 trp   68 }yellow -0.028 -5.628 -10.119
+{"}yellow -0.626 -7.356 -10.565
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 trp   68 }P U deadblack -1.771 -6.335 -10.862
+{R0 trp   68 }U deadblack -2.327 -5.3 -11.444
+{R1 trp   68 }U deadblack -1.557 -5.423 -10.879
+{"}P U deadblack -1.771 -6.335 -10.862
+{R0 trp   68 }U deadblack -2.704 -7.099 -11.122
+{R1 trp   68 }U deadblack -1.986 -7.247 -10.844
+{"}P U deadblack -1.557 -5.423 -10.879
+{R2 trp   68 }U deadblack -0.782 -5.546 -10.399
+{R1 trp   68 }P U deadblack -1.986 -7.247 -10.844
+{R2 trp   68 }U deadblack -1.28 -7.344 -10.628
+{"}P U deadblack -0.782 -5.546 -10.399
+{R3 trp   68 }U deadblack -0.028 -5.628 -10.119
+{R2 trp   68 }P U deadblack -1.28 -7.344 -10.628
+{R3 trp   68 }U deadblack -0.626 -7.356 -10.565
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 trp   68 }P X yellow -0.028 -5.628 -10.119
+{"}yellow -0.626 -7.356 -10.565
+{R0 tyr   69 }yellow 0.679 -5.633 -10.153
+{"}yellow -0.061 -7.248 -10.749
+{R1 tyr   69 }yellow 1.307 -5.526 -10.569
+{"}yellow 0.377 -6.992 -11.23
+{R2 tyr   69 }yellow 1.798 -5.282 -11.239
+{"}yellow 0.66 -6.593 -11.885
+{R3 tyr   69 }yellow 2.087 -4.882 -11.988
+{"}yellow 0.76 -6.062 -12.548
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 trp   68 }P U deadblack -0.028 -5.628 -10.119
+{R0 tyr   69 }U deadblack 0.679 -5.633 -10.153
+{R3 trp   68 }P U deadblack -0.626 -7.356 -10.565
+{R0 tyr   69 }U deadblack -0.061 -7.248 -10.749
+{"}P U deadblack 0.679 -5.633 -10.153
+{R1 tyr   69 }U deadblack 1.307 -5.526 -10.569
+{R0 tyr   69 }P U deadblack -0.061 -7.248 -10.749
+{R1 tyr   69 }U deadblack 0.377 -6.992 -11.23
+{"}P U deadblack 1.307 -5.526 -10.569
+{R2 tyr   69 }U deadblack 1.798 -5.282 -11.239
+{R1 tyr   69 }P U deadblack 0.377 -6.992 -11.23
+{R2 tyr   69 }U deadblack 0.66 -6.593 -11.885
+{"}P U deadblack 1.798 -5.282 -11.239
+{R3 tyr   69 }U deadblack 2.087 -4.882 -11.988
+{R2 tyr   69 }P U deadblack 0.66 -6.593 -11.885
+{R3 tyr   69 }U deadblack 0.76 -6.062 -12.548
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 tyr   69 }P X yellow 2.087 -4.882 -11.988
+{"}yellow 0.76 -6.062 -12.548
+{R0 lys   70 }yellow 2.108 -4.305 -12.639
+{"}yellow 0.652 -5.41 -13.052
+{R1 lys   70 }yellow 1.833 -3.553 -13.045
+{"}yellow 0.336 -4.659 -13.266
+{R2 lys   70 }yellow 1.367 -2.711 -13.168
+{"}yellow -0.083 -3.881 -13.2
+{R3 lys   70 }yellow 0.85 -1.887 -12.997
+{"}yellow -0.472 -3.155 -12.898
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 tyr   69 }P U deadblack 2.087 -4.882 -11.988
+{R0 lys   70 }U deadblack 2.108 -4.305 -12.639
+{R3 tyr   69 }P U deadblack 0.76 -6.062 -12.548
+{R0 lys   70 }U deadblack 0.652 -5.41 -13.052
+{"}P U deadblack 2.108 -4.305 -12.639
+{R1 lys   70 }U deadblack 1.833 -3.553 -13.045
+{R0 lys   70 }P U deadblack 0.652 -5.41 -13.052
+{R1 lys   70 }U deadblack 0.336 -4.659 -13.266
+{"}P U deadblack 1.833 -3.553 -13.045
+{R2 lys   70 }U deadblack 1.367 -2.711 -13.168
+{R1 lys   70 }P U deadblack 0.336 -4.659 -13.266
+{R2 lys   70 }U deadblack -0.083 -3.881 -13.2
+{"}P U deadblack 1.367 -2.711 -13.168
+{R3 lys   70 }U deadblack 0.85 -1.887 -12.997
+{R2 lys   70 }P U deadblack -0.083 -3.881 -13.2
+{R3 lys   70 }U deadblack -0.472 -3.155 -12.898
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   70 }P X yellow 0.85 -1.887 -12.997
+{"}yellow -0.472 -3.155 -12.898
+{R0 val   71 }yellow 0.425 -1.186 -12.522
+{"}yellow -0.697 -2.564 -12.404
+{R1 val   71 }yellow 0.21 -0.693 -11.764
+{"}yellow -0.656 -2.17 -11.774
+{R2 val   71 }yellow 0.235 -0.399 -10.872
+{"}yellow -0.368 -1.956 -11.109
+{R3 val   71 }yellow 0.508 -0.273 -10.025
+{"}yellow 0.121 -1.885 -10.52
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   70 }P U deadblack 0.85 -1.887 -12.997
+{R0 val   71 }U deadblack 0.425 -1.186 -12.522
+{R3 lys   70 }P U deadblack -0.472 -3.155 -12.898
+{R0 val   71 }U deadblack -0.697 -2.564 -12.404
+{"}P U deadblack 0.425 -1.186 -12.522
+{R1 val   71 }U deadblack 0.21 -0.693 -11.764
+{R0 val   71 }P U deadblack -0.697 -2.564 -12.404
+{R1 val   71 }U deadblack -0.656 -2.17 -11.774
+{"}P U deadblack 0.21 -0.693 -11.764
+{R2 val   71 }U deadblack 0.235 -0.399 -10.872
+{R1 val   71 }P U deadblack -0.656 -2.17 -11.774
+{R2 val   71 }U deadblack -0.368 -1.956 -11.109
+{"}P U deadblack 0.235 -0.399 -10.872
+{R3 val   71 }U deadblack 0.508 -0.273 -10.025
+{R2 val   71 }P U deadblack -0.368 -1.956 -11.109
+{R3 val   71 }U deadblack 0.121 -1.885 -10.52
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 val   71 }P X yellow 0.508 -0.273 -10.025
+{"}yellow 0.121 -1.885 -10.52
+{R0 val   72 }yellow 1.038 -0.282 -9.403
+{"}yellow 0.76 -1.921 -10.119
+{R1 val   72 }yellow 1.808 -0.392 -9.145
+{"}yellow 1.496 -2.024 -9.99
+{R2 val   72 }yellow 2.708 -0.546 -9.231
+{"}yellow 2.245 -2.135 -10.107
+{R3 val   72 }yellow 3.602 -0.687 -9.603
+{"}yellow 2.917 -2.193 -10.416
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 val   71 }P U deadblack 0.508 -0.273 -10.025
+{R0 val   72 }U deadblack 1.038 -0.282 -9.403
+{R3 val   71 }P U deadblack 0.121 -1.885 -10.52
+{R0 val   72 }U deadblack 0.76 -1.921 -10.119
+{"}P U deadblack 1.038 -0.282 -9.403
+{R1 val   72 }U deadblack 1.808 -0.392 -9.145
+{R0 val   72 }P U deadblack 0.76 -1.921 -10.119
+{R1 val   72 }U deadblack 1.496 -2.024 -9.99
+{"}P U deadblack 1.808 -0.392 -9.145
+{R2 val   72 }U deadblack 2.708 -0.546 -9.231
+{R1 val   72 }P U deadblack 1.496 -2.024 -9.99
+{R2 val   72 }U deadblack 2.245 -2.135 -10.107
+{"}P U deadblack 2.708 -0.546 -9.231
+{R3 val   72 }U deadblack 3.602 -0.687 -9.603
+{R2 val   72 }P U deadblack 2.245 -2.135 -10.107
+{R3 val   72 }U deadblack 2.917 -2.193 -10.416
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 val   72 }P X yellow 3.602 -0.687 -9.603
+{"}yellow 2.917 -2.193 -10.416
+{R0 his   73 }yellow 4.357 -0.755 -10.201
+{"}yellow 3.42 -2.134 -10.863
+{R1 his   73 }yellow 4.868 -0.705 -10.962
+{"}yellow 3.695 -1.912 -11.394
+{R2 his   73 }yellow 5.167 -0.545 -11.819
+{"}yellow 3.803 -1.538 -11.965
+{R3 his   73 }yellow 4.575 -0.668 -12.615
+{"}yellow 4.575 -0.668 -12.615
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 val   72 }P U deadblack 3.602 -0.687 -9.603
+{R0 his   73 }U deadblack 4.357 -0.755 -10.201
+{R3 val   72 }P U deadblack 2.917 -2.193 -10.416
+{R0 his   73 }U deadblack 3.42 -2.134 -10.863
+{"}P U deadblack 4.357 -0.755 -10.201
+{R1 his   73 }U deadblack 4.868 -0.705 -10.962
+{R0 his   73 }P U deadblack 3.42 -2.134 -10.863
+{R1 his   73 }U deadblack 3.695 -1.912 -11.394
+{"}P U deadblack 4.868 -0.705 -10.962
+{R2 his   73 }U deadblack 5.167 -0.545 -11.819
+{R1 his   73 }P U deadblack 3.695 -1.912 -11.394
+{R2 his   73 }U deadblack 3.803 -1.538 -11.965
+{b3R2 his   73 }P U deadblack 5.167 -0.545 -11.819
+{m0R3 his   73 }U deadblack 4.575 -0.668 -12.615
+{b4R2 his   73 }P U deadblack 3.803 -1.538 -11.965
+{m0R3 his   73 }U deadblack 4.575 -0.668 -12.615
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 asp   74 }P width4 yellow 4.575 -0.668 -12.615
+{"}width4 yellow 4.629 -0.212 -13.291
+{R1 asp   74 }P width4 yellow 4.71 0.304 -13.875
+{R0 asp   74 }width4 yellow 4.629 -0.212 -13.291
+{R2 asp   74 }P width4 yellow 4.825 0.874 -14.374
+{R1 asp   74 }width4 yellow 4.71 0.304 -13.875
+{R3 asp   74 }P width4 yellow 4.969 1.493 -14.809
+{R2 asp   74 }width4 yellow 4.825 0.874 -14.374
+{R0 ala   75 }P width4 yellow 4.969 1.493 -14.809
+{"}width4 yellow 5.136 2.155 -15.201
+{R1 ala   75 }P width4 yellow 5.309 2.849 -15.562
+{R0 ala   75 }width4 yellow 5.136 2.155 -15.201
+{R2 ala   75 }P width4 yellow 5.428 3.54 -15.866
+{R1 ala   75 }width4 yellow 5.309 2.849 -15.562
+{R3 ala   75 }P width4 yellow 5.424 4.185 -16.079
+{R2 ala   75 }width4 yellow 5.428 3.54 -15.866
+{R0 lys   76 }P width4 yellow 5.424 4.185 -16.079
+{"}width4 yellow 5.225 4.741 -16.165
+{R1 lys   76 }P width4 yellow 4.785 5.176 -16.103
+{R0 lys   76 }width4 yellow 5.225 4.741 -16.165
+{R2 lys   76 }P width4 yellow 4.149 5.502 -15.924
+{R1 lys   76 }width4 yellow 4.785 5.176 -16.103
+{R3 lys   76 }P width4 yellow 3.386 5.741 -15.671
+{R2 lys   76 }width4 yellow 4.149 5.502 -15.924
+{R0 gly   77 }P width4 yellow 3.386 5.741 -15.671
+{"}width4 yellow 2.564 5.917 -15.387
+{R1 gly   77 }P width4 yellow 1.739 6.052 -15.11
+{R0 gly   77 }width4 yellow 2.564 5.917 -15.387
+{R2 gly   77 }P width4 yellow 0.911 6.164 -14.852
+{R1 gly   77 }width4 yellow 1.739 6.052 -15.11
+{R3 gly   77 }P width4 yellow 0.066 6.275 -14.618
+{R2 gly   77 }width4 yellow 0.911 6.164 -14.852
+{R0 gly   78 }P width4 gold 0.066 6.275 -14.618
+{"}width4 gold -0.809 6.402 -14.414
+{R1 gly   78 }P width4 gold -1.715 6.559 -14.236
+{R0 gly   78 }width4 gold -0.809 6.402 -14.414
+{R2 gly   78 }P width4 gold -2.603 6.736 -14.043
+{R1 gly   78 }width4 gold -1.715 6.559 -14.236
+{R3 gly   78 }P width4 gold -3.412 6.917 -13.785
+{R2 gly   78 }width4 gold -2.603 6.736 -14.043
+{R0 ala   79 }P width4 gold -3.412 6.917 -13.785
+{"}width4 gold -4.082 7.087 -13.409
+{R1 ala   79 }P width4 gold -4.556 7.231 -12.887
+{R0 ala   79 }width4 gold -4.082 7.087 -13.409
+{R2 ala   79 }P width4 gold -4.805 7.341 -12.269
+{R1 ala   79 }width4 gold -4.556 7.231 -12.887
+{R3 ala   79 }P width4 gold -4.804 7.407 -11.63
+{R2 ala   79 }width4 gold -4.805 7.341 -12.269
+{R0 lys   80 }P width4 gold -4.804 7.407 -11.63
+{"}width4 gold -4.53 7.423 -11.043
+{R1 lys   80 }P width4 gold -3.978 7.381 -10.566
+{R0 lys   80 }width4 gold -4.53 7.423 -11.043
+{R2 lys   80 }P width4 gold -3.225 7.273 -10.2
+{R1 lys   80 }width4 gold -3.978 7.381 -10.566
+{R3 lys   80 }P width4 gold -2.368 7.092 -9.931
+{R2 lys   80 }width4 gold -3.225 7.273 -10.2
+{R0 pro   81 }P width4 gold -2.368 7.092 -9.931
+{"}width4 gold -1.503 6.831 -9.745
+{R1 pro   81 }P width4 gold -0.709 6.485 -9.626
+{R0 pro   81 }width4 gold -1.503 6.831 -9.745
+{R2 pro   81 }P width4 gold 0.009 6.067 -9.541
+{R1 pro   81 }width4 gold -0.709 6.485 -9.626
+{R3 pro   81 }P width4 gold 0.668 5.596 -9.453
+{R2 pro   81 }width4 gold 0.009 6.067 -9.541
+{R0 thr   82 }P width4 gold 0.668 5.596 -9.453
+{"}width4 gold 1.282 5.088 -9.327
+{R1 thr   82 }P width4 gold 1.868 4.561 -9.138
+{R0 thr   82 }width4 gold 1.282 5.088 -9.327
+{R2 thr   82 }P width4 gold 2.452 4.036 -8.903
+{R1 thr   82 }width4 gold 1.868 4.561 -9.138
+{R3 thr   82 }P width4 gold 3.065 3.537 -8.651
+{R2 thr   82 }width4 gold 2.452 4.036 -8.903
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 cys   83 }P X gold 4.476 2.705 -8.217
+{R0 cys   83 }gold 3.364 2.303 -8.399
+{R1 cys   83 }gold 4.092 1.9 -8.36
+{"}gold 4.476 2.705 -8.217
+{"}gold 4.86 3.51 -8.074
+{R0 cys   83 }gold 4.108 3.866 -8.423
+{R1 cys   83 }gold 4.476 2.705 -8.217
+{"}gold 4.86 3.51 -8.074
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 cys   83 }P width4 gold 3.065 3.537 -8.651
+{R0 cys   83 }width4 gold 3.736 3.084 -8.411
+{"}P width4 gold 3.736 3.084 -8.411
+{R1 cys   83 }width4 gold 4.476 2.705 -8.217
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 cys   83 }P X gold 4.092 1.9 -8.36
+{"}gold 4.86 3.51 -8.074
+{R2 cys   83 }gold 4.804 1.651 -8.396
+{"}gold 5.651 3.212 -7.86
+{R3 cys   83 }gold 5.431 1.576 -8.561
+{"}gold 6.396 3.028 -7.854
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 cys   83 }P U deadblack 4.476 2.705 -8.217
+{R0 cys   83 }U deadblack 3.364 2.303 -8.399
+{R1 cys   83 }U deadblack 4.092 1.9 -8.36
+{"}P U deadblack 4.476 2.705 -8.217
+{R0 cys   83 }U deadblack 4.108 3.866 -8.423
+{R1 cys   83 }U deadblack 4.86 3.51 -8.074
+{"}P U deadblack 4.092 1.9 -8.36
+{R2 cys   83 }U deadblack 4.804 1.651 -8.396
+{R1 cys   83 }P U deadblack 4.86 3.51 -8.074
+{R2 cys   83 }U deadblack 5.651 3.212 -7.86
+{"}P U deadblack 4.804 1.651 -8.396
+{R3 cys   83 }U deadblack 5.431 1.576 -8.561
+{R2 cys   83 }P U deadblack 5.651 3.212 -7.86
+{R3 cys   83 }U deadblack 6.396 3.028 -7.854
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 cys   83 }P X gold 5.431 1.576 -8.561
+{"}gold 6.396 3.028 -7.854
+{R0 ile   84 }gold 5.904 1.692 -8.909
+{"}gold 7.012 3.015 -8.128
+{R1 ile   84 }gold 6.17 2.007 -9.461
+{"}gold 7.432 3.212 -8.715
+{R2 ile   84 }gold 6.248 2.496 -10.103
+{"}gold 7.648 3.608 -9.484
+{R3 ile   84 }gold 6.171 3.119 -10.686
+{"}gold 7.669 4.177 -10.263
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 cys   83 }P U deadblack 5.431 1.576 -8.561
+{R0 ile   84 }U deadblack 5.904 1.692 -8.909
+{R3 cys   83 }P U deadblack 6.396 3.028 -7.854
+{R0 ile   84 }U deadblack 7.012 3.015 -8.128
+{"}P U deadblack 5.904 1.692 -8.909
+{R1 ile   84 }U deadblack 6.17 2.007 -9.461
+{R0 ile   84 }P U deadblack 7.012 3.015 -8.128
+{R1 ile   84 }U deadblack 7.432 3.212 -8.715
+{"}P U deadblack 6.17 2.007 -9.461
+{R2 ile   84 }U deadblack 6.248 2.496 -10.103
+{R1 ile   84 }P U deadblack 7.432 3.212 -8.715
+{R2 ile   84 }U deadblack 7.648 3.608 -9.484
+{"}P U deadblack 6.248 2.496 -10.103
+{R3 ile   84 }U deadblack 6.171 3.119 -10.686
+{R2 ile   84 }P U deadblack 7.648 3.608 -9.484
+{R3 ile   84 }U deadblack 7.669 4.177 -10.263
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 ile   84 }P X gold 6.171 3.119 -10.686
+{"}gold 7.669 4.177 -10.263
+{R0 ser   85 }gold 5.974 3.841 -11.062
+{"}gold 7.505 4.892 -10.879
+{R1 ser   85 }gold 5.701 4.618 -11.118
+{"}gold 7.182 5.715 -11.194
+{R2 ser   85 }gold 5.431 5.375 -10.883
+{"}gold 6.802 6.562 -11.197
+{R3 ser   85 }gold 5.254 6.035 -10.421
+{"}gold 6.485 7.336 -10.914
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 ile   84 }P U deadblack 6.171 3.119 -10.686
+{R0 ser   85 }U deadblack 5.974 3.841 -11.062
+{R3 ile   84 }P U deadblack 7.669 4.177 -10.263
+{R0 ser   85 }U deadblack 7.505 4.892 -10.879
+{"}P U deadblack 5.974 3.841 -11.062
+{R1 ser   85 }U deadblack 5.701 4.618 -11.118
+{R0 ser   85 }P U deadblack 7.505 4.892 -10.879
+{R1 ser   85 }U deadblack 7.182 5.715 -11.194
+{"}P U deadblack 5.701 4.618 -11.118
+{R2 ser   85 }U deadblack 5.431 5.375 -10.883
+{R1 ser   85 }P U deadblack 7.182 5.715 -11.194
+{R2 ser   85 }U deadblack 6.802 6.562 -11.197
+{"}P U deadblack 5.431 5.375 -10.883
+{R3 ser   85 }U deadblack 5.254 6.035 -10.421
+{R2 ser   85 }P U deadblack 6.802 6.562 -11.197
+{R3 ser   85 }U deadblack 6.485 7.336 -10.914
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 ser   85 }P X gold 5.254 6.035 -10.421
+{"}gold 6.485 7.336 -10.914
+{R0 cys   86 }gold 5.259 6.517 -9.796
+{"}gold 6.348 7.94 -10.369
+{R1 cys   86 }gold 5.512 6.763 -9.081
+{"}gold 6.485 8.301 -9.609
+{R2 cys   86 }gold 5.979 6.809 -8.393
+{"}gold 6.875 8.432 -8.776
+{R3 cys   86 }gold 6.601 6.712 -7.859
+{"}gold 7.472 8.372 -8.036
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 ser   85 }P U deadblack 5.254 6.035 -10.421
+{R0 cys   86 }U deadblack 5.259 6.517 -9.796
+{R3 ser   85 }P U deadblack 6.485 7.336 -10.914
+{R0 cys   86 }U deadblack 6.348 7.94 -10.369
+{"}P U deadblack 5.259 6.517 -9.796
+{R1 cys   86 }U deadblack 5.512 6.763 -9.081
+{R0 cys   86 }P U deadblack 6.348 7.94 -10.369
+{R1 cys   86 }U deadblack 6.485 8.301 -9.609
+{"}P U deadblack 5.512 6.763 -9.081
+{R2 cys   86 }U deadblack 5.979 6.809 -8.393
+{R1 cys   86 }P U deadblack 6.485 8.301 -9.609
+{R2 cys   86 }U deadblack 6.875 8.432 -8.776
+{"}P U deadblack 5.979 6.809 -8.393
+{R3 cys   86 }U deadblack 6.601 6.712 -7.859
+{R2 cys   86 }P U deadblack 6.875 8.432 -8.776
+{R3 cys   86 }U deadblack 7.472 8.372 -8.036
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 cys   86 }P X gold 6.601 6.712 -7.859
+{"}gold 7.472 8.372 -8.036
+{R0 his   87 }gold 7.321 6.529 -7.606
+{"}gold 8.229 8.157 -7.554
+{R1 his   87 }gold 8.078 6.321 -7.721
+{"}gold 9.089 7.837 -7.454
+{R2 his   87 }gold 8.795 6.163 -8.134
+{"}gold 9.954 7.514 -7.697
+{R3 his   87 }gold 9.393 6.134 -8.736
+{"}gold 10.717 7.301 -8.2
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 cys   86 }P U deadblack 6.601 6.712 -7.859
+{R0 his   87 }U deadblack 7.321 6.529 -7.606
+{R3 cys   86 }P U deadblack 7.472 8.372 -8.036
+{R0 his   87 }U deadblack 8.229 8.157 -7.554
+{"}P U deadblack 7.321 6.529 -7.606
+{R1 his   87 }U deadblack 8.078 6.321 -7.721
+{R0 his   87 }P U deadblack 8.229 8.157 -7.554
+{R1 his   87 }U deadblack 9.089 7.837 -7.454
+{"}P U deadblack 8.078 6.321 -7.721
+{R2 his   87 }U deadblack 8.795 6.163 -8.134
+{R1 his   87 }P U deadblack 9.089 7.837 -7.454
+{R2 his   87 }U deadblack 9.954 7.514 -7.697
+{"}P U deadblack 8.795 6.163 -8.134
+{R3 his   87 }U deadblack 9.393 6.134 -8.736
+{R2 his   87 }P U deadblack 9.954 7.514 -7.697
+{R3 his   87 }U deadblack 10.717 7.301 -8.2
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 his   87 }P X gold 9.393 6.134 -8.736
+{"}gold 10.717 7.301 -8.2
+{R0 lys   88 }gold 9.792 6.311 -9.417
+{"}gold 11.27 7.313 -8.882
+{R1 lys   88 }gold 9.939 6.744 -10.072
+{"}gold 11.536 7.631 -9.65
+{R2 lys   88 }gold 9.889 7.372 -10.606
+{"}gold 11.558 8.201 -10.375
+{R3 lys   88 }gold 9.722 8.104 -10.927
+{"}gold 11.409 8.937 -10.915
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 his   87 }P U deadblack 9.393 6.134 -8.736
+{R0 lys   88 }U deadblack 9.792 6.311 -9.417
+{R3 his   87 }P U deadblack 10.717 7.301 -8.2
+{R0 lys   88 }U deadblack 11.27 7.313 -8.882
+{"}P U deadblack 9.792 6.311 -9.417
+{R1 lys   88 }U deadblack 9.939 6.744 -10.072
+{R0 lys   88 }P U deadblack 11.27 7.313 -8.882
+{R1 lys   88 }U deadblack 11.536 7.631 -9.65
+{"}P U deadblack 9.939 6.744 -10.072
+{R2 lys   88 }U deadblack 9.889 7.372 -10.606
+{R1 lys   88 }P U deadblack 11.536 7.631 -9.65
+{R2 lys   88 }U deadblack 11.558 8.201 -10.375
+{"}P U deadblack 9.889 7.372 -10.606
+{R3 lys   88 }U deadblack 9.722 8.104 -10.927
+{R2 lys   88 }P U deadblack 11.558 8.201 -10.375
+{R3 lys   88 }U deadblack 11.409 8.937 -10.915
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   88 }P X orange 9.722 8.104 -10.927
+{"}orange 11.409 8.937 -10.915
+{R0 asp   89 }orange 9.521 8.849 -10.943
+{"}orange 11.162 9.752 -11.13
+{R1 asp   89 }orange 9.362 9.524 -10.602
+{"}orange 10.892 10.559 -10.924
+{R2 asp   89 }orange 9.301 10.072 -10.002
+{"}orange 10.683 11.272 -10.38
+{R3 asp   89 }orange 9.393 10.446 -9.282
+{"}orange 10.618 11.804 -9.627
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   88 }P U deadblack 9.722 8.104 -10.927
+{R0 asp   89 }U deadblack 9.521 8.849 -10.943
+{R3 lys   88 }P U deadblack 11.409 8.937 -10.915
+{R0 asp   89 }U deadblack 11.162 9.752 -11.13
+{"}P U deadblack 9.521 8.849 -10.943
+{R1 asp   89 }U deadblack 9.362 9.524 -10.602
+{R0 asp   89 }P U deadblack 11.162 9.752 -11.13
+{R1 asp   89 }U deadblack 10.892 10.559 -10.924
+{"}P U deadblack 9.362 9.524 -10.602
+{R2 asp   89 }U deadblack 9.301 10.072 -10.002
+{R1 asp   89 }P U deadblack 10.892 10.559 -10.924
+{R2 asp   89 }U deadblack 10.683 11.272 -10.38
+{"}P U deadblack 9.301 10.072 -10.002
+{R3 asp   89 }U deadblack 9.393 10.446 -9.282
+{R2 asp   89 }P U deadblack 10.683 11.272 -10.38
+{R3 asp   89 }U deadblack 10.618 11.804 -9.627
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 asp   89 }P X orange 9.393 10.446 -9.282
+{"}orange 10.618 11.804 -9.627
+{R0 lys   90 }orange 9.69 10.598 -8.579
+{"}orange 10.784 12.071 -8.792
+{R1 lys   90 }orange 10.219 10.508 -8.014
+{"}orange 11.233 12.021 -7.998
+{R2 lys   90 }orange 10.898 10.274 -7.633
+{"}orange 11.89 11.755 -7.342
+{R3 lys   90 }orange 11.622 10.024 -7.463
+{"}orange 12.649 11.408 -6.914
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 asp   89 }P U deadblack 9.393 10.446 -9.282
+{R0 lys   90 }U deadblack 9.69 10.598 -8.579
+{R3 asp   89 }P U deadblack 10.618 11.804 -9.627
+{R0 lys   90 }U deadblack 10.784 12.071 -8.792
+{"}P U deadblack 9.69 10.598 -8.579
+{R1 lys   90 }U deadblack 10.219 10.508 -8.014
+{R0 lys   90 }P U deadblack 10.784 12.071 -8.792
+{R1 lys   90 }U deadblack 11.233 12.021 -7.998
+{"}P U deadblack 10.219 10.508 -8.014
+{R2 lys   90 }U deadblack 10.898 10.274 -7.633
+{R1 lys   90 }P U deadblack 11.233 12.021 -7.998
+{R2 lys   90 }U deadblack 11.89 11.755 -7.342
+{"}P U deadblack 10.898 10.274 -7.633
+{R3 lys   90 }U deadblack 11.622 10.024 -7.463
+{R2 lys   90 }P U deadblack 11.89 11.755 -7.342
+{R3 lys   90 }U deadblack 12.649 11.408 -6.914
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   90 }P X orange 11.622 10.024 -7.463
+{"}orange 12.649 11.408 -6.914
+{R0 ala   91 }orange 12.282 9.887 -7.534
+{"}orange 13.403 11.117 -6.805
+{R1 ala   91 }orange 12.8 9.956 -7.858
+{"}orange 14.066 10.993 -7.074
+{R2 ala   91 }orange 13.214 10.197 -8.385
+{"}orange 14.628 11.046 -7.637
+{R3 ala   91 }orange 14.343 10.902 -8.716
+{"}orange 14.343 10.902 -8.716
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   90 }P U deadblack 11.622 10.024 -7.463
+{R0 ala   91 }U deadblack 12.282 9.887 -7.534
+{R3 lys   90 }P U deadblack 12.649 11.408 -6.914
+{R0 ala   91 }U deadblack 13.403 11.117 -6.805
+{"}P U deadblack 12.282 9.887 -7.534
+{R1 ala   91 }U deadblack 12.8 9.956 -7.858
+{R0 ala   91 }P U deadblack 13.403 11.117 -6.805
+{R1 ala   91 }U deadblack 14.066 10.993 -7.074
+{"}P U deadblack 12.8 9.956 -7.858
+{R2 ala   91 }U deadblack 13.214 10.197 -8.385
+{R1 ala   91 }P U deadblack 14.066 10.993 -7.074
+{R2 ala   91 }U deadblack 14.628 11.046 -7.637
+{b3R2 ala   91 }P U deadblack 13.214 10.197 -8.385
+{m0R3 ala   91 }U deadblack 14.343 10.902 -8.716
+{b4R2 ala   91 }P U deadblack 14.628 11.046 -7.637
+{m0R3 ala   91 }U deadblack 14.343 10.902 -8.716
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 gly   92 }P width4 orange 14.343 10.902 -8.716
+{"}width4 orange 14.738 11.275 -9.491
+{R1 gly   92 }P width4 orange 15.139 11.695 -10.249
+{R0 gly   92 }width4 orange 14.738 11.275 -9.491
+{R2 gly   92 }P width4 orange 15.567 12.098 -10.915
+{R1 gly   92 }width4 orange 15.139 11.695 -10.249
+{R3 gly   92 }P width4 orange 16.04 12.413 -11.417
+{R2 gly   92 }width4 orange 15.567 12.098 -10.915
+{R0 asp   93 }P width4 orange 16.04 12.413 -11.417
+{"}width4 orange 16.574 12.573 -11.686
+{R1 asp   93 }P width4 orange 17.177 12.526 -11.675
+{R0 asp   93 }width4 orange 16.574 12.573 -11.686
+{R2 asp   93 }P width4 orange 17.818 12.297 -11.454
+{R1 asp   93 }width4 orange 17.177 12.526 -11.675
+{R3 asp   93 }P width4 orange 18.454 11.931 -11.115
+{R2 asp   93 }width4 orange 17.818 12.297 -11.454
+{R0 asp   94 }P width4 orange 18.454 11.931 -11.115
+{"}width4 orange 19.044 11.472 -10.755
+{R1 asp   94 }P width4 orange 19.557 10.955 -10.449
+{R0 asp   94 }width4 orange 19.044 11.472 -10.755
+{R2 asp   94 }P width4 orange 20.011 10.387 -10.203
+{R1 asp   94 }width4 orange 19.557 10.955 -10.449
+{R3 asp   94 }P width4 orange 20.434 9.766 -10.004
+{R2 asp   94 }width4 orange 20.011 10.387 -10.203
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 lys   95 }P X orange 21.281 8.372 -9.686
+{R0 lys   95 }orange 21.604 9.537 -10.08
+{R1 lys   95 }orange 21.961 8.933 -9.811
+{"}orange 21.281 8.372 -9.686
+{"}orange 20.601 7.812 -9.561
+{R0 lys   95 }orange 20.103 8.645 -9.597
+{R1 lys   95 }orange 21.281 8.372 -9.686
+{"}orange 20.601 7.812 -9.561
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R3 lys   95 }P width4 orange 20.434 9.766 -10.004
+{R0 lys   95 }width4 orange 20.853 9.091 -9.839
+{"}P width4 orange 20.853 9.091 -9.839
+{R1 lys   95 }width4 orange 21.281 8.372 -9.686
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R1 lys   95 }P X orange 21.961 8.933 -9.811
+{"}orange 20.601 7.812 -9.561
+{R2 lys   95 }orange 22.256 8.332 -9.495
+{"}orange 21.067 7.009 -9.484
+{R3 lys   95 }orange 22.426 7.807 -9.094
+{"}orange 21.418 6.313 -9.277
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R1 lys   95 }P U deadblack 21.281 8.372 -9.686
+{R0 lys   95 }U deadblack 21.604 9.537 -10.08
+{R1 lys   95 }U deadblack 21.961 8.933 -9.811
+{"}P U deadblack 21.281 8.372 -9.686
+{R0 lys   95 }U deadblack 20.103 8.645 -9.597
+{R1 lys   95 }U deadblack 20.601 7.812 -9.561
+{"}P U deadblack 21.961 8.933 -9.811
+{R2 lys   95 }U deadblack 22.256 8.332 -9.495
+{R1 lys   95 }P U deadblack 20.601 7.812 -9.561
+{R2 lys   95 }U deadblack 21.067 7.009 -9.484
+{"}P U deadblack 22.256 8.332 -9.495
+{R3 lys   95 }U deadblack 22.426 7.807 -9.094
+{R2 lys   95 }P U deadblack 21.067 7.009 -9.484
+{R3 lys   95 }U deadblack 21.418 6.313 -9.277
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   95 }P X orange 22.426 7.807 -9.094
+{"}orange 21.418 6.313 -9.277
+{R0 glu   96 }orange 22.41 7.43 -8.568
+{"}orange 21.573 5.796 -8.85
+{R1 glu   96 }orange 22.163 7.252 -7.908
+{"}orange 21.467 5.514 -8.16
+{R2 glu   96 }orange 21.716 7.233 -7.227
+{"}orange 21.115 5.434 -7.347
+{R3 glu   96 }orange 21.115 7.315 -6.67
+{"}orange 20.552 5.504 -6.598
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   95 }P U deadblack 22.426 7.807 -9.094
+{R0 glu   96 }U deadblack 22.41 7.43 -8.568
+{R3 lys   95 }P U deadblack 21.418 6.313 -9.277
+{R0 glu   96 }U deadblack 21.573 5.796 -8.85
+{"}P U deadblack 22.41 7.43 -8.568
+{R1 glu   96 }U deadblack 22.163 7.252 -7.908
+{R0 glu   96 }P U deadblack 21.573 5.796 -8.85
+{R1 glu   96 }U deadblack 21.467 5.514 -8.16
+{"}P U deadblack 22.163 7.252 -7.908
+{R2 glu   96 }U deadblack 21.716 7.233 -7.227
+{R1 glu   96 }P U deadblack 21.467 5.514 -8.16
+{R2 glu   96 }U deadblack 21.115 5.434 -7.347
+{"}P U deadblack 21.716 7.233 -7.227
+{R3 glu   96 }U deadblack 21.115 7.315 -6.67
+{R2 glu   96 }P U deadblack 21.115 5.434 -7.347
+{R3 glu   96 }U deadblack 20.552 5.504 -6.598
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 glu   96 }P X orange 21.115 7.315 -6.67
+{"}orange 20.552 5.504 -6.598
+{R0 leu   97 }orange 20.409 7.437 -6.38
+{"}orange 19.812 5.67 -6.1
+{R1 leu   97 }orange 19.653 7.54 -6.459
+{"}orange 18.945 5.875 -5.993
+{R2 leu   97 }orange 18.932 7.568 -6.838
+{"}orange 18.059 6.042 -6.234
+{R3 leu   97 }orange 18.339 7.461 -7.406
+{"}orange 17.275 6.088 -6.735
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 glu   96 }P U deadblack 21.115 7.315 -6.67
+{R0 leu   97 }U deadblack 20.409 7.437 -6.38
+{R3 glu   96 }P U deadblack 20.552 5.504 -6.598
+{R0 leu   97 }U deadblack 19.812 5.67 -6.1
+{"}P U deadblack 20.409 7.437 -6.38
+{R1 leu   97 }U deadblack 19.653 7.54 -6.459
+{R0 leu   97 }P U deadblack 19.812 5.67 -6.1
+{R1 leu   97 }U deadblack 18.945 5.875 -5.993
+{"}P U deadblack 19.653 7.54 -6.459
+{R2 leu   97 }U deadblack 18.932 7.568 -6.838
+{R1 leu   97 }P U deadblack 18.945 5.875 -5.993
+{R2 leu   97 }U deadblack 18.059 6.042 -6.234
+{"}P U deadblack 18.932 7.568 -6.838
+{R3 leu   97 }U deadblack 18.339 7.461 -7.406
+{R2 leu   97 }P U deadblack 18.059 6.042 -6.234
+{R3 leu   97 }U deadblack 17.275 6.088 -6.735
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 leu   97 }P X orange 18.339 7.461 -7.406
+{"}orange 17.275 6.088 -6.735
+{R0 lys   98 }orange 17.967 7.165 -8.053
+{"}orange 16.718 5.931 -7.407
+{R1 lys   98 }orange 17.878 6.644 -8.67
+{"}orange 16.476 5.517 -8.153
+{R2 lys   98 }orange 18.014 5.962 -9.165
+{"}orange 16.504 4.898 -8.845
+{R3 lys   98 }orange 18.288 5.203 -9.447
+{"}orange 16.724 4.154 -9.349
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 leu   97 }P U deadblack 18.339 7.461 -7.406
+{R0 lys   98 }U deadblack 17.967 7.165 -8.053
+{R3 leu   97 }P U deadblack 17.275 6.088 -6.735
+{R0 lys   98 }U deadblack 16.718 5.931 -7.407
+{"}P U deadblack 17.967 7.165 -8.053
+{R1 lys   98 }U deadblack 17.878 6.644 -8.67
+{R0 lys   98 }P U deadblack 16.718 5.931 -7.407
+{R1 lys   98 }U deadblack 16.476 5.517 -8.153
+{"}P U deadblack 17.878 6.644 -8.67
+{R2 lys   98 }U deadblack 18.014 5.962 -9.165
+{R1 lys   98 }P U deadblack 16.476 5.517 -8.153
+{R2 lys   98 }U deadblack 16.504 4.898 -8.845
+{"}P U deadblack 18.014 5.962 -9.165
+{R3 lys   98 }U deadblack 18.288 5.203 -9.447
+{R2 lys   98 }P U deadblack 16.504 4.898 -8.845
+{R3 lys   98 }U deadblack 16.724 4.154 -9.349
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   98 }P X orange 18.288 5.203 -9.447
+{"}orange 16.724 4.154 -9.349
+{R0 lys   99 }orange 18.612 4.454 -9.427
+{"}orange 17.058 3.365 -9.528
+{R1 lys   99 }orange 18.901 3.791 -9.052
+{"}orange 17.424 2.608 -9.291
+{R2 lys   99 }orange 19.088 3.258 -8.416
+{"}orange 17.736 1.948 -8.717
+{R3 lys   99 }orange 19.109 2.889 -7.648
+{"}orange 17.901 1.448 -7.931
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   98 }P U deadblack 18.288 5.203 -9.447
+{R0 lys   99 }U deadblack 18.612 4.454 -9.427
+{R3 lys   98 }P U deadblack 16.724 4.154 -9.349
+{R0 lys   99 }U deadblack 17.058 3.365 -9.528
+{"}P U deadblack 18.612 4.454 -9.427
+{R1 lys   99 }U deadblack 18.901 3.791 -9.052
+{R0 lys   99 }P U deadblack 17.058 3.365 -9.528
+{R1 lys   99 }U deadblack 17.424 2.608 -9.291
+{"}P U deadblack 18.901 3.791 -9.052
+{R2 lys   99 }U deadblack 19.088 3.258 -8.416
+{R1 lys   99 }P U deadblack 17.424 2.608 -9.291
+{R2 lys   99 }U deadblack 17.736 1.948 -8.717
+{"}P U deadblack 19.088 3.258 -8.416
+{R3 lys   99 }U deadblack 19.109 2.889 -7.648
+{R2 lys   99 }P U deadblack 17.736 1.948 -8.717
+{R3 lys   99 }U deadblack 17.901 1.448 -7.931
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   99 }P X red 19.109 2.889 -7.648
+{"}red 17.901 1.448 -7.931
+{R0 lys   100 }red 18.899 2.718 -6.88
+{"}red 17.831 1.17 -7.056
+{R1 lys   100 }red 18.42 2.759 -6.228
+{"}red 17.464 1.153 -6.212
+{R2 lys   100 }red 17.745 2.94 -5.757
+{"}red 16.854 1.334 -5.505
+{R3 lys   100 }red 16.971 3.168 -5.515
+{"}red 16.083 1.627 -5.038
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   99 }P U deadblack 19.109 2.889 -7.648
+{R0 lys   100 }U deadblack 18.899 2.718 -6.88
+{R3 lys   99 }P U deadblack 17.901 1.448 -7.931
+{R0 lys   100 }U deadblack 17.831 1.17 -7.056
+{"}P U deadblack 18.899 2.718 -6.88
+{R1 lys   100 }U deadblack 18.42 2.759 -6.228
+{R0 lys   100 }P U deadblack 17.831 1.17 -7.056
+{R1 lys   100 }U deadblack 17.464 1.153 -6.212
+{"}P U deadblack 18.42 2.759 -6.228
+{R2 lys   100 }U deadblack 17.745 2.94 -5.757
+{R1 lys   100 }P U deadblack 17.464 1.153 -6.212
+{R2 lys   100 }U deadblack 16.854 1.334 -5.505
+{"}P U deadblack 17.745 2.94 -5.757
+{R3 lys   100 }U deadblack 16.971 3.168 -5.515
+{R2 lys   100 }P U deadblack 16.854 1.334 -5.505
+{R3 lys   100 }U deadblack 16.083 1.627 -5.038
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 lys   100 }P X red 16.971 3.168 -5.515
+{"}red 16.083 1.627 -5.038
+{R0 leu   101 }red 16.195 3.351 -5.552
+{"}red 15.234 1.947 -4.912
+{R1 leu   101 }red 15.504 3.414 -5.891
+{"}red 14.39 2.214 -5.191
+{R2 leu   101 }red 14.942 3.345 -6.44
+{"}red 13.637 2.381 -5.789
+{R3 leu   101 }red 14.541 3.151 -7.079
+{"}red 13.059 2.405 -6.581
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 lys   100 }P U deadblack 16.971 3.168 -5.515
+{R0 leu   101 }U deadblack 16.195 3.351 -5.552
+{R3 lys   100 }P U deadblack 16.083 1.627 -5.038
+{R0 leu   101 }U deadblack 15.234 1.947 -4.912
+{"}P U deadblack 16.195 3.351 -5.552
+{R1 leu   101 }U deadblack 15.504 3.414 -5.891
+{R0 leu   101 }P U deadblack 15.234 1.947 -4.912
+{R1 leu   101 }U deadblack 14.39 2.214 -5.191
+{"}P U deadblack 15.504 3.414 -5.891
+{R2 leu   101 }U deadblack 14.942 3.345 -6.44
+{R1 leu   101 }P U deadblack 14.39 2.214 -5.191
+{R2 leu   101 }U deadblack 13.637 2.381 -5.789
+{"}P U deadblack 14.942 3.345 -6.44
+{R3 leu   101 }U deadblack 14.541 3.151 -7.079
+{R2 leu   101 }P U deadblack 13.637 2.381 -5.789
+{R3 leu   101 }U deadblack 13.059 2.405 -6.581
+@ribbonlist {ribbon} nobutton color= {alph_} master= {ribbon}
+{R3 leu   101 }P X red 14.541 3.151 -7.079
+{"}red 13.059 2.405 -6.581
+{R0 thr   102 }red 14.333 2.837 -7.69
+{"}red 12.743 2.245 -7.442
+{R1 thr   102 }red 14.33 2.411 -8.177
+{"}red 12.744 1.877 -8.265
+{R2 thr   102 }red 14.467 1.883 -8.546
+{"}red 13 1.342 -9.012
+{R3 thr   102 }red 14.038 0.981 -9.245
+{"}red 14.038 0.981 -9.245
+@vectorlist {ribbon} nobutton color= {edge_} master= {ribbon}
+{R3 leu   101 }P U deadblack 14.541 3.151 -7.079
+{R0 thr   102 }U deadblack 14.333 2.837 -7.69
+{R3 leu   101 }P U deadblack 13.059 2.405 -6.581
+{R0 thr   102 }U deadblack 12.743 2.245 -7.442
+{"}P U deadblack 14.333 2.837 -7.69
+{R1 thr   102 }U deadblack 14.33 2.411 -8.177
+{R0 thr   102 }P U deadblack 12.743 2.245 -7.442
+{R1 thr   102 }U deadblack 12.744 1.877 -8.265
+{"}P U deadblack 14.33 2.411 -8.177
+{R2 thr   102 }U deadblack 14.467 1.883 -8.546
+{R1 thr   102 }P U deadblack 12.744 1.877 -8.265
+{R2 thr   102 }U deadblack 13 1.342 -9.012
+{b3R2 thr   102 }P U deadblack 14.467 1.883 -8.546
+{m0R3 thr   102 }U deadblack 14.038 0.981 -9.245
+{b4R2 thr   102 }P U deadblack 13 1.342 -9.012
+{m0R3 thr   102 }U deadblack 14.038 0.981 -9.245
+@vectorlist {ribbon} nobutton color= {coil_} master= {ribbon}
+{R0 gly   103 }P width4 red 14.038 0.981 -9.245
+{"}width4 red 14.361 0.284 -9.625
+{R1 gly   103 }P width4 red 14.632 -0.448 -9.923
+{R0 gly   103 }width4 red 14.361 0.284 -9.625
+{R2 gly   103 }P width4 red 14.849 -1.199 -10.142
+{R1 gly   103 }width4 red 14.632 -0.448 -9.923
+{R3 gly   103 }P width4 red 15.028 -1.956 -10.286
+{R2 gly   103 }width4 red 14.849 -1.199 -10.142
+{R0 cys   104 }P width4 red 15.028 -1.956 -10.286
+{"}width4 red 15.185 -2.708 -10.358
+{R1 cys   104 }P width4 red 15.341 -3.439 -10.357
+{R0 cys   104 }width4 red 15.185 -2.708 -10.358
+{R2 cys   104 }P width4 red 15.533 -4.117 -10.268
+{R1 cys   104 }width4 red 15.341 -3.439 -10.357
+{R3 cys   104 }P width4 red 15.798 -4.708 -10.072
+{R2 cys   104 }width4 red 15.533 -4.117 -10.268
+{R0 lys   105 }P width4 red 15.798 -4.708 -10.072
+{"}width4 red 16.178 -5.175 -9.751
+{R1 lys   105 }P width4 red 16.689 -5.489 -9.298
+{R0 lys   105 }width4 red 16.178 -5.175 -9.751
+{R2 lys   105 }P width4 red 17.258 -5.642 -8.752
+{R1 lys   105 }width4 red 16.689 -5.489 -9.298
+{R3 lys   105 }P width4 red 17.787 -5.632 -8.167
+{R2 lys   105 }width4 red 17.258 -5.642 -8.752
+{R0 gly   106 }P width4 red 17.787 -5.632 -8.167
+{"}width4 red 18.182 -5.457 -7.594
+{R1 gly   106 }P width4 red 18.366 -5.124 -7.073
+{R0 gly   106 }width4 red 18.182 -5.457 -7.594
+{R2 gly   106 }P width4 red 18.353 -4.675 -6.595
+{R1 gly   106 }width4 red 18.366 -5.124 -7.073
+{R3 gly   106 }P width4 red 18.174 -4.164 -6.14
+{R2 gly   106 }width4 red 18.353 -4.675 -6.595
+{R0 ser   107 }P width4 red 18.174 -4.164 -6.14
+{"}width4 red 17.865 -3.644 -5.688
+{R1 ser   107 }P width4 red 17.453 -3.16 -5.222
+{R0 ser   107 }width4 red 17.865 -3.644 -5.688
+{R2 ser   107 }P width4 red 16.953 -2.732 -4.743
+{R1 ser   107 }width4 red 17.453 -3.16 -5.222
+{R3 ser   107 }P width4 red 16.373 -2.372 -4.256
+{R2 ser   107 }width4 red 16.953 -2.732 -4.743
+{R0 ala   108 }P width4 red 16.373 -2.372 -4.256
+{"}width4 red 15.72 -2.092 -3.768
+{R1 ala   108 }P width4 red 15.015 -1.907 -3.294
+{R0 ala   108 }width4 red 15.72 -2.092 -3.768
+{R2 ala   108 }P width4 red 14.317 -1.845 -2.889
+{R1 ala   108 }width4 red 15.015 -1.907 -3.294
+{R3 ala   108 }P width4 red 13.695 -1.936 -2.621
+{R2 ala   108 }width4 red 14.317 -1.845 -2.889
+{R0 cys   109 }P width4 red 13.695 -1.936 -2.621
+{"}width4 red 13.222 -2.21 -2.557
+{R1 cys   109 }P width4 red 12.95 -2.679 -2.733
+{R0 cys   109 }width4 red 13.222 -2.21 -2.557
+{R2 cys   109 }P width4 red 12.879 -3.282 -3.07
+{R1 cys   109 }width4 red 12.95 -2.679 -2.733
+{R3 cys   109 }P width4 red 12.988 -3.941 -3.459
+{R2 cys   109 }width4 red 12.879 -3.282 -3.07
+{R0 his   110 }P width4 red 12.988 -3.941 -3.459
+{"}width4 red 13.261 -4.578 -3.791
+{R1 his   110 }P width4 red 13.678 -5.129 -3.979
+{R0 his   110 }width4 red 13.261 -4.578 -3.791
+{R2 his   110 }P width4 red 14.206 -5.596 -4.029
+{R1 his   110 }width4 red 13.678 -5.129 -3.979
+{R3 his   110 }P width4 red 14.815 -5.994 -3.969
+{R2 his   110 }width4 red 14.206 -5.596 -4.029
+{R0 pro   111 }P width4 red 14.815 -5.994 -3.969
+{"}width4 red 15.472 -6.341 -3.825
+{R1 pro   111 }P width4 red 16.141 -6.647 -3.627
+{R0 pro   111 }width4 red 15.472 -6.341 -3.825
+{R2 pro   111 }P width4 red 16.777 -6.911 -3.406
+{R1 pro   111 }width4 red 16.141 -6.647 -3.627
+{R3 pro   111 }P width4 red 18.228 -7.452 -2.829
+{R2 pro   111 }width4 red 16.777 -6.911 -3.406
+@group {1WAD mc Hb} off dominant animate
+@subgroup {mainchain}
+@vectorlist {mc} color= white master= {mainchain}
+{ n   val   1  B24.40 1WAD}P -8.409 6.062 10.824
+{"}-8.409 6.062 10.824
+{ ca  val   1  B24.00 1WAD}-7.881 4.724 10.49
+{ c   val   1  B24.62 1WAD}-6.373 4.738 10.775
+{ o   val   1  B27.10 1WAD}-5.64 5.602 10.301
+{ c   val   1  B24.62 1WAD}P -6.373 4.738 10.775
+{ n   asp   2  B25.16 1WAD}-5.943 3.803 11.61
+{ ca  asp   2  B25.12 1WAD}-4.556 3.751 12.02
+{ c   asp   2  B23.58 1WAD}-3.655 3.183 10.948
+{ o   asp   2  B21.22 1WAD}-3.994 2.245 10.224
+{ c   asp   2  B23.58 1WAD}P -3.655 3.183 10.948
+{ n   val   3  B20.05 1WAD}-2.438 3.737 10.851
+{ ca  val   3  B19.85 1WAD}-1.527 3.154 9.827
+{ c   val   3  B19.58 1WAD}-0.929 1.883 10.426
+{ o   val   3  B22.20 1WAD}-0.608 1.865 11.634
+{ c   val   3  B19.58 1WAD}P -0.929 1.883 10.426
+{ n   pro   4  B18.08 1WAD}-0.825 0.847 9.64
+{ ca  pro   4  B17.86 1WAD}-0.277 -0.435 10.098
+{ c   pro   4  B17.32 1WAD}1.222 -0.227 10.405
+{ o   pro   4  B20.12 1WAD}1.783 0.723 9.878
+{ c   pro   4  B17.32 1WAD}P 1.222 -0.227 10.405
+{ n   ala   5  B15.51 1WAD}1.78 -1.112 11.197
+{ ca  ala   5  B14.56 1WAD}3.205 -1.058 11.518
+{ c   ala   5  B12.15 1WAD}3.999 -1.289 10.217
+{ o   ala   5  B12.54 1WAD}3.445 -1.858 9.266
+{ c   ala   5  B12.15 1WAD}P 3.999 -1.289 10.217
+{ n   asp   6  B13.56 1WAD}5.226 -0.829 10.189
+{ ca  asp   6  B13.53 1WAD}6.112 -1.081 9.027
+{ c   asp   6  B14.77 1WAD}6.367 -2.574 8.881
+{ o   asp   6  B17.23 1WAD}6.085 -3.354 9.8
+{ c   asp   6  B14.77 1WAD}P 6.367 -2.574 8.881
+{ n   gly   7  B15.12 1WAD}6.9 -2.975 7.733
+{ ca  gly   7  B16.38 1WAD}7.276 -4.373 7.529
+{ c   gly   7  B20.03 1WAD}6.178 -5.236 6.995
+{ o   gly   7  B25.46 1WAD}6.179 -6.468 7.184
+{ c   gly   7  B20.03 1WAD}P 6.178 -5.236 6.995
+{ n   ala   8  B18.47 1WAD}5.211 -4.628 6.3
+{ ca  ala   8  B15.29 1WAD}4.109 -5.427 5.74
+{ c   ala   8  B17.04 1WAD}4.656 -6.225 4.542
+{ o   ala   8  B18.20 1WAD}5.207 -5.632 3.625
+{ c   ala   8  B17.04 1WAD}P 4.656 -6.225 4.542
+{ n   lys   9  B18.05 1WAD}4.499 -7.529 4.605
+{ ca  lys   9  B18.82 1WAD}5.002 -8.406 3.545
+{ c   lys   9  B17.61 1WAD}4.02 -8.457 2.389
+{ o   lys   9  B21.90 1WAD}2.828 -8.72 2.544
+{ c   lys   9  B17.61 1WAD}P 4.02 -8.457 2.389
+{ n   ile   10  B13.94 1WAD}4.537 -8.211 1.182
+{ ca  ile   10  B8.93 1WAD}3.595 -8.265 0.01
+{ c   ile   10  B10.13 1WAD}4.118 -9.417 -0.88
+{ o   ile   10  B12.28 1WAD}5.218 -9.303 -1.403
+{ c   ile   10  B10.13 1WAD}P 4.118 -9.417 -0.88
+{ n   asp   11  B11.23 1WAD}3.294 -10.439 -0.975
+{ ca  asp   11  B12.51 1WAD}3.637 -11.607 -1.809
+{ c   asp   11  B14.99 1WAD}2.348 -12.265 -2.302
+{ o   asp   11  B19.68 1WAD}1.994 -13.354 -1.885
+{ c   asp   11  B14.99 1WAD}P 2.348 -12.265 -2.302
+{ n   phe   12  B10.39 1WAD}1.641 -11.567 -3.2
+{ ca  phe   12  B10.05 1WAD}0.38 -12.098 -3.731
+{ c   phe   12  B12.16 1WAD}0.625 -12.871 -5.025
+{ o   phe   12  B16.60 1WAD}-0.163 -13.709 -5.432
+{ c   phe   12  B12.16 1WAD}P 0.625 -12.871 -5.025
+{ n   ile   13  B14.63 1WAD}1.746 -12.566 -5.677
+{ ca  ile   13  B15.63 1WAD}2.052 -13.31 -6.925
+{ c   ile   13  B16.11 1WAD}3.088 -14.386 -6.617
+{ o   ile   13  B14.02 1WAD}4.134 -14.075 -6.055
+{ c   ile   13  B16.11 1WAD}P 3.088 -14.386 -6.617
+{ n   ala   14  B17.08 1WAD}2.772 -15.617 -7.018
+{ ca  ala   14  B16.03 1WAD}3.731 -16.736 -6.791
+{ c   ala   14  B21.21 1WAD}4.636 -16.81 -8.053
+{ o   ala   14  B29.81 1WAD}4.241 -17.469 -9.012
+{ c   ala   14  B21.21 1WAD}P 4.636 -16.81 -8.053
+{ n   gly   15  B15.51 1WAD}5.78 -16.164 -7.995
+{ ca  gly   15  B19.06 1WAD}6.714 -15.979 -9.048
+{ c   gly   15  B21.95 1WAD}7.402 -17.213 -9.578
+{ o   gly   15  B26.81 1WAD}8.115 -17.142 -10.598
+{ c   gly   15  B21.95 1WAD}P 7.402 -17.213 -9.578
+{ n   gly   16  B21.44 1WAD}7.238 -18.349 -8.922
+{ ca  gly   16  B23.90 1WAD}7.854 -19.578 -9.383
+{ c   gly   16  B30.06 1WAD}9.178 -19.863 -8.68
+{ o   gly   16  B33.16 1WAD}9.295 -19.587 -7.479
+{ c   gly   16  B30.06 1WAD}P 9.178 -19.863 -8.68
+{ n   glu   17  B29.66 1WAD}10.133 -20.392 -9.421
+{ ca  glu   17  B36.70 1WAD}11.44 -20.815 -8.933
+{ c   glu   17  B36.49 1WAD}12.073 -19.68 -8.105
+{ o   glu   17  B39.27 1WAD}12.668 -19.907 -7.069
+{ c   glu   17  B36.49 1WAD}P 12.073 -19.68 -8.105
+{ n   lys   18  B34.03 1WAD}11.893 -18.501 -8.655
+{ ca  lys   18  B34.03 1WAD}12.335 -17.255 -8.049
+{ c   lys   18  B32.69 1WAD}11.11 -16.455 -7.636
+{ o   lys   18  B55.19 1WAD}10.439 -15.794 -8.428
+{ c   lys   18  B32.69 1WAD}P 11.11 -16.455 -7.636
+{ n   asn   19  B23.69 1WAD}10.704 -16.581 -6.364
+{ ca  asn   19  B17.76 1WAD}9.483 -15.782 -6.019
+{ c   asn   19  B22.31 1WAD}9.988 -14.529 -5.289
+{ o   asn   19  B17.82 1WAD}10.854 -14.64 -4.422
+{ c   asn   19  B22.31 1WAD}P 9.988 -14.529 -5.289
+{ n   leu   20  B20.98 1WAD}9.45 -13.376 -5.656
+{ ca  leu   20  B17.57 1WAD}9.87 -12.121 -5.015
+{ c   leu   20  B14.89 1WAD}8.854 -11.719 -3.933
+{ o   leu   20  B11.39 1WAD}7.65 -11.86 -4.153
+{ c   leu   20  B14.89 1WAD}P 8.854 -11.719 -3.933
+{ n   thr   21  B12.61 1WAD}9.38 -11.254 -2.814
+{ ca  thr   21  B14.71 1WAD}8.56 -10.73 -1.7
+{ c   thr   21  B15.16 1WAD}9.012 -9.279 -1.44
+{ o   thr   21  B13.82 1WAD}10.21 -9.018 -1.484
+{ c   thr   21  B15.16 1WAD}P 9.012 -9.279 -1.44
+{ n   val   22  B12.00 1WAD}8.037 -8.385 -1.312
+{ ca  val   22  B7.79 1WAD}8.388 -6.963 -1.12
+{ c   val   22  B7.22 1WAD}7.891 -6.506 0.232
+{ o   val   22  B12.39 1WAD}6.826 -6.842 0.717
+{ c   val   22  B7.22 1WAD}P 7.891 -6.506 0.232
+{ n   val   23  B11.43 1WAD}8.772 -5.753 0.932
+{ ca  val   23  B13.77 1WAD}8.286 -5.296 2.27
+{ c   val   23  B16.22 1WAD}7.833 -3.832 2.102
+{ o   val   23  B14.84 1WAD}8.559 -2.992 1.589
+{ c   val   23  B16.22 1WAD}P 7.833 -3.832 2.102
+{ n   phe   24  B11.69 1WAD}6.609 -3.569 2.542
+{ ca  phe   24  B13.01 1WAD}6.068 -2.23 2.443
+{ c   phe   24  B11.19 1WAD}6.044 -1.559 3.824
+{ o   phe   24  B12.26 1WAD}5.474 -2.116 4.761
+{ c   phe   24  B11.19 1WAD}P 6.044 -1.559 3.824
+{ n   asn   25  B8.91 1WAD}6.659 -0.403 3.885
+{ ca  asn   25  B8.80 1WAD}6.703 0.397 5.124
+{ c   asn   25  B9.41 1WAD}5.855 1.646 4.94
+{ o   asn   25  B14.71 1WAD}6.064 2.413 3.986
+{ c   asn   25  B9.41 1WAD}P 5.855 1.646 4.94
+{ n   his   26  B7.76 1WAD}4.898 1.873 5.826
+{ ca  his   26  B8.26 1WAD}4.127 3.116 5.731
+{ c   his   26  B9.99 1WAD}4.948 4.316 6.155
+{ o   his   26  B13.19 1WAD}4.7 5.441 5.686
+{ c   his   26  B9.99 1WAD}P 4.948 4.316 6.155
+{ n   ser   27  B13.17 1WAD}5.864 4.112 7.109
+{ ca  ser   27  B12.62 1WAD}6.631 5.234 7.654
+{ c   ser   27  B11.42 1WAD}7.39 5.969 6.579
+{ o   ser   27  B15.20 1WAD}7.572 7.19 6.636
+{ c   ser   27  B11.42 1WAD}P 7.39 5.969 6.579
+{ n   thr   28  B13.06 1WAD}7.923 5.225 5.599
+{ ca  thr   28  B12.21 1WAD}8.718 5.945 4.587
+{ c   thr   28  B11.84 1WAD}7.831 6.591 3.578
+{ o   thr   28  B15.09 1WAD}8.289 7.305 2.67
+{ c   thr   28  B11.84 1WAD}P 7.831 6.591 3.578
+{ n   his   29  B11.58 1WAD}6.509 6.381 3.686
+{ ca  his   29  B11.25 1WAD}5.632 7.043 2.68
+{ c   his   29  B11.64 1WAD}4.772 8.071 3.385
+{ o   his   29  B13.07 1WAD}3.649 8.385 2.98
+{ c   his   29  B11.64 1WAD}P 4.772 8.071 3.385
+{ n   lys   30  B13.88 1WAD}5.251 8.566 4.529
+{ ca  lys   30  B17.02 1WAD}4.367 9.505 5.262
+{ c   lys   30  B21.09 1WAD}4.09 10.778 4.536
+{ o   lys   30  B21.47 1WAD}3.113 11.521 4.816
+{ c   lys   30  B21.09 1WAD}P 4.09 10.778 4.536
+{ n   asp   31  B22.35 1WAD}4.865 11.163 3.511
+{ ca  asp   31  B22.97 1WAD}4.503 12.449 2.865
+{ c   asp   31  B25.08 1WAD}3.541 12.202 1.717
+{ o   asp   31  B28.98 1WAD}3.181 13.113 0.975
+{ c   asp   31  B25.08 1WAD}P 3.541 12.202 1.717
+{ n   val   32  B18.00 1WAD}3.093 10.958 1.587
+{ ca  val   32  B12.54 1WAD}2.099 10.6 0.573
+{ c   val   32  B14.34 1WAD}0.732 10.489 1.233
+{ o   val   32  B15.40 1WAD}0.6 9.886 2.318
+{ c   val   32  B14.34 1WAD}P 0.732 10.489 1.233
+{ n   lys   33  B17.39 1WAD}-0.28 11.156 0.685
+{ ca  lys   33  B21.07 1WAD}-1.605 11.106 1.358
+{ c   lys   33  B19.44 1WAD}-2.1 9.657 1.291
+{ o   lys   33  B15.00 1WAD}-1.821 8.991 0.301
+{ c   lys   33  B19.44 1WAD}P -2.1 9.657 1.291
+{ n   cys   34  B15.21 1WAD}-2.832 9.232 2.326
+{ ca  cys   34  B13.47 1WAD}-3.315 7.843 2.309
+{ c   cys   34  B16.12 1WAD}-4.098 7.559 1.035
+{ o   cys   34  B18.64 1WAD}-4.021 6.466 0.476
+{ c   cys   34  B16.12 1WAD}P -4.098 7.559 1.035
+{ n   asp   35  B14.05 1WAD}-4.901 8.539 0.591
+{ ca  asp   35  B18.07 1WAD}-5.733 8.365 -0.544
+{ c   asp   35  B19.52 1WAD}-5.09 8.34 -1.888
+{ o   asp   35  B18.21 1WAD}-5.74 8.129 -2.938
+{ c   asp   35  B19.52 1WAD}P -5.09 8.34 -1.888
+{ n   asp   36  B17.18 1WAD}-3.771 8.531 -1.947
+{ ca  asp   36  B16.12 1WAD}-3.119 8.41 -3.271
+{ c   asp   36  B17.96 1WAD}-2.826 6.945 -3.531
+{ o   asp   36  B21.15 1WAD}-2.595 6.536 -4.667
+{ c   asp   36  B17.96 1WAD}P -2.826 6.945 -3.531
+{ n   cys   37  B14.93 1WAD}-2.955 6.125 -2.466
+{ ca  cys   37  B14.15 1WAD}-2.846 4.681 -2.625
+{ c   cys   37  B15.26 1WAD}-4.177 4.009 -2.295
+{ o   cys   37  B15.13 1WAD}-4.663 3.188 -3.049
+{ c   cys   37  B15.26 1WAD}P -4.177 4.009 -2.295
+{ n   his   38  B11.58 1WAD}-4.725 4.359 -1.127
+{ ca  his   38  B14.72 1WAD}-6.059 3.764 -0.788
+{ c   his   38  B17.81 1WAD}-7.085 4.752 -1.398
+{ o   his   38  B16.04 1WAD}-7.68 5.558 -0.72
+{ c   his   38  B17.81 1WAD}P -7.085 4.752 -1.398
+{ n   his   39  B18.44 1WAD}-7.139 4.683 -2.731
+{ ca  his   39  B18.29 1WAD}-7.812 5.594 -3.58
+{ c   his   39  B19.53 1WAD}-9.273 5.457 -3.779
+{ o   his   39  B21.72 1WAD}-9.928 6.386 -4.331
+{ c   his   39  B19.53 1WAD}P -9.273 5.457 -3.779
+{ n   asp   40  B18.76 1WAD}-9.879 4.328 -3.449
+{ ca  asp   40  B22.48 1WAD}-11.312 4.155 -3.756
+{ c   asp   40  B28.60 1WAD}-12.144 4.6 -2.581
+{ o   asp   40  B35.06 1WAD}-12.07 4.068 -1.478
+{ c   asp   40  B28.60 1WAD}P -12.144 4.6 -2.581
+{ n   pro   41  B35.11 1WAD}-12.913 5.679 -2.796
+{ ca  pro   41  B34.98 1WAD}-13.665 6.234 -1.659
+{ c   pro   41  B36.08 1WAD}-14.758 5.241 -1.243
+{ o   pro   41  B33.57 1WAD}-15.223 4.475 -2.089
+{ c   pro   41  B36.08 1WAD}P -14.758 5.241 -1.243
+{ n   gly   42  B39.85 1WAD}-15.114 5.274 0.022
+{ ca  gly   42  B43.81 1WAD}-16.124 4.489 0.626
+{ c   gly   42  B43.42 1WAD}-15.693 3.223 1.338
+{ o   gly   42  B47.58 1WAD}-14.686 3.217 2.05
+{ c   gly   42  B43.42 1WAD}P -15.693 3.223 1.338
+{ n   asp   43  B42.33 1WAD}-16.496 2.188 1.186
+{ ca  asp   43  B42.88 1WAD}-16.479 0.912 1.757
+{ c   asp   43  B39.52 1WAD}-15.249 0.077 1.656
+{ o   asp   43  B36.96 1WAD}-14.805 -0.598 2.594
+{ c   asp   43  B39.52 1WAD}P -15.249 0.077 1.656
+{ n   lys   44  B35.42 1WAD}-14.635 0.004 0.457
+{ ca  lys   44  B31.69 1WAD}-13.444 -0.889 0.404
+{ c   lys   44  B25.11 1WAD}-12.194 -0.023 0.308
+{ o   lys   44  B26.41 1WAD}-11.178 -0.458 -0.219
+{ c   lys   44  B25.11 1WAD}P -12.194 -0.023 0.308
+{ n   gln   45  B25.08 1WAD}-12.296 1.234 0.762
+{ ca  gln   45  B25.07 1WAD}-11.165 2.141 0.638
+{ c   gln   45  B20.22 1WAD}-9.853 1.559 1.114
+{ o   gln   45  B18.86 1WAD}-8.812 1.688 0.445
+{ c   gln   45  B20.22 1WAD}P -9.853 1.559 1.114
+{ n   tyr   46  B17.61 1WAD}-9.842 0.947 2.298
+{ ca  tyr   46  B18.76 1WAD}-8.626 0.367 2.832
+{ c   tyr   46  B17.83 1WAD}-8.557 -1.131 2.671
+{ o   tyr   46  B22.57 1WAD}-7.76 -1.812 3.326
+{ c   tyr   46  B17.83 1WAD}P -8.557 -1.131 2.671
+{ n   ala   47  B12.80 1WAD}-9.353 -1.678 1.76
+{ ca  ala   47  B13.71 1WAD}-9.293 -3.135 1.552
+{ c   ala   47  B17.12 1WAD}-7.954 -3.489 0.903
+{ o   ala   47  B20.50 1WAD}-7.245 -2.607 0.415
+{ c   ala   47  B17.12 1WAD}P -7.954 -3.489 0.903
+{ n   gly   48  B15.70 1WAD}-7.591 -4.758 0.925
+{ ca  gly   48  B14.77 1WAD}-6.318 -5.174 0.297
+{ c   gly   48  B13.86 1WAD}-6.365 -4.824 -1.186
+{ o   gly   48  B12.73 1WAD}-7.419 -4.908 -1.808
+{ c   gly   48  B13.86 1WAD}P -6.365 -4.824 -1.186
+{ n   cys   49  B13.20 1WAD}-5.225 -4.434 -1.743
+{ ca  cys   49  B12.50 1WAD}-5.221 -3.985 -3.128
+{ c   cys   49  B15.28 1WAD}-5.644 -5.111 -4.068
+{ o   cys   49  B14.51 1WAD}-6.127 -4.866 -5.173
+{ c   cys   49  B15.28 1WAD}P -5.644 -5.111 -4.068
+{ n   thr   50  B14.19 1WAD}-5.353 -6.352 -3.69
+{ ca  thr   50  B17.09 1WAD}-5.644 -7.448 -4.624
+{ c   thr   50  B18.44 1WAD}-7.009 -8.077 -4.376
+{ o   thr   50  B14.12 1WAD}-7.276 -9.145 -4.935
+{ c   thr   50  B18.44 1WAD}P -7.009 -8.077 -4.376
+{ n   thr   51  B16.56 1WAD}-7.833 -7.401 -3.615
+{ ca  thr   51  B17.75 1WAD}-9.197 -7.819 -3.295
+{ c   thr   51  B18.45 1WAD}-9.977 -8.049 -4.586
+{ o   thr   51  B15.50 1WAD}-9.782 -7.364 -5.591
+{ c   thr   51  B18.45 1WAD}P -9.977 -8.049 -4.586
+{ n   asp   52  B18.29 1WAD}-10.846 -9.048 -4.552
+{ ca  asp   52  B20.72 1WAD}-11.671 -9.341 -5.736
+{ c   asp   52  B16.76 1WAD}-12.371 -8.073 -6.173
+{ o   asp   52  B19.33 1WAD}-12.885 -7.292 -5.357
+{ c   asp   52  B16.76 1WAD}P -12.371 -8.073 -6.173
+{ n   gly   53  B18.37 1WAD}-12.373 -7.788 -7.473
+{ ca  gly   53  B19.20 1WAD}-13.044 -6.552 -7.917
+{ c   gly   53  B25.16 1WAD}-12.051 -5.401 -7.971
+{ o   gly   53  B25.07 1WAD}-12.349 -4.313 -8.473
+{ c   gly   53  B25.16 1WAD}P -12.051 -5.401 -7.971
+{ n   cys   54  B18.69 1WAD}-10.847 -5.649 -7.45
+{ ca  cys   54  B14.60 1WAD}-9.85 -4.539 -7.465
+{ c   cys   54  B14.45 1WAD}-8.673 -4.964 -8.301
+{ o   cys   54  B21.46 1WAD}-8.847 -5.279 -9.508
+{ c   cys   54  B14.45 1WAD}P -8.673 -4.964 -8.301
+{ n   his   55  B12.58 1WAD}-7.463 -5.072 -7.749
+{ ca  his   55  B9.47 1WAD}-6.338 -5.522 -8.62
+{ c   his   55  B11.67 1WAD}-6.042 -6.99 -8.397
+{ o   his   55  B12.61 1WAD}-4.95 -7.384 -7.996
+{ c   his   55  B11.67 1WAD}P -6.042 -6.99 -8.397
+{ n   asn   56  B14.05 1WAD}-7.046 -7.837 -8.66
+{ ca  asn   56  B15.17 1WAD}-6.988 -9.245 -8.384
+{ c   asn   56  B13.84 1WAD}-6.315 -10.116 -9.399
+{ o   asn   56  B18.77 1WAD}-6.123 -11.323 -9.164
+{ c   asn   56  B13.84 1WAD}P -6.315 -10.116 -9.399
+{ n   ile   57  B13.35 1WAD}-5.935 -9.579 -10.549
+{ ca  ile   57  B13.38 1WAD}-5.264 -10.387 -11.589
+{ c   ile   57  B20.07 1WAD}-3.767 -10.436 -11.357
+{ o   ile   57  B13.27 1WAD}-3.071 -9.417 -11.296
+{ c   ile   57  B20.07 1WAD}P -3.767 -10.436 -11.357
+{ n   leu   58  B20.06 1WAD}-3.271 -11.659 -11.174
+{ ca  leu   58  B21.10 1WAD}-1.904 -11.923 -10.825
+{ c   leu   58  B22.75 1WAD}-0.995 -12.241 -11.983
+{ o   leu   58  B30.61 1WAD}0.18 -12.581 -11.776
+{ c   leu   58  B22.75 1WAD}P -0.995 -12.241 -11.983
+{ n   asp   59  B24.93 1WAD}-1.5 -12.121 -13.201
+{ ca  asp   59  B25.63 1WAD}-0.661 -12.414 -14.384
+{ c   asp   59  B24.50 1WAD}0.068 -11.126 -14.78
+{ o   asp   59  B24.03 1WAD}-0.585 -10.127 -15.067
+{ c   asp   59  B24.50 1WAD}P 0.068 -11.126 -14.78
+{ n   lys   60  B27.53 1WAD}1.389 -11.18 -14.79
+{ ca  lys   60  B32.63 1WAD}2.184 -9.98 -15.119
+{ c   lys   60  B31.84 1WAD}1.903 -9.477 -16.52
+{ o   lys   60  B34.87 1WAD}2.036 -8.28 -16.822
+{ c   lys   60  B31.84 1WAD}P 1.903 -9.477 -16.52
+{ n   ala   61  B33.26 1WAD}1.494 -10.372 -17.405
+{ ca  ala   61  B35.28 1WAD}1.179 -10.034 -18.784
+{ c   ala   61  B36.90 1WAD}-0.066 -9.179 -18.884
+{ o   ala   61  B30.81 1WAD}-0.213 -8.313 -19.748
+{ c   ala   61  B36.90 1WAD}P -0.066 -9.179 -18.884
+{ n   asp   62  B37.40 1WAD}-1.024 -9.453 -17.984
+{ ca  asp   62  B31.15 1WAD}-2.266 -8.683 -18.015
+{ c   asp   62  B33.11 1WAD}-1.971 -7.198 -17.875
+{ o   asp   62  B34.58 1WAD}-1.264 -6.773 -16.958
+{ c   asp   62  B33.11 1WAD}P -1.971 -7.198 -17.875
+{ n   lys   63  B34.77 1WAD}-2.528 -6.416 -18.789
+{ ca  lys   63  B33.81 1WAD}-2.354 -4.975 -18.772
+{ c   lys   63  B28.76 1WAD}-3.637 -4.23 -18.532
+{ o   lys   63  B34.03 1WAD}-3.76 -3.046 -18.867
+{ c   lys   63  B28.76 1WAD}P -3.637 -4.23 -18.532
+{ n   ser   64  B25.63 1WAD}-4.629 -4.883 -17.904
+{ ca  ser   64  B23.30 1WAD}-5.876 -4.167 -17.597
+{ c   ser   64  B20.92 1WAD}-5.705 -3.453 -16.249
+{ o   ser   64  B20.55 1WAD}-4.706 -3.701 -15.565
+{ c   ser   64  B20.92 1WAD}P -5.705 -3.453 -16.249
+{ n   val   65  B19.94 1WAD}-6.659 -2.639 -15.881
+{ ca  val   65  B21.43 1WAD}-6.57 -1.941 -14.567
+{ c   val   65  B20.81 1WAD}-6.64 -2.945 -13.43
+{ o   val   65  B24.69 1WAD}-6.243 -2.66 -12.296
+{ c   val   65  B20.81 1WAD}P -6.64 -2.945 -13.43
+{ n   asn   66  B20.31 1WAD}-7.058 -4.188 -13.687
+{ ca  asn   66  B19.14 1WAD}-7.105 -5.141 -12.557
+{ c   asn   66  B17.99 1WAD}-5.791 -5.871 -12.376
+{ o   asn   66  B13.54 1WAD}-5.708 -6.756 -11.5
+{ c   asn   66  B17.99 1WAD}P -5.791 -5.871 -12.376
+{ n   ser   67  B14.31 1WAD}-4.784 -5.552 -13.18
+{ ca  ser   67  B14.34 1WAD}-3.509 -6.275 -13.051
+{ c   ser   67  B11.77 1WAD}-2.734 -5.715 -11.833
+{ o   ser   67  B15.23 1WAD}-2.394 -4.535 -11.847
+{ c   ser   67  B11.77 1WAD}P -2.734 -5.715 -11.833
+{ n   trp   68  B10.16 1WAD}-2.471 -6.59 -10.876
+{ ca  trp   68  B8.19 1WAD}-1.673 -6.068 -9.683
+{ c   trp   68  B9.21 1WAD}-0.291 -5.721 -10.201
+{ o   trp   68  B12.81 1WAD}0.309 -4.704 -9.84
+{ c   trp   68  B9.21 1WAD}P -0.291 -5.721 -10.201
+{ n   tyr   69  B8.79 1WAD}0.255 -6.556 -11.1
+{ ca  tyr   69  B11.48 1WAD}1.609 -6.265 -11.595
+{ c   tyr   69  B11.97 1WAD}1.682 -4.894 -12.227
+{ o   tyr   69  B11.75 1WAD}2.636 -4.117 -12.09
+{ c   tyr   69  B11.97 1WAD}P 1.682 -4.894 -12.227
+{ n   lys   70  B12.47 1WAD}0.639 -4.515 -12.962
+{ ca  lys   70  B14.18 1WAD}0.721 -3.219 -13.658
+{ c   lys   70  B13.28 1WAD}0.589 -2.055 -12.725
+{ o   lys   70  B14.79 1WAD}1.26 -1.01 -12.867
+{ c   lys   70  B13.28 1WAD}P 0.589 -2.055 -12.725
+{ n   val   71  B13.13 1WAD}-0.319 -2.151 -11.737
+{ ca  val   71  B10.77 1WAD}-0.507 -0.983 -10.852
+{ c   val   71  B11.62 1WAD}0.693 -0.779 -9.967
+{ o   val   71  B16.74 1WAD}0.864 0.207 -9.274
+{ c   val   71  B11.62 1WAD}P 0.693 -0.779 -9.967
+{ n   val   72  B9.25 1WAD}1.606 -1.789 -9.956
+{ ca  val   72  B8.93 1WAD}2.851 -1.623 -9.223
+{ c   val   72  B14.07 1WAD}3.955 -1.089 -10.139
+{ o   val   72  B13.77 1WAD}4.735 -0.22 -9.699
+{ c   val   72  B14.07 1WAD}P 3.955 -1.089 -10.139
+{ n   his   73  B11.46 1WAD}4.112 -1.667 -11.336
+{ ca  his   73  B9.42 1WAD}5.246 -1.45 -12.185
+{ c   his   73  B13.18 1WAD}5.104 -0.469 -13.316
+{ o   his   73  B14.26 1WAD}6.098 -0.014 -13.909
+{ c   his   73  B13.18 1WAD}P 5.104 -0.469 -13.316
+{ n   asp   74  B14.63 1WAD}3.889 -0.16 -13.757
+{ ca  asp   74  B9.72 1WAD}3.795 0.717 -14.959
+{ c   asp   74  B14.98 1WAD}4.618 1.959 -14.745
+{ o   asp   74  B19.41 1WAD}4.467 2.715 -13.782
+{ c   asp   74  B14.98 1WAD}P 4.618 1.959 -14.745
+{ n   ala   75  B16.16 1WAD}5.519 2.226 -15.693
+{ ca  ala   75  B20.82 1WAD}6.388 3.384 -15.561
+{ c   ala   75  B21.80 1WAD}5.668 4.692 -15.745
+{ o   ala   75  B24.14 1WAD}6.13 5.756 -15.315
+{ c   ala   75  B21.80 1WAD}P 5.668 4.692 -15.745
+{ n   lys   76  B19.83 1WAD}4.504 4.7 -16.41
+{ ca  lys   76  B26.04 1WAD}3.902 6.018 -16.671
+{ c   lys   76  B21.09 1WAD}2.972 6.478 -15.594
+{ o   lys   76  B29.58 1WAD}2.95 7.669 -15.234
+{ c   lys   76  B21.09 1WAD}P 2.972 6.478 -15.594
+{ n   gly   77  B16.84 1WAD}2.169 5.573 -15.044
+{ ca  gly   77  B20.79 1WAD}1.172 6.034 -14.034
+{ c   gly   77  B25.42 1WAD}-0.149 6.319 -14.764
+{ o   gly   77  B24.46 1WAD}-0.151 6.441 -15.994
+{ c   gly   77  B25.42 1WAD}P -0.149 6.319 -14.764
+{ n   gly   78  B22.65 1WAD}-1.247 6.377 -14.023
+{ ca  gly   78  B21.94 1WAD}-2.559 6.578 -14.603
+{ c   gly   78  B23.03 1WAD}-3.484 7.391 -13.729
+{ o   gly   78  B33.01 1WAD}-3.197 8.558 -13.44
+{ c   gly   78  B23.03 1WAD}P -3.484 7.391 -13.729
+{ n   ala   79  B19.85 1WAD}-4.615 6.813 -13.323
+{ ca  ala   79  B22.51 1WAD}-5.56 7.576 -12.473
+{ c   ala   79  B27.56 1WAD}-4.86 7.927 -11.159
+{ o   ala   79  B25.22 1WAD}-5.014 8.988 -10.565
+{ c   ala   79  B27.56 1WAD}P -4.86 7.927 -11.159
+{ n   lys   80  B24.53 1WAD}-4.006 6.99 -10.731
+{ ca  lys   80  B17.10 1WAD}-3.171 7.216 -9.552
+{ c   lys   80  B14.74 1WAD}-1.729 6.839 -9.958
+{ o   lys   80  B17.14 1WAD}-1.56 6.176 -10.995
+{ c   lys   80  B14.74 1WAD}P -1.729 6.839 -9.958
+{ n   pro   81  B15.40 1WAD}-0.751 7.262 -9.202
+{ ca  pro   81  B16.02 1WAD}0.643 6.916 -9.566
+{ c   pro   81  B14.85 1WAD}0.889 5.448 -9.175
+{ o   pro   81  B13.97 1WAD}0.302 5.001 -8.193
+{ c   pro   81  B14.85 1WAD}P 0.889 5.448 -9.175
+{ n   thr   82  B12.95 1WAD}1.767 4.768 -9.904
+{ ca  thr   82  B11.91 1WAD}2.083 3.366 -9.485
+{ c   thr   82  B12.26 1WAD}3.29 3.465 -8.539
+{ o   thr   82  B13.64 1WAD}3.832 4.555 -8.347
+{ c   thr   82  B12.26 1WAD}P 3.29 3.465 -8.539
+{ n   cys   83  B10.20 1WAD}3.727 2.339 -7.979
+{ ca  cys   83  B9.01 1WAD}4.924 2.43 -7.119
+{ c   cys   83  B9.89 1WAD}6.105 2.928 -7.963
+{ o   cys   83  B13.14 1WAD}6.936 3.703 -7.495
+{ c   cys   83  B9.89 1WAD}P 6.105 2.928 -7.963
+{ n   ile   84  B7.86 1WAD}6.202 2.446 -9.208
+{ ca  ile   84  B9.40 1WAD}7.365 2.844 -10.021
+{ c   ile   84  B10.01 1WAD}7.283 4.221 -10.547
+{ o   ile   84  B9.01 1WAD}8.241 5.02 -10.542
+{ c   ile   84  B10.01 1WAD}P 7.283 4.221 -10.547
+{ n   ser   85  B11.31 1WAD}6.097 4.632 -11.032
+{ ca  ser   85  B14.99 1WAD}6 5.967 -11.605
+{ c   ser   85  B13.87 1WAD}6.28 7.051 -10.606
+{ o   ser   85  B16.06 1WAD}6.894 8.07 -10.925
+{ c   ser   85  B13.87 1WAD}P 6.28 7.051 -10.606
+{ n   cys   86  B12.11 1WAD}5.819 6.889 -9.354
+{ ca  cys   86  B11.62 1WAD}6.13 7.975 -8.39
+{ c   cys   86  B12.23 1WAD}7.606 7.938 -8.008
+{ o   cys   86  B12.81 1WAD}8.238 8.999 -7.904
+{ c   cys   86  B12.23 1WAD}P 7.606 7.938 -8.008
+{ n   his   87  B11.14 1WAD}8.157 6.729 -7.804
+{ ca  his   87  B9.82 1WAD}9.575 6.611 -7.458
+{ c   his   87  B13.37 1WAD}10.467 7.188 -8.558
+{ o   his   87  B16.22 1WAD}11.544 7.731 -8.271
+{ c   his   87  B13.37 1WAD}P 10.467 7.188 -8.558
+{ n   lys   88  B13.00 1WAD}10.087 7.008 -9.818
+{ ca  lys   88  B16.54 1WAD}10.993 7.495 -10.895
+{ c   lys   88  B20.60 1WAD}10.99 9.024 -10.878
+{ o   lys   88  B19.67 1WAD}12.032 9.672 -11.047
+{ c   lys   88  B20.60 1WAD}P 10.99 9.024 -10.878
+{ n   asp   89  B22.01 1WAD}9.81 9.583 -10.622
+{ ca  asp   89  B22.17 1WAD}9.694 11.022 -10.494
+{ c   asp   89  B24.63 1WAD}10.525 11.535 -9.322
+{ o   asp   89  B26.62 1WAD}11.183 12.568 -9.455
+{ c   asp   89  B24.63 1WAD}P 10.525 11.535 -9.322
+{ n   lys   90  B20.20 1WAD}10.494 10.809 -8.221
+{ ca  lys   90  B17.11 1WAD}11.255 11.185 -7.027
+{ c   lys   90  B19.87 1WAD}12.741 11.011 -7.234
+{ o   lys   90  B25.81 1WAD}13.554 11.721 -6.615
+{ c   lys   90  B19.87 1WAD}P 12.741 11.011 -7.234
+{ n   ala   91  B21.54 1WAD}13.144 10.052 -8.056
+{ ca  ala   91  B23.01 1WAD}14.592 9.793 -8.221
+{ c   ala   91  B27.47 1WAD}15.19 10.903 -9.09
+{ o   ala   91  B25.87 1WAD}16.365 11.206 -9.009
+{ c   ala   91  B27.47 1WAD}P 15.19 10.903 -9.09
+{ n   gly   92  B28.72 1WAD}14.32 11.439 -9.957
+{ ca  gly   92  B36.14 1WAD}14.832 12.482 -10.868
+{ c   gly   92  B38.67 1WAD}16.101 11.976 -11.528
+{ o   gly   92  B37.77 1WAD}16.114 10.879 -12.081
+{ c   gly   92  B38.67 1WAD}P 16.101 11.976 -11.528
+{ n   asp   93  B42.01 1WAD}17.182 12.746 -11.43
+{ ca  asp   93  B43.52 1WAD}18.423 12.356 -12.086
+{ c   asp   93  B40.49 1WAD}19.454 11.749 -11.191
+{ o   asp   93  B52.87 1WAD}20.613 11.508 -11.582
+{ c   asp   93  B40.49 1WAD}P 19.454 11.749 -11.191
+{ n   asp   94  B35.33 1WAD}19.104 11.452 -9.946
+{ ca  asp   94  B34.02 1WAD}20.133 10.852 -9.036
+{ c   asp   94  B34.97 1WAD}20.23 9.383 -9.397
+{ o   asp   94  B30.71 1WAD}19.294 8.609 -9.15
+{ c   asp   94  B34.97 1WAD}P 20.23 9.383 -9.397
+{ n   lys   95  B35.62 1WAD}21.295 9.005 -10.081
+{ ca  lys   95  B38.50 1WAD}21.44 7.629 -10.53
+{ c   lys   95  B36.09 1WAD}21.404 6.645 -9.386
+{ o   lys   95  B36.33 1WAD}20.973 5.505 -9.539
+{ c   lys   95  B36.09 1WAD}P 21.404 6.645 -9.386
+{ n   glu   96  B34.56 1WAD}21.843 7.068 -8.19
+{ ca  glu   96  B34.04 1WAD}21.811 6.127 -7.06
+{ c   glu   96  B30.70 1WAD}20.373 5.914 -6.594
+{ o   glu   96  B32.63 1WAD}19.951 4.79 -6.329
+{ c   glu   96  B30.70 1WAD}P 20.373 5.914 -6.594
+{ n   leu   97  B28.92 1WAD}19.634 7.012 -6.519
+{ ca  leu   97  B27.66 1WAD}18.251 6.987 -6.077
+{ c   leu   97  B24.60 1WAD}17.403 6.172 -7.063
+{ o   leu   97  B24.56 1WAD}16.533 5.417 -6.646
+{ c   leu   97  B24.60 1WAD}P 17.403 6.172 -7.063
+{ n   lys   98  B24.53 1WAD}17.693 6.332 -8.336
+{ ca  lys   98  B22.17 1WAD}17.004 5.653 -9.427
+{ c   lys   98  B24.40 1WAD}17.182 4.148 -9.299
+{ o   lys   98  B20.77 1WAD}16.242 3.363 -9.41
+{ c   lys   98  B24.40 1WAD}P 17.182 4.148 -9.299
+{ n   lys   99  B24.41 1WAD}18.417 3.737 -9.01
+{ ca  lys   99  B24.42 1WAD}18.685 2.305 -8.84
+{ c   lys   99  B19.89 1WAD}17.974 1.784 -7.605
+{ o   lys   99  B18.86 1WAD}17.298 0.758 -7.648
+{ c   lys   99  B19.89 1WAD}P 17.974 1.784 -7.605
+{ n   lys   100  B15.85 1WAD}18.068 2.547 -6.513
+{ ca  lys   100  B17.48 1WAD}17.462 2.108 -5.262
+{ c   lys   100  B12.53 1WAD}15.953 2.075 -5.343
+{ o   lys   100  B12.93 1WAD}15.294 1.191 -4.806
+{ c   lys   100  B12.53 1WAD}P 15.953 2.075 -5.343
+{ n   leu   101  B11.55 1WAD}15.362 3.061 -6.034
+{ ca  leu   101  B10.97 1WAD}13.931 3.194 -6.086
+{ c   leu   101  B11.90 1WAD}13.24 2.552 -7.244
+{ o   leu   101  B11.84 1WAD}12.016 2.315 -7.17
+{ c   leu   101  B11.90 1WAD}P 13.24 2.552 -7.244
+{ n   thr   102  B9.68 1WAD}13.933 2.312 -8.375
+{ ca  thr   102  B11.68 1WAD}13.262 1.751 -9.534
+{ c   thr   102  B14.58 1WAD}13.929 0.512 -10.106
+{ o   thr   102  B13.32 1WAD}13.372 -0.105 -11.039
+{ c   thr   102  B14.58 1WAD}P 13.929 0.512 -10.106
+{ n   gly   103  B15.22 1WAD}15.083 0.114 -9.6
+{ ca  gly   103  B14.97 1WAD}15.836 -1.019 -10.151
+{ c   gly   103  B12.55 1WAD}15.088 -2.309 -10.065
+{ o   gly   103  B16.46 1WAD}14.327 -2.562 -9.116
+{ c   gly   103  B12.55 1WAD}P 15.088 -2.309 -10.065
+{ n   cys   104  B8.58 1WAD}15.295 -3.239 -11.017
+{ ca  cys   104  B7.16 1WAD}14.561 -4.489 -10.934
+{ c   cys   104  B14.15 1WAD}15.251 -5.504 -10.018
+{ o   cys   104  B15.41 1WAD}14.613 -6.415 -9.515
+{ c   cys   104  B14.15 1WAD}P 15.251 -5.504 -10.018
+{ n   lys   105  B14.17 1WAD}16.548 -5.332 -9.846
+{ ca  lys   105  B17.29 1WAD}17.318 -6.215 -8.962
+{ c   lys   105  B16.49 1WAD}18.3 -5.344 -8.178
+{ o   lys   105  B21.27 1WAD}18.835 -4.383 -8.716
+{ c   lys   105  B16.49 1WAD}P 18.3 -5.344 -8.178
+{ n   gly   106  B16.06 1WAD}18.489 -5.656 -6.902
+{ ca  gly   106  B16.97 1WAD}19.415 -4.876 -6.09
+{ c   gly   106  B21.19 1WAD}18.814 -3.546 -5.694
+{ o   gly   106  B19.09 1WAD}19.524 -2.606 -5.339
+{ c   gly   106  B21.19 1WAD}P 18.814 -3.546 -5.694
+{ n   ser   107  B16.60 1WAD}17.479 -3.454 -5.786
+{ ca  ser   107  B15.45 1WAD}16.835 -2.181 -5.382
+{ c   ser   107  B16.00 1WAD}16.208 -2.41 -3.985
+{ o   ser   107  B14.39 1WAD}16.262 -3.497 -3.448
+{ c   ser   107  B16.00 1WAD}P 16.208 -2.41 -3.985
+{ n   ala   108  B15.16 1WAD}15.58 -1.365 -3.466
+{ ca  ala   108  B13.58 1WAD}14.942 -1.509 -2.136
+{ c   ala   108  B15.43 1WAD}13.744 -2.42 -2.229
+{ o   ala   108  B18.96 1WAD}13.34 -3.064 -1.264
+{ c   ala   108  B15.43 1WAD}P 13.744 -2.42 -2.229
+{ n   cys   109  B13.71 1WAD}13.12 -2.486 -3.416
+{ ca  cys   109  B9.45 1WAD}11.945 -3.346 -3.529
+{ c   cys   109  B10.63 1WAD}12.356 -4.805 -3.721
+{ o   cys   109  B13.30 1WAD}11.759 -5.673 -3.111
+{ c   cys   109  B10.63 1WAD}P 12.356 -4.805 -3.721
+{ n   his   110  B11.09 1WAD}13.322 -5.011 -4.596
+{ ca  his   110  B11.18 1WAD}13.802 -6.348 -4.939
+{ c   his   110  B13.84 1WAD}15.305 -6.421 -4.661
+{ o   his   110  B14.19 1WAD}16.132 -6.257 -5.551
+{ c   his   110  B13.84 1WAD}P 15.305 -6.421 -4.661
+{ n   pro   111  B17.30 1WAD}15.646 -6.568 -3.384
+{ ca  pro   111  B22.09 1WAD}17.063 -6.524 -3.005
+{ c   pro   111  B28.70 1WAD}17.861 -7.684 -3.542
+{ o   pro   111  B28.82 1WAD}19.086 -7.512 -3.749
+{ c   pro   111  B28.70 1WAD}P 17.861 -7.684 -3.542
+{ oxt pro   111  B31.15 1WAD}17.262 -8.746 -3.808
+@vectorlist {Hb} nobutton color= brown master= {mainchain} master= {Hbonds}
+<2.083>{ala 8 hn}P U 5.241 -3.638 6.164
+{phe 24 o}U 5.404 -2.573 5.182
+<1.793>{ile 10 hn}P U 5.51 -8.002 1.086
+{val 22 o}U 6.431 -7.19 0.828
+<1.966>{val 22 hn}P U 7.083 -8.683 -1.347
+{ile 10 o}U 5.778 -9.117 -1.386
+<1.721>{phe 24 hn}P U 6.055 -4.298 2.945
+{ala 8 o}U 5.461 -5.232 3.421
+<1.955>{his 29 hn}P U 6.14 5.803 4.414
+{his 26 o}U 5.132 5.55 5.304
+<2.529>{lys 30 hn}P U 6.158 8.31 4.863
+{ser 27 o}U 7.148 7.526 6.104
+<2.033>{val 32 hn}P U 3.447 10.252 2.2
+{his 29 o}U 3.588 8.945 2.746
+<2.031>{asp 36 hn}P U -3.252 8.748 -1.12
+{lys 33 o}U -2.25 8.918 -0.125
+<2.219>{cys 37 hn}P U -3.127 6.501 -1.555
+{cys 34 o}U -3.753 6.477 -0.133
+<1.792>{his 38 hn}P U -4.249 4.993 -0.518
+{cys 34 o}U -4.089 6.024 0.178
+<2.146>{his 39 hn}P U -6.671 3.931 -3.196
+{cys 37 o}U -5.265 3.411 -3.093
+<2.427>{gln 45 hn}P U -13.144 1.554 1.185
+{gly 42 o}U -14.223 2.718 1.79
+<1.990>{ala 47 hn}P U -9.977 -1.103 1.231
+{lys 44 o}U -10.818 -0.651 0.216
+<2.171>{thr 51 hn}P U -7.49 -6.542 -3.235
+{gly 48 o}U -7.44 -5.398 -2.236
+<1.892>{cys 54 hn}P U -10.638 -6.549 -7.069
+{thr 51 o}U -10.039 -7.119 -6.034
+<2.010>{his 55 hn}P U -7.332 -4.854 -6.782
+{cys 49 o}U -6.488 -4.862 -5.656
+<2.447>{asn 56 hn}P U -7.888 -7.487 -9.07
+{cys 54 o}U -8.559 -5.941 -9.377
+<2.056>{ile 57 hn}P U -6.113 -8.607 -10.701
+{asn 66 o}U -5.83 -7.311 -11.26
+<2.256>{asp 62 hn}P U -0.894 -10.172 -17.301
+{asp 59 o}U -0.678 -10.141 -15.737
+<2.053>{ser 67 hn}P U -4.901 -4.829 -13.861
+{ser 64 o}U -4.764 -4.039 -15.054
+<1.934>{trp 68 hn}P U -2.796 -7.531 -10.969
+{ile 57 o}U -2.989 -8.851 -11.198
+<2.199>{val 71 hn}P U -0.849 -2.989 -11.608
+{ser 67 o}U -1.931 -4.071 -11.775
+<2.423>{val 72 hn}P U 1.44 -2.647 -10.442
+{trp 68 o}U 0.648 -4.087 -10.021
+<2.511>{val 72 hn}P U 1.44 -2.647 -10.442
+{tyr 69 o}U 2.277 -3.676 -11.596
+<2.026>{his 73 hn}P U 3.406 -2.29 -11.674
+{tyr 69 o}U 2.867 -3.569 -11.965
+<1.933>{asp 74 hn}P U 3.08 -0.513 -13.286
+{lys 70 o}U 1.806 -0.861 -12.993
+<2.076>{gly 78 hn}P U -1.168 6.279 -13.031
+{lys 80 o}U -1.442 6.207 -11.606
+<2.934>{cys 83 hn}P U 3.256 1.472 -8.141
+{val 71 o}U 1.582 0.586 -8.934
+<2.194>{ile 84 hn}P U 5.501 1.832 -9.572
+{val 72 o}U 4.965 0.396 -9.661
+<2.240>{cys 86 hn}P U 5.295 6.078 -9.093
+{thr 82 o}U 4.271 5.012 -8.571
+<2.332>{his 87 hn}P U 7.599 5.904 -7.888
+{cys 83 o}U 7.135 4.363 -7.613
+<1.896>{lys 88 hn}P U 9.217 6.558 -10.017
+{ile 84 o}U 8.534 5.481 -10.384
+<2.340>{asp 89 hn}P U 8.997 9.011 -10.517
+{ser 85 o}U 7.525 8.352 -10.803
+<1.983>{lys 90 hn}P U 9.932 9.982 -8.213
+{cys 86 o}U 8.746 9.294 -7.997
+<2.027>{ala 91 hn}P U 12.462 9.516 -8.554
+{his 87 o}U 11.819 8.266 -8.356
+<2.252>{gly 92 hn}P U 13.366 11.141 -9.982
+{lys 88 o}U 12.432 10.113 -10.727
+<1.960>{asp 94 hn}P U 18.168 11.634 -9.646
+{ala 91 o}U 16.906 11.334 -9.2
+<1.948>{lys 98 hn}P U 18.436 6.963 -8.559
+{asp 94 o}U 19.037 8.115 -8.973
+<2.217>{lys 99 hn}P U 19.154 4.405 -8.91
+{lys 95 o}U 20.427 5.175 -9.35
+<1.969>{lys 100 hn}P U 18.554 3.42 -6.551
+{glu 96 o}U 19.532 4.379 -6.396
+<1.801>{leu 101 hn}P U 15.916 3.729 -6.531
+{leu 97 o}U 16.348 4.911 -6.611
+<1.858>{thr 102 hn}P U 14.91 2.516 -8.429
+{lys 98 o}U 15.842 3.109 -9.116
+<2.192>{gly 103 hn}P U 15.446 0.611 -8.812
+{lys 99 o}U 16.742 0.714 -7.997
+<2.098>{gly 106 hn}P U 17.995 -6.427 -6.5
+{his 110 o}U 16.691 -6.308 -5.836
+<2.257>{ser 107 hn}P U 16.94 -4.228 -6.119
+{his 110 o}U 16.374 -5.648 -5.721
+<1.906>{ala 108 hn}P U 15.547 -0.505 -3.975
+{lys 100 o}U 15.37 0.682 -4.557

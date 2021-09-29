@@ -214,6 +214,12 @@ table.shematic td.fig {
 	width: 80%;
 }
 
+.carousel-caption {
+	position:  relative;
+	left: 0;
+	top: 0;
+}
+
 /*
 ol { list-style-type: upper-roman; margin-left: 40px; }
 ol.secondLevel { list-style-type: upper-alpha; margin-left: 10px; }

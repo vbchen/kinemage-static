@@ -1,0 +1,308 @@
+@kinemage 1
+@caption
+(B&T Fig. 1.2, 1.5, 1.6, 1.8)
+Polypeptide fragment with rotatable Phi, Psi, and Chi angles.  Main chain is white, Calpha-Cbeta bonds are seagreen, the Phe side chain is cyan, and H atoms are brown.  N and O atoms are marked in blue and red.  Angles can be rotated using the sliders in the righthand panel.
+@zoom 1.00
+@zslab 220
+@ztran 0
+@center 27.732 14.188 2.696
+@matrix
+-0.531301 -0.647320 -0.546530 -0.363856 0.756940 -0.542817 0.765067 -0.089540 -0.637697
+@2viewid {down cb-ca}
+@2zoom 1.00
+@2zslab 200
+@2center 27.732 14.188 2.696
+@2matrix
+-0.912591 -0.121955 -0.390261 -0.226881 0.945094 0.235203 0.340151 0.303190 -0.890155
+@3viewid {for spheres}
+@3zoom 0.51
+@3zslab 220
+@3ztran 0
+@3center 27.732 14.188 2.696
+@3matrix
+-0.326706 -0.681913 -0.654413 -0.196149 0.726254 -0.658848 0.924548 -0.086886 -0.371031
+@master {H}
+@master {side chain}
+@master {atom labels}
+@master {angle label}
+@master {spheres}
+@group {to n-2} dominant
+@subgroup {mainchain}
+@dotlist {PHI} color= yellowtint off 1bondrot -144.0 
+{ca phe 45}27.732 14.188 2.696
+{n phe 45}28.153 12.815 2.580
+@balllist {mc O} color= red radius= 0.140
+{o asn 43}29.509 8.713 0.383
+@balllist {mc N} color= blue radius= 0.155
+{n asn 44}30.046 10.861 0.676
+@vectorlist {mc} color= yellowtint
+{ca asn 43}P 30.606 9.993 -1.413
+{c asn 43}29.969 9.793 -0.018
+{o asn 43}29.509 8.713 0.383
+{c asn 43}P 29.969 9.793 -0.018
+{n asn 44}30.046 10.861 0.676
+@subgroup {spheres} master= {spheres} off
+@spherelist {mc O} color= red radius= 1.400
+{o asn 43}29.509 8.713 0.383
+@spherelist {mc N} color= blue radius= 1.550
+{n asn 44}30.046 10.861 0.676
+@spherelist {mc CA} color= sea radius= 1.750
+{ca asn 43}30.606 9.993 -1.413
+@spherelist {mc CO} color= sea radius= 1.650
+{c asn 43}29.969 9.793 -0.018
+@group {Ala  n-1} dominant
+@subgroup {mainchain}
+@balllist {mc N} color= blue radius= 0.155
+{n ala 44}30.046 10.861 0.676
+{n phe 45}28.153 12.815 2.580
+@balllist {mc O} color= red radius= 0.140
+{o ala 44}30.342 13.278 2.230
+@vectorlist {mc} color= yellowtint
+{n ala 44}P 30.046 10.861 0.676
+{ca ala 44}29.640 11.000 2.115
+{c ala 44}29.416 12.491 2.307
+{o ala 44}30.342 13.278 2.230
+{c ala 44}P 29.416 12.491 2.307
+{n phe 45}28.153 12.815 2.580
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ O n-1}30.456 13.384 2.305
+@subgroup {H} master= {H}
+@vectorlist {H} color= brown
+{n ala 44}P 30.046 10.861 0.676
+{d ala 44}30.463 11.746 0.471
+{ca ala 44}P 29.640 11.000 2.115
+{ha ala 44}28.805 10.404 2.232
+@spherelist {mc H} color= gray master= {spheres} off radius= 1.000
+{d ala 44}30.463 11.746 0.471
+@spherelist {mc Ha} color= gray master= {spheres} off radius= 1.170
+{ha ala 44}28.805 10.404 2.232
+@subgroup {sc} master= {side chain}
+@vectorlist {ca-cb} color= sea
+{ca ala 44}P 29.640 11.000 2.115
+{cb ala 44}30.713 10.365 2.984
+@subgroup {sc H} master= {H} master= {side chain}
+@vectorlist {sc H} color= brown
+{cb ala 44}P 30.713 10.365 2.984
+{hb1 ala 44}31.586 10.827 2.831
+{cb ala 44}P 30.713 10.365 2.984
+{hb2 ala 44}30.805 9.397 2.749
+{cb ala 44}P 30.713 10.365 2.984
+{hb3 ala 44}30.458 10.449 3.947
+@spherelist {Hb} color= gray master= {spheres} off radius= 1.170
+{hb1 ala 44}31.586 10.827 2.831
+{hb2 ala 44}30.805 9.397 2.749
+{hb3 ala 44}30.458 10.449 3.947
+@subgroup {spheres} master= {spheres} off
+@spherelist {mc N} color= blue radius= 1.550
+{n ala 44}30.046 10.861 0.676
+{n phe 45}28.153 12.815 2.580
+@spherelist {mc CA} color= sea radius= 1.750
+{ca ala 44}29.640 11.000 2.115
+@spherelist {mc CO} color= sea radius= 1.650
+{c ala 44}29.416 12.491 2.307
+@spherelist {mc O} color= red radius= 1.400
+{o ala 44}30.342 13.278 2.230
+@spherelist {CB} color= sea master= {side chain} radius= 1.750
+{cb ala 44}30.713 10.365 2.984
+@group {Phe  n} dominant
+@subgroup {mainchain}
+@balllist {mc N} color= blue radius= 0.155
+{n phe 45} <ball before h>28.153 12.815 2.580
+@vectorlist {mc n-H} color= brown master= {H}
+{n phe 45}P 28.153 12.815 2.580
+{h phe 45}27.393 12.141 2.579
+@labellist {mc H} color= yellowtint master= {atom labels} off
+{ H}27.393 12.141 2.579
+@spherelist {mc H} color= gray master= {H} master= {spheres} off radius= 1.000
+{h phe 45}27.393 12.141 2.579
+@subgroup {dummy end PHI}
+@dotlist {PHIend} color= white off nobutton 0bondrot 0.0
+{ca phe 45}27.732 14.188 2.696
+{n phe 45}28.153 12.815 2.580
+@subgroup {mainchain}
+@balllist {mc N} color= blue radius= 0.155
+{n phe 45}28.153 12.815 2.580
+@balllist {mc N} color= green radius= 0.175
+{ca phe 45}27.732 14.188 2.696
+@vectorlist {mc} color= yellowtint
+{n phe 45}P 28.153 12.815 2.580
+{ca phe 45}27.732 14.188 2.696
+{c phe 45}26.649 14.315 3.805
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ N} <n phe 45>28.253 12.915 2.680
+{ Ca} <ca phe 45>27.832 14.288 2.796
+{ C} <c phe 45>26.749 14.415 3.905
+@labellist {angle labels} color= pinktint master= {angle label}
+{   PHI}27.943 13.501 2.638
+{   PSI}27.330 14.240 3.110
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ Ha}28.527 14.889 2.741
+@subgroup {mc H} master= {H}
+@vectorlist {mc n-H} color= brown
+{ca phe 45}P 27.732 14.188 2.696
+{ha phe 45}28.527 14.889 2.741
+@spherelist {mc HA} color= gray master= {spheres} off radius= 1.170
+{ha phe 45}28.527 14.889 2.741
+@subgroup {ca-cb} master= {side chain}
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ Cb}27.054 14.595 1.345
+@vectorlist {CHI1 ca-cb} color= sea 2bondrot -69.0 
+{ca phe 45}P 27.732 14.188 2.696
+{cb phe 45}27.054 14.595 1.345
+@labellist {angle labels} color= cyan master= {angle label}
+{  Chi 1}27.393 14.392 2.021
+@subgroup {sc H} master= {H} master= {side chain}
+@vectorlist {sc H} color= brown
+{cb phe 45}P 27.054 14.595 1.345
+{1hb phe 45}26.492 13.665 1.226
+{cb phe 45}P 27.054 14.595 1.345
+{2hb phe 45}26.348 15.392 1.481
+@spherelist {sc H} color= gray master= {spheres} off radius= 1.170
+{1hb phe 45}26.492 13.665 1.226
+{2hb phe 45}26.348 15.392 1.481
+@subgroup {CHI2} master= {side chain}
+@labellist {angle labels} color= cyan master= {angle label}
+{ Chi 2}27.514 14.645 0.763
+@vectorlist {CHI2 cb-cg} color= cyan 3bondrot 91.0 
+{cb phe 45}P 27.054 14.595 1.345
+{cg phe 45}27.975 14.695 0.181
+@vectorlist {sc} color= cyan
+{cg phe 45}P 27.975 14.695 0.181
+{cd1 phe 45}28.219 13.614 -0.648
+{cg phe 45}P 27.975 14.695 0.181
+{cd2 phe 45}28.650 15.891 0.032
+{cd1 phe 45}P 28.219 13.614 -0.648
+{ce1 phe 45}29.102 13.713 -1.710
+{cd2 phe 45}P 28.650 15.891 0.032
+{ce2 phe 45}29.563 16.015 -1.036
+{ce1 phe 45}P 29.102 13.713 -1.710
+{cz phe 45}29.757 14.910 -1.867
+{ce2 phe 45}P 29.563 16.015 -1.036
+{cz phe 45}29.757 14.910 -1.867
+@subgroup {sc H} master= {H} master= {side chain}
+@vectorlist {sc H} color= brown
+{cd1 phe 45}P 28.219 13.614 -0.648
+{hd1 phe 45}27.722 12.729 -0.457
+{cd2 phe 45}P 28.650 15.891 0.032
+{hd2 phe 45}28.436 16.737 0.652
+{ce1 phe 45}P 29.102 13.713 -1.710
+{he1 phe 45}29.314 12.919 -2.362
+{ce2 phe 45}P 29.563 16.015 -1.036
+{he2 phe 45}30.022 16.897 -1.249
+{cz phe 45}P 29.757 14.910 -1.867
+{hz phe 45}30.422 14.994 -2.698
+@spherelist {sc H} color= gray master= {spheres} off radius= 1.170
+{hd1 phe 45}27.722 12.729 -0.457
+{hd2 phe 45}28.436 16.737 0.652
+{he1 phe 45}29.314 12.919 -2.362
+{he2 phe 45}30.022 16.897 -1.249
+{hz phe 45}30.422 14.994 -2.698
+@subgroup {spheres} master= {side chain}
+@spherelist {sc C} color= sea master= {spheres} off radius= 1.750
+{cb phe 45}27.054 14.595 1.345
+{cg phe 45}27.975 14.695 0.181
+{cd1 phe 45}28.219 13.614 -0.648
+{cd2 phe 45}28.650 15.891 0.032
+{ce1 phe 45}29.102 13.713 -1.710
+{ce2 phe 45}29.563 16.015 -1.036
+{cz phe 45}29.757 14.910 -1.867
+@dotlist {CHI2 end} color= cyan off nobutton 0bondrot 0.0
+{cb phe 45}27.054 14.595 1.345
+{cg phe 45}27.916 14.462 0.140
+@subgroup {spheres} master= {spheres} off
+@spherelist {mc N} color= blue radius= 1.550
+{n phe 45}28.153 12.815 2.580
+@spherelist {mc CA} color= sea radius= 1.750
+{ca phe 45}27.732 14.188 2.696
+@subgroup {mainchain}
+@vectorlist {PSI ca-c} color= yellowtint 4bondrot 153.0 
+{ca phe 45}P 27.732 14.188 2.696
+{c phe 45}26.649 14.315 3.805
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ O}25.953 13.520 4.118
+@balllist {mc O} color= red radius= 0.140
+{o phe 45}25.853 13.421 4.017
+@balllist {mc N} color= blue radius= 0.155
+{n ala 46}26.658 15.521 4.330
+@vectorlist {mc} color= yellowtint
+{c phe 45}P 26.649 14.315 3.805
+{o phe 45}25.853 13.421 4.017
+{c phe 45}P 26.649 14.315 3.805
+{n ala 46}26.658 15.521 4.330
+@spherelist {mc O} color= red master= {spheres} off radius= 1.400
+{o phe 45}25.853 13.421 4.017
+@spherelist {mc C} color= sea master= {spheres} off radius= 1.650
+{c phe 45}26.649 14.315 3.805
+@group {Ala  n+1} dominant
+@subgroup {mainchain}
+@balllist {mc N} color= blue radius= 0.155
+{n ala 46}26.658 15.521 4.330
+{n ser 47}24.346 16.743 3.630
+@balllist {mc O} color= red radius= 0.140
+{o ala 46}23.392 16.231 5.655
+@vectorlist {mc} color= yellowtint
+{n ala 46}P 26.658 15.521 4.330
+{ca ala 46}25.675 15.808 5.404
+{c ala 46}24.367 16.296 4.882
+{o ala 46}23.392 16.231 5.655
+{c ala 46}P 24.367 16.296 4.882
+{n ser 47}24.346 16.743 3.630
+@labellist {angle labels} color= pinktint master= {angle label}
+{   Omega}26.652 14.769 4.002
+@vectorlist {H} color= brown master= {H}
+{n ala 46}P 26.658 15.521 4.330
+{d ala 46}27.351 16.217 4.054
+{ca ala 46}P 25.675 15.808 5.404
+{ha ala 46}25.459 14.848 5.823
+@labellist {atom labels} color= yellowtint master= {atom labels} off
+{ H n+1}27.351 16.217 4.054
+@subgroup {mc H} master= {H}
+@spherelist {mc H} color= gray master= {spheres} off radius= 1.000
+{d ala 46}27.351 16.217 4.054
+@spherelist {mc H} color= gray master= {spheres} off radius= 1.170
+{ha ala 46}25.459 14.848 5.823
+@subgroup {sidechain} master= {side chain}
+@vectorlist {ca-cb} color= sea
+{ca ala 46}P 25.675 15.808 5.404
+{cb ala 46}26.196 16.712 6.521
+@vectorlist {H} color= brown master= {H}
+{cb ala 46}P 26.196 16.712 6.521
+{hb1 ala 46}26.470 17.594 6.138
+{cb ala 46}P 26.196 16.712 6.521
+{hb2 ala 46}26.985 16.282 6.959
+{cb ala 46}P 26.196 16.712 6.521
+{hb3 ala 46}25.476 16.855 7.200
+@spherelist {sc H} color= gray master= {spheres} master= {H} off radius= 1.170
+{hb1 ala 46}26.470 17.594 6.138
+{hb2 ala 46}26.985 16.282 6.959
+{hb3 ala 46}25.476 16.855 7.200
+@subgroup {spheres} master= {spheres} off
+@spherelist {mc N} color= blue radius= 1.550
+{n ala 46}26.658 15.521 4.330
+{n ser 47}24.346 16.743 3.630
+@spherelist {mc O} color= red radius= 1.400
+{o ala 46}23.392 16.231 5.655
+@spherelist {mc CA} color= sea radius= 1.750
+{ca ala 46}25.675 15.808 5.404
+@spherelist {mc CO} color= sea radius= 1.650
+{c ala 46}24.367 16.296 4.882
+@spherelist {CB} color= sea master= {side chain} radius= 1.750
+{cb ala 46}26.196 16.712 6.521
+@group {to n+2} dominant
+@subgroup {mainchain}
+@balllist {mc N} color= blue radius= 0.155
+{n ser 47}24.346 16.743 3.630
+@vectorlist {mc} color= yellowtint
+{n ser 47}P 24.346 16.743 3.630
+{ca ser 47}23.079 17.207 3.070
+@subgroup {mc H} master= {H}
+@vectorlist {mc H} color= brown
+{n ser 47}P 24.346 16.743 3.630
+{d ser 47}25.189 16.759 3.061
+@spherelist {mc H} color= gray master= {spheres} off radius= 1.000
+{d ser 47}25.189 16.759 3.061
+@subgroup {spheres} master= {spheres} off
+@spherelist {mc N} color= blue radius= 1.550
+{n ser 47}24.346 16.743 3.630
+@spherelist {mc CA} color= sea radius= 1.750
+{ca ser 47}23.079 17.207 3.070
