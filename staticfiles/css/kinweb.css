@@ -465,8 +465,8 @@ img {
 }
 .rightpic {
 	float: right;
-	margin: 0;
-	padding: 0;
+	margin: 5px;
+	padding: 5px;
 	border: 0;
 }
 .middlepic {
